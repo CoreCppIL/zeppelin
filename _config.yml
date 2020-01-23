@@ -66,9 +66,9 @@ eventDate: "May 25-27, 2020"
 typeoutTextValues: '"", "Conference", "Spring", "Israel"'
 typeoutFallback: "Conference"
 heroButtons:
+ - {link: "/assets/CoreCpp2020_CallForSpeakers.pdf", text: "Call For Speakers"}
  - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
  - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Sponsor Us"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
  
 # About Block
 aboutTitle: "About Core C++ 2020"
