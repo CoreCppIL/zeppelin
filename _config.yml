@@ -36,7 +36,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/cpp2019"
+c4pUrl: "https://cfs.corecpp.org/"
 c4sponsorsUrl: "/assets/CoreCpp2019_CallForSponsors.pdf"
 
 
@@ -51,12 +51,12 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
-# - {link: "https://ti.to/hamakor/core-cpp-2019", text: "Buy Tickets"}
-# - {link: "/assets/CoreCpp2019_CallForSponsors.pdf", text: "Become a Sponsor"}
+ - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
+ - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 rightNavigationButtons:
-# - {link: "https://ti.to/hamakor/core-cpp-2019", text: "Buy Tickets"}
-# - {link: "/assets/CoreCpp2019_CallForSponsors.pdf", text: "Become a Sponsor"}
+ - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
+ - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 
 # Hero Block
@@ -66,8 +66,8 @@ eventDate: "May 25-27, 2020"
 typeoutTextValues: '"", "Conference", "Spring", "Israel"'
 typeoutFallback: "Conference"
 heroButtons:
-# - {link: "https://ti.to/hamakor/core-cpp-2019", text: "Buy Tickets"}
-# - {link: "/assets/CoreCpp2019_CallForSponsors.pdf", text: "Sponsor Us"}
+ - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
+ - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Sponsor Us"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
  
 # About Block
@@ -125,7 +125,7 @@ venueFeatures: ["Located on the campus of Bar Ilan University"]
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "corecpp2019"
+twitterHashTag: "corecpp2020"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -144,44 +144,43 @@ ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
  -
-  name: "Regular 1-Day Ticket"
-  price: "550"
-  priceCurrency: "ILS"
-  ticketsNumber: "50"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2019"
-  buyButtonText: "Byt Now"
-  ticketContentList: ["Two parallel tracks", "Keynote", "All technical sessions"]
-  validFrom: "2019-11-01"
-  validThrough: "2019-05-14"
-  soldOut: true
-  soldOutText: "Sold Out"
- -
-  name: "Regular 2-Day Ticket"
+  name: "Full 2-Day Ticket"
   price: "1050"
   priceCurrency: "ILS"
-  ticketsNumber: "100"
-  #ribbon: "-20%"
+  ticketsNumber: "400"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
+  buyButtonText: "Full Price"
+  ticketContentList: ["Two day conference", "Three parallel tracks", "Keynotes"]
+  validFrom: "2020-03-01"
+  validThrough: "2020-03-26"
+  soldOut: false
+  soldOutText: "Sold Out"
+ -
+  name: "Early Bird 2-Day Ticket"
+  price: "850"
+  priceCurrency: "ILS"
+  ticketsNumber: "150"
+  ribbon: "-20%"
   featured: true
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2019"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Two day conference", "Two parallel tracks", "Friday activities"]
-  validFrom: "2019-02-01"
-  validThrough: "2019-05-01"
-  soldOut: true
+  ticketContentList: ["Two day conference", "Three parallel tracks", "Keynotes"]
+  validFrom: "2020-01-20"
+  validThrough: "2020-02-29"
+  soldOut: false
   soldOutText: "Sold Out"
  -
   name: "Training"
   price: "1350"
-  ribbon: "LIMITED"
   priceCurrency: "ILS"
-  ticketsNumber: "60"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2019"
-  buyButtonText: "Last Seats"
+  ticketsNumber: "100"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
+  buyButtonText: "Buy Now"
   ticketContentList: ["Full day training", "Pre-conference workshop", "Top C++ trainers"]
-  validFrom: "2018-11-01"
-  validThrough: "2019-05-13"
-  soldOut: false
-  soldOutText: "Sold Out"
+  validFrom: "2020-01-20"
+  validThrough: "2020-03-26"
+  soldOut: true
+  soldOutText: "Opens Soon"
 
 # Footer
 socialLinks:
