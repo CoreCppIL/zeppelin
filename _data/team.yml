@@ -41,11 +41,12 @@
     - {name: "site", link: "http://videocortex.io/"}
 - 
   id: 4
-  name: "Bryce"
-  surname: "Lelbach"
-  thumbnailUrl: BryceAdelsteinLelbach.jpg
-  title: "Program Committee Chair"
+  name: "Inbal"
+  surname: "Levi"
+  thumbnailUrl: InbalLevi.jpg
+  title: "ISO C++ Committee"
   social:
-    - {name: "twitter", link: "https://twitter.com/blelbach"}
+    - {name: "twitter", link: "https://twitter.com/Inbal_l"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/inballevi/"}
   team: true
  # subTeam: true

@@ -1,90 +1,19 @@
 -
-  id: 012
-  title: "Accelerated TDD: For More Productive C++"
-  description: "<p>We all know that writing tests for our code is “what we should do”, and maybe we’re even doing that already. But it feels like extra busy-work that slows us down – and they hardly ever catch any bugs anyway, right? …</p>
-  <p>Maybe we’ve even tried TDD, and felt that it was just adding even more ceremony to the problem with no real advantages.</p>
-  <p>But the advantages are definitely there. When done properly and appropriately a TDD approach can greatly accelerate your ability to produce code that solves the right problems faster - and more correctly! We just need a good grounding in what TDD _actually_ is (and isn’t) and how to do it properly – especially in the context of C++, which brings it’s own idiosyncrasies and bottlenecks to the matter.</p>  
-  <p>That’s what this workshop aims to be. Whether you’ve never written a test before, or you’ve had some mileage with TDD already, be prepared to ratchet up your productivity by thinking about things in new ways and gaining more approaches to breaking down problems in sustainable ways.</p>"
+  id: 011
+  title: "Full day workshop"
+  description: "Working on it. You can still propose yours at <a href='https://cfs.corecpp.org/'>https://cfs.corecpp.org/<a>"
   subtype: workshop
-  speakers: [10]
+  #speakers: [10]
   language: en
 -
-  id: 013
-  title: "Understanding Object Lifetime"
-  description: "<p>C++ has something very few other languages have: a well defined object life cycle. Understanding this key aspect of C++ is critical to writing clean, maintainable, and efficient C++.</p>
-  <p>Anyone who is a beginner or intermediate C++ programmer will gain a much better understanding of how the compiler treats objects and what behavior we can rely on. We will study and discuss many examples as a class in a group discussion.</p>
-  <p>We will cover:</p>
-  <ul>
-    <li>Understanding RAII</li>
-    <li>What does the standard say?</li>
-    <li>Member variable lifecycle</li>
-    <li>How and why to limit variable scope</li>
-    <li>The as-if rule</li>
-    <li>std::move and std::forward</li>
-    <li>Passing values</li>
-    <li>Returning values</li>
-    <li>Lifecycle of lambda captures</li>
-    <li>How the C++ memory model and object lifetime relate</li>
-    <li>Gotchas</li>
-    <li>A note about runtime polymorphism</li>
-    <li>What changes in C++17</li>
-  </ul>"
-  subtype: workshop
-  speakers: [11]
-  language: en
-- id: 014
-  title: "C++ Best Practices Revisited: Better Code, Better Work-Life Balance"
-  description: "<p>In this training we would deal with the following:</p>
-  <ul>
-    <li>What makes C++ code better or worse: between personal taste and plain bad coding and design</li>
-    <li>How to write better code</li>
-    <li>When and how to perform refactoring</li>
-    <li>How to perform effective code reviews, what to look for and how</li>
-  </ul>
-  <p>The training would be focused on C++ in general, but would include a look into the features of C++11 to C++17 and the proper usage of those. It will also include some actual practice on real C++ code. Attendees would gain better view on writing maintainable long living C++ code.</p>
-  <p>The training would cover both the nitty gritty bits and bytes of the language and the bigger design issues like how to identify that your if-else should become a state-machine, actor model vs. data model and concurrency design.</p>" 
-  subtype: workshop
-  speakers: [12]
-  language: he
--
-  id: 015
-  title: "Embedded Systems Programming in C++"
-  description: "<p>This workshop explains how to use Modern C++ to write safe, efficient, and maintainable embedded programs. Step by step, it shows how to leverage C++ language features to write abstractions that represent and manipulate hardware in a bare metal environment. It also explains how to make these abstractions easy to use and hard to misuse.</p>
-<p>Using concrete programming examples, this workshop explains how to use C++ features such as classes, overloading, and user-defined type conversions to hide messy hardware details behind cleaner interfaces. It shows how to use templates and inheritance to capture commonality among devices and promote code reuse without sacrificing performance. It illustrates practical uses for modern features such as constexpr, static_assert, and type_traits to make embedded code safer, faster, smaller, and more maintainable. It demonstrates programming styles and idioms that turn potential run-time errors into compile-time errors, and turn run-time computations into compile-time computations.</p>
-<p>Participants should have experience programming in C++, or experience in C along with a basic knowledge of the C++ constructs such as classes, access control, and constructors.</p>
-<p>This workshop includes programming exercises. The exercises run on a simulator provided by the instructor. For the exercises, students will need a computer with a development environment that can edit, compile, link, and execute command-line applications written in C++14.</p>"
-  subtype: workshop
-  speakers: [13]
-  language: en
--
-  id: 016
-  title: "Workshop: A Practical Introduction to Conan C and C++ Package Manager"
-  place: "Economics::202"
-  description: "<p>This class is a full hands-on introductory course to how to use Conan, the open source C and C++ package manager. In this course you will learn how to consume existing packages in your applications and how to create packages for your own libraries. Integrations with different build systems, development of packages, versioning, dependencies conflicts, ABI compatibility and binaries management: All these concepts will be approached and learnt in real working exercises, installing, creating, cross-building, uploading and downloading packages.</p>
-<p>Outline:</p>
-<ul>
-  <li>Introduction</li>
-  <li>Using existing packages in your applications</li>
-  <li>Using different build systems: Conan generators and build helpers</li>
-  <li>Searching and displaying information about packages and the dependency graph</li>
-  <li>Creating packages for C++ libraries</li>
-  <li>The binary model: how to create and maintain packages for different OS, compilers, architectures… Using profiles</li>
-  <li>Cross-compiling packages</li>
-  <li>Conan decentralized architecture: uploading and downloading packages to remote servers. Using Artifactory CE server and Bintray</li>
-  <li>Using Conan packages to wrap tools like CMake, compilers or testing frameworks, with build-requires</li>
-</ul>"
-  subtype: workshop
-  speakers: [14]
-  language: en
--
-  id: 003
-  title: "Keynote: The Best Parts of C++"
-  place: "Weston::Auditorium"
-  description: "C++ is a big language, and it gets bigger every year. Is C++ it *too* big? Do we just continue to make the language harder to learn? Or, perhaps, do these language additions actually make the language better and easier to use? We will take a pragmatic look at the changes brought to C++ over the years and what impact they have had on how we write code."
-  speakers: [11]
+  id: 001
+  title: "Keynote: To be announced soon!"
+  #place: "Weston::Auditorium"
+  description: "Stay tuned!"
+ # speakers: [11]
   subtype: keynote
   language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Jason_The_Best_Parts_Of_C++.pdf"
+ # presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Jason_The_Best_Parts_Of_C++.pdf"
 -
   id: 004
   title: "Keynote: Modules are Coming"
@@ -98,8 +27,8 @@
   presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Bryce_Modules_Are_Coming.pdf"                
 -
   id: 005
-  title: "Technical Sessions"
-  description: "A lot of great C++ content!"
+  title: "A lot of great C++ content!"
+  description: "A lot of great C++ content! Sumbit yours at <a href='https://cfs.corecpp.org/'>https://cfs.corecpp.org/<a>"
 -
   id: 006
   title: "More activities"
@@ -292,8 +221,8 @@
   language: en
 -
   id: 099
-  title: "Welcome to Core C++ 2019!"
-  place: "Weston::Auditorium"
+  title: "Welcome to Core C++ 2020!"
+  #place: "Weston::Auditorium"
   subtype: keynote
   service: true
 -
@@ -314,12 +243,12 @@
 -
   id: 104
   title: "Updates"
-  place: "Weston::Auditorium"
+  #place: "Weston::Auditorium"
   service: true
 -
   id: 105
   title: "Closing Remarks"
-  place: "Weston::Auditorium"
+  #place: "Weston::Auditorium"
   service: true
 -
   id: 106
