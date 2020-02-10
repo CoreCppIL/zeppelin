@@ -1,187 +1,25 @@
 -
   id: 10
-  name: "Phil"
-  surname: "Nash"
-  company: "JetBrains"
-  bio: "Phil is the author of the C++ test framework, Catch2, and the composable command line parser, Clara. As Developer Advocate at JetBrains he's involved with CLion, AppCode and ReSharper C++. More generally he's an advocate for good testing practices, TDD and using the type system and functional techniques to reduce complexity and increase correctness. He's previously worked in Finance and Mobile as well as an independent consultant and coach specialising in TDD on iOS."
-  thumbnailUrl: PhilNash.jpg
+  name: "Bjarne"
+  surname: "Stroustrup"
+  company: "Morgan Stanley"
+  bio: >
+    <p>Bjarne Stroustrup is the designer and original implementer of C++ as well as the author of The C++
+    Programming Language (4 th Edition) and A Tour of C++ (2 nd edition), Programming: Principles and
+    Practice using C++ (2 nd Edition), and many popular and academic publications. Dr. Stroustrup is a
+    Technical Fellow and Managing Director in the technology division of Morgan Stanley in New York City
+    as well as a visiting professor at Columbia University. He is a member of the US National Academy of
+    Engineering, and an IEEE, ACM, and CHM fellow. He is the recipient of the 2018 NAE Charles Stark
+    Draper Prize for Engineering and the 2017 IET Faraday Medal. He did much of his most important work
+    in Bell Labs. His research interests include distributed systems, design, programming techniques,
+    software development tools, and programming languages. To make C++ a stable and up-to-date base
+    for real-world software development, he has been a leading figure with the ISO C++ standards effort for
+    30 years. He holds a master’s in Mathematics from Aarhus University and a PhD in Computer Science
+    from Cambridge University, where he is an honorary fellow of Churchill College.</p>
+    <p><a href=http://www.stroustrup.com>www.stroustrup.com</a></p>
+  thumbnailUrl: BjarneStroustrup.jpg
   rockstar: true
   social:
-    - {name: "twitter", link: "https://twitter.com/phil_nash"}
-    - {name: "github", link: "https://github.com/philsquared"}
-  ribbon:
-    - {title: "Workshop"}
--
-  id: 11
-  name: "Jason"
-  surname: "Turner"
-  company: "Trainer and Consultant"
-  thumbnailUrl: JasonTurner.jpg
-  bio: "Jason has 2 decades of C++ experience and is a regular conference speaker, developer, and trainer. He is host of the YouTube channel C++ Weekly and co-host of CppCast, the first podcast for C++ developers."
-  rockstar: true
-  social:
-    - {name: "twitter", link: "https://twitter.com/lefticus"}
-    - {name: "youtube", link: "https://www.youtube.com/c/JasonTurner-lefticus"}
+    - {name: "twitter", link: "https://twitter.com/stroustrup"}
   ribbon:
     - {title: "Keynote"}
--
-   id: 12
-   name: "Amir"
-   surname: "Kirsh"
-   company: "Academic College of Tel-Aviv-Yaffo"
-   bio: "C++ lecturer at the Academic College of Tel-Aviv-Yaffo and at Tel-Aviv University. Previously the Chief Programmer at Comverse. Expert in C++, software design and development in general. The author of a known C++ book in Hebrew that you may have on your shelf."
-   thumbnailUrl: AmirKirsh.jpg
-   rockstar: true
-   ribbon:
-     - {title: "Workshop"}
--
-   id: 13
-   name: "Dan"
-   surname: "Saks"
-   company: "Saks & Associates"
-   bio: "Dan Saks is the president of Saks & Associates, which offers training and consulting in C and C++ and their use in embedded systems. Dan used to write the \"Programming Pointers\" column for embedded.com online. He has also written columns for numerous print publications including The C/C++ Users Journal, The C++ Report, Software Development, and Embedded Systems Design. With Thomas Plum, he wrote C++ Programming Guidelines, which won a 1992 Computer Language Magazine Productivity Award. Dan has taught C and C++ to thousands of programmers around the world. He has presented lectures, workshops, and keynote addresses at conferences such as the Software Development Conference, the Embedded Systems Conference, the ACCU Conference, code::dive, NDC, CppCon, and Meeting Embedded. Dan also served as secretary of the ANSI and ISO C++ Standards committees and as a member of the ANSI C Standards committee. More recently, he contributed to the CERT Secure C Coding Standard and the CERT Secure C++ Coding Standard."
-   thumbnailUrl: DanSaks.jpg
-   rockstar: true
-   ribbon:
-     - {title: "Workshop"}
--
-   id: 14
-   name: "Diego"
-   surname: "Rodriguez-Losada"
-   company: "JFrog"
-   bio: "Diego's passions are robotics and SW engineering and development. He has developed many years in C and C++ in the Industrial, Robotics and AI fields. Diego was also a University (tenure track) professor and robotics researcher for 8 years, till 2012, when he quit academia to try to build a C/C++ dependency manager and co-founded a startup.. Since then he mostly develops in Python. Diego is a conan.io C/C++ package manager co-creator and maintainer, now working at JFrog as senior SW engineer and C/C++ advocate."
-   thumbnailUrl: DiegoRodriguezLosada.jpg
-   rockstar: true
-   social:
-     - {name: "twitter", link: "https://twitter.com/diegorlosada"}
-   ribbon:
-     - {title: "Workshop"}
--
-   id: 21
-   name: "Asaf"
-   surname: "Helfer"
-   company: "BrightSource Energy"
-   bio: "Asaf has been writing C++ professionally for over 13 years, and for fun with no profit for even longer. He's currently working at BrightSource Energy, where he leads the solar field devices application and communication software team. He's enthusiastic about creating and improving good and clean software design, and about the options it opens for reusing the code in simulations and automated testing. He spends his free time lamenting his lack of free time and teaching math to second graders."
-   thumbnailUrl: AsafHelfer.jpg
-   rockstar: false
--
-   id: 22
-   name: "Dvir"
-   surname: "Yitzchaki"
-   company: "Verizon Media"
-   bio: "I'm a data engineer at Verizon Media, more known to my coworkers as the C++ nagger. My primary hobby is deciphering MSVC's error messages."
-   thumbnailUrl: DvirYitzchaki.jpeg
-   rockstar: false
-   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/dvir-yitzchaki-5a91b65"}
--
-   id: 34
-   name: "Timur"
-   surname: "Doumler"
-   bio: "Timur Doumler is a C++ developer specialising in audio and music technology, member of the ISO C++ committee, and program chair of the Audio Developer Conference (ADC). He is passionate about writing clean code, providing good tools, evolving the C++ language, and building inclusive communities."
-   thumbnailUrl: TimurDoumler.jpg
-   social:
-    - {name: "twitter", link: "https://twitter.com/timur_audio"}
-   rockstar: false
--
-   id: 23
-   name: "Yehezkel"
-   surname: "Bernat"
-   company: "Microsoft"
-   bio: "Yehezkel is a SW developer at Microsoft for the last year. Previously, he spent 7 years working at Intel. He also works as TA for OOP course at Hadassah College for the 7th year already. C++ is Yehezkel's favorite language and he is always happy for opportunities to teach it or talk about it."
-   thumbnailUrl: YehezkelBernat.jpg
-   rockstar: false
--
-   id: 35
-   name: "Anastasia"
-   surname: "Kazakova"
-   bio: "As a C and C++ software developer, Anastasia Kazakova created real-time *nix-based systems and pushed them to production for 8 years. She has a passion for networking algorithms and embedded programming and believes in good tooling. With all her love for C++, she is now the Product Marketing Manager on the JetBrains CLion team. Besides, Anastasia runs a C++ user group in Saint-Petersburg, Russia (<a href='https://www.meetup.com/St-Petersburg-CPP-User-Group/'>www.meetup.com/St-Petersburg-CPP-User-Group/</a>)."
-   company: "JetBrains"
-   thumbnailUrl: AnastasiaKazakova.jpg
-   social:
-    - {name: "twitter", link: "https://twitter.com/anastasiak2512"}
-   rockstar: false
--
-   id: 24
-   name: "Saar"
-   surname: "Raz"
-   bio: "C++ enthusiast"
-   thumbnailUrl: SaarRaz.jpg
-   rockstar: false
--
-   id: 31
-   name: "Bryce"
-   surname: "Adelstein Lelbach"
-   company: "NVIDIA"
-   bio: "Bryce Adelstein Lelbach has spent nearly a decade developing libraries in C++. He is the chair of the C++ committee’s Library Evolution Incubator. Bryce is passionate about C++ community development. He is an organizer for the C++Now and CppCon conferences as well as the Bay Area C++ user group. He works at NVIDIA, where he is the team lead for CUDA Thrust, the CUDA C++ core library.  He is one of the initial developers of the HPX parallel runtime system. He also helped start the LLVMLinux initiative, and has occasionally contributed to the Boost C++ libraries. On the C++ committee, he has personally worked on the C++17 parallel algorithms, executors, futures, senders/receivers, and multi-dimensional arrays."
-   thumbnailUrl: BryceAdelsteinLelbach.jpg
-   social:
-    - {name: "twitter", link: "https://twitter.com/blelbach"}
-   rockstar: false
--
-   id: 25
-   name: "Gal"
-   surname: "Zaban"
-   bio: "Currently working as a Security Research. My passion is reverse engineering with a particular interest in C++ code. In my spare time, when I’m not delving into low-level research, I design and sew my own clothes and love to play the clarinet."
-   rockstar: false
-   thumbnailUrl: GalZaban.jpg
-   social:
-     - {name: "twitter", link: "https://twitter.com/@0xgalz"}
--
-   id: 26
-   name: "Inbal"
-   surname: "Levi"
-   company: "SolarEdge"
-   bio: "A C++ developer with B.Sc in physics and a passion for the small details."
-   thumbnailUrl: InbalLevi.jpg
-   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/inballevi"}
-   rockstar: false
--
-   id: 32
-   name: "Hana"
-   surname: "Dusíková"
-   company: "AVAST"
-   bio: "Hana is working as senior researcher in Avast Software. Her responsibility is exploring new ideas and optimizing existing ones. She also propagates modern C++ techniques and libraries in internal techtalks and gives talks at local C++ meetups. She studied computer science at Mendel university and subsequently taught several courses there, including: Data Structures, Computability and Complexity, and Formal Languages and Automata."
-   thumbnailUrl: HanaDusikova.jpg
-   social:
-    - {name: "twitter", link: "https://twitter.com/hankadusikova"}
-   rockstar: false
--
-   id: 27
-   name: "Yossi"
-   surname: "Moalem"
-   company: "Check Point"
-   bio: "Yossi is a Team Leader in Check Point's Threat-Prevention division. He has over 15 years of experience as a professional programmer, mainly in C/C++. Yossi considers the standard as light reading and spends all his spare time learning new technologies and methodologies (much to the delight of his wife!!). He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy code into beautifully crafted code. On the positive side, he loves Led Zeppelin."
-   thumbnailUrl: YossiMoalem.jpg
-   rockstar: false
--
-   id: 28
-   name: "Nimrod"
-   surname: "Sapir"
-   company: "qSpark"
-   bio: "Nimrod Sapir is the the VP R&D @ qSpark, a leading provider of ultra low-latency trading platforms for high-frequency algorithmic trading. His team is responsible for developing the real-time trading engine of the company, as well as the specialized, low-latency optimized data structures and infrastructures used by the entire company's C++ software stack. Prior to qSpark, Nimrod worked as a storage infrastructure developer in IBM and Dell-EMC."
-   thumbnailUrl: NimrodSapir.jpg
-   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/nimrodsapir"}
-   rockstar: false
--
-   id: 33
-   name: "Andreas"
-   surname: "Fertig"
-   bio: "Andreas holds an M.S. in Computer Science from Karlsruhe University of Applied Sciences. Since 2010 he has been a software developer and architect for Philips Medical Systems focusing on embedded systems. He has a profound knowledge of C++ and is a frequent SG14 member. He works freelance as a lecturer and trainer. Besides this he develops macOS applications and is the creator of <a href='https://cppinsights.io'>cppinsights.io</a>"
-   thumbnailUrl: AndreasFertig.jpg
-   social:
-    - {name: "site", link: "https://andreasfertig.info"}
-    - {name: "twitter", link: "https://twitter.com/Andreas__Fertig"}
-   rockstar: false
--
-   id: 29
-   name: "Avi"
-   surname: "Kivity"
-   company: "ScyllaDB"
-   bio: "Avi Kivity, CTO of ScyllaDB, is known mostly for starting the Kernel-based Virtual Machine (KVM) project, the hypervisor underlying many production clouds. He has worked for Qumranet and Red Hat as KVM maintainer until December 2012. Avi is now CTO of ScyllaDB, a company that is bringing the same kind of innovation to the NoSQL space."
-   thumbnailUrl: AviKivity.jpg
-   social:
-    - {name: "twitter", link: "https://twitter.com/AviKivity"}
-   rockstar: false

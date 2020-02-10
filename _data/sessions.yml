@@ -7,6 +7,13 @@
   language: en
 -
   id: 001
+  title: "Bjarne Stroustrup: The Essence of C++"
+  desrciptioin: ""
+  subtype: keynote
+  language: en
+  speakers: [10]
+-
+  id: 002
   title: "Keynote: To be announced soon!"
   #place: "Weston::Auditorium"
   description: "Stay tuned!"
@@ -14,17 +21,6 @@
   subtype: keynote
   language: en
  # presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Jason_The_Best_Parts_Of_C++.pdf"
--
-  id: 004
-  title: "Keynote: Modules are Coming"
-  place: "Weston::Auditorium"
-  speakers: [31]
-  subtype: keynote
-  language: en
-  description: "<p>Modules are coming to C++ in the next standard, and they will have an impact unlike any other new feature added to C++ since 1998. Modules are a first-class system for encapsulating and defining interfaces to translation units. They are a modern replacement for C++'s textual inclusion system (e.g. headers).</p>
-                <p>Other features change how you write C++ code. Modules change not only how you write your code; they will change the very structure of your C++ projects, your build system, your IDE, and your tools.</p>
-                <p>In this talk, I'll show you how modules work, how they contrast with the current header inclusion system, how you'll benefit from them, and the transition path for the C++ ecosystem.</p>"
-  presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Bryce_Modules_Are_Coming.pdf"                
 -
   id: 005
   title: "A lot of great C++ content!"
@@ -34,191 +30,6 @@
   title: "More activities"
   description: "In construction"
   service: true
--
-  id: 021
-  title: "C++ Programming for the Heap-Deprived: Solving common problems without dynamic memory allocation"
-  place: "Economics"
-  description: "Avoiding dynamic memory (heap) allocations is a common practice in embedded development. In this talk we will discuss common problems and solutions, why to avoid heap allocation in the first place in some cases, and what does the C++ standard have to say about this?"
-  subtype: talk
-  speakers: [21]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Asaf_C++_Programming_for_the_Heap-Deprived.pdf"
--
-  id: 022
-  title: "179 range algorithms in less than an hour"
-  place: "Weston"
-  description: "<p>STL algorithms are something every C++ programmer should know. As range algorithms are expected to arrive to C++ 20, there are even more useful tools that we should at least be aware of, if not use daily.</p> 
-                <p>In this talk we will cover what ranges add to C++20 standard library, as well as go over all the different views and actions available in the range-v3 library which can be used today.</p>
-                <p>We will see examples of combining algorithms, views and actions effectively to write more expressive and sometimes even more performant code.</p>
-                <p>This talk is inspired by Jonathan Boccara’s talk '105 algorithms in less than an hour'.</p>"  
-  subtype: talk
-  speakers: [22]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Dvir_179_range_algorithms_in_less_than_an_hour.pdf"
--
-  id: 023
-  title: "Coroutines - the future of future (and more)"
-  place: "Weston"
-  description: "<p>Writing asynchronous code is never easy. The programmer must consider things like race conditions and dead-locks, it's harder to reason about the code and all kinds of pitfalls come up. On the other hand, async operations become more and more common with the raise of multicore computing, with more network communication used and with some of the architectures we develop to (e.g. OSes that supply only async API for I/O operations).</p>
-                <p>Coroutines are the newest (planned) addition to the C++ language to ease the development of such code and make it much simpler, closer to traditional, synchronous code and easier to reason about.</p>
-                <p>In this talk we'll learn what kind of problems coroutines come to solve, what the solution looks like from the user perspective and a glance towards the much wider solution space that coroutines open for us with various usages already exist.</p>
-                <p>This is an 'intro to coroutines' kind of presentation, definitely not delving into the 'dirty details' of how things are implemented in the low level.</p>"
-  subtype: talk
-  speakers: [23]
-  language: en
-  presentation: "https://github.com/YehezkelShB/CoreCpp2019-Coroutines"
--
-  id: 024
-  title: "Clang Concepts"
-  place: "Weston"
-  description: "Concepts are one of the biggest new features coming in C++20, set to revolutionize the way we write generic code. A year ago I volunteered to implement Concepts in the Clang Compiler, and am now nearing completion of the feature. I will tell the story of how I got around to doing this, while demonstrating what it is like to take on such a daunting codebase as a compiler for the first time, and some lessons learned. A brief introduction to the feature itself will also be provided."
-  subtype: talk
-  speakers: [24]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Saar_clang_concepts.pdf"
--
-  id: 025
-  title: "Behind Enemy Lines - Reverse Engineering C++ in Modern Ages"
-  place: "Pomento"
-  description: "<p>What do C++ programs really look like? When developers think about hierarchy and virtual calls they see it as design patterns and code but reverse engineers look at it from a different angle, they think about Assembly puzzles.</p>
-                <p>C++ is known as a tangled language, templates, lambdas and pointers. All of these features create a jungle of objects intended to make life easier for the programmer. But once the program is compiled, the target program is no longer what it once seemed.</p>
-                <p>Reversing C++ programs is tedious, demanding, and requires rebuilding inheritance, identifying templates and tainting program flow in order to combat the ties of function overloading and class utilization.</p>
-                <p>C++ Binaries are a world of mysteries. In my presentation I am going to show how C++ binaries looks like after compilation and how reverse engineers see C++ binaries and understand their logic.</p>"
-  subtype: talk
-  speakers: [25]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Gal_Behind_Enemy_Lines_Reverse_Engineering_Cpp_in_Modern_Ages.pdf"
--
-  id: 026
-  title: "Virtual Tables OR The Overhead Of Magic"
-  place: "Economics"
-  description: "<p>C++ provides a lot of wonderful tools, but at its heart stands the inheritance mechanism and the engine that drives it - the Virtual Table.</p>
-                <p>We will talk about the virtual table - when and how it works, and of course, when it does NOT work. We will review the problems that may arise from using it wrongly.</p>
-                <p>And finally, we will try to provide tools for estimating the performance cost and possible solutions to minimize it.</p>"
-  subtype: talk
-  speakers: [26]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Inbal_Virtual_Tables_OR_The_Overhead_Of_Magic.pdf"
--
-  id: 027
-  title: "C/C++ Memory Model"
-  place: "Weston"
-  description: "<p>Memory Model is probably the single most important change introduced in C++11.</p>
-                <p>In this talk we will discuss what is a memory model, and more importantly, why we should care. Spoiler alert: The answer in one line: it will help us to write faster more correct code for multi threads and even single thread. Along the way, we will delve into exciting side topics such as Data Oriented Design, Cache Oblivious Algorithms, False Sharing and more.</p>"
-  subtype: talk
-  speakers: [27]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Yossi_Memory_Model.pdf"
--
-  id: 028
-  title: "High Frequency Trading and Ultra Low Latency development techniques"
-  place: "Pomento"
-  description: "When developing a high frequency environment, every transaction is a race against the clock and against other players in the market. Therefore, your critical flow can never be “fast enough” as long as someone else may be faster. In this lecture I will cover some of the techniques qSpark’s trading infrastructure uses to survive in the HFT jungle, and will discuss in detail one of our main techniques: using dummy operations to warm up the instruction cache for critical operations while avoiding branch mis-predictions."
-  subtype: talk
-  speakers: [28]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Nimrod_High_Frequency_Trading.pdf"
--
-  id: 029
-  title: "Building efficient I/O intensive applications with Seastar"
-  place: "Pomento"
-  description: "<p>Seastar is a C++14/C++17 application framework focused on I/O and multicore. It uses all C++ features we could lay our hands on, and plans to use coroutines and modules as soon as they are available.</p>
-                <p>The talk will cover the theory behind Seastar, explain how it is used in practice, and cover the advanced C++ techniques we used.</p>"
-  subtype: talk
-  speakers: [29]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Avi_Building_efficient_IO_intensive_applications_with_Seastar.pdf"
--
-  id: 031
-  title: "The C++ Execution Model"
-  place: "Weston"
-  description: "<p>At the heart of the C++ programming language is the multi-threaded abstract machine and its execution model, the platform-agnostic formal model that generically describes how to run a C++ program. In this talk, you will learn the rules that govern how your C++ code is executed and see how those rules impact the C++ code you write every day.</p>
-                <p>We'll explore the C++ execution and memory model, and discuss fundamental questions such as:</p>
-                <ul>
-                   <li>What are threads in C++ and how do they interact?</li>
-                   <li>What is memory in C++?</li>
-                   <li>In what order are things in my C++ program executed?</li>
-                   <li>How are C++ expressions and statements executed?</li>
-                   <li>What are the semantics of calling a function in C++?</li>
-                   <li>What does &quot;happens before&quot; mean?</li>
-                 </ul>
-                <p>If you're interested in gaining a deeper understanding of how your C++ code is executed and how concurrency works in C++, you should attend this talk.</p>"
-  subtype: talk
-  speakers: [31]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Bryce_C++_Execution_Model.pdf"
--
-  id: 032
-  title: "Compile Time Regular Expressions"
-  place: "Economics"
-  description: "<p>I will present a library that utilizes a feature of C++20 to build regular expressions from compile-time strings. This is a novel approach that doesn't have ordinary disadvantages of other regular expression implementations like having to use a linked library or a run-time cost of parsing and interpreting an internal finite machine. </p>
-                <p>You will see implementation details of the library and problems I have run into during its writing. In the last part of the talk, I will compare other implementations of regular expression engines and show compiled code in Compiler Explorer.</p>"
-  subtype: talk
-  speakers: [32]
-  language: en
-  presentation: "https://compile-time.re/corecpp-2019/#/"
--
-  id: 033
-  title: "C++: λ Demystified"
-  place: "Economics"
-  description: "<p>C++11 lambdas brought us lambdas. They open a lot of new possibilities. Frequently asked questions are:</p>
-                <ul>
-                  <li>How are they implemented?</li>
-                  <li>How do they work?</li>
-                  <li>How can it affect my daily programming?</li>
-                  <li>Do they generate a lot of code?</li>
-                  <li>What can I do with them?</li>
-                  <li>Where can I use them?</li>
-                </ul>
-                <p>In this talk I will answer these questions. With the support of C++ Insights (<a href='https://cppinsights.io'>https://cppinsights.io</a>) we will peak behind the scenes to answer questions about how they are implemented. We will also see how the compiler generated code changes, if we change the lambda itself. This is often interesting for development in constrained applications like the embedded domain.</p>
-                <p>Next I will show you application areas of lambdas to illustrate where they can be helpful. For example, how they can help you to write less and with that more unique code.</p>
-                <p>After the talk, you will have a solid understanding of lambdas in C++. Together with some ideas when and where to use them.</p>"
-  subtype: talk
-  speakers: [33]
-  language: en
-  presentation: "https://www.andreasfertig.info/talks.html"
--
-  id: 034
-  title: "Initialisation in modern C++"
-  place: "Weston"
-  description: "<p>Initialisation semantics is widely regarded as one of the most difficult aspects of the C++ language. We have many different kinds of initialisation and many different syntaxes for it, and they interact in complex and often surprising ways. C++11 introduced the concept of 'uniform initialisation'. But instead of unifying, this feature introduced even more complex rules, which were subsequently amended in C++14, C++17, and will be changed again for C++20.</p>
-                <p>In this talk, I'll first summarise the history of initialisation in C++. I'll then give a systematic overview over the current initialisation rules and common pitfalls and surprises. There will be some practical coding guidelines to help using those rules effectively. Finally, we will discuss recent proposals towards making initialisation semantics in C++20 simpler and more user-friendly.</p>"
-  subtype: talk
-  speakers: [34]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Timur_Initialisation_in_modern_C++.pdf"
--
-  id: 035
-  title: "C++ ecosystem: For better, for worse"
-  place: "Pomento"
-  description: "<p>When legacy code is mixed with modern language features and patterns, when the rich heritage of C++ and its compatibility restrictions co-exist with the adoption of best practices from other languages and technologies, some of us C++ developers become lost and need to follow and stick to a more conservative path. Recent independent research studies show that developers are staying with C++11, only slowly moving to C++14 and rarely adopting C++17. They tend to avoid using unit testing frameworks, are barred from throwing exceptions, and often still build packages manually. Alongside the areas where strict limitations are imposed on the subset of the language used, there are others, like game development, that find workarounds to emulate language features not yet accepted to the language standard. What are the real reasons for this state of affairs, what biases might be at play, and what are some of the improvements planned?</p>
-                <p>In this talk, we will overview the C++ ecosystem based on several independently conducted research studies, identify the common aligning trends across all the sources, and analyze the reasoning behind them.</p>
-                <p>Importantly, we’ll see how the work of the C++ committee and tooling evolution can help overcome these difficulties and usher in a brighter future for C++. We’ll get a glimpse into some of the most valuable recent proposals and changes to the language, and see how tooling is helping, or can help, move to newer standards faster.</p>"
-  subtype: talk
-  speakers: [35]
-  language: en
-  presentation: "https://corecppil.github.io/CoreCpp2019/Presentations/Anastasia_Cpp_ecosystem.pdf"
--
-  id: 036
-  title: "The Dawn Of A New Error"
-  place: "Weston"
-  description: "<p>As a community we've tried many different ways to express, propagate and handle error conditions in our code over the years. Each seem to have different trade-offs, with none being perfect in all cases.</p>
-                <p>In C++ we adopted exceptions as the primary mechanism early on, and the standard library uses them extensively.</p>
-                <p>Yet many - 52% according to last year's Standard C++ Foundation survey - ban exceptions in all, or part, of their codebases!</p>
-                <p>Recently there has been a lot of interest in using ADTs (Algebraic Data Types) such as `std::optional`, or the proposed `std::expected`, for error-handling. There are definitely advantages here, but we're still not quite there yet. Can we do better?</p>
-                <p>This presentation summarises the material from my earlier talk, 'Option(al) Is Not a Failure', where I survey existing error-handling approaches and score them against each other, leading up to the new proposal, p0709r1, 'Zero-overhead deterministic exceptions'. We then dig into this proposal in more depth and look at the implications, considering also the supporting proposals, p1028 (std::error) and p1029 ([[move relocates]]) and others. We'll also look at experiences with similar mechanisms in other languages, notably Swift, to get an idea of how it might work out in practice.</p>
-                <p>In the end we should have a solid idea of which error handling strategy to use when, what's coming next, and how to approach code now that will play nicely in that possible future.</p>"
-  subtype: talk
-  speakers: [10]
-  language: en
--
-  id: 037
-  title: "Understanding Lvalues and Rvalues"
-  place: "Weston"
-  description: "You've probably heard the terms lvalue and rvalue, if only because they occasionally appear in compiler error messages. However, if you have only a vague understanding of what they mean, you're not alone. Lvalues and rvalues aren't actually language features, but rather semantic properties of expressions and sub-expressions. Understanding lvalues and rvalues provides valuable insights into the behavior of built-in operators, the code generated to execute those operators, and the meaning of some otherwise cryptic compiler error messages. Also, understanding lvalues and rvalues is essential background for working effectively with reference types and overloaded operators. This session covers what you need to know about lvalues and rvalues in C++."
-  subtype: talk
-  speakers: [13]
-  language: en
 -
   id: 099
   title: "Welcome to Core C++ 2020!"
@@ -260,15 +71,6 @@
   title: "Coffee Break"
   place: "Economics::Lobby"
   service: true
--
-  id: 200
-  title: "Teaching C++ workshop"
-  place: "Economics::206"
-  description: "<p>The goals of the workshop are to discuss and present insights, teaching materials and other issues related to Teaching C++, and to meet and build a community of C++ Teachers. The workshop is related to the ISOCPP group of C++ Education: SG20.</p>
-                <p>The workshop addresses “C++ Language Teachers” as well as teachers that use or practice C++ in their courses and practitioners who are interested in the domain of Teaching C++.</p>
-                <p>Please note: the workshop is free for Core C++ 2019 participants, but requires registration.</p>
-                <p>More info and registration: <a href='http://www2.mta.ac.il/~amirk/teaching_cpp_workshop_2019/'>www2.mta.ac.il/~amirk/teaching_cpp_workshop_2019/</a>.<p>"
-  language: en
 -
   id: 201
   title: "Teaching C++: Panel"
