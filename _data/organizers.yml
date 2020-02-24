@@ -3,7 +3,7 @@
   elements: 
     - {name: "Haifa::C++", description: "The Haifa::C++ Users Group", link: "https://www.meetup.com/haifa-cpp/", imageUrl: "haifa-cpp.svg"}
     - {name: "Core C++", description: "The Core C++ Users Group", link: "https://corecppil.github.io/Meetups/", imageUrl: "core-c++-ug.svg"}
-    - {name: "The Academic College of Tel Aviv-Yaffo", description: "A pioneering non-for-profit and fully accredited academic public institution", link: "https://www.int.mta.ac.il/", imageUrl: "MTA_logo.svg"}
+#    - {name: "The Academic College of Tel Aviv-Yaffo", description: "A pioneering non-for-profit and fully accredited academic public institution", link: "https://www.int.mta.ac.il/", imageUrl: "MTA_logo.svg"}
 -
   group: "Partners"
   elements:
