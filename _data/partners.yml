@@ -21,9 +21,10 @@
 #    - {name: "Kistler", description: "Kistler is the global leader in dynamic measurement technology for measuring pressure, force, torque and acceleration", link: "https://www.kistler.com/en/", imageUrl: "kistler.png"}
 #    - {name: "INFINIDAT", description: "", link: "https://www.infinidat.com/", imageUrl: "Infinidat-Logo.png"}
 #    - {name: "Harman", description: "HARMAN designs and engineers connected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automation solutions; and connected services.", link: "https://www.harman.com", imageUrl: "harman_logo.svg"}
-#-
-#  group: "Bronze Sponsors"
-#  elements: 
+-
+  group: "Bronze Sponsors"
+  elements: 
+   - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "http://www.istraresearch.com", imageUrl: "istra-logo.svg"}
 #    - {name: "CME Group", description: "A global markets company empowering participants to efficiently manage risk and capture opportunities in every major asset class.", link: "https://www.cmegroup.com/", imageUrl: "CMELOGO.png"}
 #    - {name: "IncrediBuild", description: "IncrediBuild is a suite of grid computing software designed to help accelerate computationally-intensive tasks by distributing them over the network, with notable applications including compiling source code, building software generally, and other software development-related tasks.", link: "https://www.incredibuild.com/", imageUrl: "IncrediBuild.png"}
 #    - {name: "Cymotive", description: "Automotive Cyber Security On The Move", link: "https://www.cymotive.com/", imageUrl: "logo_cymotive.svg"}
