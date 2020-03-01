@@ -144,29 +144,29 @@ ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
  -
-  name: "Full 2-Day Ticket"
-  price: "1050"
+  name: "1-Day Ticket"
+  price: "550"
   priceCurrency: "ILS"
-  ticketsNumber: "400"
+  ticketsNumber: "100"
+  #ribbon: "-20%"
   buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
-  buyButtonText: "Full Price"
-  ticketContentList: ["Two day conference", "Three parallel tracks", "Keynotes"]
+  buyButtonText: "Buy Now"
+  ticketContentList: ["One day conference", "Three parallel tracks", "Keynote"]
   validFrom: "2020-03-01"
   validThrough: "2020-03-26"
   soldOut: false
   soldOutText: "Sold Out"
  -
-  name: "Early Bird 2-Day Ticket"
-  price: "850"
+  name: "Full 2-Day Ticket"
+  price: "1050"
   priceCurrency: "ILS"
-  ticketsNumber: "150"
-  ribbon: "-20%"
   featured: true
+  ticketsNumber: "400"
   buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
   buyButtonText: "Buy Now"
   ticketContentList: ["Two day conference", "Three parallel tracks", "Keynotes"]
-  validFrom: "2020-01-20"
-  validThrough: "2020-02-29"
+  validFrom: "2020-03-01"
+  validThrough: "2020-03-26"
   soldOut: false
   soldOutText: "Sold Out"
  -
