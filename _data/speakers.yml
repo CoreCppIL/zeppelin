@@ -23,3 +23,23 @@
     - {name: "twitter", link: "https://twitter.com/stroustrup"}
   ribbon:
     - {title: "Keynote"}
+-
+  id: 11
+  name: "Walter"
+  surname: "E. Brown"
+  company: ""
+  title: ""
+  bio: >
+    <p>With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a
+    C++ programmer for nearly 40 of his 55 programming years. He joined the C++ standards effort in 2000, and
+    has since written almost 170 proposal papers. Among numerous other contributions, he is responsible for
+    introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t,
+    and &lt;cmath&gt;'s mathematical special functions, as well as all of the &lt;random&gt; and &lt;ratio&gt; headers.
+    He has also significantly impacted such C++ core language features as alias templates, contextual
+    conversions, variable templates, static_assert, and the new C++20 operator&lt;=&gt; (the spaceship operator).</p>
+    <p>When not playing with his grandchildren, Dr. Brown is an Emeritus participant in the C++ standards
+    process, with several more proposals under consideration.</p>
+  thumbnailUrl: WalterEBrown.jpg
+  rockstar: true
+  ribbon:
+    - {title: "Keynote"}

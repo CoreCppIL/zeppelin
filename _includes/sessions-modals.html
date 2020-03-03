@@ -42,7 +42,11 @@
 										</div>
 										<div class="col-md-10 col-sm-10 details">
 											<p class="name">{{ speaker.name }} {{ speaker.surname }}
-												<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
+												{% if speaker.company == "" or speaker.company == nil %}
+													<span class="position">{{ speaker.title }}</span>
+												{% else %}
+													<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
+												{% endif %}
 											</p>
 											{% if speaker.ribbon != null %}
 											<div class="modal-ribbon-wrapper">

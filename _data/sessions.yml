@@ -14,10 +14,10 @@
   speakers: [10]
 -
   id: 002
-  title: "Keynote: To be announced soon!"
+  title: "Keynote by Walter E. Brown"
   #place: "Weston::Auditorium"
-  description: "Stay tuned!"
- # speakers: [11]
+  description: "Keynote by Walter E. Brown, details to be announced soon"
+  speakers: [11]
   subtype: keynote
   language: en
  # presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Jason_The_Best_Parts_Of_C++.pdf"

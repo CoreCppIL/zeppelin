@@ -52,9 +52,19 @@
 									   {% endif %}
 
 									{% else %}
-									<p class="name">{{ speaker.name }} {{ speaker.surname }}
+
+									   {% if speaker.company == "" or speaker.company == nil %}
+									      <p class="name">{{ speaker.name }} {{ speaker.surname }}
+										  <span class="position">{{ speaker.title }}</span></p>
+									   {% else %}
+									      <p class="name">{{ speaker.name }} {{ speaker.surname }}
+										  <span class="position">{{ speaker.title }}, {{ speaker.company }}</span></p>
+									   {% endif %}
+
+									{% else %}
+								<!--	<p class="name">{{ speaker.name }} {{ speaker.surname }}
 									<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
-									</p>
+									</p> -->
 									{% endif %}
 									{% if speaker.ribbon != null %}
 									<div class="modal-ribbon-wrapper">
