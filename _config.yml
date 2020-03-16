@@ -154,21 +154,21 @@ ticketsOffers:
   ticketContentList: ["One day conference", "Three parallel tracks", "Keynote"]
   validFrom: "2020-03-01"
   validThrough: "2020-03-26"
-  soldOut: false
-  soldOutText: "Sold Out"
+  soldOut: true
+  soldOutText: "Postponed"
  -
   name: "Full 2-Day Ticket"
   price: "1050"
   priceCurrency: "ILS"
-  featured: true
+  featured: false
   ticketsNumber: "400"
   buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
   buyButtonText: "Buy Now"
   ticketContentList: ["Two day conference", "Three parallel tracks", "Keynotes"]
   validFrom: "2020-03-01"
   validThrough: "2020-03-26"
-  soldOut: false
-  soldOutText: "Sold Out"
+  soldOut: true
+  soldOutText: "Postponed"
  -
   name: "Training"
   price: "1350"
@@ -180,7 +180,7 @@ ticketsOffers:
   validFrom: "2020-01-20"
   validThrough: "2020-03-26"
   soldOut: true
-  soldOutText: "Opens Soon"
+  soldOutText: "Postponed"
 
 # Footer
 socialLinks:
