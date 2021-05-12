@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Core C++ 2020"
+title: "Core C++ <local> 2021"
 email: "info@corecpp.org"
-description: "Core C++ 2020"
+description: "Core C++ <local> 2021"
 baseurl: ""
 url: "https://corecpp.org"
 permalink: "/blog/:title"
@@ -22,68 +22,69 @@ siteVerification: ""
 
 # Organizer Info
 organizerName: "Core C++"
-organizerAlternateName: "The Core C++ 2020 International Conference"
+organizerAlternateName: "The Core C++ <local> 2021 Conference"
 organizerDescription: "The Core C++ User Group."
 organizerEmail: "info@corecpp.org"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://corecpp.org/"
 
 # Head
-metaKeywords: "event, C++, conference, programming, developers, lectures, Israel, speakers"
+metaKeywords: "event, C++, conference, programming, developers, lectures, Israel, speakers, local"
 twitterAccount: "@corecpp"
 # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://cfs.corecpp.org/"
-c4sponsorsUrl: "/assets/CoreCpp2019_CallForSponsors.pdf"
+c4pUrl: "https://cfsTBD.corecpp.org/"
+#c4sponsorsUrl: "/assets/CoreCpp2019_CallForSponsors.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {link: "https://2019.corecpp.org", text: "Core C++ 2019"}
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
- - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
+ - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "https://cfsTBD.corecpp.org/", text: "Submit Your Talk"}
 rightNavigationButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
- - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
+# - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
+ - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "https://cfsTBD.corecpp.org/", text: "Submit Your Talk"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Core C++ <typeout> 2020"
-eventDate: "May 25-27, 2020"
-typeoutTextValues: '"", "Conference", "Spring", "Israel"'
+heroTitle: "Core C++ <typeout> 2021"
+eventDate: "August 25-27, 2021"
+typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return", "<local>"'
 typeoutFallback: "Conference"
 heroButtons:
- - {link: "/assets/CoreCpp2020_CallForSpeakers.pdf", text: "Call For Speakers"}
- - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
- - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Sponsor Us"}
+ - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
+# - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Sponsor Us"}
  
 # About Block
-aboutTitle: "About Core C++ 2020"
+aboutTitle: "About Core C++ <local> 2021"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "Second C++ conference in Israel brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite C++ feature!" }
+ - {title: "Conference", image: "conference.jpg", text: "We are back with the second C++ conference in Israel brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
+# - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite C++ feature!" }
 # - {title: "Hackathon", image: "hackathon.jpg", text: "Want some real team and skill building? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "22", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
+ - {count: "250", specialCharacter: "+", info: "attendees", detail: "face to face"}
+ - {count: "20", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
 
 # Latest News Block
 latestNewsTitle: "Latest News"
@@ -99,19 +100,19 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Wohl Conventions Center" 
-eventLocationLink: "https://wohl-center.com/wohl-conventions-center/"
-eventStreetAddress: "Max ve-Anna Webb St"
-eventAddressLocality: "Ramat Gan"
+eventLocationName: "The Tel-Aviv Yaffo Academic College" 
+eventLocationLink: "https://www.int.mta.ac.il/"
+eventStreetAddress: "Rabenu Yeruham St."
+eventAddressLocality: "Tel Aviv"
 # eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "5211501"
+eventPostalCode: "6818211"
 eventAddressCountry: "Israel"
-eventStartTime: "2020-05-25T09:00"
+eventStartTime: "2021-08-25T09:00"
 eventDoorTime: "08:00"
-eventEndTime: "2020-05-27T18:00"   
-eventPlaceCoordinates: "32.071763, 34.846740"
-mapCenterCoordinates: "32.071763, 34.846740"
-mapMobileCenterCoordinates: "32.071763, 34.846740"
+eventEndTime: "2021-05-27T18:00"   
+eventPlaceCoordinates: "32.0474639, 34.760838631217915"
+mapCenterCoordinates: "32.0474639, 34.760838631217915"
+mapMobileCenterCoordinates: "32.0474639, 34.760838631217915"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -119,13 +120,13 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Wohl Conventions Center"
-venueFeatures: ["Located on the campus of Bar Ilan University"]
+venueTitle: "Tel-Aviv Yaffo Academic College"
+venueFeatures: ["Located in the heart of Tel-Aviv and Jaffa"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "corecpp2020"
+twitterHashTag: "corecpp2021"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -137,50 +138,26 @@ partnersC4sponsorsButton: "Become a sponsor"
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeInfo: "Number of seats is limited. Stay tuned!"
 
 # Tickets Block
 ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
  -
-  name: "1-Day Ticket"
-  price: "550"
-  priceCurrency: "ILS"
-  ticketsNumber: "100"
-  #ribbon: "-20%"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["One day conference", "Three parallel tracks", "Keynote"]
-  validFrom: "2020-03-01"
-  validThrough: "2020-03-26"
-  soldOut: true
-  soldOutText: "Postponed"
- -
   name: "Full 2-Day Ticket"
-  price: "1050"
+  price: "TBD"
   priceCurrency: "ILS"
-  featured: false
-  ticketsNumber: "400"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Two day conference", "Three parallel tracks", "Keynotes"]
-  validFrom: "2020-03-01"
-  validThrough: "2020-03-26"
-  soldOut: true
+  featured: true
+  ticketsNumber: "450"
+  buyButtonLink: "TBD"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Two day conference", "Two parallel tracks", "Meet fellow developers"]
+  validFrom: "2021-05-01"
+  validThrough: "2021-08-25"
+  soldOut: false
   soldOutText: "Postponed"
- -
-  name: "Training"
-  price: "1350"
-  priceCurrency: "ILS"
-  ticketsNumber: "100"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2020"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Full day training", "Pre-conference workshop", "Top C++ trainers"]
-  validFrom: "2020-01-20"
-  validThrough: "2020-03-26"
-  soldOut: true
-  soldOutText: "Postponed"
+
 
 # Footer
 socialLinks:
@@ -195,6 +172,7 @@ footerBlocks:
   links:
    - {link: "https://www.meetup.com/CoreCpp", text: "Core C++ User Group"}
    - {link: "https://www.meetup.com/haifa-cpp", text: "Haifa::C++ User Group"}
+   - {link: "https://www.int.mta.ac.il/", text: "The Academic College of Tel Aviv-Yaffo"}
 
  -
   title: "Contacts"
@@ -228,8 +206,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "32.0474639, 34.760838631217915"
+logisticsMapMobileCenterCoordinates: "32.0474639, 34.760838631217915"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
