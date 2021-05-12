@@ -64,7 +64,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "Core C++ <typeout> 2021"
 eventDate: "August 25-27, 2021"
-typeoutTextValues: '"", "Conference", "Summer", "&lt;local&gt;", "Israel", "co_return", "&lt;local&gt;"'
+typeoutTextValues: '"", "Conference", "Summer", "&lt; local &gt;", "Israel", "co_return", "&lt; local &gt;"'
 typeoutFallback: "Conference"
 heroButtons:
  - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
