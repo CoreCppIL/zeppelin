@@ -63,7 +63,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "Core C++ &lt;local&gt; <typeout> 2021"
-eventDate: "August 25-27, 2021"
+eventDate: "August 25-26, 2021"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
@@ -109,7 +109,7 @@ eventPostalCode: "6818211"
 eventAddressCountry: "Israel"
 eventStartTime: "2021-08-25T09:00"
 eventDoorTime: "08:00"
-eventEndTime: "2021-05-27T18:00"   
+eventEndTime: "2021-05-26T18:00"   
 eventPlaceCoordinates: "32.0474639, 34.760838631217915"
 mapCenterCoordinates: "32.0474639, 34.760838631217915"
 mapMobileCenterCoordinates: "32.0474639, 34.760838631217915"
