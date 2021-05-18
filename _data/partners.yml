@@ -58,14 +58,14 @@
   elements: 
 #    - {name: "#include <C++>", description: "#include<C++> is a global, inclusive, and diverse community for developers interested in C++.", link: "https://www.includecpp.org/", imageUrl: "includecpp.svg"}
 #    - {name: "SwedenCpp", description: "The Swedish C++ User Groups", link: "https://www.swedencpp.se", imageUrl: "SwedenCppOfficial.png"}        
-    - {name: "C++ on Sea", description: "C++ on Sea is a new international C++ conference taking place in Folkestone, Kent, UK from 4th-6th February 2019.", link: "https://cpponsea.uk", imageUrl: "cpponsea-logo-text.svg"}
+    - {name: "C++ on Sea", description: "C++ on Sea is an international C++ conference (usually) taking place by the sea, in the UK. However, due to the Coronavirus pandemic, the conference has taken place online since 2020.", link: "https://cpponsea.uk", imageUrl: "cpponsea-logo-text.svg"}
 #    - {name: "C++ CoreHard", description: "The conference is being organized by the CoreHard.by community that unites not only C++ engineers, but also those who are interested in low-level development in C and Assembler, programming of controllers, Internet of Things, high load server solutions and in any kind of “hardcore” development.", link: "http://conference.corehard.by/", imageUrl: "corehard-alien-logo-transparent2.png"}
     - {name: "Comiler Explorer", description: "Compiler Explorer is an interactive tool that lets you type code in one window and see the results of its compilation in another window.", link: "https://godbolt.org", imageUrl: "CompilerExplorer.svg"}
 #    - {name: "cpp.chat", description: "Strong opinions, weekly held. An, often, weekly round-table chat with great guests from the C++ community", link: "http://slashslash.info/cppchat/", imageUrl: "cpp_chat_1600.png"}
-    - {name: "CppCon", description: "CppCon is the annual, week-long face-to-face gathering for the entire C++ community. The conference is organized by the C++ community for the community", link: "https://cppcon.org/", imageUrl: "cppcon_logo.png"}
+#    - {name: "CppCon", description: "CppCon is the annual, week-long face-to-face gathering for the entire C++ community. The conference is organized by the C++ community for the community", link: "https://cppcon.org/", imageUrl: "cppcon_logo.png"}
 #    - {name: "C++Now", description: "A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado", link: "http://cppnow.org/", imageUrl: "CppNowLogo.svg"}
-    - {name: "CppCast", description: "CppCast is the first podcast for C++ developers by C++ developers", link: "http://cppcast.com/", imageUrl: "CppCast_Banner.png"}
-    - {name: "CPPP", description: "An international c++ conference in the heart of Paris", link: "http://cppp.fr", imageUrl: "logoCPPP.svg"}
+#    - {name: "CppCast", description: "CppCast is the first podcast for C++ developers by C++ developers", link: "http://cppcast.com/", imageUrl: "CppCast_Banner.png"}
+    - {name: "CPPP", description: "An international C++ conference in the heart of Paris", link: "http://cppp.fr", imageUrl: "logoCPPP.svg"}
 #    - {name: "C++ Stories", description: "", link: "https://www.bfilipek.com", imageUrl: "logobflarge.png"}
 #    - {name: "code::dive", description: "code::dive is an annual event gathering IT professionals and programming enthusiasts to share new ideas, discuss current trends, and exchange experiences.", link: "https://codedive.pl/", imageUrl: "codedivelogo.svg"}
  
