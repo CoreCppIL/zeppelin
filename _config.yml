@@ -145,19 +145,32 @@ ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
  -
-  name: "Full 2-Day Ticket"
-  price: "450"
+  name: "Full 2-Day Ticket: Early Bird"
+  price: "440"
   priceCurrency: "ILS"
+  ribbon: "-20%"
   featured: true
-  ticketsNumber: "450"
-  buyButtonLink: "TBD"
+  ticketsNumber: "50"
+  buyButtonLink: "https://ti.to/hamakor/corecpp-local-2021/with/eonenibqaoy"
   buyButtonText: "Register Now"
   ticketContentList: ["Two day conference", "Two parallel tracks", "Meet fellow developers"]
   validFrom: "2021-05-01"
+  validThrough: "2021-06-30"
+  soldOut: false
+  soldOutText: "SOld Out"
+ -
+  name: "Full 2-Day Ticket"
+  price: "550"
+  priceCurrency: "ILS"
+  featured: true
+  ticketsNumber: "200"
+  buyButtonLink: "https://ti.to/hamakor/corecpp-local-2021/"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Two day conference", "Two parallel tracks", "Meet fellow developers"]
+  validFrom: "2021-07-01"
   validThrough: "2021-08-25"
   soldOut: false
-  soldOutText: "Postponed"
-
+  soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
