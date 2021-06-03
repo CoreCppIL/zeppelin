@@ -53,12 +53,16 @@ navigationLinks:
 bottomNavigationLinks:
 # - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
  - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+ - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
+ - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
 # - {link: "https://ti.to/hamakor/core-cpp-2020", text: "Buy Tickets"}
 # - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
  - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+ - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
+ - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -69,7 +73,8 @@ typeoutFallback: "Conference"
 heroButtons:
  - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
-# - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Sponsor Us"}
+ - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
+ - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
 aboutTitle: "About Core C++ <local> 2021"
