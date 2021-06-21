@@ -88,7 +88,7 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "250", specialCharacter: "+", info: "attendees", detail: "face to face"}
  - {count: "20", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "16", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
  - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
 
 # Latest News Block
