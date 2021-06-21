@@ -44,8 +44,8 @@ c4sponsorsUrl: "/assets/CoreCpp2021_SponsoringOffer.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
-# - {permalink: "/schedule/", text: "Schedule"}
-# - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
 # - {link: "https://2019.corecpp.org", text: "Core C++ 2019"}
 # - {permalink: "/logistics/", text: "Logistics"}

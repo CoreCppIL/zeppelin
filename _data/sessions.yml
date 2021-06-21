@@ -7,20 +7,27 @@
   language: en
 -
   id: 001
-  title: "Bjarne Stroustrup: The Essence of C++"
-  desrciptioin: ""
+  title: "Bjarne Stroustrup - Thriving in a crowded and changing world: C++ 2006-2020"
+  desrciptioin: "<p>By 2006, C++ had been in widespread industrial use for 20 years. It contained parts
+                that had survived unchanged since introduced into C in the early 1970s as well as features that were novel in the early 2000s.
+                From 2006 to 2020, the C++ developer community grew from about 3 million to about 4.5 million.
+                It was a period where new programming models emerged, hardware architectures evolved, new application domains gained massive importance,
+                and quite a few well-financed and professionally-marketed languages fought for dominance. How did C++ -- an older language
+                without serious commercial backing -- manage to thrive in the face of all that? This paper focuses on the major language
+                changes to the ISO C++ standard for the 2011 and 2020 revisions.</p>
+                <p>Themes include efforts to preserve the essence of C++ through evolutionary changes, to simplify its use, to achieve 
+                complete type-and-resource safety, to improve support for generic programming, to better support compile-time programming,
+                to extend support for concurrency and parallel programming, and to maintain stable support for decades’ old code.</p>
+                <p>The ISO C++ standard evolves through a consensus process. We try (not always successfully) to mitigate the effects
+                of design by committee, bureaucratic paralysis, and excessive enthusiasm for a variety of language fashions.</p>
+                <p>The talk will be given live online, followed by a live Q&A session.</p>"
   subtype: keynote
   language: en
   speakers: [10]
--
+ -
   id: 002
-  title: "Keynote by Walter E. Brown"
-  #place: "Weston::Auditorium"
-  description: "Keynote by Walter E. Brown, details to be announced soon"
-  speakers: [11]
-  subtype: keynote
-  language: en
- # presentation: "https://corecppil.github.io/CoreCpp2019/Keynotes/Jason_The_Best_Parts_Of_C++.pdf"
+  title: "Closing session"
+  description: "TBD"
 -
   id: 005
   title: "A lot of great C++ content!"
@@ -43,14 +50,8 @@
 -
   id: 102
   title: "Lunch"
-  place: "Economics::Lobby"
+#  place: "Economics::Lobby"
   service: true
--
-  id: 103
-  title: "Lightning Talks + Meetup"
-  place: "Weston::Auditorium"
-  service: true
-  presentation: "https://corecppil.github.io/CoreCpp2019/"
 -
   id: 104
   title: "Updates"
@@ -64,19 +65,10 @@
 -
   id: 106
   title: "Registration and Coffee"
-  place: "Economics::Lobby"
+#  place: "Economics::Lobby"
   service: true
 -
   id: 107
   title: "Coffee Break"
-  place: "Economics::Lobby"
-  service: true
--
-  id: 201
-  title: "Teaching C++: Panel"
-  place: "Weston Auditorium"
-  service: true
--
-  id: 202
-  title: "Teaching + Speakers Meet & Eat [Invitation only]"
+#  place: "Economics::Lobby"
   service: true

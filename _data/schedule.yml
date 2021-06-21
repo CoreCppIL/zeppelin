@@ -1,6 +1,6 @@
 - 
-  date: "2020-05-25"
-  dateReadable: "May 25"
+  date: "2021-08-24"
+  dateReadable: "Aug 24"
   tracks: 
     - {title: "Full-Day Workshops", color: "#90be4e"}
   timeslots: 
@@ -25,12 +25,11 @@
     	sessionIds: [107]
     }
 - 
-  date: "2020-05-26"
-  dateReadable: "May 26"
+  date: "2021-08-25"
+  dateReadable: "Aug 25"
   tracks: 
-    - {title: "Track 1 (en)", color: "#90be4e"}
-    - {title: "Track 2 (en)", color: "#03a9f4"}
-    - {title: "Track 3 (en/heb)", color: "#03a9f4"}
+    - {title: "Track 1", color: "#90be4e"}
+    - {title: "Track 2", color: "#03a9f4"}
 
   timeslots: 
     - {
@@ -40,90 +39,54 @@
     }
     - {
     	startTime: "09:00",
-    	endTime: "09:20",
-    	sessionIds: [099]
-    }
-    - {
-    	startTime: "09:20",
-    	endTime: "10:50",
-    	sessionIds: [001]
-    }
-    - {
-    	startTime: "11:05",
-    	endTime: "12:05",
-    	sessionIds: [005]
-    }
-    - {
-    	startTime: "12:20",
-    	endTime: "13:20",
-    	sessionIds: [005]
-    }
-    - {
-    	startTime: "13:20",
-    	endTime: "14:35",
-    	sessionIds: [102]
-    }
-    - {
-    	startTime: "14:35",
-    	endTime: "15:35",
-    	sessionIds: [005]
-    }
-    - {
-    	startTime: "15:50",
-    	endTime: "16:50",
-    	sessionIds: [005]
-    }
-
-- 
-  date: "2020-05-27"
-  dateReadable: "May 27"
-  tracks: 
-    - {title: "Track 1 (en)", color: "#90be4e"}
-    - {title: "Track 2 (en)", color: "#03a9f4"}
-    - {title: "Track 3 (en/heb)", color: "#03a9f4"}
-  timeslots: 
-    - {
-    	startTime: "08:00",
-    	endTime: "09:00",
-    	sessionIds: [106]
-    }
-    - {
-    	startTime: "09:00",
-    	endTime: "09:15",
-    	sessionIds: [104]
-    }
-    - {
-    	startTime: "09:30",
-    	endTime: "10:30",
-    	sessionIds: [005]
-    }
-    - {
-    	startTime: "10:45",
-    	endTime: "11:45",
-    	sessionIds: [005]
-    }
-    - {
-    	startTime: "12:00",
     	endTime: "13:00",
     	sessionIds: [005]
     }
     - {
     	startTime: "13:00",
-    	endTime: "14:15",
+    	endTime: "14:00",
     	sessionIds: [102]
     }
     - {
-    	startTime: "14:15",
-    	endTime: "15:15",
+    	startTime: "14:00",
+    	endTime: "16:30",
     	sessionIds: [005]
     }
     - {
-    	startTime: "15:30",
-    	endTime: "17:00",
-    	sessionIds: [002]
+    	startTime: "16:30",
+    	endTime: "18:00",
+    	sessionIds: [001]
+    }
+
+- 
+  date: "2021-08-26"
+  dateReadable: "Aug 26"
+  tracks: 
+    - {title: "Track 1", color: "#90be4e"}
+    - {title: "Track 2", color: "#03a9f4"}
+  timeslots: 
+    - {
+    	startTime: "08:00",
+    	endTime: "09:00",
+    	sessionIds: [106]
     }
     - {
-    	startTime: "17:00",
-    	endTime: "17:20",
-    	sessionIds: [105]
+    	startTime: "09:00",
+    	endTime: "13:00",
+    	sessionIds: [005]
+    }
+    - {
+    	startTime: "13:00",
+    	endTime: "14:00",
+    	sessionIds: [102]
+    }
+    - {
+    	startTime: "14:00",
+    	endTime: "16:30",
+    	sessionIds: [005]
+    }
+    - {
+    	startTime: "16:30",
+    	endTime: "18:00",
+    	sessionIds: [002]
     }

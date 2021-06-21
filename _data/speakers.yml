@@ -4,9 +4,9 @@
   surname: "Stroustrup"
   company: "Morgan Stanley"
   bio: >
-    <p>Bjarne Stroustrup is the designer and original implementer of C++ as well as the author of The C++
-    Programming Language (4 th Edition) and A Tour of C++ (2 nd edition), Programming: Principles and
-    Practice using C++ (2 nd Edition), and many popular and academic publications. Dr. Stroustrup is a
+    <p>Bjarne Stroustrup is the designer and original implementer of C++ as well as the author of <i>The C++
+    Programming Language (4th Edition)</i> and <i>A Tour of C++ (2nd edition)</i>, <i>Programming: Principles and
+    Practice using C++ (2nd Edition)</i>, and many popular and academic publications. Dr. Stroustrup is a
     Technical Fellow and Managing Director in the technology division of Morgan Stanley in New York City
     as well as a visiting professor at Columbia University. He is a member of the US National Academy of
     Engineering, and an IEEE, ACM, and CHM fellow. He is the recipient of the 2018 NAE Charles Stark
@@ -14,32 +14,13 @@
     in Bell Labs. His research interests include distributed systems, design, programming techniques,
     software development tools, and programming languages. To make C++ a stable and up-to-date base
     for real-world software development, he has been a leading figure with the ISO C++ standards effort for
-    30 years. He holds a master’s in Mathematics from Aarhus University and a PhD in Computer Science
+    30 years. He holds a master’s in Mathematics from Aarhus University, where he is an honorary professor in
+    the Computer Science Department, and a PhD in Computer Science
     from Cambridge University, where he is an honorary fellow of Churchill College.</p>
     <p><a href=http://www.stroustrup.com>www.stroustrup.com</a></p>
   thumbnailUrl: BjarneStroustrup.jpg
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/stroustrup"}
-  ribbon:
-    - {title: "Keynote"}
--
-  id: 11
-  name: "Walter"
-  surname: "E. Brown"
-  company: ""
-  title: ""
-  bio: >
-    <p>With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a
-    C++ programmer for nearly 40 of his 55 programming years. He joined the C++ standards effort in 2000, and
-    has since written almost 170 proposal papers. Among numerous other contributions, he is responsible for
-    introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t,
-    and &lt;cmath&gt;'s mathematical special functions, as well as all of the &lt;random&gt; and &lt;ratio&gt; headers.
-    He has also significantly impacted such C++ core language features as alias templates, contextual
-    conversions, variable templates, static_assert, and the new C++20 operator&lt;=&gt; (the spaceship operator).</p>
-    <p>When not playing with his grandchildren, Dr. Brown is an Emeritus participant in the C++ standards
-    process, with several more proposals under consideration.</p>
-  thumbnailUrl: WalterEBrown.jpg
-  rockstar: true
   ribbon:
     - {title: "Keynote"}
