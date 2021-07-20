@@ -39,3 +39,153 @@
     - {name: "twitter", link: "https://twitter.com/zodiacon"}
   ribbon:
     - {title: "Keynote"}
+-
+  id: 12
+  name: "Dvir"
+  surname: "Yitzchaki"
+  bio: >
+    <p>A senior software engineer at Verizon Media/Yahoo, where he works on Video streaming solutions.
+    Part of the Israeli ISO C++ national body. Loves everything that starts with C: Core C++ Conan
+    CMake Catch CI CD and Chubby Checker.</p>
+  thumbnailUrl: DvirYitzchaki.jpeg
+-
+  id: 13
+  name: "Roi"
+  surname: "Barkan"
+  bio: >
+    <p>Professional software developer and architect since 2000, my main focus throughout my career was on high performance
+    and distributed systems, implementing complex and innovative algorithms. I've been VP technologies of Istra
+    Research since 2014, where I help creating low latency financial systems.</p>
+-
+  id: 14
+  name: "Avi"
+  surname: "Lachmish"
+  bio: >
+    <p>I am an expert in Web and networking technologies, operating systems, and software development methodologies.
+    I have extensive experience in C++, object-oriented analysis and design and distributed architecture.</p>
+-
+  id: 15
+  name: "Yehezkel"
+  surname: "Bernat"
+  bio: >
+    <p>Yehezkel is a SW engineer at Microsoft. He is also TA in Hadassah college (Jerusalem) for OOP course.
+    Yehezkel likes C++ very much and and is happy for any chance to teach it, discuss it and learn new things about it.</p>
+  thumbnailUrl: YehezkelBernat.jpg
+-
+  id: 16
+  name: "Dan"
+  surname: "Raviv"
+  bio: ""
+-
+  id: 17
+  name: "Shachar"
+  surname: "Langbeheim"
+  bio: >
+    <p>Professional software developer by day and amateur game developer by night, I'm a generalist programmer,
+    with a wide experience, spanning VR, A/V encoding/decoding, and frontend/backend work.</p> 
+-
+  id: 18
+  name: "Alex"
+  surname: "Dathskovsky"
+  bio: >
+    <p>Alex Dathskovsky has over 15 years of software development experience, working on systems,
+    low-level generic tools and high-level applications. Alex has worked as an integration/software
+    developer at Elbit, senior software developer at Rafael, technical leader at Axxana and is now a Software
+    Department Manager and technical leader at Abbot. On his current job, Alex is working in the field of image
+    processing, constructing a map of the heart based on ultrasound images (without intrusive examinations).
+    His job includes working with tools such as CUDA and IPP for vector optimization.</p>
+    <p>Alex is a C++ expert with a strong experience in template meta-programming. Alex also teaches a course
+    about the new features of modern C++, trying to motivate companies to move to the latest standards.</p>
+-
+  id: 19
+  name: "Alex"
+  surname: "Cohn"
+  company: "Reblaze"
+  bio: >
+    <p>Alex fell in love with C++ 30 years ago and enjoy this union ever since. For the last few years, Alex is
+    mainly involved in mobile development (Android and iOS) and it's a great feeling that the development experience
+    on these platforms becomes richer when it involves C++. His current job is related to cyber-security.</p>
+  thumbnailUrl: AlexCohn.jpg
+-
+  id: 20
+  name: "Dafna"
+  surname: "Mordechai"
+  bio: >
+    <p>Dafna has extensive experience in designing, implementing, and testing software systems on various
+    architectures, from microcontrollers to high-performance computing systems. Dafna is passionate about
+    technology and love sharing her knowledge with others by giving lectures, tech-blogging and taking
+    part in meetups and other tech related events.</p> 
+-
+  id: 21
+  name: "Yossi"
+  surname: "Moalem"
+  bio: >
+    <p>Yossi is a SrPrincipal Software Dev Engineer at Fortinet. He has over 15 years of experience as a
+    professional programmer, mainly in C/C++. Yossi considers the standard as light reading and spends
+    all his spare time learning new technologies and methodologies (much to the delight of his wife!!).
+    He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy
+    code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
+  thumbnailUrl: YossiMoalem.jpg
+-
+  id: 22
+  name: "Inbal"
+  surname: "Levi"
+  bio: >
+    <p></p> 
+-
+  id: 23
+  name: "Michael"
+  surname: "Peeri"
+  bio: >
+    <p>A C++ programmer with 15 years of industry experience working on the server side. Currently doing
+    a PhD in computational biology / systems biology, which means I do statistical analysis of genomic
+    data (mainly using Python/R) and I have experience implementing numerical algorithms.
+    I am an embedded programming enthusiast.</p>
+-
+  id: 24
+  name: "Ofek"
+  surname: "Shilon"
+  bio: >
+    <p>C++ developer, manager and blogger for 15y. Manages a continuous love-hate relationship with the language.<p>
+    <p><a href='https://ofekshilon.com/'>www.ofekshilon.com</a></p> 
+-
+  id: 25
+  name: "Haggai"
+  surname: "Eran"
+  bio: >
+    <p>Haggai Eran is a PhD student at the Technion. His research focuses on networking application acceleration
+    and SmartNICs. Eran also works as a Staff Architect at Mellanox Technologies, where he has worked on host
+    networking acceleration, RDMA, and SmartNIC abstractions.</p>
+  thumbnailUrl: HaggaiEran.jpg
+-
+  id: 26
+  name: "Shachar"
+  surname: "Shemesh"
+  bio: >
+    <p>Over 25 years of professional C++ experience, and 20 as an Open Source developer. Career included
+    working for the security industry as CheckPoint's main security focus point, doing high throughput
+    network programming for Akamai Technologies, as well as low latency storage, developing Weka.IO's RAID component.</p>
+    <p>Today is working for DriveU, developing low latency system for remote driving autonomous cars via cellular networks.</p>
+    <p>Among my open source projects: rsyncrypto (rsync friendly symmetric encryption protocol), fakeroot-ng
+    (simulating root privileges using ptrace to fake system call results) and the Practical programming language
+    (a new, general purpose, programming language).</p>
+-
+  id: 27
+  name: "Maayan"
+  surname: "Shoval"
+  bio: >
+    <p></p>
+-
+  id: 28
+  name: "Tamir"
+  surname: "Bahar"
+  bio: >
+    <p></p> 
+-
+  id: 29
+  name: "Muhammad"
+  surname: "Zahalqa"
+  bio: >
+    <p>20 Years experience in software R&D including development, managing, mentoring & training and consulting. Main
+    areas of expertise: C++ and multithreaded distributed systems.</p>
+    <p><a href='https://il.linkedin.com/in/muhammadz'>https://il.linkedin.com/in/muhammadz</a></p>

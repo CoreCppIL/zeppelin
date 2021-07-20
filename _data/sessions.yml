@@ -98,3 +98,211 @@
   subtype: keynote
   language: en
   speakers: [11]
+-
+  id: 202
+  title: "The many faces of Number &lt;--&gt; String conversions"
+  desrciptioin: "<p>C++ inherited several library functions from C dealing with such conversions and has kept adding
+                 more on almost every new standard, the latest examples being to/from_chars from C++17
+                 and C++20’s format library. This didn’t stop non-standard libraries, like Boost, from offering even more ways to do those conversions.</p>
+                 <p>In this talk we will explore</p>
+                 <ul>
+                  <li>std::atoi</li>
+                  <li>std::sprintf</li>
+                  <li>std::stoi</li>
+                  <li>std::to_string</li>
+                  <li>std::from_chars</li>
+                  <li>boost::lexical_cast</li>
+                  <li>scn::scan</li>
+                </ul>
+                <p>and more. We will try to understand why the number-string conversion problem is being solved repeatedly,
+                compare the API, implementation and performance of these utilities and if time allows,
+                see how different languages deal with this task.</p>"
+  language: en
+  speakers: [12]
+-
+  id: 203
+  title: "Argument Passing, Core Guidelines, and Aliasing"
+  desrciptioin: "<p>Core guidelines recommend passing objects to functions differently based on whether they are 'cheaply copyable'.
+                 Last year, Herb Sutter put a spotlight on the importance of simple and correct methodology for such argument passing.</p>
+                 <p>In this talk, I will present the considerations for passing input arguments to functions. I will introduce and
+                 examine guidelines, describe their reasoning and present benchmarks that emphasize the importance of this topic.
+                 Special attention will be given to the notion of aliasing, which is often overlooked.</p>"
+  language: en
+  speakers: [13]
+-
+  id: 204
+  title: "Writing a cache-friendly C++ code"
+  desrciptioin: "<p>Understand how system cache effects your code, Good practices of how to tune your software.
+                 Plan and design a Fast, Efficient, Cache-friendly Hash</p>"
+  language: he
+  speakers: [14]
+-
+  id: 205 
+  title: "Constant evolution of constexpr"
+  desrciptioin: "<p>Templates were proven to be Turing-complete, which means we can compute everything in compile time
+                 using template meta-programming (TMP). Still, it inconvenient, hard to write, read or maintain.
+                 In this talk we will walk through the evolution of compile-time computation starting with C++11
+                 and further in C++14, 17 and 20, and see how things that were for experts-only became so simple
+                 that even the presenter can use. We will discuss things like constexpr, improvements for templates
+                 and of course, we'll touch concepts. The audience is expected to know the basics about templates</p>"
+  language: he
+  speakers: [15]
+-
+  id: 206
+  title: "std::unfamiliar"
+  desrciptioin: "<p>Get to know some less known classes and functions in the standard library, the rationale
+                    for them as well as some design mistakes.</p>"
+  language: en
+  speakers: [16]
+-
+  id: 207
+  title: "Video Rendering on Frontend and Backend"
+  desrciptioin: "<p>Writing C++ code that works both in the frontend and backend of a web service is easier than ever.
+                 Tools like Emscripten make compilation to WebAssembly a simple process, but finding an architecture
+                 which integrates optimally with the browser isn't so simple.</p>
+                 <p>In this talk I'll go over a basic overview of working with WebAssembly, and how the architecture
+                 of our video render engine was adapted to handle both the requirements of our backend and frontend.</p>"
+  language: en
+  speakers: [17]  
+-
+  id: 208
+  title: "C++17 key features"
+  desrciptioin: "<p>This talk will discuss the key features and changes that were added in C++17 and will open up
+                 to a short discussion about each one.</p>"
+  language: en
+  speakers: [18]
+-
+  id: 209
+  title: "Obfuscation and beyond: securing your binary"
+  desrciptioin: "<p>You wrote your code, you complied and deployed it. Now this binary may get exposed to hostile attacks:
+                 hackers may try extract your precious secrets from it, or abuse it – for fun or profit. Luckily,
+                 you can protect your 'child', and C++ has a lot to do with that. You will learn about some techniques
+                 and tools that can help you to deliver a hardened software product that can resist reverse
+                 engineering – without reinventing the wheel.</p>"
+  language: en
+  speakers: [19]  
+-
+  id: 210
+  title: "The MLIR Framework: A Brief Introduction to Deep Learning Compilers"
+  desrciptioin: "<p>Deep learning defines a new programming paradigm. No more coding of predefined algorithmic rules,
+                 but rather defining architectures that will allow the data itself to carve the pathways to our desired model.</p>
+                 <p>In addition, Neural Networks train on huge amounts of data that needs to flow through the system as quickly
+                 as possible. This demand sets a high bar for hardware performance, and is done by dedicated supercomputers.</p>
+                 <p>This programming paradigm, alongside the dedicated types of hardware creates a new set of problems for
+                 compiler engineers. New computing systems require new tools, one of them is MLIR. This talk will introduce
+                 MLIR, an open source framework for building compiler infrastructure. There is no need for prior knowledge
+                 in compilation or deep learning, just some curiosity and a desire to dive deep.</p>"
+  language: he
+  speakers: [20]
+-
+  id: 211
+  title: "Don’t do what I did"
+  desrciptioin: "<p>In over 15 years as a professional programmer, I worked for several companies. I was part of, and led
+                 several projects that were big successes, and I am always happy to talk about them in meetups, conferences
+                 and job interviews. However, I also had some big failures. As I believe that we can learn a lot more from
+                 failures, in this talk I would like to share with you some of my worst failures. This talk is not about
+                 misuse of language features, or implementation bugs. It is more about design and architecture errors,
+                 and about fix management. How to introduce new features and fixes into the system, in a safe manner.</p>"
+  language: en
+  speakers: [21]  
+-
+  id: 212
+  title: "Ownership model in C++ and beyond"
+  desrciptioin: "<p></p>"
+  language: en
+  speakers: [22]  
+-
+  id: 213
+  title: "C++ on the Edge – Machine Learning + Microcontrollers + C++"
+  desrciptioin: "<p>Microcontrollers are increasingly used to perform complex processing of sensor data, and this enable
+                 new applications in which server-based processing is not practical due to network bandwidth, latency
+                 or privacy constraints. This means there is a growing need for developing and running complex numerical,
+                 DSP and machine learning algorithms on platforms much smaller than a mobile phone. C++ is uniquely
+                 suited to this domain, and this should be a growth area in an environment where sensors are distributed
+                 everywhere and common microcontrollers have FPUs and DSP instructions.</p>
+                 <p>This talk lies on the intersection between microcontrollers, numerical/Machine Learning algorithms,
+                 and modern C++ features. It will follow the implementation of a software-defined radar, which uses a
+                 microcontroller to control and process data coming from a radar sensor and to classify objects in
+                 real time. I will present the system but focus on how C++ features were applied.</p>
+                 <p>I will try to present a critical view of modern C++ style applied to the microcontroller world,
+                 and discuss the benefits as well as hurdles encountered in this setting.</p>"
+  language: en
+  speakers: [23]
+-
+  id: 214
+  title: "opt-viewer: Inspecting compiler optimizations in high-level code"
+  desrciptioin: "<p>How can you tell if a function was inlined? How do you know whether a variable was optimized out?
+                 A typical developer would say that, regrettably, one must look on disassembly - but for 5 years now,
+                 this answer is incorrect. Enter opt-viewer: a little known LLVM tool that generates concise,
+                 actionable optimization reports as source code markup. If you care about performance, you should
+                 probably know this tool (and if not, you should probably change your programming language to something other than C++).</p>"
+  language: en
+  speakers: [24]  
+-
+  id: 215
+  title: "Design Patterns for Hardware Packet Processing on FPGAs"
+  desrciptioin: "<p>Field-Programmable Gate Arrays (FPGAs) are hardware devices that can be programmed to run different hardware
+                 circuits, balancing the performance of hardware with the flexibility of software. Typically, hardware designers
+                 develop circuits for FPGAs in hardware description languages (HDLs), but High-Level Synthesis (HLS)
+                 allows development of hardware circuits in high-level languages such as C++. Naturally, HLS tools
+                 come with restrictions and limitations: not every C++ construct can be synthesized into efficient hardware.</p>
+                 <p>This talk presents some of these limitations, focusing on the Xilinx Vivado HLS compiler. It then shows
+                 design patterns that allow circumventing these limitations, allowing developers to build high performance
+                 hardware using HLS in C++, focusing on the ability to develop reusable code. As examples, we will see two
+                 networking applications: a stateless UDP firewall, and a key-value store SmartNIC-based cache, both
+                 processing packets at 40 Gbps line-rate.</p>"
+  language: en
+  speakers: [25]  
+-
+  id: 216
+  title: "C++ Integer Promotion is Completely Broken"
+  desrciptioin: "<p>C++ have implicit Integer conversion rules designed to serve the purpose of the C programming language
+                 from which C++ inherited them. These rules leave way too much up for the compiler's static analysis
+                 (best case) or the programmer (worst case) to detect. While not frequently, misunderstanding those
+                 rules may result in serious, hard to spot, bugs.</p>
+                 <p>In this lecture we will go over the way C, C++, Rust and D treat integer promotion, and see
+                 how they, essentially, leave the problem unsolved. </p>
+                 <p>We will also look at the way Practical, a language at its infancy, solves this problem. We will also
+                 look at some far-reaching implications to areas such as user-defined types and function
+                 overloading that those changes made.</p>"
+  language: en
+  speakers: [26]
+-
+  id: 217
+  title: "Lint Behind the Scenes"
+  desrciptioin: "<p>We all make mistakes. Mistyping variable names, forgetting a closing bracket, calling a function with
+                 the wrong number of arguments or writing buggy code. The list goes on and on. If you are a software
+                 engineer you are probably familiar with those problems. Linter is the tool that helps identify
+                 those problems in your code.</p>
+                 <p>In this talk we will discover how lint is a part of an everyday IDE usage and how it is used
+                 for code analysis of a program. We will go behind the scenes to see how a linter actually works,
+                 what it has to do with the phases of a compiler and in comparison, we'll see how it is applicable in hardware.</p>
+                 <p>Let’s discover the power of lint together</p>"
+  language: en
+  speakers: [27]  
+-
+  id: 218
+  title: "Implementing C++ Semantics in Python"
+  desrciptioin: "<p>Coding in Python, I often find myself reaching for C++ features and techniques.</p>
+                 <p>Deterministic destructors and RAII, for example, are wonderful C++ constructs with no
+                 true equivalent in Python (or most any Garbage Collected language, for that matter).</p>
+                 <p>The semantics around object lifetimes are just too different.</p>
+                 <p>But what if we could bring C++’s destructors into Python? What if we could bring more semantics?</p>
+                 <p>In this talk I will present a library that does exactly that. We will bring destructors,
+                 function overloading, member access specifiers, and more into Python. You will see the implementation
+                 of each feature, and all the dirty tricks used to make them work.</p>
+                 <p>By replicating parts of C++ in Python, we will also gain a better understanding of C++’s
+                 semantics and the interactions between different language features.</p>
+                 <p>Existing Python knowledge is not required; we will cover all the relevant syntax
+                 and semantics during the talk.</p>"
+  language: en
+  speakers: [28]  
+-
+  id: 219
+  title: "Modern Design Patterns with Modern C++"
+  desrciptioin: "<p>C++20 enables an elegant implementation of known design patterns.</p>"
+  language: he
+  speakers: [29]
+-
+  id: 220
+  title: "Preparing for a C++ interview - the guide for the beginner"
