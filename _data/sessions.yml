@@ -39,7 +39,7 @@
   service: true
 -
   id: 099
-  title: "Welcome to Core C++ 2020!"
+  title: "Welcome to Core C++ 2021!"
   #place: "Weston::Auditorium"
   subtype: keynote
   service: true
@@ -72,3 +72,28 @@
   title: "Coffee Break"
 #  place: "Economics::Lobby"
   service: true
+-
+  id: 108
+  title: "Great C++ talk (60 min)"
+#  place: "Economics::Lobby"
+-
+  id: 109
+  title: "Great C++ talk (60 min)"
+#  place: "Economics::Lobby" 
+-
+  id: 110
+  title: "Great C++ talk (30 min)"
+#  place: "Economics::Lobby"
+-
+  id: 111
+  title: "Great C++ talk (30 min)"
+#  place: "Economics::Lobby" 
+-
+  id: 201
+  title: "C++ 20 Overview: The Big Four"
+  desrciptioin: "<p>C++20 invludes many improvements, with the four big features: concepts, modules,
+                    coroutines and ranges. In this talk, we'll see how these fit into the language and libraries,
+                    common use cases, and lots of code examples. By the end of this talk, you'll have a firm
+                    grasp of the power of C++ 20, and how your coding practices can adapt to leverage these new abilities.</p>
+  subtype: keynote
+  speakers: [11]
