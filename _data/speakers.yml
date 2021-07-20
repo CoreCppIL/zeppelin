@@ -17,7 +17,7 @@
     30 years. He holds a master’s in Mathematics from Aarhus University, where he is an honorary professor in
     the Computer Science Department, and a PhD in Computer Science
     from Cambridge University, where he is an honorary fellow of Churchill College.</p>
-    <p><a href=https://www.stroustrup.com/>www.stroustrup.com</a></p>
+    <p><a href='https://www.stroustrup.com/'>www.stroustrup.com</a></p>
   thumbnailUrl: BjarneStroustrup.jpg
   rockstar: true
   social:
@@ -32,8 +32,8 @@
     <p>Pavel is a trainer, developer, author and speaker. He's co-author of "Windows Internals, 7th edition Part 1",
     author of "Windows Kernel Programming" and "WPF 4.5 Cookbook". He's also a Pluralsight author. Pavel maintains a
     Github repo with open source tools useful for a deeper look at Windows. He can be reached via twitter
-    <a href=https://twitter.com/zodiacon/>@zodiacon</a> or his blog (<a href=https://scorpiosoftware.net/>scorpiosoftware.net</a>)</p>
-  thumbnailUrl: PavelYosifich.png
+    <a href='https://twitter.com/zodiacon/'>@zodiacon</a> or his blog (<a href='https://scorpiosoftware.net'/>scorpiosoftware.net</a>)</p>
+  thumbnailUrl: PavelYosifovich.png
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/zodiacon"}
