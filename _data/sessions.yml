@@ -128,6 +128,7 @@
                  examine guidelines, describe their reasoning and present benchmarks that emphasize the importance of this topic.
                  Special attention will be given to the notion of aliasing, which is often overlooked.</p>"
   language: en
+  complexity: "Beginner, Intermediate"
   speakers: [13]
 -
   id: 204
@@ -135,6 +136,7 @@
   description: "<p>Understand how system cache effects your code, Good practices of how to tune your software.
                  Plan and design a Fast, Efficient, Cache-friendly Hash</p>"
   language: he
+  complexity: "Intermediate, Advanced"
   speakers: [14]
 -
   id: 205 
@@ -146,6 +148,7 @@
                  that even the presenter can use. We will discuss things like constexpr, improvements for templates
                  and of course, we'll touch concepts. The audience is expected to know the basics about templates</p>"
   language: he
+  complexity: "Beginner, Intermediate"
   speakers: [15]
 -
   id: 206
@@ -153,6 +156,7 @@
   description: "<p>Get to know some less known classes and functions in the standard library, the rationale
                     for them as well as some design mistakes.</p>"
   language: en
+  complexity: "Intermediate"
   speakers: [16]
 -
   id: 207
@@ -170,6 +174,7 @@
   description: "<p>This talk will discuss the key features and changes that were added in C++17 and will open up
                  to a short discussion about each one.</p>"
   language: en
+  complexity: "Intermediate"
   speakers: [18]
 -
   id: 209
@@ -180,6 +185,7 @@
                  and tools that can help you to deliver a hardened software product that can resist reverse
                  engineering – without reinventing the wheel.</p>"
   language: en
+  complexity: "Intermediate, Advanced"
   speakers: [19]  
 -
   id: 210
@@ -193,6 +199,7 @@
                  MLIR, an open source framework for building compiler infrastructure. There is no need for prior knowledge
                  in compilation or deep learning, just some curiosity and a desire to dive deep.</p>"
   language: he
+  complexity: "Beginner, Intermediate"
   speakers: [20]
 -
   id: 211
@@ -204,12 +211,14 @@
                  misuse of language features, or implementation bugs. It is more about design and architecture errors,
                  and about fix management. How to introduce new features and fixes into the system, in a safe manner.</p>"
   language: en
+  complexity: "Intermediate"
   speakers: [21]  
 -
   id: 212
   title: "Ownership model in C++ and beyond"
   description: "<p></p>"
   language: en
+  complexity: "Beginner, Intermediate"
   speakers: [22]  
 -
   id: 213
@@ -237,6 +246,7 @@
                  actionable optimization reports as source code markup. If you care about performance, you should
                  probably know this tool (and if not, you should probably change your programming language to something other than C++).</p>"
   language: en
+  complexity: "Intermediate"
   speakers: [24]  
 -
   id: 215
@@ -252,6 +262,7 @@
                  networking applications: a stateless UDP firewall, and a key-value store SmartNIC-based cache, both
                  processing packets at 40 Gbps line-rate.</p>"
   language: en
+  complexity: "Intermediate, Advanced"
   speakers: [25]  
 -
   id: 216
@@ -266,6 +277,7 @@
                  look at some far-reaching implications to areas such as user-defined types and function
                  overloading that those changes made.</p>"
   language: en
+  complexity: "Intermediate, Advanced"
   speakers: [26]
 -
   id: 217
@@ -279,6 +291,7 @@
                  what it has to do with the phases of a compiler and in comparison, we'll see how it is applicable in hardware.</p>
                  <p>Let’s discover the power of lint together</p>"
   language: en
+  complexity: "Beginner"
   speakers: [27]  
 -
   id: 218
@@ -296,6 +309,7 @@
                  <p>Existing Python knowledge is not required; we will cover all the relevant syntax
                  and semantics during the talk.</p>"
   language: en
+  complexity: "Intermediate"
   speakers: [28]  
 -
   id: 219
