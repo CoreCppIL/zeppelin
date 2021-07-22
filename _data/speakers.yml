@@ -78,25 +78,36 @@
   surname: "Raviv"
   bio: ""
 -
+  id: 22
+  name: "Inbal"
+  surname: "Levi"
+  thumbnailUrl: InbalLevi.jpg
+  bio: >
+    <p>Inbal Levi is a software engineer who cares about performance and optimizations as well as great design and abstraction, which makes her a C++ enthusiast.
+    She's a director at the Isocpp Foundation, a co-chair of Library Evolution Work Group, and the chair of SG9 (Ranges Group), as well as the head of the WG21 Israeli NB.
+    She's also one of the organizers of CoreCpp meetup & Conference.</p>
+    <p>In addition to C++, she's also enthusiastic about mathematics, science, and airplanes.</p>
+-
   id: 17
   name: "Shachar"
   surname: "Langbeheim"
   bio: >
     <p>Professional software developer by day and amateur game developer by night, I'm a generalist programmer,
-    with a wide experience, spanning VR, A/V encoding/decoding, and frontend/backend work.</p> 
+    with a wide experience, spanning VR, A/V encoding/decoding, and frontend/backend work.</p>
+  thumbnailUrl: ShacharLangbeheim.jpeg
 -
   id: 18
   name: "Alex"
   surname: "Dathskovsky"
   bio: >
-    <p>Alex Dathskovsky has over 15 years of software development experience, working on systems,
-    low-level generic tools and high-level applications. Alex has worked as an integration/software
-    developer at Elbit, senior software developer at Rafael, technical leader at Axxana and is now a Software
-    Department Manager and technical leader at Abbot. On his current job, Alex is working in the field of image
-    processing, constructing a map of the heart based on ultrasound images (without intrusive examinations).
-    His job includes working with tools such as CUDA and IPP for vector optimization.</p>
-    <p>Alex is a C++ expert with a strong experience in template meta-programming. Alex also teaches a course
-    about the new features of modern C++, trying to motivate companies to move to the latest standards.</p>
+    <p>Alex is a C++ expert, developer, trainer, and speaker with a strong experience in template
+    meta-programming and modern C++. He is a C++ evangelist that motivates companies to move to the
+    most modern standard. He has more than 15 years of development and management in fields such as
+    storage, signal processing, and image processing.</p>
+    <p>Alex is a team lead at <a href='https://www.speedata.io/'>speedata.io</a>, an exciting startup that builds
+    a novel accelerator for big data computations. At speedata, Alex is using the latest C++ features
+    to develop the accelerator's software stack.</p>
+  thumbnailUrl: AlexDathskovsky.jfif
 -
   id: 19
   name: "Alex"
@@ -127,13 +138,6 @@
     He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy
     code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
   thumbnailUrl: YossiMoalem.jpg
--
-  id: 22
-  name: "Inbal"
-  surname: "Levi"
-  thumbnailUrl: InbalLevi.jpg
-  bio: >
-    <p></p> 
 -
   id: 23
   name: "Michael"
