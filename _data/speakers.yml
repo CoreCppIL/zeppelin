@@ -64,6 +64,17 @@
   bio: >
     <p>I am an expert in Web and networking technologies, operating systems, and software development methodologies.
     I have extensive experience in C++, object-oriented analysis and design and distributed architecture.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 22
+  name: "Inbal"
+  surname: "Levi"
+  thumbnailUrl: InbalLevi.jpg
+  bio: >
+    <p>Inbal Levi is a software engineer who cares about performance and optimizations as well as great design and abstraction, which makes her a C++ enthusiast.
+    She's a director at the Isocpp Foundation, a co-chair of Library Evolution Work Group, and the chair of SG9 (Ranges Group), as well as the head of the WG21 Israeli NB.
+    She's also one of the organizers of CoreCpp meetup & Conference.</p>
+    <p>In addition to C++, she's also enthusiastic about mathematics, science, and airplanes.</p>
 -
   id: 15
   name: "Yehezkel"
@@ -77,16 +88,7 @@
   name: "Dan"
   surname: "Raviv"
   bio: ""
--
-  id: 22
-  name: "Inbal"
-  surname: "Levi"
-  thumbnailUrl: InbalLevi.jpg
-  bio: >
-    <p>Inbal Levi is a software engineer who cares about performance and optimizations as well as great design and abstraction, which makes her a C++ enthusiast.
-    She's a director at the Isocpp Foundation, a co-chair of Library Evolution Work Group, and the chair of SG9 (Ranges Group), as well as the head of the WG21 Israeli NB.
-    She's also one of the organizers of CoreCpp meetup & Conference.</p>
-    <p>In addition to C++, she's also enthusiastic about mathematics, science, and airplanes.</p>
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 17
   name: "Shachar"
@@ -127,6 +129,7 @@
     architectures, from microcontrollers to high-performance computing systems. Dafna is passionate about
     technology and love sharing her knowledge with others by giving lectures, tech-blogging and taking
     part in meetups and other tech related events.</p> 
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 21
   name: "Yossi"
@@ -147,6 +150,7 @@
     a PhD in computational biology / systems biology, which means I do statistical analysis of genomic
     data (mainly using Python/R) and I have experience implementing numerical algorithms.
     I am an embedded programming enthusiast.</p>
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 24
   name: "Ofek"
@@ -154,6 +158,7 @@
   bio: >
     <p>C++ developer, manager and blogger for 15y. Manages a continuous love-hate relationship with the language.<p>
     <p><a href='https://ofekshilon.com/'>www.ofekshilon.com</a></p> 
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 25
   name: "Haggai"
@@ -175,18 +180,21 @@
     <p>Among my open source projects: rsyncrypto (rsync friendly symmetric encryption protocol), fakeroot-ng
     (simulating root privileges using ptrace to fake system call results) and the Practical programming language
     (a new, general purpose, programming language).</p>
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 27
   name: "Maayan"
   surname: "Shoval"
   bio: >
     <p></p>
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 28
   name: "Tamir"
   surname: "Bahar"
   bio: >
     <p></p> 
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 29
   name: "Muhammad"
@@ -195,6 +203,7 @@
     <p>20 Years experience in software R&D including development, managing, mentoring & training and consulting. Main
     areas of expertise: C++ and multithreaded distributed systems.</p>
     <p><a href='https://il.linkedin.com/in/muhammadz'>https://il.linkedin.com/in/muhammadz</a></p>
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 30
   name: "Amit"
