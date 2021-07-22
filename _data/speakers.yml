@@ -195,3 +195,19 @@
     <p>20 Years experience in software R&D including development, managing, mentoring & training and consulting. Main
     areas of expertise: C++ and multithreaded distributed systems.</p>
     <p><a href='https://il.linkedin.com/in/muhammadz'>https://il.linkedin.com/in/muhammadz</a></p>
+-
+  id: 30
+  name: "Amit"
+  surname: "Barzilay"
+  bio: >
+    <p>I hold a BSc in Computer Science from the Academic College of Tel Aviv-Yafo. Currently working as a
+    Software Engineer in C++ at Waves Audio company. I have a great passion for programming and a strong
+    belief in its ability to bring progress to the world.</p>
+  thumbnailUrl: AmitBarzilay.jpeg
+-
+  id: 31
+  name: "Amir"
+  surname: "Kirsh"
+  bio: >
+    <p></p>
+  thumbnailUrl: AmirKirsh.jpg
