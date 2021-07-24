@@ -129,7 +129,7 @@
     architectures, from microcontrollers to high-performance computing systems. Dafna is passionate about
     technology and love sharing her knowledge with others by giving lectures, tech-blogging and taking
     part in meetups and other tech related events.</p> 
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: DafnaMordechai.jpg
 -
   id: 21
   name: "Yossi"
@@ -186,8 +186,11 @@
   name: "Maayan"
   surname: "Shoval"
   bio: >
-    <p></p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Maayan Shoval is a software engineer who is passionate about algorithms and the wonder of operating systems.</p>
+    <p>For 5 years she has focused on the world of compilation and lint at Intel.</p>
+    <p>She has a B.Sc. in Computer Science from the Technion, and in her spare time Maayan is either competing in hackathons,
+    judging in tech competitions or surfing at the beach.</p>
+  thumbnailUrl: MaayanShoval.jpg
 -
   id: 28
   name: "Tamir"
