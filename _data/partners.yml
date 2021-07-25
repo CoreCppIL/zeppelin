@@ -8,16 +8,17 @@
   group: "Gold Sponsors"
   elements: 
     - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
-#    - {name: "Cybereason", description: "", link: "", imageUrl: ""}
+    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason.svg"}
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
 #    - {name: "Autodesk", description: "Autodesk is a world leader in 2D and 3D design, providing engineering and entertainment software solutions for the manufacturing, construction, media and entertainment markets.", link: "http://autodesktlv.com", imageUrl: "autodesk_logo.svg"}
 #    - {name: "Eyeway", description: "ALL IS ILLUMINATED", link: "http://www.eyeway-vision.com/", imageUrl: "LOGOEYEWAY.svg"}
 #    - {name: "J.P.Morgan", description: "", link: "https://jobs.jpmorganchase.com/ListJobs/ByCountry/IL/", imageUrl: "jpmorgan-logo.png"}
 #    - {name: "Symantec", description: "Enterprise Security & Network Protection Products", link: "https://www.symantec.com/", imageUrl: "Symantec_logo10.svg"}
 #    - {name: "Infinity Labs R&D", description: "We transform university graduates with zero experience into experienced top-tier software developers", link: "https://infinitylabs.co.il", imageUrl: "infinity-logo.svg"}    
-#- 
-#  group: "Silver Sponsors"
-#  elements: 
+- 
+  group: "Silver Sponsors"
+  elements: 
+    - {name: "Vayyar", description: "Our groundbreaking 4D imaging radar sensors are being used by several of the biggest companies across the globe in many industries from elderly care and automotive to smart buildings, retail, DIY and more!", link: "https://vayyar.com/", imageUrl: "vayyar.svg"}
 #    - {name: "Final", description: "Final is a leading algorithmic developing trading algorithms based on mathematical models, statistics and machine learning.", link: "http://www.final.co.il", imageUrl: "final_logo.svg"}
 #    - {name: "Algotech", description: "Algotec's Carestream PACS products enable healthcare organizations to store, manage, distribute, review, compare and process medical images as well as clinical and administrative data, and to control these processes through the Web. ", link: "https://www.carestream.com/en/us", imageUrl: "Algotec_Logo.png"}
 #    - {name: "Kistler", description: "Kistler is the global leader in dynamic measurement technology for measuring pressure, force, torque and acceleration", link: "https://www.kistler.com/en/", imageUrl: "kistler.png"}
