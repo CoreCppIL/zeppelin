@@ -334,4 +334,12 @@
 -
   id: 220
   title: "Understanding and mastering C++'s complexities"
+  description: "<p>You probably write in C++ not because it is the simplest available language. There are other
+                attributes C++ brings: efficiency, low footprint, direct memory access, enhanced control over
+                runtime behavior, and more. In &quot;The Design and Evolution of C++&quot;, Bjarne Stroustrup explains
+                the design decisions taken since the language was conceived and during its evolution. What makes
+                C++ powerful? How has C++ survived more than 4 decades, while other languages have disappeared into
+                oblivion? Why do we still use C++ (and will we still be using it in a decade from now)? And most
+                importantly, why it is not so complicated after all, and even becomes easier to use over time!
+                Our goal in this talk is to assure you that mastering C++ is doable, then motivate you to do so.</p>"
   speakers: [30, 31]

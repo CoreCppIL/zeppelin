@@ -221,5 +221,7 @@
   name: "Amir"
   surname: "Kirsh"
   bio: >
-    <p></p>
+    <p>Amir Kirsh is a Lecturer at the Academic College of Tel-Aviv-Yaffo and a Dev Advocate at Incredibuild.
+    Amir is also one of the organizers of the CoreCpp conference and meetup and a member of the Israeli
+    ISO C++ National Body Discussion Group.</p>
   thumbnailUrl: AmirKirsh.jpg
