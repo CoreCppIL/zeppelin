@@ -152,11 +152,25 @@
   speakers: [15]
 -
   id: 206
-  title: "std::unfamiliar"
-  description: "<p>Get to know some less known classes and functions in the standard library, the rationale
-                    for them as well as some design mistakes.</p>"
+  title: "Latency Observability"
+  description: "<p>Achieving accurate high precision performance measurements of a distributed low latency
+               solution spanning multiple physical servers.</p>
+               <p>The talk will cover the evolution of our internal latency measurements and tracing
+               architecture for our high frequency trading platform.</p>
+               <p>We will cover:</p>
+               <ul>
+                  <li>Microsecond resolution end-to-end latency measurements using proprietary CPP application headers
+                  <ul>
+                     <li>Total logic processing time</li>
+                     <li>Internal modules processing time</li>
+                     <li>Network stack</li>
+                  </ul>
+                  </li>
+                  <li>NIC to NIC Applications measurements</li>
+                  <li>Network propagation time measurements</li>
+                  <li>HW-based timestamping for RX and TX based on kernel-bypass drivers</li>
+                </ul>"
   language: en
-  complexity: "Intermediate"
   speakers: [16]
 -
   id: 207
