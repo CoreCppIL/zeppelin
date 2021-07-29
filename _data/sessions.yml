@@ -230,7 +230,11 @@
 -
   id: 212
   title: "Ownership model in C++ and beyond"
-  description: "<p></p>"
+  description: "<p>In this talk we will explore the design of memory management in modern C++, and beyond.</p>
+                <p>We will overview the dynamic memory management model in other languages, and scan what are the possible approaches.</p>
+                <p>Understanding the alternatives, we will overview the tools for managing dynamic memory in modern C++.</p>
+                <p>At the end of the talk - you'll have a complete comprehension of dynamic memory management in software
+                applications in general, and the toolbox for using it correctly in C++.</p>"
   language: en
   complexity: "Beginner, Intermediate"
   speakers: [22]  

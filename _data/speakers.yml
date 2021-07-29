@@ -71,9 +71,10 @@
   surname: "Levi"
   thumbnailUrl: InbalLevi.jpg
   bio: >
-    <p>Inbal Levi is a software engineer who cares about performance and optimizations as well as great design and abstraction, which makes her a C++ enthusiast.
-    She's a director at the Isocpp Foundation, a co-chair of Library Evolution Work Group, and the chair of SG9 (Ranges Group), as well as the head of the WG21 Israeli NB.
-    She's also one of the organizers of CoreCpp meetup & Conference.</p>
+    <p>Inbal Levi is a software engineer who cares about performance and optimizations as well as great design
+    and abstraction, which makes her a C++ enthusiast. She's a director at the Isocpp Foundation, a co-chair
+    of Library Evolution Work Group, the chair of SG9 (Ranges Group), and the head of the ISO C++ Israeli NB. She's
+    also one of the organizers of CoreCpp meetup & Conference.</p>
     <p>In addition to C++, she's also enthusiastic about mathematics, science, and airplanes.</p>
 -
   id: 15
@@ -196,8 +197,10 @@
   name: "Tamir"
   surname: "Bahar"
   bio: >
-    <p></p> 
-  thumbnailUrl: NoPhoto.jpg
+    <p>Tamir is a software engineer and reverse engineer. He likes playing around with software and finding simple solutions
+    for complex problems, and complex solutions for simple problems.</p>
+    <p>Tamir is an Advanced Technologies Team Leader at JFrog, and a member of the Israeli ISO C++ National Body Discussion Group.</p> 
+  thumbnailUrl: TamirBahar.jpg
 -
   id: 29
   name: "Muhammad"
