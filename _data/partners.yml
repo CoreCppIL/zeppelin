@@ -8,7 +8,7 @@
   group: "Gold Sponsors"
   elements: 
     - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
-    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason.svg"}
+    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason-logo.jpg"}
     - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
     - {name: "Final", description: "A leader in HFT Frequency trading based on math, physics, and advanced computer science", link: "http://www.final.co.il", imageUrl: "Final_logo_Blue.svg"}
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
