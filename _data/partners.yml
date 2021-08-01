@@ -1,7 +1,7 @@
 - 
-#  group: "Diamond Sponsors"
-#  elements: 
-#    - {name: "HP", description: "HP Indigo develops, manufactures and markets digital printing solutions, including printing presses, proprietary consumables and workflow.", link: "https://www8.hp.com/us/en/commercial-printers/indigo-presses/products.html", imageUrl: "hp.svg", imageUrl: "hp.svg"}
+  group: "Diamond Sponsors"
+  elements: 
+    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
 #    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.png", imageUrl: "jfrog_conan_logo.2.png"}
 #    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 - 
