@@ -95,7 +95,6 @@
                     coroutines and ranges. In this talk, we'll see how these fit into the language and libraries,
                     common use cases, and lots of code examples. By the end of this talk, you'll have a firm
                     grasp of the power of C++ 20, and how your coding practices can adapt to leverage these new abilities.</p>"
-  subtype: keynote
   language: en
   speakers: [11]
 -
