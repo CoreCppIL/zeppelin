@@ -61,6 +61,16 @@
     	endTime: "17:30",
     	sessionIds: [001]
     }
+    - {
+    	startTime: "17:30",
+    	endTime: "18:30",
+    	sessionIds: [107]
+    }
+    - {
+    	startTime: "18:30",
+    	endTime: "20:00",
+    	sessionIds: [112]
+    }
 
 - 
   date: "2021-08-26"

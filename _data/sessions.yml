@@ -87,6 +87,12 @@
 -
   id: 111
   title: "Great C++ talk (30 min)"
+-
+  id: 112
+  title: "Meetup: Lightning Talks"
+  description: "<p>The meetup is open for everybody, no need to have a conference ticket to attend. Mostly short
+            (5 min) lightning talks, so it will be fun. Please register at
+            <a href='https://www.meetup.com/CoreCpp/events/279907890/'>meetup.com/CoreCpp</a></p>"
 #  place: "Economics::Lobby" 
 -
   id: 201
