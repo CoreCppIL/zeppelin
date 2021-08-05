@@ -86,10 +86,13 @@
   thumbnailUrl: YehezkelBernat.jpg
 -
   id: 16
-  name: "Yaniv"
-  surname: "Vardi"
-  bio: ""
-  thumbnailUrl: NoPhoto.jpg
+  name: "Amir"
+  surname: "Kotler"
+  bio: >
+    <p>Amir Kotler is the Team Leader of the Core Infrastructure Group at Final Israel, a world pioneer in Algo trading with over 20 years of success.</p>
+    <p>Amir is highly experienced in designing, implementing, and testing complex low-latency software projects.</p>
+    <p>For the past decade, Amir has been a key player in Final's R&D Group, and is highly involved in almost every aspect of Final's trading solution components.</p>
+  thumbnailUrl: AmirKotler.jpg
 -
   id: 17
   name: "Shachar"

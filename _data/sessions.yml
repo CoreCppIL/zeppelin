@@ -154,7 +154,7 @@
   title: "Latency Observability"
   description: "<p>Achieving accurate high precision performance measurements of a distributed low latency
                solution spanning multiple physical servers.</p>
-               <p>The talk will cover the evolution of our internal latency measurements and tracing
+               <p>The presentation will review the evolution of our internal latency measurements and tracing
                architecture for our high frequency trading platform.</p>
                <p>We will cover:</p>
                <ul>
