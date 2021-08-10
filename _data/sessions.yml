@@ -175,7 +175,7 @@
                   <li>Network propagation time measurements</li>
                   <li>HW-based timestamping for RX and TX based on kernel-bypass drivers</li>
                 </ul>"
-  language: en
+  language: he
   speakers: [16]
 -
   id: 207
