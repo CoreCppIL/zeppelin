@@ -145,14 +145,16 @@
   speakers: [14]
 -
   id: 205 
-  title: "Constant evolution of constexpr"
-  description: "<p>Templates were proven to be Turing-complete, which means we can compute everything in compile time
-                 using template meta-programming (TMP). Still, it inconvenient, hard to write, read or maintain.
-                 In this talk we will walk through the evolution of compile-time computation starting with C++11
-                 and further in C++14, 17 and 20, and see how things that were for experts-only became so simple
-                 that even the presenter can use. We will discuss things like constexpr, improvements for templates
-                 and of course, we'll touch concepts. The audience is expected to know the basics about templates</p>"
-  language: he
+  title: "Generators, Coroutines and Other Brain Unrolling Sweetness"
+  description: "<p>C++20 brings us coroutines and with them the power to create generators, iterables and ranges.
+               We'll see how coroutines allow for cleaner code, easier abstraction and genericity, composition and
+               avoiding callbacks and inversion of control.</p>
+               <p>We'll discuss the pains of writing iterator types with distributed internal state and old-school
+               co-routines. Then we'll look at C++20 coroutines and how easy they are to write clean linear code.
+               Coroutines prevent inversion of control and reduce callback hell. We'll see how they compose and see
+               examples from image processing and data structures.</p>
+               <p>This is an introductory talk that will focus more on co_yield and less on co_await and async related usages.</p>"
+  language: en
   complexity: "Beginner, Intermediate"
   speakers: [15]
 -

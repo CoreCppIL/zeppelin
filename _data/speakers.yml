@@ -78,12 +78,14 @@
     <p>In addition to C++, she's also enthusiastic about mathematics, science, and airplanes.</p>
 -
   id: 15
-  name: "Yehezkel"
-  surname: "Bernat"
+  name: "Adi"
+  surname: "Shavit"
   bio: >
-    <p>Yehezkel is a SW engineer at Microsoft. He is also TA in Hadassah college (Jerusalem) for OOP course.
-    Yehezkel likes C++ very much and and is happy for any chance to teach it, discuss it and learn new things about it.</p>
-  thumbnailUrl: YehezkelBernat.jpg
+    <p>Adi Shavit is Chief Science Officer at Swapp. He is an entrepreneur, speaker, experienced software architect
+    and a computer vision, image processing, and machine learning expert with an emphasis on real-time applications.
+    He specializes in building cross-platform, high-performance software combined with high production quality and
+    maintainable code-bases. Adi is the founder of the Core C++ users group and the organizer of the Core C++ conference in Israel.</p>
+  thumbnailUrl: AdiShavit.jpg
 -
   id: 16
   name: "Amir"
