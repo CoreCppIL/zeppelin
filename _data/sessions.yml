@@ -315,7 +315,7 @@
                  for code analysis of a program. We will go behind the scenes to see how a linter actually works,
                  what it has to do with the phases of a compiler and in comparison, we'll see how it is applicable in hardware.</p>
                  <p>Let’s discover the power of lint together</p>"
-  language: en
+  language: he
   complexity: "Beginner"
   speakers: [27]  
 -
