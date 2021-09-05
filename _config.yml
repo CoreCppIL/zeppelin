@@ -51,18 +51,18 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
+# - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
 # - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
- - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
+# - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
 # - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
 # - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -71,11 +71,11 @@ eventDate: "August 25-26, 2021"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
- - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
+# - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
 # - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
 aboutTitle: "About Core C++ <local> 2021"
@@ -175,8 +175,8 @@ ticketsOffers:
   ticketContentList: ["Two day conference", "Two parallel tracks", "Meet fellow developers"]
   validFrom: "2021-07-01"
   validThrough: "2021-08-25"
-  soldOut: false
-  soldOutText: "Sold Out"
+  soldOut: true
+  soldOutText: "Event Ended"
 
 # Footer
 socialLinks:
