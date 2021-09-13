@@ -103,6 +103,7 @@
                     grasp of the power of C++ 20, and how your coding practices can adapt to leverage these new abilities.</p>"
   language: en
   speakers: [11]
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/PavelYosifovich_Cpp20TheBigFour.pdf"
 -
   id: 202
   title: "The many faces of Number &lt;--&gt; String conversions"
@@ -124,6 +125,7 @@
                 see how different languages deal with this task.</p>"
   language: en
   speakers: [12]
+  presentation: "https://dvirtz.github.io/slides/number-string/number_string.html"
 -
   id: 203
   title: "Argument Passing, Core Guidelines, and Aliasing"
@@ -189,6 +191,7 @@
                  of our video render engine was adapted to handle both the requirements of our backend and frontend.</p>"
   language: en
   speakers: [17]  
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/ShacharLangbeheim_VideoRenderingOnFrontendAndBackend.pdf"
 -
   id: 208
   title: "C++17 key features"
@@ -197,6 +200,7 @@
   language: en
   complexity: "Intermediate"
   speakers: [18]
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/AlexDathskovsky_Cpp17KeyFeatures.pdf"
 -
   id: 209
   title: "Obfuscation and beyond: securing your binary"
@@ -208,6 +212,7 @@
   language: en
   complexity: "Intermediate, Advanced"
   speakers: [19]  
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/AlexCohn_ObfuscationAndBeyond.pdf"
 -
   id: 210
   title: "The MLIR Framework: A Brief Introduction to Deep Learning Compilers"
@@ -234,6 +239,7 @@
   language: en
   complexity: "Intermediate"
   speakers: [21]  
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/YossiMoalem_DontDoWhatIDid.pdf"
 -
   id: 212
   title: "Ownership model in C++ and beyond"
@@ -272,7 +278,8 @@
                  probably know this tool (and if not, you should probably change your programming language to something other than C++).</p>"
   language: en
   complexity: "Intermediate"
-  speakers: [24]  
+  speakers: [24] 
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/OfekShilon_opt-viewer_InspectingCompilerOptimizationsInHighLevelCode.pdf"  
 -
   id: 215
   title: "Design Patterns for Hardware Packet Processing on FPGAs"
@@ -289,6 +296,7 @@
   language: en
   complexity: "Intermediate, Advanced"
   speakers: [25]  
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/HaggaiEran_DesignPatternsForHardwarePacketProcessingOnFPGAs.pdf"
 -
   id: 216
   title: "C++ Integer Promotion is Completely Broken"
@@ -336,6 +344,7 @@
   language: en
   complexity: "Intermediate"
   speakers: [28]  
+  presentation: "https://corecppil.github.io/Meetups/CoreCpp2021/TamirBahar_ImplementingCppSemanticsInPython.pdf"
 -
   id: 219
   title: "Modern Design Patterns with Modern C++"
