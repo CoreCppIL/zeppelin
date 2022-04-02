@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Core C++ <local> 2021"
+title: "Core C++ 2022"
 email: "info@corecpp.org"
-description: "Core C++ <local> 2021"
+description: "Core C++ 2022"
 baseurl: ""
 url: "https://corecpp.org"
 permalink: "/blog/:title"
@@ -22,14 +22,14 @@ siteVerification: ""
 
 # Organizer Info
 organizerName: "Core C++"
-organizerAlternateName: "The Core C++ <local> 2021 Conference"
+organizerAlternateName: "The Core C++ 2022 Conference"
 organizerDescription: "The Core C++ User Group."
 organizerEmail: "info@corecpp.org"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://corecpp.org/"
 
 # Head
-metaKeywords: "event, C++, conference, programming, developers, lectures, Israel, speakers, local"
+metaKeywords: "event, C++, conference, programming, developers, lectures, Israel, speakers"
 twitterAccount: "@corecpp"
 # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -43,9 +43,9 @@ c4sponsorsUrl: "/assets/CoreCpp2021_SponsoringOffer.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/blog/", text: "Blog"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
 # - {link: "https://2019.corecpp.org", text: "Core C++ 2019"}
 # - {permalink: "/logistics/", text: "Logistics"}
@@ -66,8 +66,8 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Core C++ &lt;local&gt; <typeout> 2021"
-eventDate: "August 25-26, 2021"
+heroTitle: "Core C++ <typeout> 2022"
+eventDate: "Sepember 5-7, 2022"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
@@ -78,7 +78,7 @@ heroButtons:
 # - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
-aboutTitle: "About Core C++ <local> 2021"
+aboutTitle: "About Core C++ 2022"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "We are back with the second C++ conference in Israel brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
 # - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite C++ feature!" }
@@ -113,9 +113,9 @@ eventAddressLocality: "Tel Aviv"
 # eventAddressLocalityRegion: "Lvivska"
 eventPostalCode: "6818211"
 eventAddressCountry: "Israel"
-eventStartTime: "2021-08-25T09:00"
+eventStartTime: "2022-09-05T09:00"
 eventDoorTime: "08:00"
-eventEndTime: "2021-05-26T18:00"   
+eventEndTime: "2022-09-07T18:00"   
 eventPlaceCoordinates: "32.0474639, 34.760838631217915"
 mapCenterCoordinates: "32.0474639, 34.760838631217915"
 mapMobileCenterCoordinates: "32.0474639, 34.760838631217915"
@@ -132,7 +132,7 @@ venueFeatures: ["Located in the heart of Tel-Aviv and Jaffa"]
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "corecpp2021"
+twitterHashTag: "corecpp2022"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -164,19 +164,19 @@ ticketsOffers:
 #  validThrough: "2021-06-30"
 #  soldOut: false
 #  soldOutText: "SOld Out"
- -
-  name: "Full 2-Day Ticket"
-  price: "550"
-  priceCurrency: "ILS"
-  featured: true
-  ticketsNumber: "200"
-  buyButtonLink: "https://ti.to/hamakor/corecpp-local-2021/"
-  buyButtonText: "Register Now"
-  ticketContentList: ["Two day conference", "Two parallel tracks", "Meet fellow developers"]
-  validFrom: "2021-07-01"
-  validThrough: "2021-08-25"
-  soldOut: true
-  soldOutText: "Event Ended"
+# -
+#  name: "Full 2-Day Ticket"
+#  price: "550"
+#  priceCurrency: "ILS"
+#  featured: true
+#  ticketsNumber: "200"
+#  buyButtonLink: "https://ti.to/hamakor/corecpp-local-2021/"
+#  buyButtonText: "Register Now"
+#  ticketContentList: ["Two day conference", "Two parallel tracks", "Meet fellow developers"]
+#  validFrom: "2021-07-01"
+#  validThrough: "2021-08-25"
+#  soldOut: true
+#  soldOutText: "Event Ended"
 
 # Footer
 socialLinks:

@@ -1,18 +1,18 @@
 - 
   group: "Diamond Sponsors"
   elements: 
-    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
+#    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
 #    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.png", imageUrl: "jfrog_conan_logo.2.png"}
 #    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 - 
   group: "Gold Sponsors"
   elements: 
-    - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
-    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason_Logo_new.png"}
-    - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
-    - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "Final_logo_Blue.svg"}
-    - {name: "Firebolt", description: "", link: "https://firebolt.io", imageUrl: "Firebolt.svg"}
-    - {name: "Mobileye", description: "", link: "https://www.mobileye.com/", imageUrl: "mobileye.svg"}    
+#    - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
+#    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason_Logo_new.png"}
+#    - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
+#    - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "Final_logo_Blue.svg"}
+#    - {name: "Firebolt", description: "", link: "https://firebolt.io", imageUrl: "Firebolt.svg"}
+#    - {name: "Mobileye", description: "", link: "https://www.mobileye.com/", imageUrl: "mobileye.svg"}    
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
 #    - {name: "Autodesk", description: "Autodesk is a world leader in 2D and 3D design, providing engineering and entertainment software solutions for the manufacturing, construction, media and entertainment markets.", link: "http://autodesktlv.com", imageUrl: "autodesk_logo.svg"}
 #    - {name: "Eyeway", description: "ALL IS ILLUMINATED", link: "http://www.eyeway-vision.com/", imageUrl: "LOGOEYEWAY.svg"}
@@ -22,9 +22,9 @@
 - 
   group: "Silver Sponsors"
   elements: 
-    - {name: "Vayyar", description: "Our groundbreaking 4D imaging radar sensors are being used by several of the biggest companies across the globe in many industries from elderly care and automotive to smart buildings, retail, DIY and more!", link: "https://vayyar.com/", imageUrl: "vayyar.svg"}
-    - {name: "Speedata", description: "Speedata is developing an innovative technology designed from the ground up to optimize analytics workloads. Founded by an experienced team of academic and industry leaders, Speedata’s technology is set to transform the way we utilize data for years to come.", link: "https://www.speedata.io/", imageUrl: "Speedata.svg"}
-    - {name: "CyberArk", description: "CyberArk (NASDAQ: CYBR), the global leader in Identity Security, Centered on privileged access management, CyberArk provides the most comprehensive security offering for any identity – human or machine – across business applications, distributed workforces, hybrid cloud workloads and throughout the DevOps lifecycle.", link: "https://www.cyberark.com/", imageUrl: "cyberark.png"}    
+#    - {name: "Vayyar", description: "Our groundbreaking 4D imaging radar sensors are being used by several of the biggest companies across the globe in many industries from elderly care and automotive to smart buildings, retail, DIY and more!", link: "https://vayyar.com/", imageUrl: "vayyar.svg"}
+#    - {name: "Speedata", description: "Speedata is developing an innovative technology designed from the ground up to optimize analytics workloads. Founded by an experienced team of academic and industry leaders, Speedata’s technology is set to transform the way we utilize data for years to come.", link: "https://www.speedata.io/", imageUrl: "Speedata.svg"}
+#    - {name: "CyberArk", description: "CyberArk (NASDAQ: CYBR), the global leader in Identity Security, Centered on privileged access management, CyberArk provides the most comprehensive security offering for any identity – human or machine – across business applications, distributed workforces, hybrid cloud workloads and throughout the DevOps lifecycle.", link: "https://www.cyberark.com/", imageUrl: "cyberark.png"}    
 #    - {name: "Algotech", description: "Algotec's Carestream PACS products enable healthcare organizations to store, manage, distribute, review, compare and process medical images as well as clinical and administrative data, and to control these processes through the Web. ", link: "https://www.carestream.com/en/us", imageUrl: "Algotec_Logo.png"}
 #    - {name: "Kistler", description: "Kistler is the global leader in dynamic measurement technology for measuring pressure, force, torque and acceleration", link: "https://www.kistler.com/en/", imageUrl: "kistler.png"}
 #    - {name: "INFINIDAT", description: "", link: "https://www.infinidat.com/", imageUrl: "Infinidat-Logo.png"}
@@ -32,7 +32,7 @@
 -
   group: "Bronze Sponsors"
   elements: 
-    - {name: "SolarEdge", description: "SolarEdge is a world leader in smart energy solutions", link: "https://www.solaredge.com/corporate/join-us", imageUrl: "SolarEdge_logo.svg"}
+#    - {name: "SolarEdge", description: "SolarEdge is a world leader in smart energy solutions", link: "https://www.solaredge.com/corporate/join-us", imageUrl: "SolarEdge_logo.svg"}
 #    - {name: "StarkWare", description: "StarkWare develops the STARK technology and software stack to solve the two most pressing problems of permissionless blockchains: scalability and privacy. StarkWare’s cryptographic proofs are zero-knowledge, succinct, transparent and post-quantum secure and we emphasize highly performant code and sound engineering practices.", link: "https://starkware.co/", imageUrl: "starkware_logo.svg"}      
 #    - {name: "CME Group", description: "A global markets company empowering participants to efficiently manage risk and capture opportunities in every major asset class.", link: "https://www.cmegroup.com/", imageUrl: "CMELOGO.png"}
 #    - {name: "Cymotive", description: "Automotive Cyber Security On The Move", link: "https://www.cymotive.com/", imageUrl: "logo_cymotive.svg"}
@@ -57,7 +57,7 @@
 - 
   group: "Patrons"
   elements: 
-    - {name: "Shell-Tech", description: "Spacious air-conditioned facility with meeting rooms, offices and co-working areas, offering stable Internet and WiFi infrastructure, and of course good coffee. Come see for yourself, with full guidance and support.", link: "https://shell-tech.co.il/", imageUrl: "shell-tech.png"}
+#    - {name: "Shell-Tech", description: "Spacious air-conditioned facility with meeting rooms, offices and co-working areas, offering stable Internet and WiFi infrastructure, and of course good coffee. Come see for yourself, with full guidance and support.", link: "https://shell-tech.co.il/", imageUrl: "shell-tech.png"}
 #    - {name: "Manning Publications", description: "Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.", link: "https://www.manning.com/", imageUrl: "manning.svg"}
 #    - {name: "Eurovision 2019", description: "The Eurovision Song Contest", link: "https://eurovision.tv/", imageUrl: "Eurovision_Song_Contest_2019_logo.svg"}
 - 
@@ -65,14 +65,14 @@
   elements: 
 #    - {name: "#include <C++>", description: "#include<C++> is a global, inclusive, and diverse community for developers interested in C++.", link: "https://www.includecpp.org/", imageUrl: "includecpp.svg"}
 #    - {name: "SwedenCpp", description: "The Swedish C++ User Groups", link: "https://www.swedencpp.se", imageUrl: "SwedenCppOfficial.png"}        
-    - {name: "C++ on Sea", description: "C++ on Sea is an international C++ conference (usually) taking place by the sea, in the UK. However, due to the Coronavirus pandemic, the conference has taken place online since 2020.", link: "https://cpponsea.uk", imageUrl: "cpponsea-logo-text.svg"}
+#    - {name: "C++ on Sea", description: "C++ on Sea is an international C++ conference (usually) taking place by the sea, in the UK. However, due to the Coronavirus pandemic, the conference has taken place online since 2020.", link: "https://cpponsea.uk", imageUrl: "cpponsea-logo-text.svg"}
 #    - {name: "C++ CoreHard", description: "The conference is being organized by the CoreHard.by community that unites not only C++ engineers, but also those who are interested in low-level development in C and Assembler, programming of controllers, Internet of Things, high load server solutions and in any kind of “hardcore” development.", link: "http://conference.corehard.by/", imageUrl: "corehard-alien-logo-transparent2.png"}
-    - {name: "Comiler Explorer", description: "Compiler Explorer is an interactive tool that lets you type code in one window and see the results of its compilation in another window.", link: "https://godbolt.org", imageUrl: "CompilerExplorer.svg"}
+#    - {name: "Comiler Explorer", description: "Compiler Explorer is an interactive tool that lets you type code in one window and see the results of its compilation in another window.", link: "https://godbolt.org", imageUrl: "CompilerExplorer.svg"}
 #    - {name: "cpp.chat", description: "Strong opinions, weekly held. An, often, weekly round-table chat with great guests from the C++ community", link: "http://slashslash.info/cppchat/", imageUrl: "cpp_chat_1600.png"}
-    - {name: "CppCon", description: "CppCon is the annual, week-long face-to-face gathering for the entire C++ community. The conference is organized by the C++ community for the community", link: "https://cppcon.org/", imageUrl: "cppcon_logo.png"}
+#    - {name: "CppCon", description: "CppCon is the annual, week-long face-to-face gathering for the entire C++ community. The conference is organized by the C++ community for the community", link: "https://cppcon.org/", imageUrl: "cppcon_logo.png"}
 #    - {name: "C++Now", description: "A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado", link: "http://cppnow.org/", imageUrl: "CppNowLogo.svg"}
 #    - {name: "CppCast", description: "CppCast is the first podcast for C++ developers by C++ developers", link: "http://cppcast.com/", imageUrl: "CppCast_Banner.png"}
-    - {name: "CPPP", description: "An international C++ conference in the heart of Paris", link: "http://cppp.fr", imageUrl: "logoCPPP.svg"}
+#    - {name: "CPPP", description: "An international C++ conference in the heart of Paris", link: "http://cppp.fr", imageUrl: "logoCPPP.svg"}
 #    - {name: "C++ Stories", description: "", link: "https://www.bfilipek.com", imageUrl: "logobflarge.png"}
 #    - {name: "code::dive", description: "code::dive is an annual event gathering IT professionals and programming enthusiasts to share new ideas, discuss current trends, and exchange experiences.", link: "https://codedive.pl/", imageUrl: "codedivelogo.svg"}
  
