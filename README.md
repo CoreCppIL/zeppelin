@@ -30,7 +30,44 @@ Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 Or watch project presentation from [GDG[x] Townhall meeting](http://www.youtube.com/watch?v=xYmhheoLjcI). Slides available [here](https://docs.google.com/presentation/d/19aM7yNl_orDaCNND5LpCY3fShb6PyMltnzYfKvV8R_8/edit?usp=sharing)
 
 
-## Local development
+## Local development (Windows Host)
+### Install WSL2
+[Instructions](https://docs.microsoft.com/en-us/windows/wsl/install)
+
+Open PowerShell/cmd as Adinistrator.
+```
+   wsl --install
+```
+
+Reboot if needed. Check the installed distribution with
+```
+   wsl -l -v
+```
+
+I you need to change the Linux distro, or seleceted distribution does not appear as WSL version 2, read the above instructions on updating youw WSL environment.
+
+### From Ubintu console:
+```bash
+   sudo apt install ruby
+   sudo gem install bundler
+   sudo apt install ruby-dev
+   sudo apt install gcc
+   sudo gem install g++
+   sudo apt  install make
+   ruby setup.rb config --without-ext
+   sudo gem install racc
+   sudo gem install eventmachine
+
+   git clone https://github.com/CoreCppIL/zeppelin.git
+   cd zeppelin
+   bundle install
+   
+   jekyll serve -w
+```
+
+The site will be running on port 4000. It's being reloaded on the server on each change you do to one of project files. And you can always stop the server and restart it with ```jekyll serve -w```.
+
+## Local development (Orig)
 
 Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
 To install all development dependencies install [Bundler](http://bundler.io/).
