@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "The Call for Speakers is open!"
+date:   2022-04-28 08:00:00
+isStaticPost: false
+---
+
+We are excited to announce that a Call For Speakers for **Core C++ 2022** is now open, [submit ours now](https://cfs.corecpp.org/)!
+
+Submission deadline is **June 15th**, 2022.
+
+From medical devices and flash storage to CPUs and advanced navigation systems, Israeli innovation pushes the boundaries of the imagination. Advanced software is at the heart of many of these systems, and when it comes to bare-metal performance, low power-consumption and massive scalability, C++ is king. **Core C++ 2022** will take place at the Academic College of Tel-Aviv-Yaffo in Israel. The conference is aimed at C++ developers and practitioners as well as academic researchers and teachers who wish to be updated by the newest developments of C++ and present their work with C++.
+
+##### Format
+The conference will feature two-tracks. The recommended length of the talk is 60 minutes (including Q&A time), talks of 30 and 90 minutes will be also considered. 
+You may chose to present in English or Hebrew.
+
+##### Suggested Topics
+* C++ language: evolution, discussion, pros and cons of the latest C++ language and library features, best practices and use case studies
+* Development process: code analysis, Unit Testing, codebase maintenance, package management, deployment
+* Useful tools and libraries
+* HW and SW platforms: Embedded, Real Time, GPU, HPC
+* Industry specific perspective such as mobile platforms, games, VR/AR, low-latency, machine learning, computer-vision, drones and autonomous vehicles
+* Academic Research: teaching C++ and common pitfalls for newbies, language analysis, C++ applications in research, language analysis
+* C++ Basics: fundamental topics that aren't necessarily new but are part of the knowledge backbone every C++ programmer should have. Target audience should be inexperienced C++ programmers as well as experienced ones interested in strengthening their foundations.
+
+[Submit now!](https://cfs.corecpp.org/)

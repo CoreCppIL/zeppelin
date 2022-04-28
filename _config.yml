@@ -43,7 +43,7 @@ c4sponsorsUrl: "/assets/CoreCpp2021_SponsoringOffer.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
@@ -52,14 +52,14 @@ navigationLinks:
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
 # - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
-# - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
 # - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
 # - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
 # - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
-# - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
 # - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
@@ -72,7 +72,7 @@ typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
 # - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
-# - {link: "/assets/CoreCpp2021_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
 # - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
