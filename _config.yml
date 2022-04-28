@@ -67,7 +67,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "Core C++ <typeout> 2022"
-eventDate: "Sepember 5-7, 2022"
+eventDate: "September 5-7, 2022"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
