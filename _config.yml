@@ -37,7 +37,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://cfs.corecpp.org/"
-c4sponsorsUrl: "/assets/CoreCpp2021_SponsoringOffer.pdf"
+c4sponsorsUrl: "/assets/CoreCpp2022_SponsoringOffer.pdf"
 
 
 # Navigation
@@ -55,14 +55,13 @@ bottomNavigationLinks:
  - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
-# - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
+ - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
 # - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
-# - {link: "/assets/CoreCpp2020_CallForSponsors.pdf", text: "Become a Sponsor"}
  - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
-# - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
+ - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -75,7 +74,7 @@ heroButtons:
  - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2021_CallForTutorials.pdf", text: "Call For Tutorials"}
-# - {link: "/assets/CoreCpp2021_SponsoringOffer.pdf", text: "Sponsor Us"}
+ - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
 aboutTitle: "About Core C++ 2022"
