@@ -1,7 +1,8 @@
-#- 
-#  group: "Diamond Sponsors"
-#  elements: 
-#    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
+- 
+  group: "Diamond Sponsors"
+  elements: 
+    - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
+    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
 #    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.png", imageUrl: "jfrog_conan_logo.2.png"}
 #    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 - 
@@ -9,9 +10,8 @@
   elements: 
     - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "Final_logo_Blue.svg"}
     - {name: "Speedata", description: "Speedata is developing an innovative technology designed from the ground up to optimize analytics workloads. Founded by an experienced team of academic and industry leaders, Speedata’s technology is set to transform the way we utilize data for years to come.", link: "https://www.speedata.io/", imageUrl: "Speedata.svg"}
-#    - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
+    - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
 #    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason_Logo_new.png"}
-#    - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
 #    - {name: "Firebolt", description: "", link: "https://firebolt.io", imageUrl: "Firebolt.svg"}
 #    - {name: "Mobileye", description: "", link: "https://www.mobileye.com/", imageUrl: "mobileye.svg"}    
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
