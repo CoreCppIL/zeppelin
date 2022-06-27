@@ -20,7 +20,7 @@
 #    - {name: "J.P.Morgan", description: "", link: "https://jobs.jpmorganchase.com/ListJobs/ByCountry/IL/", imageUrl: "jpmorgan-logo.png"}
 #    - {name: "Symantec", description: "Enterprise Security & Network Protection Products", link: "https://www.symantec.com/", imageUrl: "Symantec_logo10.svg"}
 #    - {name: "Infinity Labs R&D", description: "We transform university graduates with zero experience into experienced top-tier software developers", link: "https://infinitylabs.co.il", imageUrl: "infinity-logo.svg"}    
-#- 
+- 
  group: "Silver Sponsors"
  elements:
    - {name: "GK8", description: "GK8 is a cybersecurity company that offers financial institutions an end-to-end platform for managing blockchain-based assets on their own. We bring a radically new approach for securing digital assets. Our patented solution combines the world’s first TRUE air-gapped vault that enables banks and financial institutions to run secure blockchain transactions without being connected to the internet – hence eliminating the threat of hackers and cyber-attacks.", link: "https://www.gk8.io/", imageUrl: "GK8_Logo.svg"}
@@ -42,13 +42,13 @@
 #   - {name: "Lightbits Labs", description: "Lightbits is the storage disaggregation company. Disaggregated storage in your data centers on your existing network, no drama.", link: "https://www.lightbitslabs.com/", imageUrl: "lighbits_logo.png"}
 #    - {name: "Abbott Laboratories", description: "At Abbott, we help people live fully with our life-changing technology.", link: "https://www.abbott.com", imageUrl: "AbbottLaboratoriesLogo.svg"}
 #    - {name: "viacom", description: "Viacom creates entertainment experiences that drive conversation and culture..", link: "https://www.viacom.com", imageUrl: "Viacom_logo.svg"}
-#- 
-#  group: "Expo Booths"
-#  elements: 
+- 
+ group: "Expo Booths"
+ elements: 
+    - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "2022_Final_Color_Logo.png"}
 #    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.png", imageUrl: "jfrog_conan_logo.2.png"}
 #    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
-#    - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "Final_logo_Blue.svg"}
 #    - {name: "Algotech", description: "Algotec's Carestream PACS products enable healthcare organizations to store, manage, distribute, review, compare and process medical images as well as clinical and administrative data, and to control these processes through the Web. ", link: "https://www.carestream.com/en/us", imageUrl: "Algotec_Logo.png"}
 #    - {name: "IncrediBuild", description: "IncrediBuild is a suite of grid computing software designed to help accelerate computationally-intensive tasks by distributing them over the network, with notable applications including compiling source code, building software generally, and other software development-related tasks.", link: "https://www.incredibuild.com/", imageUrl: "IncrediBuild.png"}
 #    - {name: "think-cell", description: "think-cell is the leading data visualization software for business presentations. Our challenge is to offer the most intuitive user interface for generating complex data-driven charts and slides, while at the same time ensuring consistency, accuracy and seamless integration with Microsoft Office. We save time for our users by automating many tasks for them, like chart labeling or slide layout. Along the way, we work on challenging visualization problems, reverse-engineering of Microsoft’s code, and reinventing the user interface. And we do this all based on our own pioneering C++ library, which we have the liberty to perfect along with the rest of our code. think-cell is the only German company funding a C++ ISO committee delegation, so there is a good chance that components we invent will find their way into the standard.", link: "https://think-cell.com/corecpp", imageUrl: "ThinkcellLogo.svg"}
