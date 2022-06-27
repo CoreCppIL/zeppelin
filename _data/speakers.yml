@@ -1,14 +1,14 @@
 -
   id: 10
-  name: "B"
-  surname: "B"
-  company: "Morgan Stanley"
+  name: "Walter E"
+  surname: "Brown"
   bio: >
-    <p>P1</p>
-    <p><a href='https://www.stroustrup.com/'>www.stroustrup.com</a></p>
-  thumbnailUrl: img.jpg
-#  rockstar: true
-#  social:
+    <p>With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a computer programmer for almost 60 years, and a C++ programmer for more than 40 of those years.</p>
+    <p>He joined the C++ standards effort in 2000, and has since written circa 175 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and <cmath>’s mathematical special functions, as well as the headers &lt;random&gt; and &lt;ratio&gt;. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator<=> (the C++20 “spaceship operator”).</p>
+    <p>When not playing with his grandchildren, Dr. Brown continues as an Emeritus participant in the C++ standards process and as a frequent speaker at C++ conferences and meetups worldwide.</p>
+  thumbnailUrl: WalterEBrown.png
+  rockstar: true
+  social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
-#  ribbon:
-#    - {title: "Keynote"}
+  ribbon:
+    - {title: "Keynote"}
