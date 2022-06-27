@@ -45,7 +45,10 @@
 - 
  group: "Expo Booths"
  elements: 
+    - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
+    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
     - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "2022_Final_Color_Logo.png"}
+    - {name: "GK8", description: "GK8 is a cybersecurity company that offers financial institutions an end-to-end platform for managing blockchain-based assets on their own. We bring a radically new approach for securing digital assets. Our patented solution combines the world’s first TRUE air-gapped vault that enables banks and financial institutions to run secure blockchain transactions without being connected to the internet – hence eliminating the threat of hackers and cyber-attacks.", link: "https://www.gk8.io/", imageUrl: "GK8_Logo.svg"}
 #    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.png", imageUrl: "jfrog_conan_logo.2.png"}
 #    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
