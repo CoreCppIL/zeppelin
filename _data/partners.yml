@@ -21,8 +21,9 @@
 #    - {name: "Symantec", description: "Enterprise Security & Network Protection Products", link: "https://www.symantec.com/", imageUrl: "Symantec_logo10.svg"}
 #    - {name: "Infinity Labs R&D", description: "We transform university graduates with zero experience into experienced top-tier software developers", link: "https://infinitylabs.co.il", imageUrl: "infinity-logo.svg"}    
 #- 
-#  group: "Silver Sponsors"
-#  elements: 
+ group: "Silver Sponsors"
+ elements:
+   - {name: "GK8", description: "GK8 is a cybersecurity company that offers financial institutions an end-to-end platform for managing blockchain-based assets on their own. We bring a radically new approach for securing digital assets. Our patented solution combines the world’s first TRUE air-gapped vault that enables banks and financial institutions to run secure blockchain transactions without being connected to the internet – hence eliminating the threat of hackers and cyber-attacks.", link: "https://www.gk8.io/", imageUrl: "GK8_Logo.svg"}
 #    - {name: "Vayyar", description: "Our groundbreaking 4D imaging radar sensors are being used by several of the biggest companies across the globe in many industries from elderly care and automotive to smart buildings, retail, DIY and more!", link: "https://vayyar.com/", imageUrl: "vayyar.svg"}
 #    - {name: "CyberArk", description: "CyberArk (NASDAQ: CYBR), the global leader in Identity Security, Centered on privileged access management, CyberArk provides the most comprehensive security offering for any identity – human or machine – across business applications, distributed workforces, hybrid cloud workloads and throughout the DevOps lifecycle.", link: "https://www.cyberark.com/", imageUrl: "cyberark.png"}    
 #    - {name: "Algotech", description: "Algotec's Carestream PACS products enable healthcare organizations to store, manage, distribute, review, compare and process medical images as well as clinical and administrative data, and to control these processes through the Web. ", link: "https://www.carestream.com/en/us", imageUrl: "Algotec_Logo.png"}
