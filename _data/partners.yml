@@ -8,7 +8,7 @@
 - 
   group: "Gold Sponsors"
   elements: 
-    - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "Final_logo_Blue.svg"}
+    - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "2022_Final_Color_Logo.png"}
     - {name: "Speedata", description: "Speedata is developing an innovative technology designed from the ground up to optimize analytics workloads. Founded by an experienced team of academic and industry leaders, Speedata’s technology is set to transform the way we utilize data for years to come.", link: "https://www.speedata.io/", imageUrl: "Speedata.svg"}
     - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
 #    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason_Logo_new.png"}
