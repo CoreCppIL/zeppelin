@@ -61,7 +61,7 @@
 - 
  group: "Patrons"
  elements: 
-   - {name: "Packt Publishing", description: "Packt is the online library and learning platform for professional developers.", link: "https://www.packtpub.com/", imageUrl: "Packt_Logo-01.svg"}
+   - {name: "Packt Publishing", description: "Packt is the online library and learning platform for professional developers. Packt's mission is to help the world put software to work in new ways, through the delivery of effective learning and information services to IT professionals.", link: "https://www.packtpub.com/", imageUrl: "Packt_Logo-01.svg"}
 #    - {name: "Shell-Tech", description: "Spacious air-conditioned facility with meeting rooms, offices and co-working areas, offering stable Internet and WiFi infrastructure, and of course good coffee. Come see for yourself, with full guidance and support.", link: "https://shell-tech.co.il/", imageUrl: "shell-tech.png"}
 #    - {name: "Manning Publications", description: "Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.", link: "https://www.manning.com/", imageUrl: "manning.svg"}
 #    - {name: "Eurovision 2019", description: "The Eurovision Song Contest", link: "https://eurovision.tv/", imageUrl: "Eurovision_Song_Contest_2019_logo.svg"}
