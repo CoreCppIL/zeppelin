@@ -51,13 +51,13 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
-# - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
+ - {link: "https://ti.to/hamakor/core-cpp-2022", text: "Register"}
 # - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2022_CallForTutorials.pdf", text: "Call For Tutorials"}
  - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
-# - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
+ - {link: "https://ti.to/hamakor/core-cpp-2022", text: "Register"}
 # - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2022_CallForTutorials.pdf", text: "Call For Tutorials"}
@@ -70,7 +70,7 @@ eventDate: "September 5-7, 2022"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
-# - {link: "https://ti.to/hamakor/corecpp-local-2021/", text: "Buy Tickets"}
+ - {link: "https://ti.to/hamakor/core-cpp-2022", text: "Register"}
 # - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2022_CallForTutorials.pdf", text: "Call For Tutorials"}
