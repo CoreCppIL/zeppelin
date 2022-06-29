@@ -30,9 +30,10 @@
 #    - {name: "Kistler", description: "Kistler is the global leader in dynamic measurement technology for measuring pressure, force, torque and acceleration", link: "https://www.kistler.com/en/", imageUrl: "kistler.png"}
 #    - {name: "INFINIDAT", description: "", link: "https://www.infinidat.com/", imageUrl: "Infinidat-Logo.png"}
 #    - {name: "Harman", description: "HARMAN designs and engineers connected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automation solutions; and connected services.", link: "https://www.harman.com", imageUrl: "harman_logo.svg"}
-#-
-#  group: "Bronze Sponsors"
-#  elements: 
+-
+ group: "Bronze Sponsors"
+ elements: 
+   - {name: "Cadence", description: "Cadence is a leader in electronic systems design. The company applies its underlying Intelligent System Design strategy to deliver software, hardware and IP that turn design concepts into reality. Cadence customers are leading companies, delivering electronic products from chips to boards to complete systems for the most dynamic market applications, including hyperscale computing, 5G communications, automotive, mobile, aerospace, consumer, industrial and healthcare.", link: "www.cadence.com", imageUrl: "Cadence-Logo.svg"}
 #    - {name: "SolarEdge", description: "SolarEdge is a world leader in smart energy solutions", link: "https://www.solaredge.com/corporate/join-us", imageUrl: "SolarEdge_logo.svg"}
 #    - {name: "StarkWare", description: "StarkWare develops the STARK technology and software stack to solve the two most pressing problems of permissionless blockchains: scalability and privacy. StarkWare’s cryptographic proofs are zero-knowledge, succinct, transparent and post-quantum secure and we emphasize highly performant code and sound engineering practices.", link: "https://starkware.co/", imageUrl: "starkware_logo.svg"}      
 #    - {name: "CME Group", description: "A global markets company empowering participants to efficiently manage risk and capture opportunities in every major asset class.", link: "https://www.cmegroup.com/", imageUrl: "CMELOGO.png"}
