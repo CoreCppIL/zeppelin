@@ -3,12 +3,82 @@
   name: "Walter E"
   surname: "Brown"
   bio: >
-    <p>With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a computer programmer for almost 60 years, and a C++ programmer for more than 40 of those years.</p>
-    <p>He joined the C++ standards effort in 2000, and has since written circa 175 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and &lt;cmath&gt;’s mathematical special functions, as well as the headers &lt;random&gt; and &lt;ratio&gt;. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator&lt;=&gt; (the C++20 “spaceship operator”).</p>
-    <p>When not playing with his grandchildren, Dr. Brown continues as an Emeritus participant in the C++ standards process and as a frequent speaker at C++ conferences and meetups worldwide.</p>
+    <p>With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a computer programmer for almost 60 years,
+    and a C++ programmer for more than 40 of those years.</p>
+    <p>He joined the C++ standards effort in 2000, and has since written circa 175 proposal papers. Among numerous other contributions, he is responsible for
+    introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and &lt;cmath&gt;’s mathematical special functions, as
+    well as the headers &lt;random&gt; and &lt;ratio&gt;. He has also significantly impacted such C++ core language features as alias templates, contextual conversions,
+    variable templates, static_assert, and operator&lt;=&gt; (the C++20 “spaceship operator”).</p>
+    <p>When not playing with his grandchildren, Dr. Brown continues as an Emeritus participant in the C++ standards process and as a frequent speaker
+    at C++ conferences and meetups worldwide.</p>
   thumbnailUrl: WalterEBrown.png
   rockstar: true
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
   ribbon:
     - {title: "Keynote"}
+-
+  id: 20
+  name: "Amir"
+  surname: "Kirsh"
+  bio: >
+    <p>Amir Kirsh is a Lecturer at the Academic College of Tel-Aviv-Yaffo and a Dev Advocate at Incredibuild. Amir is also one of the organizers of the CoreCpp conference
+    and participates in the Israeli C++ national body discussion group.</p>
+  thumbnailUrl: AmirKirsh.jpg
+  social:
+#    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+-
+  id: 21
+  name: "Michael"
+  surname: "Kerrisk"
+  bio: >
+    Michael Kerrisk has a unique set of qualifications and experience that ensure that course participants receive training of a very high standard:
+    <ul>
+      <li>He has been programming on UNIX systems since 1987 and began teaching UNIX system programming courses in 1989.</li>
+      <li>He is the author of The Linux Programming Interface, a 1550-page book acclaimed as the definitive work on Linux system programming.</li>
+      <li>He is actively involved in Linux development, working with kernel developers on testing, review, and design of new Linux kernel–user-space APIs.</li>
+      <li>Since 2004, he has been the maintainer of the Linux man-pages project, which provides the manual pages documenting Linux system calls and C library APIs.</li>
+    </ul>
+  thumbnailUrl: MichaelKerrisk.jpg
+  social:
+#    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+-
+  id: 22
+  name: "Shachar"
+  surname: "Shemesh"
+  bio: >
+    <p>Shachar began programming when he was 9, and still finds passion in it, 40 years later. At the time, dinosaurs ruled the earth and computers only
+    had a grand total of 8 bits. Shachar's career took him to almost every niche that the software world has to offer. Typically, if there was a niche his
+    career, for some reason, failed to take him, he'd go there in an open source project. These days Shachar is running two YouTube channels, one in English
+    and one in Hebrew, plus an open source project for implementing the computers of his childhood on an FPGA. Rumor has it he also has a day job.</p>
+  thumbnailUrl: ShacharShemesh.jpg
+  social:
+#    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+-
+  id: 23
+  name: "Mike"
+  surname: "Shah"
+  bio: >
+    <p>Mike Shah is an Associate Teaching Professor at Northeastern University in the Khoury College of Computer Sciences. His primary teaching interests are
+    in computer systems, computer graphics, and software engineering. His research interests are related to performance engineering (dynamic analysis),
+    software visualization, and computer graphics. Along with teaching and research work, he have juggled occasional consulting work as a 3D Senior Graphics Engineer in C++.</p>
+  thumbnailUrl: MikeShah.jfif
+  social:
+#    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+-
+  id: 24
+  name: "Vittorio"
+  surname: "Romeo"
+  bio: >
+    <p>Vittorio Romeo (B.Sc. Computer Science, 6+ YoE at Bloomberg) works on mission-critical C++ infrastructure and provides Modern C++ training to hundreds of fellow employees.</p>
+    <p>He began programming around the age of 8 and became a C++ enthusiast shortly after discovering the language. Vittorio created several open-source C++ libraries and games,
+    published many video courses and tutorials, actively participates in the ISO C++ standardization process, and maintains the popular SFML library.</p>
+    <p>He co-authored the acclaimed "Embracing Modern C++ Safely" book (published in January 2022) with J. Lakos, R. Khlebnikov, and A. Meredith.</p>
+    <p>Vittorio is an active member of the C++ community with an ardent desire to share his knowledge and learn from others: he presented and offered workshops over 20 times
+    at international C++ conferences (including CppCon, C++Now, ++it, ACCU, C++ On Sea, C++ Russia, and Meeting C++), covering topics of various nature.</p>
+    <p>He also maintains a website with advanced C++ articles and a YouTube channel featuring well-received modern C++11/14 tutorials. Lastly, he's active on StackOverflow,
+    taking great care in answering interesting C++ question (90k reputation).</p>
+    <p>When he's not writing code, Vittorio enjoys weightlifting, playing volleyball, scuba diving, canyoning, gaming, and enjoying sci-fi content.</p>
+  thumbnailUrl: VittorioRomeo.jpg
+  social:
+#    - {name: "twitter", link: "https://twitter.com/stroustrup"}

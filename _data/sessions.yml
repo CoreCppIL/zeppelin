@@ -1,11 +1,73 @@
 -
   id: 011
-  title: "Full day workshop"
-  description: "Working on it. You can still propose yours at <a href='https://cfs.corecpp.org/'>https://cfs.corecpp.org/<a>"
+  title: "Understanding and Mastering C++ Complexity"
+  description: >
+    <p>C++ is a very broad language, making it quite natural to have knowledge gaps. Some knowledge gaps are a result of the many additions
+    that come with the new versions of C++, but not necessarily, some knowledge gaps may stretch back to C++98.</p>
+    <p><b>The goal of this workshop is to cover C++ topics for the intermediate level C++ programmer (with around 1-4 years of experience in C++).</b>
+    We would focus on C++ parts that allow you to write better code, more efficient and more efficiently. The workshop would also go through
+    important parts of modern C++, from C++11 up to C++20, assuring attendees that mastering C++ is doable.</b>
   subtype: workshop
-  #speakers: [10]
-  language: en
+  speakers: [20]
+  language: he
 #  subtype: keynote
+-
+  id: 012
+  title: "Linux Security and Isolation APIs essentials"
+  description: >
+    <p>This course provides an overview of the low-level Linux features–set-UID programs, capabilities, namespaces, and control groups (v2)–that are used
+    to implement privileged applications and build container, virtualization, and sandboxing technologies. (The course does not cover systems such as
+    Docker and LXC, but participants will gain an an insight into the implementation and operation of such systems.)</p>
+    <p>The primary audience comprises designers and programmers building privileged applications, container applications, and sandboxing applications.
+    Systems administrators who manage such applications will also find the course of benefit. Participants should have some awareness of classical
+    Linux/UNIX concepts such as file descriptors and file I/O, signals, and the process lifecycle (fork(), exec(), wait(), exit()). In addition,
+    participants should have a reading knowledge of the C programming language. (Note, however, that the course exercises do not require writing any programs.)</p>
+  subtype: workshop
+  speakers: [21]
+  language: en
+-
+  id: 013
+  title: "Building a compiler (almost) from scratch"
+  description: >
+    <p>Have you always treated a compiler as magical? Do you want to understand how the compiler actually works? How it transforms code into machine language?
+    This tutorial day is a condensed one day course in creating compilers. Well discuss how we parse the code, turn it into semantic constructs, and use those
+    to generate actual executable binary. We'll also touch more advanced subjects, such as optimizations and ambiguity. Some of the course will be going over
+    the code of an existing (relatively simple) compiler. We'll also discuss tools that help generate compilers and their limitations. You may not be able to
+    immediately write your own compiler upon completion, but the tutorial _will_ demystify compiler to the point you will be able to understand how they work.</p>
+  subtype: workshop
+  speakers: [22]
+  language: en
+-
+  id: 014
+  title: "Accelerated Modern C++ Tour"
+  description: >
+    <p>The following hands on tutorial provides a tour of the core modern C++ programming language ideas and core idioms. Many features and examples of the
+    language will be shown in an 'accelerated manner', covering the most important features that every C++ programmer should know. Folks who should attend
+    this tutorial are those who lack Modern C++ knowledge, or otherwise want a day to reinforce their fundamentals in C++. This will be a hands on workshop
+    in which learners will be introduced to each new language feature and as each feature is learned, learners will build from scratch a final project to
+    reinforce their knowledge.</p>
+  subtype: workshop
+  speakers: [23]
+  language: en
+-
+  id: 015
+  title: "C++ Templates for Developers"
+  description: >
+    <p>As an intermediate-level C++ programmer, you already know about and have very likely used one or more kinds of C++ templates in your code. Whether you’ve
+    applied std::vector or std::array to your work, or called upon any of the multitude of algorithms that the standard library provides, you’ve experienced some
+    of the power that templates add to a C++ programmer’s toolkit.</p>
+    <p>This Workshop will help you take your knowledge and experience to the next level, so that you will both (1) understand exactly how C++ templates are
+    handled by a compiler, and (2) be able to take advantage of that knowledge to create templates that are tailored to your own programming needs.</p>
+    <p>In this Academy Workshop, we will explore all significant facets of the many kinds of C++ templates (and other templated entities), and will do so
+    in as much depth as our time together will permit. The Workshop will include presentations as well as optional (but recommended) practice exercises,
+    together with numerous examples and tips that you can learn from and apply. Many of our examples and exercises will be taken from the standard library,
+    thus doubling the useful information you’ll glean from your participation.</p>
+    <p>Come discover how the world of C++ templates will open to you once you’ve mastered a modest handful of straightforward, key insights and principles.
+    Whether it’s programming generically, or with variadics, SFINAE, concepts, overloading, or other coding practices, this Workshop will allow you to
+    explore and apply template-based techniques that will help solve problems in your programming domain!</p>
+  subtype: workshop
+  speakers: [10]
+  language: en
 -
   id: 002
   title: "Closing session"
