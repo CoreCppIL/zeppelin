@@ -149,20 +149,20 @@ subscribeInfo: "Number of seats is limited. Stay tuned!"
 ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
- -
-  name: "Full 2-Day Ticket: Early Bird"
-  price: "850"
-  priceCurrency: "ILS"
-  ribbon: "-20%"
-  featured: true
-  ticketsNumber: "50"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2022/with/3cpa-nmkm34"
-  buyButtonText: "Register Now"
-  ticketContentList: ["Two Day Conference", "Three Parallel Tracks", "On Sale Until June 30th!"]
-  validFrom: "2021-06-01"
-  validThrough: "2021-06-30"
-  soldOut: false
-  soldOutText: "Sold Out"
+# -
+#  name: "Full 2-Day Ticket: Early Bird"
+#  price: "850"
+#  priceCurrency: "ILS"
+#  ribbon: "-20%"
+#  featured: true
+#  ticketsNumber: "50"
+#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2022/with/3cpa-nmkm34"
+#  buyButtonText: "Register Now"
+#  ticketContentList: ["Two Day Conference", "Three Parallel Tracks", "On Sale Until June 30th!"]
+#  validFrom: "2021-06-01"
+#  validThrough: "2021-06-30"
+#  soldOut: false
+#  soldOutText: "Sold Out"
  -
   name: "Full 2-Day Ticket"
   price: "1050"
@@ -172,6 +172,20 @@ ticketsOffers:
   buyButtonLink: "https://ti.to/hamakor/core-cpp-2022/with/trbrwbmshfg"
   buyButtonText: "Register Now"
   ticketContentList: ["Two Day Conference", "Three Parallel Tracks", "Meet Fellow Developers"]
+  validFrom: "2021-07-01"
+  validThrough: "2021-09-05"
+  soldOut: false
+  soldOutText: "Event Ended"
+ -
+  name: "Workshop"
+  price: "1350"
+  priceCurrency: "ILS"
+  ribbon: "Limited"
+  featured: true
+  ticketsNumber: "100"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2022"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Full day workshop", "6 workshops to chose from!", "Top C++ trainers"]
   validFrom: "2021-07-01"
   validThrough: "2021-09-05"
   soldOut: false
