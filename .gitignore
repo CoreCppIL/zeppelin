@@ -1,5 +1,7 @@
 ### General ###
 *.lock
+*.Zone.Identifier
+*.bak
 
 ### Jekyll ###
 _site/

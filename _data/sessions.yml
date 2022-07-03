@@ -6,7 +6,8 @@
     that come with the new versions of C++, but not necessarily, some knowledge gaps may stretch back to C++98.</p>
     <p><b>The goal of this workshop is to cover C++ topics for the intermediate level C++ programmer (with around 1-4 years of experience in C++).</b>
     We would focus on C++ parts that allow you to write better code, more efficient and more efficiently. The workshop would also go through
-    important parts of modern C++, from C++11 up to C++20, assuring attendees that mastering C++ is doable.</b>
+    important parts of modern C++, from C++11 up to C++20, assuring attendees that mastering C++ is doable.</p>
+    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/4inywgn7kqq">register now</a>!</p>
   subtype: workshop
   speakers: [20]
   language: he
@@ -22,6 +23,7 @@
     Systems administrators who manage such applications will also find the course of benefit. Participants should have some awareness of classical
     Linux/UNIX concepts such as file descriptors and file I/O, signals, and the process lifecycle (fork(), exec(), wait(), exit()). In addition,
     participants should have a reading knowledge of the C programming language. (Note, however, that the course exercises do not require writing any programs.)</p>
+    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/6t7udu7msda">register now</a>!</p>
   subtype: workshop
   speakers: [21]
   language: en
@@ -34,6 +36,7 @@
     to generate actual executable binary. We'll also touch more advanced subjects, such as optimizations and ambiguity. Some of the course will be going over
     the code of an existing (relatively simple) compiler. We'll also discuss tools that help generate compilers and their limitations. You may not be able to
     immediately write your own compiler upon completion, but the tutorial _will_ demystify compiler to the point you will be able to understand how they work.</p>
+    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/ozmkotlgeqi">register now</a>!</p>
   subtype: workshop
   speakers: [22]
   language: en
@@ -46,6 +49,7 @@
     this tutorial are those who lack Modern C++ knowledge, or otherwise want a day to reinforce their fundamentals in C++. This will be a hands on workshop
     in which learners will be introduced to each new language feature and as each feature is learned, learners will build from scratch a final project to
     reinforce their knowledge.</p>
+    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/eajrgx1c2tm">register now</a>!</p>
   subtype: workshop
   speakers: [23]
   language: en
@@ -65,6 +69,7 @@
     <p>Come discover how the world of C++ templates will open to you once you’ve mastered a modest handful of straightforward, key insights and principles.
     Whether it’s programming generically, or with variadics, SFINAE, concepts, overloading, or other coding practices, this Workshop will allow you to
     explore and apply template-based techniques that will help solve problems in your programming domain!</p>
+    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/one2l1ro2me">register now</a>!</p>
   subtype: workshop
   speakers: [10]
   language: en
