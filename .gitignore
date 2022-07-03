@@ -1,6 +1,6 @@
 ### General ###
 *.lock
-*.Zone.Identifier
+*.Identifier
 *.bak
 
 ### Jekyll ###
