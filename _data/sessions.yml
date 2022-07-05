@@ -74,6 +74,21 @@
   speakers: [10]
   language: en
 -
+  id: 016
+  title: "C++17: All You Need To Know"
+  description: >
+    <p>If you've caught up with C++11 and C++14, but did not yet have a chance to deeply explore what C++17 has to offer, then this course is for you!</p>
+    <p>We will cover the most important additions in C++17, enabling you to write idiomatic code using major new features such as: CTAD, structured bindings,
+    fold expressions, and mandatory copy elision.</p>
+    <p>Both the core language and the library have been extended with new features that significantly reduce the likelihood of bugs, improve readability
+    and maintainability of code, and enable new powerful programming paradigms.</p>
+    <p>Throughout lectures, quizzes, and real-life usage examples, you will understand the value C++17 brings to the table, and you will immediately be able
+    to apply the lessons learned to your real projects.</p>
+    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/adu0svo6cew">register now</a>!</p>
+  subtype: workshop
+  speakers: [24]
+  language: en
+-
   id: 002
   title: "Closing session"
   description: "TBD"
