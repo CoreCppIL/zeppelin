@@ -263,3 +263,13 @@
     developing ground breaking AI-based remote health monitoring technology. Recently he has joined the WG21 standards
     committee as a member of the Israeli NB.</p>
   thumbnailUrl: NoPhoto.jpg
+-
+  id: 119
+  name: "Sebastian"
+  surname: "Theophil"
+  bio: >
+    <p>Sebastian studied Computer Science in Berlin and Toulouse and holds a Ph.D. in Computer Science from the Humboldt University of Berlin.
+    He has been working at think-cell Software since its founding in 2002 and has recently been working on porting think-cell to the Mac.
+    He was invited as speaker at RWTH Aachen, ETH Zürich, Freie Universität Berlin, Humboldt Universität zu Berlin, and he is also speaking
+    in various international C++ conferences and gatherings.</p>
+  thumbnailUrl: SebastianTheophil.jpg

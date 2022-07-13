@@ -293,6 +293,33 @@
   speakers: [118]
   language: en
 -
+  id: 119
+  title: "Windows, macOS and the Web: Lessons from cross-platform development at think-cell"
+  description: >
+    <p>For twelve years, think-cell had been a Windows-only software company and our codebase of approximately 700k lines of code had accumulated many unintentional
+    platform dependencies. Six years ago, we decided to port our application to the Mac. This change has affected every part of our development process:
+    the project organization, build system and the way we program in C++ today. The commonly used cross-platform libraries such as Qt and boost were good
+    tools to build on, but by themselves were not enough. For many concepts, such as mutexes, semaphores or shared memory, they only offer a common interface
+    to platform-specific objects with very different semantics and lifetimes. We wanted light-weight, platform-independent C++ abstractions with identical
+    semantics for rendering, internationalization, file I/O, mouse event handling, RPC calls and error reporting. Developing these was challenging, firstly,
+    because we had to define which semantics our application needed and, secondly, we had to implement them on each platform. This was not an easy process
+    but I would argue it has improved the quality of our code very much. By now, we have moved on to the next challenge and have started to move some functionality
+    to web applications. We wanted to reuse our existing code-base of course, and that meant writing web applications in expressive, type-safe C++.
+    Definitely an advantage in our book! We have built our web applications using emscripten, but we generate type-safe C++ bindings from any TypeScript interface
+    definition. In my talk, I will give you an overview of the C++ abstractions we have implemented, focusing on the cross-platform problem areas where common semantics
+    were hard to define due to limitations of either one of the operating systems, and of course I will show you our tools that let us write web application in C++.</p>
+  speakers: [119]
+  language: en
+-
+  id: 117
+  title: "Const Correctness: How To Be Const Correct And Amazing At It"
+  description: >
+    <p>The <code>const</code> keyword is fundamental in C++ and an awesome tool in your toolbox. I will show you how to use const simply and correctly, how to introduce
+    it to an existing code base, the important guarantees it provides (as well as what it does not), and much more. Additionally you'll learn how to use the mutable
+    keyword correctly, work well with threading, learn experimental features, and be safer at programming.</p>
+  speakers: [117]
+  language: en
+-
   id: 002
   title: "Closing session"
   description: "TBD"
