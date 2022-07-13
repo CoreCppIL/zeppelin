@@ -18,6 +18,22 @@
   ribbon:
     - {title: "Keynote"}
 -
+  id: 11
+  name: "David"
+  surname: "Sankel"
+  bio: >
+    <p>David Sankel is a Principal Scientist at Adobe and an active member of the C++ Standardization Committee. His experience spans microservice
+    architectures, CAD/CAM, computer graphics, visual programming languages, web applications, computer vision, and cryptography. He is a frequent
+    speaker at C++ conferences and specializes in large-scale software engineering and advanced C++ topics. David’s interests include dependently
+    typed languages, semantic domains, EDSLs, and functional reactive programming. He is the project editor of the C++ Reflection TS, Chair of the
+    Boost Foundation, and an author of several C++ proposals including pattern matching and language variants.</p>
+  thumbnailUrl: DavidSankel.jpg
+  rockstar: true
+  social:
+#    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Keynote"}
+-
   id: 20
   name: "Amir"
   surname: "Kirsh"
@@ -82,3 +98,158 @@
   thumbnailUrl: VittorioRomeo.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+-
+  id: 101
+  name: "Bryce"
+  surname: "Adelstein Lelbach"
+  bio: >
+    <p>Bryce Adelstein Lelbach has spent over a decade developing programming languages and software libraries. He is the HPC Programming Models Architect
+    at NVIDIA, where he leads programming language standardization efforts and drives the technical roadmap for NVIDIA's HPC compilers and libraries.
+    Bryce is passionate about C++ and is one of the leaders of the C++ community. He is the chair of INCITS/PL22, the US standards committee for
+    programming languages and the Standard C++ Library Evolution group. He also serves as editor for the INCITS Inclusive Terminology Guidelines.
+    Bryce is the program chair for the C++Now and CppCon conferences. On the C++ Committee, he has personally worked on concurrency primitives,
+    parallel algorithms, executors, and multidimensional arrays. He is one of the founding developers of the HPX parallel runtime system.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 102
+  name: "Andreas"
+  surname: "Weis"
+  bio: >
+    <p>Andreas Weis has been writing C++ code in many different domains, from real-time graphics, to distributed applications, to embedded systems.
+    As a library writer by nature, he enjoys writing portable code and exposing complex functionalities through simple, richly-typed interfaces.
+    Both of which C++ allows him to do extensively. Andreas is also one of the co-organizers of the Munich C++ User Group, which allows
+    him to share this passion with others on a regular basis.</p>
+    <p>He currently works for Woven Planet, where he focuses on building modern software for use in safety critical systems.</p>
+  thumbnailUrl: AndreasWeis.jpg
+-
+  id: 103
+  name: "Daisy"
+  surname: "Hollman"
+  bio: >
+    <p>Dr. Daisy S. Hollman began working with the C++ standards committee in 2016, where she has made contributions to a wide range of
+    library and language features, including proposals related to executors, atomics, generic programming, futures, and multidimensional
+    arrays. Since receiving her Ph.D. in Quantum Chemistry in 2013, her research has focussed primarily on parallel and concurrent
+    programming models, though a broader focus on general accessibility of complex abstractions has become her focus in more recent years.
+    She currently works on C++ language and library design at Google, where she continues to focus on providing broad accessibility of
+    programming models and abstractions, with a particular focus on design for diversity and inclusivity.</p>
+  thumbnailUrl: NoPhoto.jpg  
+-
+  id: 104
+  name: "Shachar"
+  surname: "Langbeheim"
+  bio: >
+    <p>Professional software developer by day and amateur game developer by night, I I'm a generalist programmer, with a wide experience,
+    spanning VR, A/V encoding/decoding, and frontend/backend work.</p>
+  thumbnailUrl: ShacharLangbeheim.jpeg
+-
+  id: 105
+  name: "Alon"
+  surname: "Wolf"
+  bio: >
+    <p>Alon is a Senior Software Engineer at Medtronic specializing in 3D and computer graphics with a passion for high performance.
+    He has developed many custom simulation and rendering engines for different platforms using modern C++. He also writes a C++ technical
+    blog and participates in game jams.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 106
+  name: "Chris"
+  surname: "Ryan"
+  bio: >
+    <p>Chris Ryan was classically trained in software and hardware engineering. He is well experienced in Modern C++ on extremely
+    large/complex problem spaces and Classic ‘C’ on Embedded/Firmware devices (large & small). Chris has no interest in C#/.Net,
+    Java, js or any web-ish tech.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 107
+  name: "Roy"
+  surname: "Margalit"
+  bio: >
+    <p>PhD student in the Programming Languages group at School of Computer Science Tel Aviv University. Currently researching
+    programming languages and verification, with a focus on concurrency and relaxed memory models.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 108
+  name: "Arno"
+  surname: "Schödl"
+  bio: >
+    <p>Arno is responsible for the development of all think-cell software products. He oversees R&D team, quality assurance
+    and customer care. Before founding think-cell, Arno worked at Microsoft Research and McKinsey.</p>
+    <p>Arno studied computer science and management and holds a Ph.D. from Georgia Tech with a specialization in computer graphics.</p>
+  thumbnailUrl: ArnoSchodl.jpg
+-
+  id: 109
+  name: "Inbal"
+  surname: "Levi"
+  bio: >
+    <p>Inbal Levi is an embedded software engineer with a passion for design and high performance. She is a director at ISO C++
+    foundation, and an active member of the ISO C++ Standards Committee as a co chair of Library Evolution, chair of SG9 (Ranges group)
+    and of the ISO C++ Israeli NB. Inbal is also one of the organizers of the CoreCpp conference and user group.</p>
+  thumbnailUrl: InbalLevi.jpg
+-
+  id: 110
+  name: "Assaf"
+  surname: "Cohen"
+  bio: >
+    <p>Software developer and team leader. currently at Incredibuild. main focused on c++, network and asynchronous programming.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 111
+  name: "Anat"
+  surname: "Heilper"
+  bio: >
+    <p>I have over 18 years of experience in various SW domains. In recent projects, I have led the development of AI accelerators,
+    developing end-to-end SW stack solutions in a HW/SW co-design environment. I enjoy challenging projects and working in
+    multidisciplinary environments.</p>
+  thumbnailUrl: AnatHeilper.png
+-
+  id: 112
+  name: "Yehezkel"
+  surname: "Bernat"
+  bio: >
+    <p>I'm software engineer at Microsoft and TA at Hadassah College, teaching C++ and OOP.</p>
+  thumbnailUrl: YehezkelBernat.jpg
+-
+  id: 113
+  name: "Ivica"
+  surname: "Bogosavljevic"
+  bio: >
+    <p>Senior Software Engineer with 10 years of experience active in the domain of Linux and bare-metal based embedded systems.
+    His professional focus is application performance improvement - techniques used to make your C/C++ program run faster by
+    using better algorithms, better exploiting the underlying hardware, and better usage of the standard library, programming
+    language, and the operating system. Writer for a performance-related tech blog: <a href="https://johnysswlab.com">https://johnysswlab.com</a></p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 114
+  name: "Dima"
+  surname: "Danilov"
+  bio: >
+    <p>Dima Danilov is a Software Team Leader at GK8 with expertise in the fields of C++, Rust, networking, and
+    distributed systems. Dima has over 12 years of experience in software engineering since completing his master's in
+    the field and has worked for global corporations such as HP and VMWare, as well as startups in the live video
+    streaming and cryptocurrency/blockchain sectors.</p>
+  thumbnailUrl: DimaDanilov.jpeg
+-
+  id: 116
+  name: "Roi"
+  surname: "Barkan"
+  bio: >
+    <p>Professional software developer and architect since 2000, Roi's main focus throughout his career was on high
+    performance and distributed systems, and on implementing complex and innovative algorithms. Roi has been the VP
+    technologies of Istra Research since 2014, where he helps the development of low latency financial systems.
+    Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the
+    IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel,
+    and his executive MBA from Tel Aviv University.</p>
+  thumbnailUrl: RoiBarkan.jpg
+-
+  id: 117
+  name: "A.J."
+  surname: "Orians"
+  bio: >
+    <p>Andrew "A.J." Orians is a Software Engineer at <a href="https://www.techsmith.com/">TechSmith</a>,
+    the makers of <a href="https://www.techsmith.com/snagit.html">Snagit</a>, <a href="https://www.techsmith.com/camtasia.html">Camtasia</a>,
+    and other visual communication software applications. He has been at TechSmith for the last fifteen years where he
+    and his team help create new and exciting features as well as maintain the current products. He is always driving
+    the company forward with new and innovative ways to approach a problem. A.J. is passionate about getting in to the
+    trenches with other developers, exploring software, and trying new development techniques. Besides his interests in
+    commercial software he also enjoys running, logic puzzles and games, and creating software programs as a hobby.</p>
+  thumbnailUrl: AJOrians.jpg

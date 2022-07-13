@@ -11,7 +11,6 @@
   subtype: workshop
   speakers: [20]
   language: he
-#  subtype: keynote
 -
   id: 012
   title: "Linux Security and Isolation APIs essentials"
@@ -87,6 +86,19 @@
     <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/adu0svo6cew">register now</a>!</p>
   subtype: workshop
   speakers: [24]
+  language: en
+-
+  id: 020
+  title: "Rust Features that I Want in C++"
+  description: >
+    <p>By many accounts, Rust is one of the fastest growing programming languages out there. While there are many factors fueling
+    this growth, this talk will focus on the aspects of Rust that make it particularly attractive as a systems programming language.
+    This covers tooling, community, strategy, and, of course, features. Throughout the talk we'll be revisiting the question,
+    "Can we have this in C++ and, if so, how can we get it?" While we'll examine the practicalities of the ISO process and
+    the limitations of backwards compatibility, there is a lot of optimism to be had.</p>
+    <p>This talk assumes an intermediate level of C++ know-how and no prior knowledge of Rust.</p>
+  subtype: keynote
+  speakers: [11]
   language: en
 -
   id: 002
