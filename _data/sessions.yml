@@ -2,6 +2,7 @@
   id: 011
   title: "Understanding and Mastering C++ Complexity"
   description: >
+    <p><b>WORKSHOP</b></p>
     <p>C++ is a very broad language, making it quite natural to have knowledge gaps. Some knowledge gaps are a result of the many additions
     that come with the new versions of C++, but not necessarily, some knowledge gaps may stretch back to C++98.</p>
     <p><b>The goal of this workshop is to cover C++ topics for the intermediate level C++ programmer (with around 1-4 years of experience in C++).</b>
@@ -15,6 +16,7 @@
   id: 012
   title: "Linux Security and Isolation APIs essentials"
   description: >
+    <p><b>WORKSHOP</b></p>
     <p>This course provides an overview of the low-level Linux features–set-UID programs, capabilities, namespaces, and control groups (v2)–that are used
     to implement privileged applications and build container, virtualization, and sandboxing technologies. (The course does not cover systems such as
     Docker and LXC, but participants will gain an an insight into the implementation and operation of such systems.)</p>
@@ -30,6 +32,7 @@
   id: 013
   title: "Building a compiler (almost) from scratch"
   description: >
+    <p><b>WORKSHOP</b></p>
     <p>Have you always treated a compiler as magical? Do you want to understand how the compiler actually works? How it transforms code into machine language?
     This tutorial day is a condensed one day course in creating compilers. Well discuss how we parse the code, turn it into semantic constructs, and use those
     to generate actual executable binary. We'll also touch more advanced subjects, such as optimizations and ambiguity. Some of the course will be going over
@@ -43,6 +46,7 @@
   id: 014
   title: "Accelerated Modern C++ Tour"
   description: >
+    <p><b>WORKSHOP</b></p>
     <p>The following hands on tutorial provides a tour of the core modern C++ programming language ideas and core idioms. Many features and examples of the
     language will be shown in an 'accelerated manner', covering the most important features that every C++ programmer should know. Folks who should attend
     this tutorial are those who lack Modern C++ knowledge, or otherwise want a day to reinforce their fundamentals in C++. This will be a hands on workshop
@@ -56,6 +60,7 @@
   id: 015
   title: "C++ Templates for Developers"
   description: >
+    <p><b>WORKSHOP</b></p>
     <p>As an intermediate-level C++ programmer, you already know about and have very likely used one or more kinds of C++ templates in your code. Whether you’ve
     applied std::vector or std::array to your work, or called upon any of the multitude of algorithms that the standard library provides, you’ve experienced some
     of the power that templates add to a C++ programmer’s toolkit.</p>
@@ -76,6 +81,7 @@
   id: 016
   title: "C++17: All You Need To Know"
   description: >
+    <p><b>WORKSHOP</b></p>
     <p>If you've caught up with C++11 and C++14, but did not yet have a chance to deeply explore what C++17 has to offer, then this course is for you!</p>
     <p>We will cover the most important additions in C++17, enabling you to write idiomatic code using major new features such as: CTAD, structured bindings,
     fold expressions, and mandatory copy elision.</p>
@@ -99,6 +105,192 @@
     <p>This talk assumes an intermediate level of C++ know-how and no prior knowledge of Rust.</p>
   subtype: keynote
   speakers: [11]
+  language: en
+-
+  id: 101
+  title: "C++ Standard Parallelism"
+  description: >
+    <p>Imagine writing parallel code that can run on any platform - CPUs, GPUs, DPUs, specialized accelerators, etc - without any language
+    or vendor extensions, external libraries, or special compilation tools. It's no longer just a dream - you can do it today in Standard C++!</p>
+    <p>Parallelism is increasingly common in software, from supercomputer simulations to mobile applications. But writing parallel code is
+    increasingly challenging, due to an explosion of diversity in hardware, a trend that's likely to continue into the future.
+    To meet this challenge, the C++ Committee has developed C++ Standard Parallelism, a parallel programming model for Standard C++ that is
+    portable to all platforms, from your smartwatch to your supercomputer, and delivers reasonable performance and efficiency for most use cases.</p>
+    <p>Our vision of C++ Standard Parallelism consists of three key components:</p>
+    <ul>
+       <li>Common parallel algorithms that dispatch to vendor-optimized parallel libraries.</li>
+       <li>Tools to write your own parallel algorithms that run anywhere.</li>
+       <li>Mechanisms for composing parallel invocations of algorithms into task graphs.</li>
+    </ul>
+    <p>In this talk, we'll dive into the roadmap for C++ Standard Parallelism - we'll discuss what we already have that you can use today,
+    what's coming down the line, and where the future may lead us.</p>
+  speakers: [101]
+  language: en
+-
+  id: 102
+  title: "Deciphering Coroutines - A Visual Approach"
+  description: >
+    <p>Coroutines are a powerful addition to C++20, allowing developers to drastically simplify code for certain kinds of problems and be adapted to
+    a wide range of different use cases. But anyone trying to familiarize themselves with them will quickly notice that this flexibility comes at a price:
+    In their current state, C++ coroutines are notoriously difficult to learn and their tight integration with the compiler gives them a feel quite
+    unlike any other feature in the language.</p>
+    <p>The goal of this talk is to give a sustainable introduction on how to read and reason about coroutine code. We will learn how all the different
+    elements of the mechanism fit together and to distinguish the parts of the code that follow the new rules of coroutines from those that still follow
+    the well known conventional rules of C++. We will approach this through the construction of a coroutine cheat sheet, a collection of diagrams that
+    serve as visual maps for navigating the complexities of the feature. Special care is taken to provide visual cues that are easily recognizable later on,
+    to compensate for the fact that learners tend to forget the numerous details of the mechanism very fast if they don't use it in their everyday coding.</p>
+    <p>To account for the complexity of the topic, this talk focuses exclusively on providing a comprehensive introduction to the coroutine syntax,
+    without discussing any advanced use cases. However, with the knowledge obtained from this talk, attendees will be able to easily follow more advanced
+    presentations of coroutines later on without getting lost in the technical details of its peculiar syntax.</p>
+  speakers: [102]
+  language: en
+-
+  id: 103
+  title: "What You Can Learn From Being Too Cute (Part 2 of N)"
+  description: >
+    <p>During the COVID-19 global pandemic, as we all searched for ways to stay connected to the C++ community, I innocently started posting short,
+    25-line or less C++ snippets of counterintuitive C++ code that I called my "Cute C++ trick of the day." The amount of attention these tricks got
+    was surprising, and as I've posted more of them, I've realized that these counterintuitive snippets of C++ code offer pithy and memorable ways
+    to teach people some intermediate or advanced aspects of C++ (that often come up in real code!).</p>
+    <p>I gave part 1 (of N) of this talk at CppCon 2021, and this is part 2 (of N). In this presentation, I will dissect a few more of my most
+    popular "Cute C++ tricks" to a level of detail not possible on social media platforms like Twitter. I'll talk about how and why these tricks
+    work the way they do, talk about the dark corners of C++ they touch upon, and talk about what you should actually do if you need to produce
+    the same effect in production code. While not targeted at beginners, these tricks span the gauntlet from features that most intermediate
+    programmers are aware of (but never thought to use in a particular way) to dark corners of the language that many of my C++ committee colleagues
+    were surprised to learn about. Throughout it all runs a common thread: learning how to exploit your own curiosity to expand your toolbox, gain a
+    better grasp of the fundamentals of C++, and ultimately, become a better programmer.</p>
+  speakers: [103]
+  language: en
+-
+  id: 109
+  title: "Customization Methods: Connecting User And Library Code"
+  description: >
+    <p>The interface between a library and its users is a major design consideration for every developer, and has been evolving greatly over
+    C++’s lifetime. In this talk we will go over different methods for connecting generic library code with user-side specific code, commonly
+    known as Customization Points. We will cover the benefits and downsides of different methods (including CTS, ADL, Concepts, CTOs, and the
+    latest to be considered - tag_invoke), and present future directions for these mechanisms.</p>
+    <p>At the end of the talk, you’ll be familiar with the terminology and developments in this field, including the ones planned for C++23 and C++26.</p>
+  speakers: [109]
+  language: en
+-
+  id: 116
+  title: "Coroutine Intuition"
+  description: >
+    <p>As one of the 'big four' new additions to C++20, coroutines allow us to rethink how we design and architect our functions, systems and code.</p>
+    <p>With no initial support in the STL, many of us are still hesitant to embrace coroutines and consider how to effectively use them to improve the
+    readability, maintainability and composability of our creations.</p>
+    <p>In this talk, I'll explore and explain topics like <i>stackless</i>, <i>cooperative asyncrony</i>, <i>generators</i> and <i>senders/receivers</i>. Through many concise and
+    different examples of coroutine usage, we'll gain intuition on which types of problems can elegantly be solved with coroutines, and how such solutions
+    can lead to cleaner, safer code.</p>
+  speakers: [116]
+  language: en
+-
+  id: 104
+  title: "Programming for Every Language, Everywhere, All at Once"
+  description: >
+    <p>What do you do when you want to write a library for multiple languages? You can always implement the library multiple times in each language,
+    but there is a better option. In this talk we'll discuss how to write logic in a low-level language and access it from multiple high level managed languages.
+    We'll try to make foreign function interfaces sound not so foreign, become comfortable with calling conventions, and share the joys and sorrows of shared memory.</p>
+  speakers: [104]
+  language: en
+-
+  id: 99
+  title: "C++ Standard Parallelism"
+  description: >
+    <p>Minimizing complexity in a codebase provides invaluable benefits, especially at scale, including but not limited to: maintainability,
+    ease of understanding, malleability, debuggability, and testability. Such benefits translate not only into real economical advantages,
+    but also increase the mental well-being of any developer.</p>
+    <p>So, how can "simplicity" be achieved?</p>
+    <p>Rather than focusing on philosophical concepts, this interactive presentation will give developers pragmatic and actionable guidelines
+    that can be readily applied to reduce complexity in any codebase. Starting from a wide variety of examples (e.g. casting, containers, looping, attributes)
+    a set of precepts will be derived together with the audience. After that, a deep analysis of where those precepts fall short will be given, honing them
+    until reaching the final goal of obtaining actionable guidelines useful in the real world will be reached.</p>
+    <p>If any of the following questions sound interesting to you, then you will definitely find this talk helpful and enjoyable:</p>
+    <ul>
+       <li>Should <code>emplace_back</code> always be used instead of <code>push_back?</code></li>
+       <li>Does <code>[[nodiscard]]</code> belong on every pure function returning non-<code>void</code>?</li>
+       <li>How can one decide between using open-set and closed-set polymorphism?</li>
+       <li>Are regular <code>for</code> loops the best way of iterating over a range of numbers?</li>
+       <li>Do C-style casts still have a place in Modern C++?</li>
+       <li>Is <code>T*</code> really a valid replacement for <code>std::optional<T&></code>?</li>
+       <li>Does simple code imply concise code?</li>
+       <li>Can using templates reduce the complexity of a code base?</li>
+       <li>When does it make most sense to use type deduction?</li>
+    </ul>
+  speakers: [24]
+  language: en
+-
+  id: 105
+  title: "Generative C++"
+  description: >
+    <p>Currently, there are two main ways to generate code in C++ - templates and macros. While macros can manipulate text, they lack the
+    compile time information and constraints that the compiler provides. Templates on the other hand are incredibly powerful especially with C++20’s
+    concepts, non type template parameters and increased constexpr support, however, while they work great with types and compile time constants they
+    can't be used with identifiers, keywords and other C++ syntax elements. The metaclasses proposal by Herb Sutter aims to give more powerful code generation tools,
+    but it is not part of the standard yet. We will also compare these features to code generation features in other languages. So what can we do right now in
+    C++ in terms of generative code? Well... the answer is anything we want.</p>
+    <p>In this talk, we will go over a different approach for compile time code generation that can be used right now with C++ 20. We will use it to implement
+    the examples from Herb Sutter's metaclasses talk, generate consistent C++ and vulkan shader code, and extend it to support arbitrary compile time execution
+    (yes, it can even run minecraft).</p>
+    <p>We will cover key compile time development topics: 1. What are the pros and cons of the possible compile time input validation methods
+    (static assert, constexpr throw, concepts) and which one should you choose for your compile time library. 2. Working in constexpr context and easily converting
+    between dynamic containers (vector, string) and static containers (array). 3. Designing expressive APIs with non type template parameters.</p>
+    <p>To achieve our goal of code generation we will also dive into some less known topics like the behavior of std::source_location in templates,
+    compile time printing of constexpr strings, DLL injection, function hooks and some pitfalls of C++20's modules build process and how to avoid them.</p>
+    <p>In the end you will have all the tools to create your own compile time code generation library or just download the library with the examples from GitHub and use it.</p>
+  speakers: [105]
+  language: en
+-
+  id: 106
+  title: "Binary Object Serialization with Complex Traversal & Reconstruction"
+  description: >
+    <p>This talk will describe a minimally intrusive technique to add serialization to a set of classes, traversing the hierarchical data, persisting in a binary
+    format and dynamic reconstruction.</p>
+    <p>When storing, it can deduce the data types using Template Argument Deduction (TAD).</p>
+    <p>When loading, it uses a homebrew reflection technique for dynamic object creation. Reflection as a language feature will be unavailable until at least C++26.
+    This serialization technique can dynamically recreate a persisted complex data structure/structure network. This is a platform agnostic technique.
+    Not everybody is yet able to migrate to C++20, so this is using a C++14 compliant SFINAE/std::enable_if&lt;&gt; mechanism. We will also explore optimizations
+    and what it takes to convert this technique to use C++20 concepts.</p>
+    <p>This is not trying to sell you on the use of my library but metaprogramming techniques you can add to your toolbox.</p>
+  speakers: [106]
+  language: en
+-
+  id: 107
+  title: "Atomic Variables: Not radioactive, but you probably still don't want to touch them!"
+  description: >
+    <p>Different hardware architectures implement different memory models. This in turn makes porting software between different targets an insanely
+    complicated task. To solve this problem, C++11 introduced a language memory model that was later adopted by other languages such as D and Rust.
+    In this talk, we will discuss the problem, the solution and why you still have to be careful if you want to maximize performance. In order to try
+    and alleviate the complexity, we will also consider a new technique to make reasoning easier by relying on sequential consistency. This talk will
+    be based on two recent research papers published in PLDI'19 and POPL'21.</p>
+  speakers: [107]
+  language: en
+-
+  id: 108
+  title: "A Practical Approach to Error Handling"
+  description: >
+    <p>Every program may encounter errors, some originating from internal bugs in the program, others coming from the environment the program is operating in.
+    Ignoring all errors will make the program utterly unreliable, while treating every conceivable one introduces lots of extra complexity with little benefit.
+    At think-cell, we have been using and refining our own principled approach to error handling, which we have not seen elsewhere. This talk describes our method,
+    so that in your next project you can write more reliable software with less effort.</p>
+  speakers: [108]
+  language: en
+-
+  id: 118
+  title: "Personal Log: Where No Init Has Gone Before"
+  description: >
+    <p>Can your code have logging entries whose sensitive messages don't show up in the shipped binaries? And can the following code snippet ever work?
+    </p><pre><code>static bool initially_false = false;</br>void no_one_calls_me() { DO_ON_INIT(initially_false = true); }</br>int main() {</br>   assert(initially_false == true);</br>   return 0;</br>}</code></pre>
+    <p>Well yes, this is actual working C++17 code! And yes, we can use this tool to produce a logger with vanishing strings!</p>
+    <p>As part of this talk we will go behind the scenes of the DO_ON_INIT utility, the process involved in developing the idea and its surprisingly simple
+    implementation details (under 20 lines of C++17 code, and even less in C++20).</p>
+    <p>We shall also see how this utility is instrumental in making possible the no-strings-attached logger and its associated automatically-generated decoding facility.
+    We will implement a simple obfuscation technique which replaces logged strings with hashes at compile-time, to avoid shipping binaries containing sensitive
+    textual giveaways. To decode such logs (in a separate decoder utility) we shall use DO_ON_INIT to automatically collect and register all the logged strings
+    system-wide, along with their hashes, without requiring any additional tool (such as an in-house pre-processor).</p>
+    <p>This is yet another example of emergent behavior in C++, consisting of unrelated language features being put to use together in a novel and unexpected way.
+    Could your idea be next?</p>
+  speakers: [118]
   language: en
 -
   id: 002

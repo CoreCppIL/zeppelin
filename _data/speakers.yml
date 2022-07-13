@@ -253,3 +253,13 @@
     trenches with other developers, exploring software, and trying new development techniques. Besides his interests in
     commercial software he also enjoys running, logic puzzles and games, and creating software programs as a hobby.</p>
   thumbnailUrl: AJOrians.jpg
+-
+  id: 118
+  name: "Andrei"
+  surname: "Zissu"
+  bio: >
+    <p>Andrei Zissu is a veteran cross-industry C++ developer, notably having worked on low-level reverse engineering systems
+    employing API hooking, DLL injection and other advanced techniques. He is currently employed at <a href="http://binah.ai/">Binah.ai</a>, an Israeli startup
+    developing ground breaking AI-based remote health monitoring technology. Recently he has joined the WG21 standards
+    committee as a member of the Israeli NB.</p>
+  thumbnailUrl: NoPhoto.jpg
