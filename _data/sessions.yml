@@ -311,6 +311,25 @@
   speakers: [119]
   language: en
 -
+  id: 220
+  title: "All you wanted to know and more on C++20 spaceship operator"
+  description: >
+    <p>C++20 simplifies the definition of comparisons for user-defined types and introduces better ways to deal with them. For this purpose, the new operator
+    <code><=></code> (also called the spaceship operator) was introduced.</p>
+    <p>It is more complicated than it may seem. In this talk we will go thru how to use legacy code with this new feature, intresting bugs that may appear,
+    how to use this operator with generic programming and a discussion of weak, strong and partial ordering.</p>
+  speakers: [120]
+  language: en
+-
+  id: 221
+  title: "From Templates to Concepts"
+  description: >
+    <p>Metaprogramming is been with us since C++98 but as the language evolves we have more tools and the code get simpler and clearer. In this talk we will
+    cover the history of Templates and how the usage and readability became clearer and simpler with each standard. We will develop a concept with c++11-c++17
+    for checking if a type is container and then we will discover how c++20 concepts make the whole thing much easier.</p>
+  speakers: [121]
+  language: en
+-
   id: 217
   title: "Const Correctness: How To Be Const Correct And Amazing At It"
   description: >
@@ -318,6 +337,116 @@
     it to an existing code base, the important guarantees it provides (as well as what it does not), and much more. Additionally you'll learn how to use the mutable
     keyword correctly, work well with threading, learn experimental features, and be safer at programming.</p>
   speakers: [117]
+  language: en
+-
+  id: 222
+  title: "SYCL: the future is open, parallel and heterogenous"
+  description: >
+    <p>oneAPI industry initiative is taking C++ to a heterogeneous and parallel computing future with SYCL. SYCL takes programmers out of proprietary
+    languages to an open-source open-vendor cross device world. Understand the motivation and the vision behind SYCL, learn and see demos of the basics
+    of SYCL to get started. And hear success stories from companies, universities and national labs who are already using SYCL.</p>
+  speakers: [122]
+  language: en
+-
+  id: 223
+  title: "C++20 Likely and Unlikely: A Journey Through Branch Prediction and Compiler Optimizations"
+  description: >
+    <p>C++20 added the <code>[[likely]]</code> and <code>[[unlikely]]</code> attributes, which already had compiler intrinsics before.
+    How likely is using these attributes would affect our code performance?</p>
+    <p>In this talk we travel through branch prediction, optimizations and pessimizations, and the art of benchmarking. We will see that in C++
+    questions that seem simple to begin with do not get a simple answer, but an interesting one!</p>
+    <p>The talk will allow participants to better identify points for performance improvement, and focus their efforts in the right direction.</p>
+  speakers: [123]
+  language: en
+-
+  id: 224
+  title: "Serialization In Modern C++"
+  description: >
+    <p>Whether you're writing a web application, kernel module, or real time OS, you'll find yourself serializing and deserializng pieces of data from your code.</p>
+    <p>We will survey possible approaches to serialize C++ stucts.</p>
+  speakers: [124]
+  language: en
+-
+  id: 211
+  title: "Introduction to oneDnn - Intel’s oneAPI deep neural network Library"
+  description: >
+    <p>Deep learning domain is continuously changing and evolving. New workloads and use cases frequently appear, implying new requirements to
+    HW and SW vendors in the deep learning market. oneDnn is Intel’s open-source cross-platform performance library of basic building blocks
+    for deep learning applications. This talk will introduce oneDnn library, its programming model, primitives, and usage.</p>
+  speakers: [111]
+  language: en
+-
+  id: 210
+  title: "coroutines in production code, what we've learned"
+  description: >
+    <p>Sharing what we had learned while adopting coroutines for several production components. files I/O, and networking. while comparing to the alternatives.</p>
+  speakers: [110]
+  language: he
+-
+  id: 213
+  title: "Observability Tools: Quickly gather insight in the behavior of your program"
+  description: >
+    <p>Going beyond GDB and printf! We present a few observability tools to help you understand what your program is doing and where it is spending time.</p>
+    <p>A must hear for all developers working with Linux and Open Source!</p>
+  speakers: [113]
+  language: en
+-
+  id: 212
+  title: "Multi-methods in C++"
+  description: >
+    <p>Multi-methods are functions that are polymorphic with regard to more than one parameter (while the regular virtual functions we have in the
+    language are polymorphic with regard to only one parameter, the object they are invoked on). Multi-methods are useful in several use-cases,
+    and discussed by Scott Meyers (More Effective C++, Item 31) and more. In this talk we will go over multiple approaches for implementing multi-methods
+    in C++ and see how new and planned C++ features might improve the situation</p>
+  speakers: [112]
+  language: en
+-
+  id: 225
+  title: "How C++23 changes the way we write code"
+  description: >
+    <p>C++20 was a huge release: coroutines, concepts, ranges, and modules profoundly changed the way we write code and think about C++.
+    In comparison, C++23 is a lot smaller in scope: its primary mission is to complete C++20, to fill holes, and to fix issues.
+    Nevertheless, some great new features made the cut this time around, both in the standard library and in the core language. This is even
+    more remarkable considering that the entire feature design phase of C++23 took place during the COVID-19 pandemic, challenging the ISO C++
+    committee to completely reinvent how we work together.</p>
+    <p>This is not a firehose talk about C++23 that tries to cram as many additions and improvements as possible into one hour. Instead,
+    we deliberately focus on just a handful of new features that are going to noticeably change and improve the experience of the everyday
+    C++ programmer. We will talk about how std::expected improves error handling, the huge impact that std::mdspan will have on scientific computing,
+    how deducing <code>this</code> greatly simplifies longstanding C++ idioms such as CRTP, and how <code>std::print</code> will forever change how we write "Hello, World".</p>
+  speakers: [125]
+  language: en
+-
+  id: 214
+  title: "Considerations when Working with Shared Pointers"
+  description: >
+    <p>I will present some important caveats when working with shared pointers: performance, memory efficiency, and design considerations.</p>
+  speakers: [114]
+  language: en
+-
+  id: 226
+  title: "Introduction to Google Test and Google Mock"
+  description: >
+    <p>Google Test and Google Mock are two unit-testing libraries that I've been using for several years now. This talk will cover the basics
+    of using these libraries and will highlight what I consider to be the most interesting advanced features.</p>
+  speakers: [126]
+  language: en
+-
+  id: 227
+  title: "Back to basics: lambda expressions"
+  description: >
+    <p>The lecture will expose the evolution of lambda expression from C++11 through C++23. We will cover using IIFE, recursive lambdas, currying and more lambda calculus brain candies.</p>
+  speakers: [127]
+  language: en
+-
+  id: 228
+  title: "Reproducible Developer Environments"
+  description: >
+    <p>Getting a developer environment properly configured for your projects can be time-consuming and error-prone. Too often, the requirements are not
+    clearly defined, are simply outdated, or make assumptions about the existing environment. Getting it slightly wrong can result in failures that are difficult
+    to diagnose and could take days or weeks to discover. Working with multiple projects that have potentially conflicting requirements can make multi-tasking
+    a chore. This talk will describe the criteria we can use to determine the effectiveness of a solution to these problems, apply those to historical techniques,
+    and will present a deeper look at two modern solutions, GitHub Codespaces and Microsoft Dev Box.</p>
+  speakers: [128]
   language: en
 -
   id: 002

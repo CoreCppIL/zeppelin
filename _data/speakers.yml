@@ -262,7 +262,7 @@
     employing API hooking, DLL injection and other advanced techniques. He is currently employed at <a href="http://binah.ai/">Binah.ai</a>, an Israeli startup
     developing ground breaking AI-based remote health monitoring technology. Recently he has joined the WG21 standards
     committee as a member of the Israeli NB.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: AndreiZissu.jpg
 -
   id: 119
   name: "Sebastian"
@@ -273,3 +273,79 @@
     He was invited as speaker at RWTH Aachen, ETH Zürich, Freie Universität Berlin, Humboldt Universität zu Berlin, and he is also speaking
     in various international C++ conferences and gatherings.</p>
   thumbnailUrl: SebastianTheophil.jpg
+-
+  id: 120
+  name: "Avi"
+  surname: "Lachmish"
+  bio: >
+    <p></p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 121
+  name: "Alex"
+  surname: "Dathskovsky"
+  bio: >
+    <p>I am a C++ expert, developer, trainer and speaker with strong experience in template meta-programming and modern C++.
+    I am a C++ evangelist that motivates companies to move to the most modern standard. With more than 16 years of development
+    and management experience in fields such as storage, signal processing and image processing. Right now I am a Group Manager
+    and Technical Leader at <a href="http://speedata.io/">speedata.io</a> an exciting startup that builds a novel accelerator for big data computation.</p>
+  thumbnailUrl: AlexDathskovsky.jfif
+-
+  id: 122
+  name: "Guy"
+  surname: "Tamir"
+  bio: >
+    <p>Guy Tamir is a technology evangelist at Intel Software and Advanced Technology group. His main areas of interest and expertise
+    are artificial Intelligence, Computer vision, Video processing, and Heterogeneous, parallel computing.</p>
+    <p>Guy is an active YouTuber, with the OpenVINO and oneAPI youTube channels that just passed the 2 million viewers recently.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 123
+  name: "Tomer"
+  surname: "Vromen"
+  bio: >
+    <p>Software engineer at Dell Technologies, programming in C++ for 10 years. Interested in algorithms, software development, and long distance running.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 124
+  name: "Elazar"
+  surname: "Leibovich"
+  bio: >
+    <p>Programming for 17 years, virtualization, storage, big data.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 125
+  name: "Timur"
+  surname: "Doumler"
+  bio: >
+    <p>Timur Doumler is C++ Developer Advocate at JetBrains and an active member of the ISO C++ standard committee. As a developer,
+    he worked many years in the audio and music technology industry and co-founded the music tech startup Cradle. Timur is
+    passionate about building inclusive communities, clean code, good tools, low latency, and the evolution of the C++ language.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 126
+  name: "Noam"
+  surname: "Weiss"
+  bio: >
+    <p>A C++ programmer for over 20 years now. Still excited about brilliant code.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 127
+  name: "Muhammad"
+  surname: "Zahalqa"
+  bio: >
+    <p>Over 20 years of C++ experience. Training experience over theist 12 years in C++ and Advanced C++ courses.
+    Consultant in the area of distributed computing, architecture and performance tuning.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 128
+  name: "Michael"
+  surname: "Price"
+  bio: >
+    <p>Michael Price (he/him) is an experienced software engineer, currently working as a Product Manager with the Microsoft C++
+    team. His experience working at major software companies for over 15 years informs his thinking about how to enable C++ developers
+    around the world to achieve more. His current focus is on enhancing C++ tooling to take advantage of the PaaS (platform-as-a-service)
+    and IaaS (infrastructure-as-a-service) offerings from organizations like GitHub and Microsoft Azure.</p>
+    <p>In his spare time, Michael enjoys playing recreational soccer and spending time with his wife, two sons, and several
+    household pets. He particularly likes playing board/card games and video games with his children.</p>
+  thumbnailUrl: NoPhoto.jpg
