@@ -43,6 +43,8 @@
   thumbnailUrl: AmirKirsh.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 21
   name: "Michael"
@@ -58,6 +60,8 @@
   thumbnailUrl: MichaelKerrisk.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 22
   name: "Shachar"
@@ -70,6 +74,8 @@
   thumbnailUrl: ShacharShemesh.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 23
   name: "Mike"
@@ -81,6 +87,8 @@
   thumbnailUrl: MikeShah.jfif
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 24
   name: "Vittorio"
@@ -98,6 +106,8 @@
   thumbnailUrl: VittorioRomeo.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 103
   name: "Daisy"
