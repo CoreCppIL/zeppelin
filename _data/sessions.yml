@@ -107,7 +107,7 @@
   speakers: [11]
   language: en
 -
-  id: 101
+  id: 201
   title: "C++ Standard Parallelism"
   description: >
     <p>Imagine writing parallel code that can run on any platform - CPUs, GPUs, DPUs, specialized accelerators, etc - without any language
@@ -127,7 +127,7 @@
   speakers: [101]
   language: en
 -
-  id: 102
+  id: 202
   title: "Deciphering Coroutines - A Visual Approach"
   description: >
     <p>Coroutines are a powerful addition to C++20, allowing developers to drastically simplify code for certain kinds of problems and be adapted to
@@ -145,7 +145,7 @@
   speakers: [102]
   language: en
 -
-  id: 103
+  id: 203
   title: "What You Can Learn From Being Too Cute (Part 2 of N)"
   description: >
     <p>During the COVID-19 global pandemic, as we all searched for ways to stay connected to the C++ community, I innocently started posting short,
@@ -162,7 +162,7 @@
   speakers: [103]
   language: en
 -
-  id: 109
+  id: 209
   title: "Customization Methods: Connecting User And Library Code"
   description: >
     <p>The interface between a library and its users is a major design consideration for every developer, and has been evolving greatly over
@@ -173,7 +173,7 @@
   speakers: [109]
   language: en
 -
-  id: 116
+  id: 216
   title: "Coroutine Intuition"
   description: >
     <p>As one of the 'big four' new additions to C++20, coroutines allow us to rethink how we design and architect our functions, systems and code.</p>
@@ -185,7 +185,7 @@
   speakers: [116]
   language: en
 -
-  id: 104
+  id: 204
   title: "Programming for Every Language, Everywhere, All at Once"
   description: >
     <p>What do you do when you want to write a library for multiple languages? You can always implement the library multiple times in each language,
@@ -194,7 +194,7 @@
   speakers: [104]
   language: en
 -
-  id: 99
+  id: 199
   title: "C++ Standard Parallelism"
   description: >
     <p>Minimizing complexity in a codebase provides invaluable benefits, especially at scale, including but not limited to: maintainability,
@@ -220,7 +220,7 @@
   speakers: [24]
   language: en
 -
-  id: 105
+  id: 205
   title: "Generative C++"
   description: >
     <p>Currently, there are two main ways to generate code in C++ - templates and macros. While macros can manipulate text, they lack the
@@ -241,7 +241,7 @@
   speakers: [105]
   language: en
 -
-  id: 106
+  id: 206
   title: "Binary Object Serialization with Complex Traversal & Reconstruction"
   description: >
     <p>This talk will describe a minimally intrusive technique to add serialization to a set of classes, traversing the hierarchical data, persisting in a binary
@@ -255,7 +255,7 @@
   speakers: [106]
   language: en
 -
-  id: 107
+  id: 207
   title: "Atomic Variables: Not radioactive, but you probably still don't want to touch them!"
   description: >
     <p>Different hardware architectures implement different memory models. This in turn makes porting software between different targets an insanely
@@ -266,7 +266,7 @@
   speakers: [107]
   language: en
 -
-  id: 108
+  id: 208
   title: "A Practical Approach to Error Handling"
   description: >
     <p>Every program may encounter errors, some originating from internal bugs in the program, others coming from the environment the program is operating in.
@@ -276,7 +276,7 @@
   speakers: [108]
   language: en
 -
-  id: 118
+  id: 218
   title: "Personal Log: Where No Init Has Gone Before"
   description: >
     <p>Can your code have logging entries whose sensitive messages don't show up in the shipped binaries? And can the following code snippet ever work?
@@ -293,7 +293,7 @@
   speakers: [118]
   language: en
 -
-  id: 119
+  id: 219
   title: "Windows, macOS and the Web: Lessons from cross-platform development at think-cell"
   description: >
     <p>For twelve years, think-cell had been a Windows-only software company and our codebase of approximately 700k lines of code had accumulated many unintentional
@@ -311,7 +311,7 @@
   speakers: [119]
   language: en
 -
-  id: 117
+  id: 217
   title: "Const Correctness: How To Be Const Correct And Amazing At It"
   description: >
     <p>The <code>const</code> keyword is fundamental in C++ and an awesome tool in your toolbox. I will show you how to use const simply and correctly, how to introduce
