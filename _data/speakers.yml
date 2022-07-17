@@ -43,6 +43,8 @@
   thumbnailUrl: AmirKirsh.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 21
   name: "Michael"
@@ -58,6 +60,8 @@
   thumbnailUrl: MichaelKerrisk.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 22
   name: "Shachar"
@@ -70,6 +74,8 @@
   thumbnailUrl: ShacharShemesh.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 23
   name: "Mike"
@@ -81,6 +87,8 @@
   thumbnailUrl: MikeShah.jfif
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
 -
   id: 24
   name: "Vittorio"
@@ -98,6 +106,20 @@
   thumbnailUrl: VittorioRomeo.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
+  ribbon:
+    - {title: "Workshop"}
+-
+  id: 103
+  name: "Daisy"
+  surname: "Hollman"
+  bio: >
+    <p>Dr. Daisy S. Hollman began working with the C++ standards committee in 2016, where she has made contributions to a wide range of
+    library and language features, including proposals related to executors, atomics, generic programming, futures, and multidimensional
+    arrays. Since receiving her Ph.D. in Quantum Chemistry in 2013, her research has focussed primarily on parallel and concurrent
+    programming models, though a broader focus on general accessibility of complex abstractions has become her focus in more recent years.
+    She currently works on C++ language and library design at Google, where she continues to focus on providing broad accessibility of
+    programming models and abstractions, with a particular focus on design for diversity and inclusivity.</p>
+  thumbnailUrl: NoPhoto.jpg  
 -
   id: 101
   name: "Bryce"
@@ -111,6 +133,15 @@
     parallel algorithms, executors, and multidimensional arrays. He is one of the founding developers of the HPX parallel runtime system.</p>
   thumbnailUrl: NoPhoto.jpg
 -
+  id: 109
+  name: "Inbal"
+  surname: "Levi"
+  bio: >
+    <p>Inbal Levi is an embedded software engineer with a passion for design and high performance. She is a director at ISO C++
+    foundation, and an active member of the ISO C++ Standards Committee as a co chair of Library Evolution, chair of SG9 (Ranges group)
+    and of the ISO C++ Israeli NB. Inbal is also one of the organizers of the CoreCpp conference and user group.</p>
+  thumbnailUrl: InbalLevi.jpg
+-
   id: 102
   name: "Andreas"
   surname: "Weis"
@@ -121,18 +152,6 @@
     him to share this passion with others on a regular basis.</p>
     <p>He currently works for Woven Planet, where he focuses on building modern software for use in safety critical systems.</p>
   thumbnailUrl: AndreasWeis.jpg
--
-  id: 103
-  name: "Daisy"
-  surname: "Hollman"
-  bio: >
-    <p>Dr. Daisy S. Hollman began working with the C++ standards committee in 2016, where she has made contributions to a wide range of
-    library and language features, including proposals related to executors, atomics, generic programming, futures, and multidimensional
-    arrays. Since receiving her Ph.D. in Quantum Chemistry in 2013, her research has focussed primarily on parallel and concurrent
-    programming models, though a broader focus on general accessibility of complex abstractions has become her focus in more recent years.
-    She currently works on C++ language and library design at Google, where she continues to focus on providing broad accessibility of
-    programming models and abstractions, with a particular focus on design for diversity and inclusivity.</p>
-  thumbnailUrl: NoPhoto.jpg  
 -
   id: 104
   name: "Shachar"
@@ -176,15 +195,6 @@
     and customer care. Before founding think-cell, Arno worked at Microsoft Research and McKinsey.</p>
     <p>Arno studied computer science and management and holds a Ph.D. from Georgia Tech with a specialization in computer graphics.</p>
   thumbnailUrl: ArnoSchodl.jpg
--
-  id: 109
-  name: "Inbal"
-  surname: "Levi"
-  bio: >
-    <p>Inbal Levi is an embedded software engineer with a passion for design and high performance. She is a director at ISO C++
-    foundation, and an active member of the ISO C++ Standards Committee as a co chair of Library Evolution, chair of SG9 (Ranges group)
-    and of the ISO C++ Israeli NB. Inbal is also one of the organizers of the CoreCpp conference and user group.</p>
-  thumbnailUrl: InbalLevi.jpg
 -
   id: 110
   name: "Assaf"
