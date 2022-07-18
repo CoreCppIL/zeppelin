@@ -359,3 +359,13 @@
     <p>In his spare time, Michael enjoys playing recreational soccer and spending time with his wife, two sons, and several
     household pets. He particularly likes playing board/card games and video games with his children.</p>
   thumbnailUrl: NoPhoto.jpg
+-
+  id: 129
+  name: "Yossi"
+  surname: "Moalem"
+  bio: >
+    <p>Yossi is a software developer at Fortinet EDR division. He has over 15 years of experience as a professional programmer,
+    mainly in C/C++. Yossi considers the standard as light reading and spends all his spare time learning new technologies and methodologies
+    (much to the delight of his wife!!). He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy
+    code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
+  thumbnailUrl: YossiMoalem.jpg

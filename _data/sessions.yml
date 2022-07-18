@@ -195,7 +195,7 @@
   language: en
 -
   id: 199
-  title: "C++ Standard Parallelism"
+  title: "Pragmatic Simplicity: Actionable Guidelines To Tame Complexity"
   description: >
     <p>Minimizing complexity in a codebase provides invaluable benefits, especially at scale, including but not limited to: maintainability,
     ease of understanding, malleability, debuggability, and testability. Such benefits translate not only into real economical advantages,
@@ -447,6 +447,16 @@
     a chore. This talk will describe the criteria we can use to determine the effectiveness of a solution to these problems, apply those to historical techniques,
     and will present a deeper look at two modern solutions, GitHub Codespaces and Microsoft Dev Box.</p>
   speakers: [128]
+  language: en
+-
+  id: 229
+  title: "Cache friendly algorithm"
+  description: >
+    <p>I believe we all know that cache memory is a lot faster than main memory. Therefore, if we want performant code, we need to think about the memory.
+    We need to think not only about the algorithms we are using, but also on how the data is laid out in the memory. However, most talks about the subject
+    discuss the theory, and provide very simple examples, that are very far from real-life scenarios. In this talk I will discuss one complex case I had to optimize,
+    which although it used relatively smart logic, performed badly. We will see how to find bottlenecks and how to resolve them, to get much better performance.</p>
+  speakers: [129]
   language: en
 -
   id: 002
