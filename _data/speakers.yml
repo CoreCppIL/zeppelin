@@ -288,8 +288,9 @@
   name: "Avi"
   surname: "Lachmish"
   bio: >
-    <p></p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Avi is an expert in Web and networking technologies, operating systems, and software development methodologies. Avi has extensive
+    experience in C++, object-oriented analysis and design and distributed architectures.</p>
+  thumbnailUrl: AviLachmish.jpeg
 -
   id: 121
   name: "Alex"
@@ -308,7 +309,7 @@
     <p>Guy Tamir is a technology evangelist at Intel Software and Advanced Technology group. His main areas of interest and expertise
     are artificial Intelligence, Computer vision, Video processing, and Heterogeneous, parallel computing.</p>
     <p>Guy is an active YouTuber, with the OpenVINO and oneAPI youTube channels that just passed the 2 million viewers recently.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: GuyTamir.jpg
 -
   id: 123
   name: "Tomer"
@@ -369,3 +370,11 @@
     (much to the delight of his wife!!). He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy
     code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
   thumbnailUrl: YossiMoalem.jpg
+-
+  id: 130
+  name: "Yair"
+  surname: "Friedman"
+  bio: >
+    <p>Yair is a secure software professional at Intel Jerusalem. He is also modern C++ evangelist and have been coding in C++ for 30 years.
+    Yair is also a Monty Python fan and always expects the Spanish inquisition.</p>
+  thumbnailUrl: YairFriedman.png
