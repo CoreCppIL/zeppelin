@@ -459,6 +459,13 @@
   speakers: [129]
   language: en
 -
+  id: 21
+  title: "Keynote"
+  description: >
+    <p>To be published soon!</p>
+  speakers: [10]
+  language: en
+-
   id: 002
   title: "Closing session"
   description: "TBD"
@@ -470,6 +477,16 @@
   id: 006
   title: "More activities"
   description: "In construction"
+  service: true
+-
+  id: 007
+  title: "Meetup & Lightning Talks"
+  description: "Stay tuned!"
+  service: true
+-
+  id: 008
+  title: "In construction"
+  description: "More great C++ content!"
   service: true
 -
   id: 099
