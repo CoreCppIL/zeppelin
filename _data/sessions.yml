@@ -95,7 +95,7 @@
   language: en
 -
   id: 020
-  title: "Rust Features that I Want in C++"
+  title: "Keynote :: Rust Features that I Want in C++"
   description: >
     <p>By many accounts, Rust is one of the fastest growing programming languages out there. While there are many factors fueling
     this growth, this talk will focus on the aspects of Rust that make it particularly attractive as a systems programming language.
