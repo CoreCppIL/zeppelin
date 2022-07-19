@@ -377,4 +377,14 @@
   bio: >
     <p>Yair is a secure software professional at Intel Jerusalem. He is also modern C++ evangelist and have been coding in C++ for 30 years.
     Yair is also a Monty Python fan and always expects the Spanish inquisition.</p>
-  thumbnailUrl: YairFriedman.png
+  thumbnailUrl: YairFriedman.
+-
+  id: 131
+  name: "Nick"
+  surname: "Ristuccia"
+  bio: >
+    <p>Nick started in the videogames industry, developing titles for console and mobile. Disappointed by the oppressive corporate feel
+    of traditional technical training, Nick's passion is to create more-engaging and powerful leaning experiences through game-based
+    learning and other playful techniques. As a Curriculum Developer at Oracle he focused Java programming and certification. As a Developer
+    Advocate at JFrog, his focus in on C++, Conan, and other JFrog technologies.</p>
+  thumbnailUrl: NoPhoto.jpg

@@ -459,6 +459,38 @@
   speakers: [129]
   language: en
 -
+  id: 98
+  title: "Introduction to Smart Pointers and Why"
+  description: >
+    <p>Pointers are one of the most powerful tools in the C++ language available to programmers. Pointers allow sharing of resources, and for programmers
+    to take control of the lifetime of their objects. However-- 'with great power comes great responsibility'. In this talk I am going to begin with how
+    programmers can 'wrap' a raw pointer in a class to create a smart pointer that takes advantage of RAII to reclaim resources. I will then introduce
+    in the standard library each of <code>unique_ptr</code>, <code>shared_ptr</code>, and <code>weak_ptr</code>. Beginners who have never seen these before
+    will leave with concrete advice on where to use each of the following and for what scenarios where they previously had used raw pointers.
+    Finally, at the end of the talk, I will give a brief insight into Smart pointer adaptors in C++23
+    (<code>out_ptr_t</code>, <code>out_ptr</code>, <code>inout_ptr_t</code>, and <code>inout_ptr</code>).</p>
+  speakers: [23]
+  language: en
+-
+  id: 231
+  title: "From the Command Line, to Make, to CMake, to Conan, to Artifactory, to Xray"
+  description: >
+    <p>This session examines the layers of tooling used to produce C/C++ applications and make developers’ lives easier.
+    You'll see the big picture of how all these pieces fit together. Surveys say a major pain point facing C/C++ developers
+    are long build times. One way to save time is to only re-build an artifact when a change occurs. Although the command line
+    offers the precision of specifying what to build, doing this and tracking changes manually can quickly become a daunting and
+    error-prone proposition. Make as a build system allows developers to specify and execute command line statements depending on
+    what file changes are detected. However, these statements may be particular to one compiler or operating system. CMake provides
+    the missing flexibility for a Makefile file. One CMake file can generate what’s needed for a variety of build systems, compilers,
+    and operating systems. Another major pain point facing C/C++ developers is managing all the libraries needed by an application.
+    Libraries provide the functionality programs need. But it gets tricky when libraries depend on other libraries that depend on other libraries
+    in a spaghetti-like formation. Conan is a MIT-licensed, Open Source package manager for C and C++ development. Its goal is to alleviate this burden.
+    ConanCenter, for example, features over 1000 recipes thanks to the work of awesome community members. The promise of a recipe is to untangle
+    the spaghetti and list the dependencies for a given library. Conan packages may be stored in an Artifactory remote repository.
+    Xray scans Artifactory for vulnerabilities.</p>
+  speakers: [131]
+  language: en
+-
   id: 21
   title: "Keynote"
   description: >
