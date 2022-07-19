@@ -491,6 +491,16 @@
   speakers: [131]
   language: en
 -
+  id: 232
+  title: "Repo Convergence: How we Migrated Our Cross-Platform Project from Multiple Repositories to a Mono Repo"
+  description: >
+    <p>The real case-study of how we migrated our c/c++ cross-platform project from multiple repositories to a single, converged, repository.
+    We will describe the initial motivation for this change, detail the various challenges we encountered along the way and show which
+    tools did we used to overcome those challenges. This presentation is valuable for anyone looking into similar transition but might
+    be hesitating to get started.</p>
+  speakers: [132]
+  language: en
+-
   id: 21
   title: "Keynote"
   description: >
