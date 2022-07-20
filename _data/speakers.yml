@@ -45,23 +45,23 @@
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
   ribbon:
     - {title: "Workshop"}
--
-  id: 21
-  name: "Michael"
-  surname: "Kerrisk"
-  bio: >
-    Michael Kerrisk has a unique set of qualifications and experience that ensure that course participants receive training of a very high standard:
-    <ul>
-      <li>He has been programming on UNIX systems since 1987 and began teaching UNIX system programming courses in 1989.</li>
-      <li>He is the author of The Linux Programming Interface, a 1550-page book acclaimed as the definitive work on Linux system programming.</li>
-      <li>He is actively involved in Linux development, working with kernel developers on testing, review, and design of new Linux kernel–user-space APIs.</li>
-      <li>Since 2004, he has been the maintainer of the Linux man-pages project, which provides the manual pages documenting Linux system calls and C library APIs.</li>
-    </ul>
-  thumbnailUrl: MichaelKerrisk.jpg
-  social:
+#-
+#  id: 21
+#  name: "Michael"
+#  surname: "Kerrisk"
+#  bio: >
+#    Michael Kerrisk has a unique set of qualifications and experience that ensure that course participants receive training of a very high standard:
+#    <ul>
+#      <li>He has been programming on UNIX systems since 1987 and began teaching UNIX system programming courses in 1989.</li>
+#      <li>He is the author of The Linux Programming Interface, a 1550-page book acclaimed as the definitive work on Linux system programming.</li>
+#      <li>He is actively involved in Linux development, working with kernel developers on testing, review, and design of new Linux kernel–user-space APIs.</li>
+#      <li>Since 2004, he has been the maintainer of the Linux man-pages project, which provides the manual pages documenting Linux system calls and C library APIs.</li>
+#    </ul>
+#  thumbnailUrl: MichaelKerrisk.jpg
+#  social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
-  ribbon:
-    - {title: "Workshop"}
+#  ribbon:
+#    - {title: "Workshop"}
 -
   id: 22
   name: "Shachar"
@@ -387,7 +387,7 @@
     of traditional technical training, Nick's passion is to create more-engaging and powerful leaning experiences through game-based
     learning and other playful techniques. As a Curriculum Developer at Oracle he focused Java programming and certification. As a Developer
     Advocate at JFrog, his focus in on C++, Conan, and other JFrog technologies.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: NickRistuccia.png
 -
   id: 132
   name: "Shachar"
@@ -396,4 +396,4 @@
     <p>Shachar is a dev team leader in Cato's Access group. With more than 12 years of experience in software development, he is responsible
     for developing and delivering Cato’s reliable full-stack solution. Shachar is highly passionate about technology, people, and how to connect
     them together. As such, he is always on the lookout for new technologies and methods to make working as a dev team more fun and productive.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: ShacharOr.jpg

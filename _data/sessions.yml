@@ -12,22 +12,22 @@
   subtype: workshop
   speakers: [20]
   language: he
--
-  id: 012
-  title: "Linux Security and Isolation APIs essentials"
-  description: >
-    <p><b>WORKSHOP</b></p>
-    <p>This course provides an overview of the low-level Linux features–set-UID programs, capabilities, namespaces, and control groups (v2)–that are used
-    to implement privileged applications and build container, virtualization, and sandboxing technologies. (The course does not cover systems such as
-    Docker and LXC, but participants will gain an an insight into the implementation and operation of such systems.)</p>
-    <p>The primary audience comprises designers and programmers building privileged applications, container applications, and sandboxing applications.
-    Systems administrators who manage such applications will also find the course of benefit. Participants should have some awareness of classical
-    Linux/UNIX concepts such as file descriptors and file I/O, signals, and the process lifecycle (fork(), exec(), wait(), exit()). In addition,
-    participants should have a reading knowledge of the C programming language. (Note, however, that the course exercises do not require writing any programs.)</p>
-    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/6t7udu7msda">register now</a>!</p>
-  subtype: workshop
-  speakers: [21]
-  language: en
+#-
+#  id: 012
+#  title: "Linux Security and Isolation APIs essentials"
+#  description: >
+#    <p><b>WORKSHOP</b></p>
+#    <p>This course provides an overview of the low-level Linux features–set-UID programs, capabilities, namespaces, and control groups (v2)–that are used
+#    to implement privileged applications and build container, virtualization, and sandboxing technologies. (The course does not cover systems such as
+#    Docker and LXC, but participants will gain an an insight into the implementation and operation of such systems.)</p>
+#    <p>The primary audience comprises designers and programmers building privileged applications, container applications, and sandboxing applications.
+#    Systems administrators who manage such applications will also find the course of benefit. Participants should have some awareness of classical
+#    Linux/UNIX concepts such as file descriptors and file I/O, signals, and the process lifecycle (fork(), exec(), wait(), exit()). In addition,
+#    participants should have a reading knowledge of the C programming language. (Note, however, that the course exercises do not require writing any programs.)</p>
+#    <p>Limited seats, <a href="https://ti.to/hamakor/core-cpp-2022/with/6t7udu7msda">register now</a>!</p>
+#  subtype: workshop
+#  speakers: [21]
+#  language: en
 -
   id: 013
   title: "Building a compiler (almost) from scratch"
