@@ -501,6 +501,25 @@
   speakers: [132]
   language: en
 -
+  id: 233
+  title: "Managing External API’s in Enterprise systems"
+  description: >
+    <p>Many codebases use external libraries and wrap their associated API's for application use. Once these external dependencies are
+    entrenched and widely used in your system even small changes in the use of these external APIs can force sweeping changes across your codebase.
+    This presentation will take an example request API and demonstrate using sound engineering choices how to encapsulate it to provide a more efficient
+    modern interface i.e. move-only results, futures/promise instead of callbacks, void pointers etc. After showing the use of this API, new requirements
+    will now emerge that require new source data from the API potentially causing large scale code changes with branching required for a gradual
+    transition from the old data source to the new source is rolled out. We will explore various techniques to preserve the global calling semantics
+    and introduce localized decoupling so wide spread code changes are not needed. These codes changes are transparent to the original
+    callers of the API hence no calling code changes are needed. This approach will then be expanded to apply the same engineering
+    techniques to the unit & system testing code. The final decommissioning and removal of the old code is explored and shown now to be simple
+    and straight forwards. Additional real world problems are then incorporated like batching, parallelization while again localizing code
+    changes on the migration path. This prioritizing of the migration path for introducing API use changes will lead to a novel perspective
+    for the next time your codebase has external dependency changes imposed on it from within or without.</p>
+    <p>This is all backed up with code examples. This alternative approach has being successfully employed for real world situations.</p>
+  speakers: [133]
+  language: en
+-
   id: 21
   title: "Keynote"
   description: >

@@ -397,3 +397,13 @@
     for developing and delivering Cato’s reliable full-stack solution. Shachar is highly passionate about technology, people, and how to connect
     them together. As such, he is always on the lookout for new technologies and methods to make working as a dev team more fun and productive.</p>
   thumbnailUrl: ShacharOr.jpg
+-
+  id: 133
+  name: "Peter"
+  surname: "Muldoon"
+  bio: >
+    <p>Pete Muldoon has been using C++ since 1991. Pete has worked in Ireland, England and the USA and is currently employed by Bloomberg.
+    A consultant for over 20 years prior to joining Bloomberg, Peter has worked on a broad range of large scale projects and code bases in
+    a number of companies both tech and finance. Such broad exposure has, over time, shown what works and what doesn't for large scale
+    engineering projects. He's a proponent of elegant solutions and expressive code.</p>
+  thumbnailUrl: NoPhoto.jpg
