@@ -324,9 +324,9 @@
   id: 221
   title: "From Templates to Concepts"
   description: >
-    <p>Metaprogramming is been with us since C++98 but as the language evolves we have more tools and the code get simpler and clearer. In this talk we will
-    cover the history of Templates and how the usage and readability became clearer and simpler with each standard. We will develop a concept with c++11-c++17
-    for checking if a type is container and then we will discover how c++20 concepts make the whole thing much easier.</p>
+    <p>Metaprogramming has been with us since C++98, but as the language evolves we have more tools, and the code gets simpler and clearer. In this talk we will
+    cover the history of templates and see how their use and readability became clearer and simpler with each version of the standard. To demonstrate that,
+    we will implement a template type argument constraint using C++11-17 and then see how C++20 concepts make the implementation much cleaner and easier.</p>
   speakers: [121]
   language: en
 -
