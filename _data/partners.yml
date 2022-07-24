@@ -3,6 +3,7 @@
   elements: 
     - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
     - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
+    - {name: "Dell Technologies", description: "", imageUrl: "https://dell.com", imageUrl: "DellTech_Logo_Stk_Blue_Gry_rgb.png"}
 #    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.png", imageUrl: "jfrog_conan_logo.2.png"}
 #    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 - 
