@@ -60,33 +60,28 @@
     }
     - {
     	startTime: "12:10",
-    	endTime: "12:40",
-    	sessionIds: [224,214,222]
+    	endTime: "13:10",
+    	sessionIds: [218,207,217]
     }
     - {
-    	startTime: "12:40",
-    	endTime: "14:00",
+    	startTime: "13:10",
+    	endTime: "14:30",
     	sessionIds: [102]
     }
     - {
-    	startTime: "14:00",
+    	startTime: "14:30",
     	endTime: "15:00",
-    	sessionIds: [202,219,228]
+    	sessionIds: [204,205,232]
     }
     - {
     	startTime: "15:10",
     	endTime: "16:10",
-    	sessionIds: [218,207,217]
+    	sessionIds: [202,219,228]
     }
     - {
     	startTime: "16:20",
-    	endTime: "16:50",
-    	sessionIds: [210,227,211]
-    }
-    - {
-    	startTime: "16:50",
     	endTime: "17:20",
-    	sessionIds: [210,227,204]
+    	sessionIds: [210,227,220]
     }
     - {
     	startTime: "17:20",
@@ -95,7 +90,7 @@
     }
     - {
     	startTime: "17:40",
-    	endTime: "19:30",
+    	endTime: "19:10",
     	sessionIds: [007]
     }
     
@@ -120,7 +115,7 @@
     - {
     	startTime: "10:30",
     	endTime: "11:30",
-    	sessionIds: [216,220,221]
+    	sessionIds: [203,233,223]
     }
     - {
     	startTime: "11:30",
@@ -129,13 +124,8 @@
     }
     - {
     	startTime: "11:50",
-    	endTime: "12:20",
-    	sessionIds: [203,233,205]
-    }
-    - {
-    	startTime: "12:20",
     	endTime: "12:50",
-    	sessionIds: [203,233,232]
+    	sessionIds: [216,206,221]
     }
     - {
     	startTime: "12:50",
@@ -145,22 +135,17 @@
     - {
     	startTime: "14:00",
     	endTime: "14:30",
-    	sessionIds: [206,223,231]
+    	sessionIds: [211,212,231]
     }
     - {
-    	startTime: "14:30",
-    	endTime: "15:00",
-    	sessionIds: [206,223,212]
+    	startTime: "14:40",
+    	endTime: "15:10",
+    	sessionIds: [224,214,222]
     }
     - {
-    	startTime: "15:10",
-    	endTime: "16:10",
+    	startTime: "15:20",
+    	endTime: "16:20",
     	sessionIds: [226,213,229]
-    }
-    - {
-    	startTime: "16:10",
-    	endTime: "16:30",
-    	sessionIds: [107]
     }
     - {
     	startTime: "16:30",
