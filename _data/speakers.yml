@@ -349,18 +349,6 @@
     Consultant in the area of distributed computing, architecture and performance tuning.</p>
   thumbnailUrl: NoPhoto.jpg
 -
-  id: 128
-  name: "Michael"
-  surname: "Price"
-  bio: >
-    <p>Michael Price (he/him) is an experienced software engineer, currently working as a Product Manager with the Microsoft C++
-    team. His experience working at major software companies for over 15 years informs his thinking about how to enable C++ developers
-    around the world to achieve more. His current focus is on enhancing C++ tooling to take advantage of the PaaS (platform-as-a-service)
-    and IaaS (infrastructure-as-a-service) offerings from organizations like GitHub and Microsoft Azure.</p>
-    <p>In his spare time, Michael enjoys playing recreational soccer and spending time with his wife, two sons, and several
-    household pets. He particularly likes playing board/card games and video games with his children.</p>
-  thumbnailUrl: NoPhoto.jpg
--
   id: 129
   name: "Yossi"
   surname: "Moalem"
@@ -407,3 +395,13 @@
     a number of companies both tech and finance. Such broad exposure has, over time, shown what works and what doesn't for large scale
     engineering projects. He's a proponent of elegant solutions and expressive code.</p>
   thumbnailUrl: PeteMuldoon.jpg
+-
+  id: 134
+  name: "Jon"
+  surname: "Ross-Perkins"
+  bio: >
+    <p>Jon Ross-Perkins is a Staff Software engineer at Google and has been working on the Carbon Language project since 2020. He's worked
+    on several other projects at Google over the past 16 years, including tech lead for the internal source control system Piper.
+    He can occasionally be found holding up a foster kitten in a meeting.</p>
+  thumbnailUrl: NoPhoto.jpg
+  

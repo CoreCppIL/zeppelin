@@ -438,17 +438,6 @@
   speakers: [127]
   language: en
 -
-  id: 228
-  title: "Reproducible Developer Environments"
-  description: >
-    <p>Getting a developer environment properly configured for your projects can be time-consuming and error-prone. Too often, the requirements are not
-    clearly defined, are simply outdated, or make assumptions about the existing environment. Getting it slightly wrong can result in failures that are difficult
-    to diagnose and could take days or weeks to discover. Working with multiple projects that have potentially conflicting requirements can make multi-tasking
-    a chore. This talk will describe the criteria we can use to determine the effectiveness of a solution to these problems, apply those to historical techniques,
-    and will present a deeper look at two modern solutions, GitHub Codespaces and Microsoft Dev Box.</p>
-  speakers: [128]
-  language: en
--
   id: 229
   title: "Cache friendly algorithm"
   description: >
@@ -518,6 +507,18 @@
     for the next time your codebase has external dependency changes imposed on it from within or without.</p>
     <p>This is all backed up with code examples. This alternative approach has being successfully employed for real world situations.</p>
   speakers: [133]
+  language: en
+-
+  id: 234
+  title: "Carbon Language: Syntax and trade-offs"
+  description: >
+    <p>The Carbon Language is an experimental open-source successor to C++. Chandler Carruth's introductory presentation can be viewed at
+    <a href="https://youtu.be/omrY53kbVoA">https://youtu.be/omrY53kbVoA</a> and the project is on GitHub at 
+    <a href="https://github.com/carbon-language/carbon-lang">https://github.com/carbon-language/carbon-lang</a>.
+    As we design Carbon, we're working to balance competing values of consistency with C++ and providing successor-like improvements for C++ developers,
+    old and new alike. This talk will go over a few examples of how these values influenced the language's design, especially its syntax and grammar,
+    and how we see the project proceeding in the future.</p>
+  speakers: [134]
   language: en
 -
   id: 21
