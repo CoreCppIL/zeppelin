@@ -10,7 +10,6 @@
   elements: 
     - {name: "Final", description: "A leader in HFT trading based on math, physics, and advanced computer science.", link: "http://www.final.co.il", imageUrl: "2022_Final_Color_Logo.png"}
     - {name: "Speedata", description: "Speedata is developing an innovative technology designed from the ground up to optimize analytics workloads. Founded by an experienced team of academic and industry leaders, Speedata’s technology is set to transform the way we utilize data for years to come.", link: "https://www.speedata.io/", imageUrl: "Speedata.svg"}
-    - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
 #    - {name: "Cybereason", description: "Cybereason is a leader in future-ready attack protection. Provides comprehensive prevention, detection and response for leading brands all over the world", link: "https://www.cybereason.com/", imageUrl: "Cybereason_Logo_new.png"}
 #    - {name: "Firebolt", description: "", link: "https://firebolt.io", imageUrl: "Firebolt.svg"}
 #    - {name: "Mobileye", description: "", link: "https://www.mobileye.com/", imageUrl: "mobileye.svg"}    
@@ -23,6 +22,7 @@
 - 
  group: "Silver Sponsors"
  elements:
+   - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
    - {name: "GK8", description: "GK8 is a cybersecurity company that offers financial institutions an end-to-end platform for managing blockchain-based assets on their own. We bring a radically new approach for securing digital assets. Our patented solution combines the world’s first TRUE air-gapped vault that enables banks and financial institutions to run secure blockchain transactions without being connected to the internet – hence eliminating the threat of hackers and cyber-attacks.", link: "https://www.gk8.io/", imageUrl: "GK8_Logo.svg"}
    - {name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Check_Point_Logo_square.svg"}
 #    - {name: "Vayyar", description: "Our groundbreaking 4D imaging radar sensors are being used by several of the biggest companies across the globe in many industries from elderly care and automotive to smart buildings, retail, DIY and more!", link: "https://vayyar.com/", imageUrl: "vayyar.svg"}
