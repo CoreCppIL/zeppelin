@@ -4,7 +4,7 @@
     - {name: "Incredibuild", description: "Incredibuild turbocharges development with Virtualized Distributed Processing&trade; technology, turning every host into a supercomputer with hundreds of cores. With Incredibuild, you can accelerate compilation, CI, testing, graphics, simulations, and other compute-intensive workloads beyond development.", link: "https://www.incredibuild.com/", imageUrl: "Incredibuild.svg"}
     - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
     - {name: "Dell Technologies", description: "", link: "https://dell.com", imageUrl: "DellTech_Logo_Stk_Blue_Gry_rgb.png"}
-#    - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.2.png"}
+    # - {name: "Bloomberg", description: ".", link: "https://bloomberg.net", imageUrl: "bloomberg_logo_black.png"}
 - 
   group: "Gold Sponsors"
   elements: 
@@ -61,6 +61,8 @@
     - {name: "Mobileye", description: "", link: "https://www.mobileye.com/", imageUrl: "mobileye.svg"}    
     - {name: "JFrog", description: "JFrog offers an end-to-end solution covering the full lifecycle of your Conan C/C++ packages to manage development, artifact flow control and distribution.", link: "https://conan.io/", imageUrl: "jfrog_conan_logo.2.png"}
     - {name: "CODALLEH", description: "CODALLEH.ORG is a nonprofit training program supported by the Israeli Innovation Authority, which helps ultra-Orthodox women to specialize in algorithm implementation, low-level development, Computer Vision, and Image Processing.", link: "http://codalleh.org/", imageUrl: "CodallehLogo.png"}
+    # - {name: "Bloomberg", description: ".", link: "https://bloomberg.net", imageUrl: "bloomberg_logo_black.png"}
+
 #    - {name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg"}
 #    - {name: "Algotech", description: "Algotec's Carestream PACS products enable healthcare organizations to store, manage, distribute, review, compare and process medical images as well as clinical and administrative data, and to control these processes through the Web. ", link: "https://www.carestream.com/en/us", imageUrl: "Algotec_Logo.png"}
 #    - {name: "J.P.Morgan", description: "", link: "https://jobs.jpmorganchase.com/ListJobs/ByCountry/IL/", imageUrl: "jpmorgan-logo.png"}
