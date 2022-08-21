@@ -356,7 +356,7 @@
     <p>In this talk we travel through branch prediction, optimizations and pessimizations, and the art of benchmarking. We will see that in C++
     questions that seem simple to begin with do not get a simple answer, but an interesting one!</p>
     <p>The talk will allow participants to better identify points for performance improvement, and focus their efforts in the right direction.</p>
-  speakers: [123]
+  speakers: [123,20]
   language: en
 -
   id: 224
