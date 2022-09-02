@@ -521,6 +521,17 @@
   speakers: [134]
   language: en
 -
+  id: 91
+  title: "A novel approach for type promotion and overloading"
+  description: >
+    <p>C++'s overload mechanism is not, usually, the focus of a lot of attention. It does its thing, and we've all learned to live with its occasional
+    quirks. But if we could start from scratch, not owing anything to backwards compatibility, is this really the best we can do?</p>
+    <p>In this lecture we'll go over the problems with C++'s type promotion and overload resolution. We'll see one man's approach for
+    ground-up reimplementation in a new experimental programming language, and we'll explore the pro and cons of this approach.</p>
+    <p>We'll also see how it is possible to resolve two overloaded functions having the same number <i>and</i> types of parameters, only differing in return types.</p>
+  speakers: [22]
+  language: en
+-
   id: 21
   title: "Keynote"
   description: >
