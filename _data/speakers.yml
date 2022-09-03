@@ -74,8 +74,6 @@
   thumbnailUrl: ShacharShemesh.jpg
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
-  ribbon:
-    - {title: "Workshop"}
 -
   id: 23
   name: "Mike"
@@ -87,8 +85,6 @@
   thumbnailUrl: MikeShah.jfif
   social:
 #    - {name: "twitter", link: "https://twitter.com/stroustrup"}
-  ribbon:
-    - {title: "Workshop"}
 -
   id: 24
   name: "Vittorio"
