@@ -172,6 +172,7 @@
     <p>At the end of the talk, you’ll be familiar with the terminology and developments in this field, including the ones planned for C++23 and C++26.</p>
   speakers: [109]
   language: en
+  video: "https://youtu.be/GVpVR7diEtE"
 -
   id: 216
   title: "Coroutine Intuition"
@@ -597,3 +598,13 @@
 #  place: "Economics::Lobby"
   service: true
 #  speakers: [30, 31]
+-
+  id: 1001
+  title: "Day Trip"
+  description: >
+    <p>We're excited to invite you to participate in our planned trip for CoreC++ abroad guests!</p>
+    <p>The tour will be to the Dead Sea area and Jerusalem.</p>
+    <p>The fee includes a private tour guide, travel, and lunch.</p>
+    <p>The tour is planned to leave from the Margoza hotel in Tel Aviv in the morning of September 4th, ~8:00 AM. The return time planned is ~18:00.</p>
+    <p>The tour is open for your travel companions.</p>
+  service: true

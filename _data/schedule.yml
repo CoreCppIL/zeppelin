@@ -1,4 +1,15 @@
 - 
+  date: "2022-09-04"
+  dateReadable: "Sep 04"
+  tracks: 
+    - {title: "Day Trip", color: "#90be4e"}
+  timeslots: 
+    - {
+    	startTime: "08:00",
+    	endTime: "18:00",
+    	sessionIds: [1001]
+    }
+- 
   date: "2022-09-05"
   dateReadable: "Sep 05"
   tracks: 

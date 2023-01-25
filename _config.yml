@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Core C++ 2022"
+title: "Core C++ 2023"
 email: "info@corecpp.org"
-description: "Core C++ 2022"
+description: "Core C++ 2023"
 baseurl: ""
 url: "https://corecpp.org"
 permalink: "/blog/:title"
@@ -22,7 +22,7 @@ siteVerification: ""
 
 # Organizer Info
 organizerName: "Core C++"
-organizerAlternateName: "The Core C++ 2022 Conference"
+organizerAlternateName: "The Core C++ 2023 Conference"
 organizerDescription: "The Core C++ User Group."
 organizerEmail: "info@corecpp.org"
 organizerLogo: "/img/seo/organizer-logo.png"
@@ -37,47 +37,47 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://cfs.corecpp.org/"
-c4sponsorsUrl: "/assets/CoreCpp2022_SponsoringOffer.pdf"
+c4sponsorsUrl: "/assets/CoreCpp2023_SponsoringOffer.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/blog/", text: "Blog"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
 # - {link: "https://2019.corecpp.org", text: "Core C++ 2019"}
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://ti.to/hamakor/core-cpp-2022", text: "Register"}
-# - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
+# - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
-# - {link: "/assets/CoreCpp2022_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
+ #- {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2022", text: "Register"}
-# - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
+# - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
-# - {link: "/assets/CoreCpp2022_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
+# - {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Core C++ <typeout> 2022"
-eventDate: "September 5-7, 2022"
+heroTitle: "Core C++ <typeout> 2023"
+eventDate: "June 4-7, 2023"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2022", text: "Register"}
-# - {link: "/assets/CoreCpp2022_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
+# - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
-# - {link: "/assets/CoreCpp2022_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2022_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
+# - {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
-aboutTitle: "About Core C++ 2022"
+aboutTitle: "About Core C++ 2023"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "We are back with the second C++ conference in Israel brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
 # - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite C++ feature!" }
@@ -86,7 +86,7 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "300", specialCharacter: "+", info: "attendees", detail: "face to face"}
+ - {count: "400", specialCharacter: "+", info: "attendees", detail: "face to face"}
  - {count: "30", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
  - {count: "30", specialCharacter: "+", info: "speakers", detail: "international and local"}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
@@ -105,34 +105,50 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "The Tel-Aviv Yaffo Academic College" 
-eventLocationLink: "https://www.int.mta.ac.il/"
-eventStreetAddress: "Rabenu Yeruham St."
+eventLocationName: "The Tel-Aviv" 
+#eventLocationLink: "https://www.int.mta.ac.il/"
+#eventStreetAddress: "Rabenu Yeruham St."
 eventAddressLocality: "Tel Aviv"
-# eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "6818211"
+#eventPostalCode: "6818211"
 eventAddressCountry: "Israel"
-eventStartTime: "2022-09-05T09:00"
+eventStartTime: "2023-06-04T09:00"
 eventDoorTime: "08:00"
-eventEndTime: "2022-09-07T18:00"   
-eventPlaceCoordinates: "32.0474639, 34.760838631217915"
-mapCenterCoordinates: "32.0474639, 34.760838631217915"
-mapMobileCenterCoordinates: "32.0474639, 34.760838631217915"
+eventEndTime: "2023-06-07T18:00"   
+eventPlaceCoordinates: "32.072279, 34.788976"
+mapCenterCoordinates: "32.072279, 34.788976"
+mapMobileCenterCoordinates: "32.072279, 34.788976"
+
+#eventLocationName: "The Tel-Aviv Yaffo Academic College" 
+#eventLocationLink: "https://www.int.mta.ac.il/"
+#eventStreetAddress: "Rabenu Yeruham St."
+#eventAddressLocality: "Tel Aviv"
+#eventPostalCode: "6818211"
+#eventPlaceCoordinates: "32.0474639, 34.760838631217915"
+#mapCenterCoordinates: "32.0474639, 34.760838631217915"
+#mapMobileCenterCoordinates: "32.0474639, 34.760838631217915"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Core C++ 2022"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Tel-Aviv Yaffo Academic College"
-venueFeatures: ["Located in the heart of Tel-Aviv and Jaffa"]
+#venueSmallImage3: "venue_3.jpg"
+venueTitle: "Tel-Aviv"
+#venueFeatures: ["Located in the heart of Tel-Aviv and Jaffa"]
+
+#venueBlockTitle: "Venue"
+#venueBigImage: "venue_0.jpg"
+#venueSmallImage1: "venue_1.jpg"
+#venueSmallImage2: "venue_2.jpg"
+#venueSmallImage3: "venue_3.jpg"
+#venueTitle: "Tel-Aviv Yaffo Academic College"
+#venueFeatures: ["Located in the heart of Tel-Aviv and Jaffa"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "corecpp2022"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "corecpp2023"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -140,10 +156,10 @@ partnersTitle: "Sponsors"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Number of seats is limited. Stay tuned!"
+#subscribeImage: "subscribe.jpg"
+#subscribeTitle: "Subscribe for updates"
+#subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+#subscribeInfo: "Number of seats is limited. Stay tuned!"
 
 # Tickets Block
 ticketsTitle: "Price Table"
