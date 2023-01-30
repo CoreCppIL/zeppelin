@@ -52,13 +52,13 @@ navigationLinks:
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
 # - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
-# - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
  #- {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
 # - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
-# - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
 # - {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
@@ -71,7 +71,7 @@ typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
 # - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
-# - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
 # - {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
