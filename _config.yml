@@ -37,7 +37,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://cfs.corecpp.org/"
-c4sponsorsUrl: "/assets/CoreCpp2023_SponsoringOffer.pdf"
+c4sponsorsUrl:  "mailto:corecpp.org" # "/assets/CoreCpp2023_SponsoringOffer.pdf"
 
 
 # Navigation
@@ -66,14 +66,14 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "Core C++ <typeout> 2023"
-eventDate: "June 4-7, 2023"
+eventDate: "June 5-7, 2023"
 typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
 typeoutFallback: "Conference"
 heroButtons:
 # - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
  - {link: "/assets/CoreCpp2023_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
-# - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
+# - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
 # - {link: "/assets/CoreCpp2023_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
@@ -111,7 +111,7 @@ eventLocationName: "The Tel-Aviv"
 eventAddressLocality: "Tel Aviv"
 #eventPostalCode: "6818211"
 eventAddressCountry: "Israel"
-eventStartTime: "2023-06-04T09:00"
+eventStartTime: "2023-06-05T09:00"
 eventDoorTime: "08:00"
 eventEndTime: "2023-06-07T18:00"   
 eventPlaceCoordinates: "32.072279, 34.788976"
