@@ -1,0 +1,42 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - Algotec
+  - Algotech
+  - Carestream
+  - CODALLEH
+  - Colour
+  - corehard
+  - cppcon
+  - cpponsea
+  - CPPP
+  - cyberark
+  - Cybereason
+  - CYBR
+  - Cymotive
+  - Cynet
+  - Eurovision
+  - Eyeway
+  - Firebolt
+  - Harman
+  - hyperscale
+  - includecpp
+  - Incredibuild
+  - INFINIDAT
+  - Istra
+  - jetbrains
+  - Kistler
+  - lighbits
+  - Lightbits
+  - LOGOEYEWAY
+  - mobileye
+  - Packt
+  - permissionless
+  - Speedata
+  - stressless
+  - Thinkcell
+  - Vayyar
+ignoreWords: []
+import: []
