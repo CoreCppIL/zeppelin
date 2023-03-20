@@ -1,19 +1,8 @@
 - 
-  date: "2022-09-04"
-  dateReadable: "Sep 04"
+  date: "2023-06-05"
+  dateReadable: "June 05"
   tracks: 
-    - {title: "Day Trip", color: "#90be4e"}
-  timeslots: 
-    - {
-    	startTime: "08:00",
-    	endTime: "18:00",
-    	sessionIds: [1001]
-    }
-- 
-  date: "2022-09-05"
-  dateReadable: "Sep 05"
-  tracks: 
-    - {title: "Full Day Workshops", color: "#90be4e"}
+    - {title: "Full Day Workshops @MTA", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
@@ -23,7 +12,7 @@
     - {
     	startTime: "09:00",
     	endTime: "17:00",
-    	sessionIds: [011,015,016]
+    	sessionIds: [11,12,13,14]
     }
     - {
     	startTime: "12:30",
@@ -37,12 +26,13 @@
     }
 
 - 
-  date: "2022-09-06"
-  dateReadable: "Sep 06"
+  date: "2023-06-06"
+  dateReadable: "June 06"
   tracks: 
-    - {title: "Weston Auditorium", color: "#90be4e"}
-    - {title: "Economics Auditorium", color: "#90be4e"}
-    - {title: "Economics 108", color: "#90be4e"}
+    - {title: "Hall 3", color: "#90be4e"}
+    - {title: "Hall 1", color: "#90be4e"}
+    - {title: "Hall 4", color: "#90be4e"}
+    - {title: "Hall 5", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
@@ -56,120 +46,116 @@
     }
     - {
     	startTime: "09:20",
-    	endTime: "10:40",
-    	sessionIds: [21]
+    	endTime: "10:50",
+    	sessionIds: [10]
     }
     - {
-    	startTime: "10:40",
-    	endTime: "11:00",
+    	startTime: "10:50",
+    	endTime: "11:10",
     	sessionIds: [107]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "12:00",
-    	sessionIds: [209,220,208]
+    	startTime: "11:10",
+    	endTime: "12:10",
+    	sessionIds: [008,008,008,1000]
     }
     - {
-    	startTime: "12:10",
-    	endTime: "13:10",
-    	sessionIds: [98,223,219]
+    	startTime: "12:20",
+    	endTime: "13:20",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "13:10",
-    	endTime: "14:30",
+    	startTime: "13:20",
+    	endTime: "14:40",
     	sessionIds: [102]
     }
     - {
-    	startTime: "14:30",
-    	endTime: "15:00",
-    	sessionIds: [214,224,231]
+    	startTime: "14:40",
+    	endTime: "15:10",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "15:10",
-    	endTime: "16:10",
-    	sessionIds: [202,217,226]
+    	startTime: "15:20",
+    	endTime: "15:50",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "16:20",
-    	endTime: "17:20",
-    	sessionIds: [234,227,229]
+    	startTime: "16:10",
+    	endTime: "17:10",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "17:20",
-    	endTime: "17:40",
+    	startTime: "17:10",
+    	endTime: "17:30",
     	sessionIds: [107]
     }
     - {
-    	startTime: "17:40",
-    	endTime: "19:10",
+    	startTime: "17:30",
+    	endTime: "19:00",
     	sessionIds: [007]
     }
     
 - 
-  date: "2022-09-07"
-  dateReadable: "Sep 07"
+  date: "2023-06-07"
+  dateReadable: "June 07"
   tracks: 
-    - {title: "Weston Auditorium", color: "#90be4e"}
-    - {title: "Economics Auditorium", color: "#90be4e"}
-    - {title: "Economics 108", color: "#90be4e"}
+    - {title: "Hall 3", color: "#90be4e"}
+    - {title: "Hall 1", color: "#90be4e"}
+    - {title: "Hall 4", color: "#90be4e"}
+    - {title: "Hall 5", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
-    	endTime: "09:00",
+    	endTime: "09:30",
     	sessionIds: [106]
     }
     - {
-    	startTime: "09:00",
-    	endTime: "10:00",
-    	sessionIds: [203,213,218]
+    	startTime: "09:30",
+    	endTime: "10:30",
+    	sessionIds: [008,008,008,1000]
     }
     - {
-    	startTime: "10:10",
-    	endTime: "11:10",
-    	sessionIds: [199,216,207]
+    	startTime: "10:40",
+    	endTime: "11:40",
+    	sessionIds: [008,008,008,1000]
     }
     - {
-    	startTime: "11:10",
-    	endTime: "11:30",
+    	startTime: "11:40",
+    	endTime: "12:00",
     	sessionIds: [107]
     }
     - {
-    	startTime: "11:30",
-    	endTime: "12:30",
-    	sessionIds: [201,210,91]
+    	startTime: "12:00",
+    	endTime: "13:00",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "12:30",
-    	endTime: "13:50",
+    	startTime: "13:00",
+    	endTime: "14:10",
     	sessionIds: [102]
     }
     - {
-    	startTime: "13:50",
-    	endTime: "14:20",
-    	sessionIds: [212,222,205]
+    	startTime: "14:10",
+    	endTime: "14:40",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "14:30",
-    	endTime: "15:00",
-    	sessionIds: [204,211,232]
+    	startTime: "14:50",
+    	endTime: "15:50",
+    	sessionIds: [008,008,008,008]
     }
     - {
-    	startTime: "15:10",
+    	startTime: "15:50",
     	endTime: "16:10",
-    	sessionIds: [225,233,221]
-    }
-    - {
-    	startTime: "16:10",
-    	endTime: "16:30",
     	sessionIds: [107]
     }
     - {
-    	startTime: "16:30",
-    	endTime: "16:40",
+    	startTime: "16:10",
+    	endTime: "16:20",
     	sessionIds: [105]
     }
     - {
-    	startTime: "16:40",
-    	endTime: "18:00",
-    	sessionIds: [020]
+    	startTime: "16:20",
+    	endTime: "17:30",
+    	sessionIds: [002]
     }

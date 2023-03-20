@@ -34,14 +34,18 @@
   service: true
 -
   id: 008
-  title: "In construction"
-  description: "More great C++ content!"
+  title: "Great C++ content!"
+  description: "To be published soon"
   service: true
 -
   id: 099
-  title: "Welcome to Core C++ 2022!"
+  title: "Welcome to Core C++ 2023!"
   #place: "Weston::Auditorium"
   subtype: keynote
+  service: true
+-
+  id: 1000
+  title: ""
   service: true
 -
   id: 101
@@ -83,3 +87,57 @@
     <p>The tour is planned to leave from the Margoza hotel in Tel Aviv in the morning of September 4th, ~8:00 AM. The return time planned is ~18:00.</p>
     <p>The tour is open for your travel companions.</p>
   service: true
+-
+  id: 10
+  title: "Keynote"
+  subtype: keynote
+  speakers: [10]
+-
+  id: 11
+  title: "Designing and Implementing Safe C++ Applications"
+  description: >
+    <p>This workshop aims to address the design and implementation principles and tactics necessary for creating secure C++
+    applications. While memory issues will be given proper attention, it's important to note that application safety extends
+    beyond this. To ensure application safety, it is crucial to capture requirements correctly, make appropriate design choices,
+    implement code securely, and conduct testing, static code analysis, and dynamic sanitizing. Through relevant
+    examples and class practice, we will cover the entire life cycle of creating secure applications, and provide a
+    checklist for achieving enhanced safety and improved code quality.</p>
+  speakers: [11]
+-
+  id: 12
+  title: "Concurrency in Modern C++"
+  description: >
+    <p>This class gives you a detailed insight into the multithreading facilities of C++. Starting with the foundation
+    in C++11, continuing with the parallel STL in C++17, and closing with the concurrency features in C++20.</p>
+  speakers: [12]
+-
+  id: 13
+  title: "Exploring Rust to Enhance Your C++ Skills"
+  description: >
+    <p>This class is designed to help C++ developers explore Rust, an increasingly popular and powerful language. Through
+    hands-on examples and projects, students will learn why Rust has become so widely adopted and why it is such an attractive
+    choice for C++ developers. Learning Rust will not only enable attendees to take a peek at this new language, but
+    will also greatly enhance the quality of their C++ code.</p>
+    <p>In the first part of the class, students will learn about Rust's history, governance model, and community. We will
+    also discuss the main technical selling points of Rust and its current level of maturity. Following this, we will go through a
+    "Hello World" example in Rust so that students can become familiar with Rust's syntax and understand some of the fundamental features.</p>
+    <p>To further solidify their understanding of these concepts, students will then work on a "guess the number" game project.
+    We will look at how to improve the game by using pattern matching and extracting functionality to separate functions.</p>
+    <p>In addition to the fundamentals, the class will cover the use of external libraries. We will discuss what a "crate" is
+    and how to find and add one via cargo. We will also look at intermediate features like structs and enums, dynamic allocation,
+    traits and polymorphism, strings and manipulation, and common standard library containers and utilities.</p>
+    <p>Two additional projects will also be included. Students will re-create the Wordle game in Rust and add a CLI to the "guess
+    the number" game, using the 'clap' 3rd party crate. Finally, we will showcase other compelling Rust features such as lifetimes,
+    async, compile-time thread safety, compile-time evaluation, hygienic macros, and interoperability with C++.</p>
+    <p>By the end of the class, attendees will have acquired the knowledge and skillset necessary to start their journey with Rust,
+    and they will be able to apply the learned notions to their C++ development mindset.</p>
+  speakers: [13]
+-
+  id: 14
+  title: "Linux System Programming Essentials"
+  description: >
+    <p>This workshop provides an introduction to the low-level interfaces that are used to build system-level applications on
+    Linux (and UNIX) systems. Topics covered include file I/O using system calls, signals, processes, and process lifecycle
+    (<code>fork()</code>, <code>execve()</code>, <code>wait()</code>, <code>exit()</code>).</p>
+    <p>There will be practical programming sessions as part of the workshop.</p>
+  speakers: [14]
