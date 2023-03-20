@@ -141,3 +141,78 @@
     (<code>fork()</code>, <code>execve()</code>, <code>wait()</code>, <code>exit()</code>).</p>
     <p>There will be practical programming sessions as part of the workshop.</p>
   speakers: [14]
+#-
+#  id: 20
+#  title: "C++"
+#  description: >
+#    <p></p>
+#  speakers: [20]
+-
+  id: 21
+  title: "Better Code: Exploring Validity"
+  description: >
+    <p>Most developers have at least some notion of the meaning of object, state, invariant, value, and invalid. On the other hand,
+    it can be surprisingly difficult to precisely define these words in a way that matches both intuition and common usage. This difficulty
+    has even led to library divergence within the C++ standard library!</p>
+    <p>This talk is a journey of discovery where we not only find satisfactory definitions, but we identify practical, good coding practices
+    along the way. At the end of this talk you'll be able to identify implicit contracts, understand the deep connection between move semantics
+    and exception safety, and, in general, have a greater appreciation for the meaning of the programs we write every day.</p>
+  speakers: [21]
+-
+  id: 22
+  title: "Lightning Updates"
+  description: >
+    <p>This talks describes an update system designed for scale of 100s M of users. It presents generic solution to update any data-structure in a simple way using modern C++ facilities in standard library only. It shows arguments for strong types and readable code using verbs and nouns. Even if you are not going to need such functionality, this talk can serve as an inspiration how to write clean code.</p>
+  speakers: [22]
+-
+  id: 1011
+  title: "C++ Incidental Explorations"
+  description: >
+    <p>Let's embark on a journey through the exciting discussions about C++, found in StackOverflow's Q&A. We will cover both fundamental issues as well as anecdotal corners of the language, get lost down a few rabbit holes, and become familiar with some topics usually reserved for "language lawyers". We will finish by exploring whether, and how ChatGPT might help with writing C++ in the future.</p>
+  speakers: [11]
+-
+  id: 23
+  title: "The Imperatives Must Go!"
+  description: >
+    <p>Can a language whose official motto is "Avoid Success at All Costs" teach us new tricks in modern C++ ? If Haskell is so great, why hasn't it taken over the world? My claim is that it has. But not as a Roman legion loudly marching in a new territory, rather as distributed Trojan horses popping in at the gates, masquerading as modern features or novel ideas in today’s mainstream languages. Functional Programming ideas that have been around for over 40 years will be rediscovered to solve our current software complexity problems. Indeed, modern C++ has become more functional. From mundane concepts like lambdas & closures, std::function, values types and constants, to composability of STL algorithms, lazy ranges, folding, mapping or even higher-order functions in STL. Did I mention Rust yet? In this session we’ll analyze a bunch of FP techniques in C++ and see how they help make our code shorter, clearer and faster, by embracing a declarative vs. an imperative style.
+    We’ll visit the functional parts of current STL, use algebraic data types (ADT) and learn about the new FP stuff coming in the next C++ standard, like ranges or monadic extensions to <code>std::future</code>, <code>std::optional</code> and <code>std::expected</code>. Brace yourselves for a bumpy ride including composition, lifting, currying, partial application, pure functions, maybe even pattern matching and lazy evaluation.</p>
+  speakers: [23]
+-
+  id: 24
+  title: "Multi-Paradigm Programming and Beyond"
+  description: >
+    <p>Most everybody has heard that C++ is a Multi-Paradigm Programming Language, but what does that really mean?</p>
+    <p>The defined language paradigms are: Imperative, Procedural, Functional, Declarative, & Object-Oriented, but what does that really mean?</p>
+    <p>These are the building blocks in the levels of granularity, almost a base implementation style but when many people say paradigm when they are really thinking of bigger more sophisticated conceptual processing and data models.</p>
+    <p>What are some of these alternate paradigms people are thinking of. Join us for an exploration of what paradigms are, what they look like, and how do they are used in software design.</p>
+  speakers: [24]
+-
+  id: 25
+  title: "Standard C++ toolset"
+  description: >
+    <p>Programming languages nowadays are often packed with a standard set of tools that form an ecosystem around it. Compilers and debuggers, static analyzers, build systems, dependency managers, and unit testing frameworks are essential for adoption and evolve with the language.</p>
+    <p>C++ is about to turn 40. Though the ecosystem was very diverse and incomplete for many years, it is getting better! In this talk, I will discuss:</p>
+    <p><ul>
+        <li>The typical “project model - compiler - debugger” triad, and how it still depends on the area of usage (Embedded or Game Development).</li>
+        <li>How the build systems and dependency managers are now more standard.</li>
+        <li>How Clang affected the standard toolset in all areas, forming not only a baseline for compilers, but also formatters, code analyzers, and IDEs.</li>
+        <li>How many code analyzers exist for C++ and why there is still room for improvement.</li>
+        <li>How unit testing and code coverage solutions can be used effectively.</li>
+        <li>And finally, how the language committee is learning to listen to and help standard toolset contributors.</li>
+    </ul></p>
+    <p>You’ll get a better understanding of the tools available to help you develop complex solutions in C++ without struggling with toolsets.</p>
+  speakers: [25]
+-
+  id: 26
+  title: "Let's talk about C++'s Abstraction Layers"
+  description: >
+    <p>Abstraction Layers are one of the strongest tools we're using for software development. Even though being taught during the first semester of a Computer Science undergraduate and is widely used throughout the everyday workflow of software development, a lot of logic bugs occur by wrong usage of this concept.</p>
+    <p>During this talk, we will define and explore the C++ abstractions layers, through both the mental model as reflected in papers, as well as through past mistakes and bugs. We will introduce some ground rules to encourage more correct usage of this concept, by extrapolating from examples from the latest C++23 and C++26 standards' features. Finally, we will review a proposal for addressing ISO C++ WG21 committee work.</p>
+    <p>This is an exploratory talk, audience participation is highly encouraged!</p>
+  speakers: [26]
+#-
+#  id: 00
+#  title: "C++"
+#  description: >
+#    <p></p>
+#  speakers: [00]

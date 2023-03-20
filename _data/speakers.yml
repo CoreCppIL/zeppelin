@@ -80,3 +80,71 @@
     maintainer of the Linux "man-pages" project, which provides the primary documentation for Linux system calls and C
     library functions. Michael is a New Zealander, living in Munich, Germany.</p>
   thumbnailUrl: MichaelKerrisk.jpg
+-
+  id: 20
+  name: "Bryce"
+  surname: "Adelstein Lelbach"
+  bio: >
+    <p>Bryce Adelstein Lelbach has spent over a decade developing programming languages and software libraries.
+    He is a Principal Architect at NVIDIA, where he leads programming language standardization efforts and drives the
+    technical roadmap for NVIDIA's HPC and Quantum compilers and libraries. Bryce is passionate about C++ and is one of
+    the leaders of the C++ community. He is the chair of INCITS/PL22, the US standards committee for programming languages
+    and the Standard C++ Library Evolution group. He also serves as editor for the INCITS Inclusive Terminology Guidelines.
+    Bryce served as the program chair for the C++Now and CppCon conferences for many years. On the C++ Committee, he has
+    personally worked on concurrency primitives, parallel algorithms, executors, and multidimensional arrays. He is one
+    of the founding developers of the HPX parallel runtime system.</p>
+  thumbnailUrl: BryceAdelsteinLelbach.jpg
+-
+  id: 21
+  name: "David"
+  surname: "Sankel"
+  bio: >
+    <p>David Sankel is a Principal Scientist at Adobe and an active member of the C++ Standardization Committee.
+    His experience spans microservice architectures, CAD/CAM, computer graphics, visual programming languages,
+    web applications, computer vision, and cryptography. He is a frequent speaker at C++ conferences and specializes
+    in large-scale software engineering and advanced C++ topics. David’s interests include dependently typed languages,
+    semantic domains, EDSLs, and functional reactive programming. He is the project editor of the C++ Reflection TS, Executive
+    Director of the Boost Foundation, and an author of several C++ proposals including pattern matching and language variants.</p>
+  thumbnailUrl: DavidSankel.jpg
+-
+  id: 22
+  name: "Hana"
+  surname: "Dusíková"
+  bio: >
+    <p>Hana is SG7 chair which is a study group for Static Reflection in the ISO C++ committee. She created Compile Time
+    Regular Expression (CTRE) library and Compile Time Hash (cthash).</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 23
+  name: "Victor"
+  surname: "Ciura"
+  bio: >
+    <p>Victor Ciura is a Principal Engineer on the Visual C++ team, helping to improve the tools he’s been using for years. Before joining Microsoft, he programmed C++ professionally for 20 years, designing and implementing several core components & libraries of Advanced Installer, improving the virtualization and repackaging technologies for MSI/MSIX.</p>
+    <p>One of his hobbies is tidying-up and modernizing aging codebases and has been known to build open-source tools that help this process: Clang Power Tools.</p>
+    <p>He’s a regular guest at Computer Science Department of his Alma Mater, University of Craiova, where he gives student lectures & workshops on using modern C++, STL, algorithms and optimization techniques.</p>
+    <p>More details: @ciura_victor & <a href="https://ciura.ro">ciura.ro</a> & <a href="https://linkedin.com/in/victor-ciura">linkedin.com/in/victor-ciura</a></p>
+  thumbnailUrl: VictorCiura.jpg
+-
+  id: 24
+  name: "Chris"
+  surname: "Ryan"
+  bio: >
+    <p>Chris Ryan was classically trained in software and hardware engineering. He is well experienced in Modern C++ on extremely large projects and Classic ‘C’. He is currently only interested in Modern C++ projects and taking a break from firmware & embedded software.</p>
+    <p>Chris recently joined the ISO C++ Standards Committee and works with the Evolution Working Group(EWG) and a couple of the Study Groups(SG).</p>
+    <p>He works in complex problem spaces but believes in simplification and reducing complexity. Chris has no interest in C#/.,Net, Java, js or web-ish tech.</p>
+  thumbnailUrl: ChrisRyan.jpg
+-
+  id: 25
+  name: "Anastasiia"
+  surname: "Kazakova"
+  bio: >
+    <p>C++ Tools Marketing Lead, JetBrains</p>
+    <p>As a C and C++ software developer, Anastasia Kazakova created real-time *nix-based systems and pushed them to production for 8 years. She worked as an intern in Microsoft Research, Networking department, and launched the first 4G network in Russia being a part of the Yota operator team. She has a passion for networking algorithms and embedded programming and believes in good tooling. With all her love for C++, she is now the Product Marketing Manager on the JetBrains C++ tools and .NET marketing teams.</p>
+  thumbnailUrl: AnastasiiaKazakowa.jpg
+-
+  id: 26
+  name: "Inbal"
+  surname: "Levi"
+  bio: >
+    <p>Inbal Levi is a software engineer at MPGC Services Ltd with a passion for high performance, readability, and software design. She is an active member of the ISO C++ Standards Committee as a co-chair of Library Evolution, chair of SG9 (Ranges group), and the chair of the ISO C++ Israeli NB. Inbal is also a director at ISO C++ foundation and puts effort into evolving both the local and international C++ community, as an organizer of the CoreC++ conference and user group, and as the program chair of C++Now.</p>
+  thumbnailUrl: InbalLevi.jpg
