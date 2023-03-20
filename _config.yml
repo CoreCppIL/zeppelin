@@ -165,20 +165,20 @@ partnersC4sponsorsButton: "Become a sponsor"
 ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
- -
-  name: "Full 2-Day Ticket: Early Bird"
-  price: "900"
-  priceCurrency: "ILS"
-  ribbon: "Limited"
-  featured: true
-  ticketsNumber: "100"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2023/with/tgkh5hekhsa"
-  buyButtonText: "Register Now"
-  ticketContentList: ["Two Day Conference", "Four Parallel Tracks", "On Sale Until March 15th!"]
-  validFrom: "2023-02-15"
-  validThrough: "2023-03-15"
-  soldOut: false
-  soldOutText: "Sold Out"
+# -
+#  name: "Full 2-Day Ticket: Early Bird"
+#  price: "900"
+#  priceCurrency: "ILS"
+#  ribbon: "Limited"
+#  featured: true
+#  ticketsNumber: "100"
+#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2023/with/tgkh5hekhsa"
+#  buyButtonText: "Register Now"
+#  ticketContentList: ["Two Day Conference", "Four Parallel Tracks", "On Sale Until March 15th!"]
+#  validFrom: "2023-02-15"
+#  validThrough: "2023-03-15"
+#  soldOut: false
+#  soldOutText: "Sold Out"
  -
   name: "Full 2-Day Ticket"
   price: "1100"
@@ -192,20 +192,20 @@ ticketsOffers:
   validThrough: "2023-06-06"
   soldOut: false
   soldOutText: "Waiting List"
-# -
-#  name: "Workshop"
-#  price: "1350"
-#  priceCurrency: "ILS"
-#  ribbon: "Limited"
-#  featured: true
-#  ticketsNumber: "100"
-#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2022"
-#  buyButtonText: "Register Now"
-#  ticketContentList: ["Full day workshop", "3 workshops to chose from!", "Top C++ trainers"]
-#  validFrom: "2021-07-01"
-#  validThrough: "2021-09-05"
-#  soldOut: false
-#  soldOutText: "Event Ended"
+ -
+  name: "Workshop"
+  price: "1350"
+  priceCurrency: "ILS"
+  ribbon: "Limited"
+  featured: true
+  ticketsNumber: "100"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2023"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Full day workshop", "4 workshops to chose from!", "Top C++ trainers"]
+  validFrom: "2021-03-20"
+  validThrough: "2023-06-06"
+  soldOut: false
+  soldOutText: "Event Ended"
 
 # Footer
 socialLinks:
