@@ -208,13 +208,13 @@
     <p>You’ll get a better understanding of the tools available to help you develop complex solutions in C++ without struggling with toolsets.</p>
   speakers: [25]
 -
-  id: 26
+  id: 16
   title: "Let's talk about C++'s Abstraction Layers"
   description: >
     <p>Abstraction Layers are one of the strongest tools we're using for software development. Even though being taught during the first semester of a Computer Science undergraduate and is widely used throughout the everyday workflow of software development, a lot of logic bugs occur by wrong usage of this concept.</p>
     <p>During this talk, we will define and explore the C++ abstractions layers, through both the mental model as reflected in papers, as well as through past mistakes and bugs. We will introduce some ground rules to encourage more correct usage of this concept, by extrapolating from examples from the latest C++23 and C++26 standards' features. Finally, we will review a proposal for addressing ISO C++ WG21 committee work.</p>
     <p>This is an exploratory talk, audience participation is highly encouraged!</p>
-  speakers: [26]
+  speakers: [16]
 -
   id: 1012
   title: "Concurrency Improvements in C++20: A Deep Dive"

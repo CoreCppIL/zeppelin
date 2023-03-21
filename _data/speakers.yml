@@ -91,11 +91,11 @@
     library functions. Michael is a New Zealander, living in Munich, Germany.</p>
   thumbnailUrl: MichaelKerrisk.jpg
 -
-  id: 26
+  id: 16
   name: "Inbal"
   surname: "Levi"
   bio: >
-    <p>Inbal Levi is a software engineer at MPGC Services Ltd with a passion for high performance, readability, and software design. She is an active member of the ISO C++ Standards Committee as a co-chair of Library Evolution, chair of SG9 (Ranges group), and the chair of the ISO C++ Israeli NB. Inbal is also a director at ISO C++ foundation and puts effort into evolving both the local and international C++ community, as an organizer of the CoreC++ conference and user group, and as the program chair of C++Now.</p>
+    <p>Inbal Levi is a Lead Software Engineer at MPGC Services Ltd (Millennium) with a passion for high performance, readability, and software design. She is an active member of the ISO C++ Standards Committee as a co-chair of Library Evolution, chair of SG9 (Ranges group), and the chair of the ISO C++ Israeli NB. Inbal is also a director at ISO C++ foundation and puts effort into evolving both the local and international C++ community, as an organizer of the CoreC++ conference and user group, and as the program chair of C++Now.</p>
   thumbnailUrl: InbalLevi.jpg
 -
   id: 20
