@@ -158,3 +158,39 @@
     <p>C++ Tools Marketing Lead, JetBrains</p>
     <p>As a C and C++ software developer, Anastasia Kazakova created real-time *nix-based systems and pushed them to production for 8 years. She worked as an intern in Microsoft Research, Networking department, and launched the first 4G network in Russia being a part of the Yota operator team. She has a passion for networking algorithms and embedded programming and believes in good tooling. With all her love for C++, she is now the Product Marketing Manager on the JetBrains C++ tools and .NET marketing teams.</p>
   thumbnailUrl: AnastasiiaKazakowa.jpg
+-
+  id: 26
+  name: "Ivica"
+  surname: "Bogosavljevic"
+  bio: >
+    <p>Senior Software Engineer with 12 years of experience active in the domain of Linux and bare-metal embedded systems. His professional focus is application performance improvement - techniques used to make your C/C++ program run faster by using better algorithms, better exploiting the underlying hardware, and better usage of the standard library, programming language, and the operating system. Writer for a performance-related tech blog: <a href="https://johnnysswlab.com">johnnysswlab.com</a></p>
+  thumbnailUrl: IvicaBogosavljevic.jpg
+-
+  id: 27
+  name: "Mike"
+  surname: "Shah"
+  bio: >
+    <p>I am currently an Associate Teaching Professor at Northeastern University in the Khoury College of Computer Sciences. My primary teaching interests are in computer systems, computer graphics, and software engineering. My research interests are related to performance engineering (dynamic analysis), software visualization, and computer graphics.</p>
+    <p>Along with teaching and research work, I have juggled occasional consulting work as a 3D Senior Graphics Engineer in C++.</p>
+  thumbnailUrl: MikeShah.jfif
+-
+  id: 28
+  name: "Kevin"
+  surname: "Carpenter"
+  bio: >
+    <p>I have in technology for over 30 years, 17 of those developing applications for in C++. The last fourteen years have been working in finance. First on the modeling and simulation side and now more recently in the transaction processing. Taking over a legacy application has been an adventure in not only managing the code but finding ways to bring it into the current century while still maintaining business ROI for all the changes that are made.</p>
+  thumbnailUrl: KevinCarpenter.jpeg
+-
+  id: 28
+  name: "Kevin"
+  surname: "Carpenter"
+  bio: >
+    <p>I have in technology for over 30 years, 17 of those developing applications for in C++. The last fourteen years have been working in finance. First on the modeling and simulation side and now more recently in the transaction processing. Taking over a legacy application has been an adventure in not only managing the code but finding ways to bring it into the current century while still maintaining business ROI for all the changes that are made.</p>
+  thumbnailUrl: KevinCarpenter.jpeg
+-
+  id: 29
+  name: "Coral"
+  surname: "Kashri"
+  bio: >
+    <p>C++ boundaries investigator. Cppsenioreas blog writer.</p>
+  thumbnailUrl: CoralKashri.jpg

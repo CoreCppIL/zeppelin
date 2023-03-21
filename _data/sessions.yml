@@ -215,6 +215,50 @@
     <p>During this talk, we will define and explore the C++ abstractions layers, through both the mental model as reflected in papers, as well as through past mistakes and bugs. We will introduce some ground rules to encourage more correct usage of this concept, by extrapolating from examples from the latest C++23 and C++26 standards' features. Finally, we will review a proposal for addressing ISO C++ WG21 committee work.</p>
     <p>This is an exploratory talk, audience participation is highly encouraged!</p>
   speakers: [26]
+-
+  id: 1012
+  title: "Concurrency Improvements in C++20: A Deep Dive"
+  description: >
+    <p>With the publishing of the C++11 standard, C++ got a multithreading library and a memory model. This library has basic building blocks like atomic variables, threads, locks, and condition variables. That’s the foundation on which C++ standards such as C++20 can establish higher-level abstractions consisting of extended atomics, semaphores, latches and barriers, cooperative interruption, an improved std::jthread, and synchronized output streams.</p>
+  speakers: [12]
+-
+  id: 26
+  title: "Instruction Level Parallelism in Your C++ Program"
+  description: >
+    <p>Instruction Level Parallelism (ILP) is the magic ingredient of a modern CPU that makes it run fast. But not all programs are equal, some have more ILP, others have less. In this talk we are going to divide our hot loops into two types : low-ILP and high-ILP, and then we will focus our attention on how to make those low-ILP loops faster.</p>
+  speakers: [26]
+-
+  id: 27
+  title: "Running Away From Computation - An Introduction"
+  description: >
+    <p>One of the fun and motivating reasons to use the C++ programming language is the ability to optimize code. One of the best ways to optimize code is to avoid any computation in the first place! In this talk, we are going to learn how to approach the C++ programming language, thinking about compile-time computation (e.g. constexpr, static_assert, and template meta-programming) and some other tricks to avoid computation at run-time (e.g. short-circuit evaluation, caching, and lazy evaluation). In this talk, participants will learn how these techniques improve performance (with measurements using the perf profiler), as well as learn how these techniques also make C++ a safer programming language. This talk is targeted towards beginner to intermediate range C++ programmers.</p>
+  speakers: [27]
+-
+  id: 28
+  title: "Being RESTful with billions of dollars in transactions, thanks to C++, JSON and HTTP"
+  description: >
+    <p>In this talk I provide my experience on the last three years of building restful interfaces in C++ using nlohmann::json and cpp-httplib. I will present a case study showing you the basics of how each of these header only libraries work, teasing out the pros and cons for our companies needs. Some insights into how Restful APIs like Stripe are created will be provided, and we’ll look at how using, and converting to strong types using proper design patterns can make your life easier if you go down the same route. Throughout the talk, I’ll specifically share in the experience gained from implementing RESTful APIs in credit card transaction systems with Mastercard/Visa. Join this session to learn how you can use JSON and/or HTTP to interface with almost anything.</p>
+  speakers: [28]
+-
+  id: 1014
+  title: "Understanding Linux user namespaces"
+  description: >
+    <p>User namespaces are at the heart of many interesting Linux technologies that allow isolation and sandboxing of applications, for example running containers without root privileges and sandboxes for web browser plug-ins. In this presentation, we’ll look in detail at user namespaces, building up a basic understanding of what a user namespace is and going on to questions such as: what does being "superuser inside a user namespace" allow you to do (and what does it not allow); and what is the relationship between user namespaces and other namespace types (PID, UTS, network, etc.)? We’ll also employ some simple shell commands to create and experiment with user namespaces in order to better understand how they work.</p>
+  speakers: [14]
+-
+  id: 00
+  title: "C++"
+  description: >
+    <p></p>
+  speakers: [00]
+-
+  id: 29
+  title: "From a modern to an unbelievably modern C++"
+  description: >
+    <p>"Why should we move to a more advanced C++ version if we can already archive everything with C++11, which is also considered as a modern C++?"</p>
+    <p>"If you ask yourself this question, this talk is for you. In this talk we'll discuss the new features from C++17 to C++20, and we'll talk briefly about major features in 23.</p>
+    <p>"C++11/14 brought us the beginning of useful features like lambda expressions, iterators improvements, constexpr, auto and more. However, the more the C++ standard made progress, the more compile time options have been added and the readability became easier to archive. Moving forward gives more stability to code, based on the most experienced C++ developers' experience, who take part as standard and compilers writers.</p>
+  speakers: [29]
 #-
 #  id: 00
 #  title: "C++"
