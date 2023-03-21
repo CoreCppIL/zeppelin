@@ -23,6 +23,16 @@
   ribbon:
     - {title: "Keynote"}
 -
+  id: 15
+  name: "Daisy"
+  surname: "Hollman"
+  bio: >
+    <p>Dr. Daisy S. Hollman began working with the C++ standards committee in 2016, where she has made contributions to a wide range of library and language features, including proposals related to executors, atomics, generic programming, futures, and multidimensional arrays. Since receiving her Ph.D. in Quantum Chemistry in 2013, her research has focussed primarily on parallel and concurrent programming models, though a broader focus on general accessibility of complex abstractions has become her focus in more recent years. She currently works on C++ language and library design at Google, where she continues to focus on providing broad accessibility of programming models and abstractions, with a particular focus on design for diversity and inclusivity.</p>
+  thumbnailUrl: DaisyHollman.jpg
+  rockstar: true
+  ribbon:
+    - {title: "Keynote"}
+-
   id: 11
   name: "Amir"
   surname: "Kirsh"
@@ -80,6 +90,13 @@
     maintainer of the Linux "man-pages" project, which provides the primary documentation for Linux system calls and C
     library functions. Michael is a New Zealander, living in Munich, Germany.</p>
   thumbnailUrl: MichaelKerrisk.jpg
+-
+  id: 26
+  name: "Inbal"
+  surname: "Levi"
+  bio: >
+    <p>Inbal Levi is a software engineer at MPGC Services Ltd with a passion for high performance, readability, and software design. She is an active member of the ISO C++ Standards Committee as a co-chair of Library Evolution, chair of SG9 (Ranges group), and the chair of the ISO C++ Israeli NB. Inbal is also a director at ISO C++ foundation and puts effort into evolving both the local and international C++ community, as an organizer of the CoreC++ conference and user group, and as the program chair of C++Now.</p>
+  thumbnailUrl: InbalLevi.jpg
 -
   id: 20
   name: "Bryce"
@@ -141,10 +158,3 @@
     <p>C++ Tools Marketing Lead, JetBrains</p>
     <p>As a C and C++ software developer, Anastasia Kazakova created real-time *nix-based systems and pushed them to production for 8 years. She worked as an intern in Microsoft Research, Networking department, and launched the first 4G network in Russia being a part of the Yota operator team. She has a passion for networking algorithms and embedded programming and believes in good tooling. With all her love for C++, she is now the Product Marketing Manager on the JetBrains C++ tools and .NET marketing teams.</p>
   thumbnailUrl: AnastasiiaKazakowa.jpg
--
-  id: 26
-  name: "Inbal"
-  surname: "Levi"
-  bio: >
-    <p>Inbal Levi is a software engineer at MPGC Services Ltd with a passion for high performance, readability, and software design. She is an active member of the ISO C++ Standards Committee as a co-chair of Library Evolution, chair of SG9 (Ranges group), and the chair of the ISO C++ Israeli NB. Inbal is also a director at ISO C++ foundation and puts effort into evolving both the local and international C++ community, as an organizer of the CoreC++ conference and user group, and as the program chair of C++Now.</p>
-  thumbnailUrl: InbalLevi.jpg
