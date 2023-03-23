@@ -194,3 +194,125 @@
   bio: >
     <p>C++ boundaries investigator. Cppsenioreas blog writer.</p>
   thumbnailUrl: CoralKashri.jpg
+-
+  id: 30
+  name: "Marshall"
+  surname: "Clow"
+  bio: >
+    <p>Marshall has been writing code for more than 40 years. He has been writing open source code for 20+ years. He contributes to Boost (since 2002), was the tech lead for libc++ for many years, and was the chair of the Library Working Group of the C++ standards committee.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 31
+  name: "Nevin"
+  surname: "Liber"
+  bio: >
+    <p>Nevin “🙂” Liber is a Computer Scientist in the ALCF (Argonne Leadership Computing Facility) division of Argonne National Laboratory, where he works on Kokkos and Aurora. He also represents Argonne on the SYCL and C++ Committees, the latter as Admin Chair, Vice Chair of LEWGI/SG18 and Vice Chair of the US Delegation.</p>
+    <p>Back when he started out working at Bell Labs over three decades ago, a friend of his called and asked “What do you know about C++? You folks invented it!” That was enough to get a relatively shy junior engineer to go find the local expert so he could go play with it, and the rest is history! He has worked in C++ across various industries and platforms (big data, low-latency, operating systems, embedded, telephony and now exascale computing, just to name a few). He has also been a C++ Committee member since 2010 and hosted both the C++ and C standards meetings in Chicago.</p>
+  thumbnailUrl: NevinLiber.jpg
+-
+  id: 32
+  name: "Dvir"
+  surname: "Yitzchaki"
+  bio: >
+    <p>A Senior Software Engineer at Roku Inc. Member of the Israeli National Body for WG21.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 39
+  name: "Alex"
+  surname: "Dathskovsky"
+  bio: >
+    <p>Alex has over 16 years of software development experience, working on systems, low-level generic tools, and high-level applications. Alex has worked as an integration/software developer at Elbit, senior software developer at Rafael, technical leader at Axxana, software manager at Abbott Israel, and now a group manager a technical manager at <a href="http://speedata.io/">Speedata.io</a>, an exciting startup that will change big data and analytics as we know them. In his current job, Alex is developing a new CPU/APU system working with C++20, massive metaprogramming, and the development of LLVM to create the next Big Thing for Big Data. Alex is a C++ expert with a strong experience in template meta-programming. Alex also teaches a course about the new features of modern C++, trying to motivate companies to move to the latest standards.</p>
+  thumbnailUrl: AlexDathskovsky.jfif
+-
+  id: 33
+  name: "Roi"
+  surname: "Barkan"
+  bio: >
+    <p>Professional software developer and architect since 2000, Roi's main focus throughout his career was on high performance and distributed systems, implementing complex and innovative algorithms. Roi has been the VP technologies of Istra Research since 2014, where he helps creating low latency financial systems. Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel, and his executive MBA from Tel Aviv University.</p>
+  thumbnailUrl: RoiBarkan.jpg
+-
+  id: 34
+  name: "Yehezkel"
+  surname: "Bernat"
+  bio: >
+    <p>Yehezkel is a senior software engineer at Microsoft, where he works on the Excel team. He has previous experience at Intel as a software developer. He also enjoys teaching object-oriented programming (OOP) as a teaching assistant at Hadassah College. His favorite programming language is C++, and he loves to share his knowledge and passion for it with others.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 35
+  name: "Mike"
+  surname: "Spertus"
+  bio: >
+    <p>Mike Spertus is a Senior Principal Engineer at Amazon where he builds cloud development tools and an Adjunct Professor of Computer Science at the University of Chicago where he teaches Big Data and C++. He helped write one of the first commercial MS-DOS C compilers for the original IBM PC AT. Mike has submitted over 50 proposals as a long-time member of the C++ standards committee, a number of which are now parts of the C++ standard.</p>
+    <p>He is excited about this talk as it brings together all of the above experiences.</p>
+  thumbnailUrl: MichaelSpertus.jpg
+-
+  id: 36
+  name: "Dor"
+  surname: "Rozen"
+  bio: >
+    <p>Software engineer, Cadence</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 37
+  name: "Alon"
+  surname: "Wolf"
+  bio: >
+    <p>Alon is a Senior Software Engineer at Medtronic specializing in 3D and computer graphics with a passion for high performance. He has developed many custom simulation and rendering engines for different platforms using modern C++. He also writes a C++ technical blog and participates in game jams.</p>
+  thumbnailUrl: AlonWolf.jpg
+-
+  id: 38
+  name: "Tomer"
+  surname: "Vromen"
+  bio: >
+    <p>C++ programmer for ~10 years. Currently working at Dell.</p>
+  thumbnailUrl: TomerVromen.jfif
+-
+  id: 40
+  name: "Shachar"
+  surname: "Shemesh"
+  bio: >
+    <p>Shachar began programming when he was 9, and still finds passion in it, 40 years later. At the time, dinosaurs ruled the earth and computers only had a grand total of 8 bits. Shachar's career took him to almost every niche that the software world has to offer. Typically, if there was a niche his career, for some reason, failed to take him, he'd go there in an open source project. These days Shachar is running two YouTube channels, one in English and one in Hebrew, plus an open source project for implementing the computers of his childhood on an FPGA. Rumor has it he also has a day job.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 41
+  name: "Yossi"
+  surname: "Moalem"
+  bio: >
+    <p>Yossi is a SrPrincipal Software Dev Engineer at Fortinet. He has over 15 years of experience as a professional programmer, mainly in C/C++. Yossi considers the standard as light reading and spends all his spare time learning new technologies and methodologies (much to the delight of his wife!!). He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
+  thumbnailUrl: YossiMoalem.jpg
+-
+  id: 42
+  name: "Eran"
+  surname: "Talmor"
+  bio: >
+    <p>In the past 20 years, I have been building formal-methods based CAD-tools for microprocessor and SOC design and verification. Currently I lead an R&D team in Cadence Design Systems, and previously I have worked for Intel in their CAD development group. I code C++ regularly, but also had non negligible experience with functional languages such as OCaml.</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 43
+  name: "Gili"
+  surname: "Kamma"
+  bio: >
+    <p>I am the R&D manager at Blitz Electric Motors in Israel, leading the software department (embedded, data and full stack). I have a B.S.c in electrical engineering from Tel-Aviv university, Israel. With almost 20 years of experience developing embedded systems, I have worked across plenty of technical environments, BSP and low-level drivers in C, C++, Python, C#, Java, DB, and Cloud. I am an expert in developing embedded systems, gained a lot of knowledge from changing projects and products every year or two for the past 20 years. I have extensive experience in creating applications from scratch, improving performance of existing ones, and maintaining products by solving bugs and ensuring quality. I have a broad experience in industries such as Automotive, Cyber, IOT, Networking, and Aerospace.</p>
+  thumbnailUrl: GiliKamma.jpg
+-
+  id: 44
+  name: "Rotem"
+  surname: "Ferdman"
+  bio: >
+    <p>An Embedded C++ programmer in the IDF. C++ has always been my hobbie, and one of my roles inside the IDF is to make talks and teach about C++, mostly about basic stuff, new features(like C++20), and advanced concepts.</p>
+    <p>I would like to talk about basics, and mainly about templates, concepts, metaprogramming and/or static computations.</p>
+  thumbnailUrl: RotemFerdman.jpg
+-
+  id: 45
+  name: "Noam"
+  surname: "Weiss"
+  bio: >
+    <p>I've been working with C++ for two decades now. I'm excited by brilliant code that does "black magic".</p>
+  thumbnailUrl: NoamWeiss.png
+-
+  id: 46
+  name: "Yaniv"
+  surname: "Vardi"
+  bio: >
+    <p></p>
+  thumbnailUrl: NoPhoto.jpg

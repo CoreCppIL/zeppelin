@@ -259,6 +259,147 @@
     <p>"If you ask yourself this question, this talk is for you. In this talk we'll discuss the new features from C++17 to C++20, and we'll talk briefly about major features in 23.</p>
     <p>"C++11/14 brought us the beginning of useful features like lambda expressions, iterators improvements, constexpr, auto and more. However, the more the C++ standard made progress, the more compile time options have been added and the readability became easier to archive. Moving forward gives more stability to code, based on the most experienced C++ developers' experience, who take part as standard and compilers writers.</p>
   speakers: [29]
+-
+  id: 30
+  title: "Development Strategies - The stuff around the code"
+  description: >
+    <p>We all like to write code - right? But to write a successful piece of software requires effort on aspects other than the code.</p>
+    <p>In this talk, I will list some of these topics, and suggest techniques that will help you be successful. Things like testing, documentation, dealing with user questions and bug reports, along with tools to help you make your code better. I'll talk about static analysis, sanitizers, fuzzing,</p>
+    <p>The talk will feature examples from libc++, Boost, and other projects.</p>
+  speakers: [30]
+-
+  id: 1013
+  title: "Improving Compilation Times: Tools & Techniques"
+  description: >
+    <p>"Modules will solve everything", people say -- some optimistically, others sarcastically. However, modules are far from reaching real-world maturity, and it is still not certain whether they will improve compilation times in every situation and how costly it will be to migrate a large codebase.</p>
+    <p>Do we have to suffer with excruciating compilation times until we are able to migrate to modules? Not at all!</p>
+    <p>If you are interested in learning about practical tools and techniques to improve compilation times on codebases of any size, today, this talk is for you! We will cover:</p>
+    <p><ul>
+        <li>How to accurately benchmark the compilation time of a codebase and detect bottlenecks;</li>
+        <li>Enabling precompiled headers in CMake, leveraging the "reuse from" feature;</li>
+        <li>Automatically transforming your build into a "unity build";</li>
+        <li>When to selectively replace heavyweight standard library headers;</li>
+        <li>General techniques to reduce physical dependencies between components.</li>
+    </ul></p>
+  speakers: [13]
+-
+  id: 31
+  title: "MDSPAN: A Deep Dive Spanning C++, Kokkos & SYCL"
+  description: >
+    <p>This talk is a deep dive into the history behind MDSPAN (it’s roots being in Kokkos::View), the C++ standardization effort behind it (current status, various tradeoffs made over time, and language changes to help support it) and how SYCL is looking to leverage it in the future. MDSPAN is a non-owning multidimensional array reference, currently slated to be one of the flagship libraries added to C++23. View/reference vocabulary types first entered C++17 with string_view (a non-owning string reference), followed by span (a non-owning single dimension contiguous memory reference) and the ranges library. MDSPAN is the natural progression of this, and one that is critical to distributed (eg. CPU/GPU programming) and high-performance computing.</p>
+    <p>MDSPAN got its roots from Kokkos::View, One key difference between Kokkos::View & MDSPAN: Kokkos::View may be owning (reference-counted reference semantics) or non-owning. The former is also being standardized for C++26 as MDARRAY, although with value and not reference-counted semantics. Separately, in 2014 Microsoft proposed a similar type, array_view, be added to the standard. After a year and a half and seven revisions, it was ultimately abandoned in favor of what is now MDSPAN because it did not provide a zero-overhead abstraction.</p>
+    <p>The MDSPAN proposal itself has taken seven years and has been through 17 revisions, with input from many different companies as well as the C++ Committee. What changed over the years and why did it change? In parallel, two key language changes were made which ultimately improved the interface: deprecating the comma operator inside square brackets, and the addition of the multidimensional subscript operator. This allows the natural syntax of a[I, j, k] instead of inferior alternatives like a(i, j, k), a[I][j][k] or even a[Index(i), j, k].</p>
+  speakers: [31]
+-
+  id: 32
+  title: "C++23 ranges: conceptual changes and useful practicalities"
+  description: >
+    <p>Being introduced to C++20, ranges changed the way we write code. C++23 not only brings with it a large pile of new utilities but actually introduces a fundamental change to one of the core concepts in the ranges world - the view.</p>
+    <p>Absurd as it sounds, views can now also own their elements while still being cheap to pass around. This talk will explain how that works as well as describe the most useful algorithms and adaptors we can now take advantage of, like using std::generator to implement range adaptors, printing ranges, or even using the new std::optional monadic interface.</p>
+  speakers: [32]
+-
+  id: 33
+  title: "More Ranges Please"
+  description: >
+    <p>Ranges are one of the major additions of C++20, in which our main abstraction for sequences shifted from iterator-pairs into full fledged concepts, allowing better composability, expressibility and safety when working with bounded and even unbounded one dimensional sequences of data. The fluent use of the pipe-operator gave us power to write complex functional-style algorithms which are both highly readable and perfomant. The ranges library, especially with some recent C++23 additions also better exposes us to the notion of 'range-of-ranges' and multi-dimentional spans, which weren't in focus of the STL in prior versions of the language.</p>
+    <p>One key feature of the STL since the last century was the large number of algorithms and building blocks which seemed woven together and gave us a vocabulary by which algorithms could be expressed with little need to work with raw loops.</p>
+    <p>Together with the introduction of ranges, the STL has also gained various range-based algorithms (mostly views and adapters), yet most of those algorithms basic adaptations of the ones that are available in the iterator-pair model.</p>
+    <p>In a talk from 2002, the primary designer of STL <a href="https://youtu.be/YlVUzJwN_Xc?t=660">described the process of gathering, currating and solidifying</a> the algorithms in the STL circa 1998. This talk aims to apply a similar process to the universe of C++20/C++23 ranges, and propose potential additions to our vocabulary when developing range-based algorithms.</p>
+    <p>We will go over a variety of algorithms which currently don't exist for ranges, describe their potential value, and discuss whether they can or should be added to the standard.</p>
+    <p>A few examples of algorithms which will be covered:</p>
+    <p><ul>
+        <li>Algorithms for sorted ranges, such as <code>take_between</code> and <code>histogram</code>, ...</li>
+        <li>Algorithm for ranges-of-(sorted-)ranges, such as <code>merge_join</code>, <code>set_union</code>, <code>set_intersection</code>, ...</li>
+        <li>Algorithms which might require some helper data structures, such as <code>histogram</code> (for non sorted ranges)</li>
+        <li>Algorithms tailored for multi-dimensional ranges (or mdspan), such as <code>sort_dimension</code></li>
+    </ul></p>
+    <p>As we go through the various examples, we'll discuss what might be good candidates for addition to the STL (and reference prior talks on the topic), the notion of sorted ranges, and hopefully leave the talk with a good desire to compose algorithms in the brave new world of ranges</p>
+  speakers: [33]
+-
+  id: 34
+  title: "Lazy and Proud: How I Failed to Standardize lazy_counted_iterator"
+  description: >
+    <p>Have you ever wondered what it takes to write a proposal for the C++ standard? Have you had an idea on how to improve this language or its standard library and decided it was worth standardizing? Well, I did. And I failed. But I'm happy that I failed. Even happier than if I'd succeeded!</p>
+    <p>In this talk, I will share my experience of proposing P2406, where we demonstrated a design flaw of counted_iterator and suggested a fix, and why it wasn't accepted into the standard.</p>
+    <p>We'll briefly discuss C++20 ranges as background material, but the audience is expected to understand the basics of STL (the use of iterators to communicate between containers and algorithms).</p>
+  speakers: [34]
+-
+  id: 35
+  title: "C++ for the cloud"
+  description: >
+    <p>The cloud is revolutionizing scalable and distributed computing but is difficult to take advantage of in C++. While cloud functions can scale up to unlimited concurrency, calling them takes dozens of lines of complex C++ code. While NoSQL databases are ubiquitous associative containers, they cannot be used in a range, and so forth.</p>
+    <p>What if we could make cloud functions as easy to use as thread functions, NoSQL databases as easy to use as any other associative container, and do the same for other cloud services as well? You don't just have to imagine it. In this talk, I will show how you can take advantage of the cloud with simple and natural C++.</p>
+  speakers: [35]
+-
+  id: 36
+  title: "Performance-related coding guidelines"
+  description: >
+    <p>Performance as the top priority is the defining aspect of C++. No other programming language provides the performance-critical facilities of the language. This talk is about performance-related coding guidelines in modern C++. We will discuss generic issues everyone can use daily to make code performant but still readable. Several examples will be analyzed in detail to understand better how they are implemented. We won’t dive into low-level optimizations. We will discuss the more effective use of data structures, algorithms, constexpr, etc. Each suggestion is supported by benchmarks and some explanations that can help with better intuition.</p>
+  speakers: [36]
+-
+  id: 37
+  title: "Expressive Compile Time Parsers"
+  description: >
+    <p>Modern C++ has many language features and that can be leveraged to design an expressive API or a domain-specific language. However, these features are limited by the syntax rules of C++. To overcome this limitation, we will discuss the use of compile-time parsers to write more expressive code with zero overhead.</p>
+    <p>We will analyze open-source compile-time parsing libraries from C++11 to C++23 and compare their APIs in terms of flexibility and expressiveness. Additionally, we will delve into the techniques used in the implementation of these libraries to handle compile-time parsing under the constraints of compile-time execution.</p>
+    <p>Finally, we will highlight how these libraries can be used to reduce boilerplate and write compile-time regular expressions, parsers, parser generators, Rust's macro rules and reflection features. Attendees of this talk will gain a deeper understanding of the power and versatility of compile-time parsers in C++.</p>
+  speakers: [37]
+-
+  id: 39
+  title: "To Int or to Uint, This is the Question"
+  description: >
+    <p>In our daily work, we often use integral data types to perform arithmetic calculations, but we may not always consider how the selection of the data type can affect performance and compiler optimizations. This talk will delve into the importance of choosing the correct data type for the job and how it impacts compiler optimizations. We will also examine the overall performance implications for the application. We will explore specific algorithms where using unsigned data types is more beneficial and other situations where signed data types are the best choice. Attendees will come away with a deeper understanding of how data type selection can impact their code and how to make better choices for optimal performance.</p>
+  speakers: [39]
+-
+  id: 40
+  title: "Compile time polymorphism: the optimization that (sometimes) isn't"
+  description: >
+    <p><b>Oh no! This code has virtual functions!! Quick!!!! We need to rewrite it as templates!!!!!</b></p>
+    <p>For some time, inheritance has been getting a bad rap. In this lecture we'll dive into why that is, what alternatives there are, and are they actually better.</p>
+    <p>We'll also touch on the subject of caches and the limitations of sample profiling as means for determining which is faster.</p>
+  speakers: [40]
+-
+  id: 41
+  title: "Easy to use, hard to misuse: Practical guidelines to tame your API"
+  description: >
+    <p>The second most quoted statement in program development is “make your API easy to use correctly, hard to use incorrectly”. But what does this really mean? Most examples that explain this are very basic and deal more with readability of the code than with actual protection against misuse or incorrect usage.</p>
+    <p>We want our API's to be simple and generic. We want to allow for a wide variety of operations to be done simply. But we also want it to be used correctly and to protect against mistakes. Unfortunately, as we will see in this talk, these two goals can conflict with each other.</p>
+    <p>In this talk I will demonstrate some design and implementation decisions I encountered in real life code. We will discuss different considerations we need to take into account when designing our API and see how we can make the code guide you towards using it correctly.</p>
+  speakers: [41]
+-
+  id: 42
+  title: "Scope Sensitive Programming"
+  description: >
+    <p>Classically, functions and methods use arguments in order to produce a variety of results. But at times, this means passing “configuration” arguments to many APIs, which may hit hard maintainability and readability. Alternately, classes introduce configuration APIs in order to affect their general behavior. But these require special care when shared objects are invoked from multiple threads.</p>
+    <p>In this talk a novel but simple approach is presented, which affects the behavior of code, depending on the calling context. It eliminates the need to refactor big APIs with configuration arguments, and it is completely thread safe. Most of all, it lends itself to a flow-centric approach, where desired behaviors map naturally to code scopes.</p>
+    <p>A few use cases will be presented, such as logging, decorators, event counting, dependency injection, and caching.</p>
+  speakers: [42]
+-
+  id: 43
+  title: "Lessons I learn from improving legacy product and doubling its performance"
+  description: >
+    <p>On 2017, I worked on an embedded central unit (linux, c++, QT) that was supposed to listens to many endpoints and pass their rf frames to the Server. Sometimes we had unexplained resets and sometimes we lost data(frames). I emphasize sometimes because most of the time everything worked well. This made it harder to find and simulate the problems. The central unit was supposed to support 7500 endpoints but in the real world after 5000 endpoints it crashed occasionally. Customers complained, the software was hard to maintain and very unpopular (for the developers) to work on. After two years of work, the unit supported 10k endpoints without resets or any loss of data. Let me tell you, how we did it.</p>
+  speakers: [43]
+-
+  id: 44
+  title: "The Concept of Templates"
+  description: >
+    <p>Template programming became a fundamental feature in C++, presenting many basic and advanced features that are necessary for writing a faster, effective and more flexible program.</p>
+    <p>In my presentation, I will cover some basic and advanced features that are necessary for C++ programmers, including the basics, the process of compiling such programs and what this process (instantiation) has to do with the concept of specializing a template.</p>
+    <p>In addition - I will talk about the meaning of writing understandable and convenient template code, how to achieve it by using C++20 features, and will teach the basics of meta-programming and static computations - in terms of template C++ programming.</p>
+  speakers: [44]
+-
+  id: 45
+  title: "Virtual templated methods"
+  description: >
+    <p>You can write a virtual method, you can write a templated method, but you can't write a method which is both. In this talk we will discuss why that is, why you might still want it, and give a few suggestions as to what to do about it.</p>
+  speakers: [45]
+-
+  id: 46
+  title: "C++"
+  description: >
+    <p>Building low latency, network intense applications with C++</p>
+  speakers: [46]
 #-
 #  id: 00
 #  title: "C++"
