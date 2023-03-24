@@ -413,6 +413,16 @@
   description: >
     <p>In recent years, co-processors and accelerators such as GPUs have become increasingly prevalent in high-performance computing. These devices are designed to handle a massive amount of parallelism and have much higher computing power than traditional CPUs. OpenMP, an application programming interface (API) for shared-memory parallel programming, has adapted to this changing hardware landscape by adding directives that can map codes and data onto these devices. These directives are known as target directives, and they allow for efficient programming of GPUs and other specialized accelerators. Target directives can significantly improve the performance of high-performance code (such as Fortran, C, and C++) running on heterogeneous systems. They allow for the distribution of work across multiple devices, enabling the programmer to take full advantage of the processing power available on each device. This can result in significant speedups, especially for code that requires a high level of parallelism. In this talk, we will delve into the specifics of using target directives for programming GPUs. We will examine the advantages of target directives over classic shared-memory parallelism and explore how they can be used to optimize code for maximum performance. We will also discuss some of the challenges and trade-offs involved in using target directives, including issues related to memory management and data transfers between devices.</p>
   speakers: [48]
+-
+  id: 49
+  title: "UB effects on real world projects"
+  description: >
+    <p>Undefined behavior and its liberal adoption by compilers is pretty unique to C/C++. Number of so-called UBs and their implication is an order of magnitude larger compared to similar languages, e.g., Ada, and is the source of hard to find bugs as well as security vulnerabilities.</p>
+    <p>Scott Meirs popularized the notion of UB summoning "nasal demons", yet most of the noses of veteran C++ programmers are intact.</p>
+    <p>To understand and mitigate UB in large code bases, it is crucial to understand how the UB can affect your code.</p>
+    <p>We will survey real life bugs and security vulnerabilities, and how exactly they affect the code.</p>
+    <p>We will show several categories of misbehavior that could be caused by UB, and will try to bound the implication of it.</p>
+  speakers: [49]
 #-
 #  id: 00
 #  title: "C++"

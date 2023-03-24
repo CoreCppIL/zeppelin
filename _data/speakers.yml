@@ -330,3 +330,10 @@
   bio: >
     <p>Dr. Gal Oren is a scientist in the Computer Science department at Technion - Israel Institute of Technology and a senior researcher in the Scientific Computing Center at Nuclear Research Center - Negev. Oren completed his distributed computing CS Ph.D. at Ben-Gurion University in 2020, advised by Prof. Leonid Barenboim and Prof. Michael Elkin. His research interests include all aspects of scientific computing, specifically High-Performance, Super, Distributed, Parallel & Cluster Computing, and AI.</p>
   thumbnailUrl: NoPhoto.jpg
+-
+  id: 49
+  name: "Elazar"
+  surname: "Leibovich"
+  bio: >
+    <p>GPU @nextsilicon, storage @vastdata, virtualization @Ravello (RIP), big data @Akamai, 🆓<a href="http://github.com/elazarl/goproxy">github.com/elazarl/goproxy</a> ❤️perf ❤️µarch</p>
+  thumbnailUrl: ElazarLeibovich.jpg
