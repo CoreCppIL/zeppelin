@@ -316,3 +316,17 @@
   bio: >
     <p></p>
   thumbnailUrl: NoPhoto.jpg
+-
+  id: 47
+  name: "Sebastian"
+  surname: "Theophil"
+  bio: >
+    <p>Sebastian has been working at think-cell Software since its founding in 2002. In the last few years, among many other things, he has ported think-cell to run on macOS. He is also the maintainer of the typescripten project which lets programmers call JavaScript libraries from C++ code compiled to WebAssembly in a convenient and type-safe way. He enjoys leaving his desk from time to time to talk at international C++ conferences.</p>
+  thumbnailUrl: SebastianTheophil.jpeg
+-
+  id: 48
+  name: "Gal"
+  surname: "Oren"
+  bio: >
+    <p>Dr. Gal Oren is a scientist in the Computer Science department at Technion - Israel Institute of Technology and a senior researcher in the Scientific Computing Center at Nuclear Research Center - Negev. Oren completed his distributed computing CS Ph.D. at Ben-Gurion University in 2020, advised by Prof. Leonid Barenboim and Prof. Michael Elkin. His research interests include all aspects of scientific computing, specifically High-Performance, Super, Distributed, Parallel & Cluster Computing, and AI.</p>
+  thumbnailUrl: NoPhoto.jpg

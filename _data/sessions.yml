@@ -396,10 +396,23 @@
   speakers: [45]
 -
   id: 46
-  title: "C++"
+  title: "Building low latency, network intense applications with C++"
   description: >
-    <p>Building low latency, network intense applications with C++</p>
+    <p></p>
   speakers: [46]
+-
+  id: 47
+  title: "Nobody Can Program Correctly. A Practical and Interactive Guide to Debugging C++ Code"
+  description: >
+    <p>We like to write code but—despite our best efforts—we make mistakes. Our program will contain bugs. Sometimes, we don’t write what we mean to write, sometimes we don’t understand an aspect of our programming language and at other times we lack—or fail to consider—some critical information about our program’s system environment. As a result, our program will not behave correctly. What do we do now?</p>
+    <p>In this talk, I would like to take you through the entire debugging process, starting with a program that crashes. What do we do next? Which questions do we have to ask? What information do we need? What can we do to find the cause of the crash? Which tools can help us in this quest, and, last but not least, what can we do to make sure this bug never happens again? Thanks to real-world examples that we have encountered—and debugged—at think-cell over the years, you will learn how to reproduce, locate, understand and fix even the most difficult bugs.</p>
+  speakers: [47]
+-
+  id: 48
+  title: "Accelerated C++ with OpenMP"
+  description: >
+    <p>In recent years, co-processors and accelerators such as GPUs have become increasingly prevalent in high-performance computing. These devices are designed to handle a massive amount of parallelism and have much higher computing power than traditional CPUs. OpenMP, an application programming interface (API) for shared-memory parallel programming, has adapted to this changing hardware landscape by adding directives that can map codes and data onto these devices. These directives are known as target directives, and they allow for efficient programming of GPUs and other specialized accelerators. Target directives can significantly improve the performance of high-performance code (such as Fortran, C, and C++) running on heterogeneous systems. They allow for the distribution of work across multiple devices, enabling the programmer to take full advantage of the processing power available on each device. This can result in significant speedups, especially for code that requires a high level of parallelism. In this talk, we will delve into the specifics of using target directives for programming GPUs. We will examine the advantages of target directives over classic shared-memory parallelism and explore how they can be used to optimize code for maximum performance. We will also discuss some of the challenges and trade-offs involved in using target directives, including issues related to memory management and data transfers between devices.</p>
+  speakers: [48]
 #-
 #  id: 00
 #  title: "C++"
