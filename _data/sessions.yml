@@ -423,6 +423,12 @@
     <p>We will survey real life bugs and security vulnerabilities, and how exactly they affect the code.</p>
     <p>We will show several categories of misbehavior that could be caused by UB, and will try to bound the implication of it.</p>
   speakers: [49]
+-
+  id: 50
+  title: "Exceptionally Bad : The story on the misuse of exceptions and how to do better"
+  description: >
+    <p>Exceptions were originally heralded as a new modern way to handle errors. However the C++ community is split as to whether exceptions are useful or should be banned outright. It has not helped the pro-exception lobby that in their enthusiasm to embrace exceptions, a lot of code has been written that puts exceptions in a bad light. In this talk, We will present the original intent of exceptions and a brief overview of how exception mechanics work and how they circumvent the usual stack return mechanism to set the stage. we will then examine many cases of exception misuse including resource management, retries, hierarchies, data passing and control flow to name but a few. For each case, we will then suggest better ways to handle each specific situation. In many cases, exceptions are often dropped in favor of some other more appropriate paradigm. Finally we will introduce situations that can truly benefit from exceptions and what a model exception class might look like.</p>
+  speakers: [50]
 #-
 #  id: 00
 #  title: "C++"

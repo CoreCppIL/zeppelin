@@ -181,13 +181,6 @@
     <p>I have in technology for over 30 years, 17 of those developing applications for in C++. The last fourteen years have been working in finance. First on the modeling and simulation side and now more recently in the transaction processing. Taking over a legacy application has been an adventure in not only managing the code but finding ways to bring it into the current century while still maintaining business ROI for all the changes that are made.</p>
   thumbnailUrl: KevinCarpenter.jpeg
 -
-  id: 28
-  name: "Kevin"
-  surname: "Carpenter"
-  bio: >
-    <p>I have in technology for over 30 years, 17 of those developing applications for in C++. The last fourteen years have been working in finance. First on the modeling and simulation side and now more recently in the transaction processing. Taking over a legacy application has been an adventure in not only managing the code but finding ways to bring it into the current century while still maintaining business ROI for all the changes that are made.</p>
-  thumbnailUrl: KevinCarpenter.jpeg
--
   id: 29
   name: "Coral"
   surname: "Kashri"
@@ -337,3 +330,10 @@
   bio: >
     <p>GPU @nextsilicon, storage @vastdata, virtualization @Ravello (RIP), big data @Akamai, 🆓<a href="http://github.com/elazarl/goproxy">github.com/elazarl/goproxy</a> ❤️perf ❤️µarch</p>
   thumbnailUrl: ElazarLeibovich.jpg
+-
+  id: 50
+  name: "Peter"
+  surname: "Muldoon"
+  bio: >
+    <p>Pete Muldoon has been using C++ since 1991. Pete has worked in Ireland, England and the USA and is currently employed by Bloomberg as a senior Engineering Lead. A consultant for over 20 years prior to joining Bloomberg, Peter has worked on a broad range of projects and code bases in a large number of companies both tech and finance. Such broad exposure has, over time, shown what works and what doesn't for large scale engineering projects. He's a proponent of applied engineering principles, elegant solutions and expressive code.</p>
+  thumbnailUrl: PeteMuldoon.jpg
