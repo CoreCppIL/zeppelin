@@ -344,3 +344,10 @@
   bio: >
     <p>Pete Muldoon has been using C++ since 1991. Pete has worked in Ireland, England and the USA and is currently employed by Bloomberg as a senior Engineering Lead. A consultant for over 20 years prior to joining Bloomberg, Peter has worked on a broad range of projects and code bases in a large number of companies both tech and finance. Such broad exposure has, over time, shown what works and what doesn't for large scale engineering projects. He's a proponent of applied engineering principles, elegant solutions and expressive code.</p>
   thumbnailUrl: PeteMuldoon.jpg
+-
+  id: 51
+  name: "Alex"
+  surname: "Cohn"
+  bio: >
+    <p>software craftsman, Android enthusiast</p>
+  thumbnailUrl: NoPhoto.jpg
