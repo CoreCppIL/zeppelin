@@ -243,8 +243,15 @@
   name: "Dor"
   surname: "Rozen"
   bio: >
-    <p>Software engineer, Cadence</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Dor has two years of experience as a software engineer at Cadence. He is a Jasper engine application group member, which develops software applications using formal verification engines. He developed some complex scheduling algorithms utilizing reinforcement learning to improve performance. He is passionate about innovation, problem-solving, and learning. Dor received his Bachelor of Science in Computer Science from the Technion in Israel with honors.</p>
+  thumbnailUrl: DorRozen.jpg
+-
+  id: 361
+  name: "Igor"
+  surname: "Pora-Leonovich"
+  bio: >
+    <p>Is a Lead Software engineer at Cadence for 7 years. Develops different apps that are part Jasper EDA suits. Use C++ for 8 years professionally.</p>
+  thumbnailUrl: IgorPoraLeonovich.png
 -
   id: 37
   name: "Alon"

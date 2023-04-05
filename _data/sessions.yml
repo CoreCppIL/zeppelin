@@ -146,12 +146,18 @@
     (<code>fork()</code>, <code>execve()</code>, <code>wait()</code>, <code>exit()</code>).</p>
     <p>There will be practical programming sessions as part of the workshop.</p>
   speakers: [14]
-#-
-#  id: 20
-#  title: "C++"
-#  description: >
-#    <p></p>
-#  speakers: [20]
+-
+  id: 20
+  title: "C++ Horizons"
+  description: >
+    <p>In the next decade, three major new C++ features will reshape how we write C++ code - reflection/injection, pattern matching, and senders:</p>
+    <p><ul>
+        <li>Reflection/injection - facilities for extracting information from the program, performing compile-time computations based on that information, and injecting new program entities based on those computations.</li>
+        <li>Pattern matching - a new expressive selection mechanism that matches values against patterns and binds variables when matches are successful.</li>
+        <li>Senders - a framework for asynchronous programming that enables us to write generic code that can run on any type of execution resource, from a single thread to a cluster of GPUs.</li>
+    </ul></p>
+    <p>Come to this talk to find out what's on the horizon for C++, how it will change how you code, and why you should be excited about it.</p>
+  speakers: [20]
 -
   id: 21
   title: "Better Code: Exploring Validity"
@@ -335,7 +341,7 @@
   title: "Performance-related coding guidelines"
   description: >
     <p>Performance as the top priority is the defining aspect of C++. No other programming language provides the performance-critical facilities of the language. This talk is about performance-related coding guidelines in modern C++. We will discuss generic issues everyone can use daily to make code performant but still readable. Several examples will be analyzed in detail to understand better how they are implemented. We won’t dive into low-level optimizations. We will discuss the more effective use of data structures, algorithms, constexpr, etc. Each suggestion is supported by benchmarks and some explanations that can help with better intuition.</p>
-  speakers: [36]
+  speakers: [36, 361]
 -
   id: 37
   title: "Expressive Compile Time Parsers"
@@ -344,6 +350,14 @@
     <p>We will analyze open-source compile-time parsing libraries from C++11 to C++23 and compare their APIs in terms of flexibility and expressiveness. Additionally, we will delve into the techniques used in the implementation of these libraries to handle compile-time parsing under the constraints of compile-time execution.</p>
     <p>Finally, we will highlight how these libraries can be used to reduce boilerplate and write compile-time regular expressions, parsers, parser generators, Rust's macro rules and reflection features. Attendees of this talk will gain a deeper understanding of the power and versatility of compile-time parsers in C++.</p>
   speakers: [37]
+-
+  id: 38
+  title: "Linker & Loader: The build process after-party"
+  description: >
+    <p>What happens to our code after going through the compiler? This is where the linker steps in to connect all the pieces: it points the function call to the right function, puts all the blocks of code in their right place, and even does some optimizations.</p>
+    <p>This talk will describe the job of the linker, and focus on the complexities that C++ adds to it: function overloading, templates, exceptions, and static initialization.</p>
+    <p>Examples and specifics will be based on the Linux ecosystem, but the general ideas are applicable everywhere.</p>
+  speakers: [38]
 -
   id: 39
   title: "To Int or to Uint, This is the Question"
