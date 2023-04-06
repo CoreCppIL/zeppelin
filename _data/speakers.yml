@@ -349,5 +349,5 @@
   name: "Alex"
   surname: "Cohn"
   bio: >
-    <p>software craftsman, Android enthusiast</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Alex fell in love with C++ 32 years ago and has enjoyed this union ever since. He is currently working for Incredibuild on reducing barriers for C++ development for users of Xcode.</p>
+  thumbnailUrl: AlexCohn.jpg
