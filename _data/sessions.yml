@@ -264,7 +264,7 @@
     <p>"Why should we move to a more advanced C++ version if we can already archive everything with C++11, which is also considered as a modern C++?"</p>
     <p>"If you ask yourself this question, this talk is for you. In this talk we'll discuss the new features from C++17 to C++20, and we'll talk briefly about major features in 23.</p>
     <p>"C++11/14 brought us the beginning of useful features like lambda expressions, iterators improvements, constexpr, auto and more. However, the more the C++ standard made progress, the more compile time options have been added and the readability became easier to archive. Moving forward gives more stability to code, based on the most experienced C++ developers' experience, who take part as standard and compilers writers.</p>
-  speakers: [29]
+  speakers: [29,15]
 -
   id: 30
   title: "Development Strategies - The stuff around the code"
