@@ -37,10 +37,7 @@
   name: "Amir"
   surname: "Kirsh"
   bio: >
-    <p>Amir Kirsh is a C++ lecturer at the Academic College of Tel-Aviv-Yaffo and a visiting lecturer at
-    Stony Brook University, previously the Chief Programmer at Comverse, after being CTO and VP R&D at a
-    startup acquired by Comverse. He is also a co-organizer of the annual Core C++ conference and a member
-    of the ISO C++ Israeli National Body.</p>
+    <p>Amir Kirsh is a C++ lecturer at the Academic College of Tel-Aviv-Yaffo, a visiting lecturer at Stony Brook University and dev advocate at Incredibuild. Previously the Chief Programmer at Comverse, after being CTO and VP R&D at a startup acquired by Comverse. He is also a co-organizer of the annual Core C++ conference and a member of the ISO C++ Israeli National Body.</p>
   thumbnailUrl: AmirKirsh.jpg
 -
   id: 12
