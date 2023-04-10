@@ -308,11 +308,14 @@
   thumbnailUrl: NoamWeiss.png
 -
   id: 46
-  name: "Yaniv"
-  surname: "Vardi"
+  name: "Daniel"
+  surname: "Babitsky"
   bio: >
-    <p></p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Daniel Babitsky, software developer and cyber security expert with a degree in Computer Engineering and a Master's in Business Management specializing in Big Data.</p>
+    <p>Over 16 years of software development experience with C++, Rust TypeScript etc'...</p>
+    <p>Building low latency algo-trading related applications for the past few years as part of the Trading and Infrastructure dev teams.</p>
+    <p>Daniel is currently part of the Infra teams at Final R&D group where he spends much of his time building low latency algo-trading related applications, and low latency code for the use of the various dev teams.</p>
+  thumbnailUrl: DanielBabitsky.jpg
 -
   id: 47
   name: "Sebastian"

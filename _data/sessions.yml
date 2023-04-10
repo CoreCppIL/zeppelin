@@ -412,7 +412,11 @@
   id: 46
   title: "Building low latency, network intense applications with C++"
   description: >
-    <p></p>
+    <p>High Frequency Trading (HFT) companies require high-speed networks and co-location services to minimize latency. Employing C++ can provide a significant performance boost for low-latency network-intense applications, with the proper design and implementation. In this talk, we will explore various techniques used in real production code to build applications that prioritize lower latency as a major goal.</p>
+    <p>The talk will focus on the importance of low latency trading infrastructure specifically transferring market data from the exchanges to the algo trading client applications.</p>
+    <p>The talk will cover up how the speed of data transfer is crucial for effective trading decisions, as even a few microseconds delay can result in missed opportunities or financial losses. The talk will also discuss various C++ concepts and services used to build low latency trading infrastructure, including dedicated pub/sub infrastructure, use of hardware accelerators, kernel bypass libraries, and few more...</p>
+    <p>This talk will be relevant to anyone interested in C++ performance and runtime efficiency, whether in HFT or any other field that requires low latency.</p>
+    <p>The audience will gain a deeper understanding of the critical role of low latency trading infrastructure in modern financial markets and the strategies used to achieve this critical goal.</p>
   speakers: [46]
 -
   id: 47
