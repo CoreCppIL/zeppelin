@@ -283,7 +283,7 @@
   surname: "Talmor"
   bio: >
     <p>In the past 20 years, I have been building formal-methods based CAD-tools for microprocessor and SOC design and verification. Currently I lead an R&D team in Cadence Design Systems, and previously I have worked for Intel in their CAD development group. I code C++ regularly, but also had non negligible experience with functional languages such as OCaml.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: EranTalmor.jpg
 -
   id: 43
   name: "Gili"
