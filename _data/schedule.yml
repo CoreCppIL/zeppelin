@@ -24,6 +24,11 @@
     	endTime: "15:45",
     	sessionIds: [107]
     }
+    - {
+    	startTime: "17:00",
+    	endTime: "20:00",
+    	sessionIds: [80]
+    }
 
 - 
   date: "2023-06-06"

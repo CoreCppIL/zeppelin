@@ -453,3 +453,17 @@
   description: >
     <p>In this talk, we will analyze some big open source C++ projects from the point of view of a build engineer. How does the style of their code effect the resources it needs to compile?</p>
   speakers: [51]
+-
+  id: 80
+  title: "Core C++ 2023 - Pre-Opening Evening [free registration]"
+  description: >
+    <p>We are happy to invite all C++ enthusiastic developers to join our pre-opening evening of the Core C++ 2023 conference.</p>
+    <p>This pre-opening event is open for all, whether you are registered to the conference or not. However, registration to the event here, in this meetup page, is required for anyone who wishes to join!</p>
+    <p>Note that this event is happening at the Academic College of Tel-Aviv-Yaffo, while the next two days of the main Core C++ conference are this year at the Tel-Aviv Cinematheque.</p>
+    <p><ul>
+        <li>David Sankel: The Semicolon is a Lie</li>
+        <li>Inbal Levi: Catch me if you can - future C++ is coming your way</li>
+        <li>Bryce Adelstein Lelbach: AI-Assisted Software Engineering</li>
+    </ul></p>
+    <p>See <a href="https://www.meetup.com/corecpp/events/292927186/">event page @meetup.com</a> for details and registration</p>
+  speakers: [21,16,20]
