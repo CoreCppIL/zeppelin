@@ -26,7 +26,7 @@
   elements:
     - { name: "Undo", description: "Undo is the time travel debugging company for Linux. We equip developers with the technology to understand complex code and fix bugs faster.distribution.", link: "https://undo.io/", imageUrl: "Undo_Logo_with_tagline_Colour.png" }
     - { name: "JetBrains", description: "JetBrains is a technology-leading software development firm specializing in the creation of intelligent, productivity-enhancing software.", link: "https://www.jetbrains.com", imageUrl: "jetbrains-variant-4.svg" }
-    - { name: "Check Point", description: "Check Point Software Technologies Ltd. is the world’s leading cyber security provider.", link: "https://www.checkpoint.com/", imageUrl: "Logo_stacked_color_Large.png" }
+    - { name: "Check Point", description: "You deserve the best security", link: "https://www.checkpoint.com/", imageUrl: "Logo_stacked_color_Large.png" }
     #   - {name: "Istra Research", description: "Istra is a leading Algo-Trading research company specializing in High Frequency Trading (HFT)", link: "https://www.istraresearch.com", imageUrl: "istra-logo.svg"}
     #   - {name: "IAI", description: ".", link: "https://www.iai.co.il/", imageUrl: "Israel_Aerospace_Industries_logo.svg"}
     #   - {name: "cynet", description: "Cynet is a provider of the world’s first end-to-end, natively automated extended detection and response (XDR) platform, with a mission to make it easy and stressless for any organization to be safe and secure from cyber threats.", link: "https://cynet.com/", imageUrl: "Cynet_RGB_Main_Grad.svg"}
