@@ -296,7 +296,8 @@
   name: "Rotem"
   surname: "Ferdman"
   bio: >
-    <p>An Embedded C++ programmer in the IDF. C++ has always been my hobbie, and one of my roles inside the IDF is to make talks and teach about C++, mostly about basic stuff, new features(like C++20), and advanced concepts.</p>
+    <p>An Embedded C++ programmer and teacher.</p>
+    <p>C++ has always been my hobby.</p>
     <p>I would like to talk about basics, and mainly about templates, concepts, metaprogramming and/or static computations.</p>
   thumbnailUrl: RotemFerdman.jpg
 -
