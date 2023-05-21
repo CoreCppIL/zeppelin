@@ -94,7 +94,10 @@
   speakers: [10]
 -
   id: 15
-  title: "Keynote"
+  title: "Keynote :: Expressing Implementation Sameness and Similarity in Modern C++"
+  description: >
+    <p>Polymorphism is among the most widely discussed introductory topics in software engineering. Often couched in a vague context of code reuse, much of this introductory focus nonetheless revolves around interface similarity. More advanced discussions of code reuse in software engineering typically revolve around general topics like the maintainability cost of code coupling, but usually avoid discussing the merits of advanced language-specific mechanisms for code reuse. Furthermore, very little is made of the information loss and cognitive load associated with poor expression of sameness in implementation, regardless of interface coupling concerns.</p>
+    <p>In this talk, we will examine the wide spectrum of tools for expressing “sameness” in modern C++. Beyond introductory “is-a” inheritance and runtime polymorphism, we will delve into templates, concepts, mixins, CRTP, C++23’s “deducing this,” and a number of more advanced techniques on the spectrum from generic programming to template metaprogramming. We will explore the long-term software engineering costs and benefits of each of these mechanisms. In each case, we will discuss important trade-offs, such as runtime and compile-time overhead, mechanistic complexity versus “sameness” information loss, code coupling, maintainability, and the ability to adapt to evolving implementation needs over time. Finally, we will discuss mechanisms for expressing “sameness” that are difficult or impossible in modern C++—such as dependency injection and aspect-oriented programming—but that are commonplace in other languages. We will delve into both the minimal and ideal language features that would enable these paradigms to become a part of the C++ toolbox, and we will discuss the outlook for the inclusion of such features in future versions of standard C++.</p>
   subtype: keynote
   speakers: [15]
 -
