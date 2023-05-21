@@ -89,7 +89,7 @@
   service: true
 -
   id: 10
-  title: "Keynote"
+  title: "Keynote :: Approaching C++ safety"
   subtype: keynote
   speakers: [10]
 -
