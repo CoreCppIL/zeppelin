@@ -352,3 +352,18 @@
   bio: >
     <p>Alex fell in love with C++ 32 years ago and has enjoyed this union ever since. He is currently working for Incredibuild on reducing barriers for C++ development for users of Xcode.</p>
   thumbnailUrl: AlexCohn.jpg
+-
+  id: 60
+  name: "Guy"
+  surname: "Tamir"
+  bio: >
+    <p>Guy is a technology evangelist at Intel Software and Advanced Technology group. His main areas of interest and expertise are Artificial Intelligence, Computer vision, Video processing, and Heterogeneous, multi-accelerator parallel computing. Guy is an active YouTuber, with the OpenVINO and <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNxsCltpcXU_Haz9xQSCN_SB">oneAPI video channel</>. Guy holds a M.Sc. (EE, Technion) and MBA.</p>
+  thumbnailUrl: GuyTamir.jpg
+-
+  id: 61
+  name: "Tomel"
+  surname: "Gal"
+  bio: >
+    <p>​Tomer Gal is the Founder and Chief Technology Officer (CTO) at OpTeamizer, a preferred partner of NVIDIA, distinguishing itself in areas such as Embedded Edge, Metropolis, Service Delivery, and Solution Advising. In addition to leading his firm, he is a valued member of the NVIDIA VC Alliance, investing in artificial intelligence (AI) companies. With extensive industry knowledge, Tomer holds the position of NVIDIA's DLI lecturer for CUDA development and Deep Learning. He also serves as an evaluator for the Israel Innovation Authority, specializing in AI. Beyond this, he holds a position as a faculty member in the Computer Science department at Braude, where he instructs in the field of Artificial Intelligence.</p>
+    <p>Under Tomer's visionary leadership, OpTeamizer is creating tailored solutions for over 100 companies spanning diverse sectors. These include homeland security, healthcare, inspection industries, smart cities, and many more. His commitment to innovation continues to drive the company's success.</p>
+  thumbnailUrl: TomerGal.jpg

@@ -467,3 +467,42 @@
     </ul></p>
     <p>See <a href="https://www.meetup.com/corecpp/events/292927186/">event page @meetup.com</a> for details and registration</p>
   speakers: [21,16,20]
+-
+  id: 60
+  title: "Ready your C++ code for the multi-device, multi-vendor world"
+  description: >
+    <p>We all want to be able to run the same code on CPUs but also on GPUs and maybe other devices, On devices made by Intel, AMD, Nvidia or others. In this hands-on workshop we’ll learn how to do it.</p>
+    <p>Who should attend?
+    <ul>
+        <li>C++ application developers</li>
+        <li>GPU, CPU & HPC programmers</li>
+    </ul></p>
+    <p>Why should you attend this workshop?
+    <ul>
+        <li>Develop best-practice heterogeneous programming techniques from hands-on tutorials and tech talks delivered by tools specialists on oneAPI software development tools.</li>
+        <li>Learn how you can efficiently use oneAPI Toolkits on various platforms such as Intel, AMD and NVIDIA for HPC and enterprise workloads.</li>
+        <li>Understand how to use the C++ based SYCL Compiler to develop heterogeneous applications running on CPUs and HW accelerators from multiple vendors.</li>
+        <li>Learn to migrate CUDA code to SYCL.</li>
+        <li>Learn how to squeeze most performance out of your application using the oneAPI optimization tools.</li>
+    </ul></p>
+    <p>Topics covered:
+    <ul>
+        <li>Intel oneAPI – Introduction to Heterogeneous Development Environment</li>
+        <li>Direct programming with oneAPI SYCL</li>
+        <li>OneAPI Compatibility Tool for porting CUDA applications to SYCL</li>
+        <li>Intel oneAPI libraries like oneDPL and others</li>
+        <li>Application Profiling for Heterogeneous Hardware</li>
+    </ul></p>
+    <p>Prerequisites: Participants should be able to program in C/C++</p>
+    <p>Hands-On
+    <ul>
+        <li>There will be practical exercises during the class</li>
+        <li>Pre-installed laptops will be supplied, also possible to pre-install on your own laptops</li>
+    </ul></p>
+  speakers: [60]
+-
+  id: 61
+  title: "CUDA and the Latest Innovations in GPU Technology"
+  description: >
+    <p>We will dive into the exciting world of GPU technology, with a particular focus on Compute Unified Device Architecture (CUDA), a parallel computing platform and application programming interface model developed by NVIDIA. The talk will first provide a foundational understanding of CUDA and its role in enhancing GPU performance for a wide variety of applications. We will then delve into the most recent advancements in CUDA and GPU technology, explaining how these innovations are reshaping various fields.</p>
+  speakers: [61]
