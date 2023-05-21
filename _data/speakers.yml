@@ -357,7 +357,7 @@
   name: "Guy"
   surname: "Tamir"
   bio: >
-    <p>Guy is a technology evangelist at Intel Software and Advanced Technology group. His main areas of interest and expertise are Artificial Intelligence, Computer vision, Video processing, and Heterogeneous, multi-accelerator parallel computing. Guy is an active YouTuber, with the OpenVINO and <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNxsCltpcXU_Haz9xQSCN_SB">oneAPI video channel</>. Guy holds a M.Sc. (EE, Technion) and MBA.</p>
+    <p>Guy is a technology evangelist at Intel Software and Advanced Technology group. His main areas of interest and expertise are Artificial Intelligence, Computer vision, Video processing, and Heterogeneous, multi-accelerator parallel computing. Guy is an active YouTuber, with the OpenVINO and <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNxsCltpcXU_Haz9xQSCN_SB">oneAPI video channel</a>. Guy holds a M.Sc. (EE, Technion) and MBA.</p>
   thumbnailUrl: GuyTamir.jpg
 -
   id: 61
