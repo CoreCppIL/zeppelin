@@ -396,7 +396,7 @@
   speakers: [42]
 -
   id: 43
-  title: "Lessons I learn from improving legacy product and doubling its performance"
+  title: "Lessons I learn from improving legacy product and doubling its performance (in Hebrew)"
   description: >
     <p>On 2017, I worked on an embedded central unit (linux, c++, QT) that was supposed to listens to many endpoints and pass their rf frames to the Server. Sometimes we had unexplained resets and sometimes we lost data(frames). I emphasize sometimes because most of the time everything worked well. This made it harder to find and simulate the problems. The central unit was supposed to support 7500 endpoints but in the real world after 5000 endpoints it crashed occasionally. Customers complained, the software was hard to maintain and very unpopular (for the developers) to work on. After two years of work, the unit supported 10k endpoints without resets or any loss of data. Let me tell you, how we did it.</p>
   speakers: [43]
@@ -416,7 +416,7 @@
   speakers: [45]
 -
   id: 46
-  title: "Building low latency, network intense applications with C++"
+  title: "Building low latency, network intense applications with C++ (in Hebrew)"
   description: >
     <p>High Frequency Trading (HFT) companies require high-speed networks and co-location services to minimize latency. Employing C++ can provide a significant performance boost for low-latency network-intense applications, with the proper design and implementation. In this talk, we will explore various techniques used in real production code to build applications that prioritize lower latency as a major goal.</p>
     <p>The talk will focus on the importance of low latency trading infrastructure specifically transferring market data from the exchanges to the algo trading client applications.</p>

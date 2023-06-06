@@ -3,6 +3,9 @@
 *.Identifier
 *.bak
 
+### IDE ###
+.idea
+
 ### Jekyll ###
 _site/
 
