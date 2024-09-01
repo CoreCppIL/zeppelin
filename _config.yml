@@ -67,7 +67,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "Core C++ <typeout> 2024"
 eventDate: "November 26-28, 2024"
-typeoutTextValues: '"", "Conference", "Summer", "Israel", "co_return"'
+typeoutTextValues: '"", "Conference", "Autumn", "Israel", "Local"'
 typeoutFallback: "Conference"
 heroButtons:
 # - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
