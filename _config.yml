@@ -86,10 +86,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "300", specialCharacter: "+", info: "attendees", detail: "face to face"}
+ - {count: "250", specialCharacter: "+", info: "attendees", detail: "face to face"}
  - {count: "20", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
  - {count: "20", specialCharacter: "+", info: "speakers", detail: "international and local"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
 
 # Latest News Block
 latestNewsTitle: "Latest News"
@@ -165,33 +165,33 @@ partnersC4sponsorsButton: "Become a sponsor"
 ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
-# -
-#  name: "Full 2-Day Ticket: Early Bird"
-#  price: "900"
-#  priceCurrency: "ILS"
-#  ribbon: "Limited"
-#  featured: true
-#  ticketsNumber: "100"
-#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2023/with/tgkh5hekhsa"
-#  buyButtonText: "Register Now"
-#  ticketContentList: ["Two Day Conference", "Four Parallel Tracks", "On Sale Until March 15th!"]
-#  validFrom: "2023-02-15"
-#  validThrough: "2023-03-15"
-#  soldOut: false
-#  soldOutText: "Sold Out"
-# -
-#  name: "Full 2-Day Ticket"
-#  price: "1100"
-#  priceCurrency: "ILS"
-#  featured: true
-#  ticketsNumber: "300"
-#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2023/with/m6v-pgni9is"
-#  buyButtonText: "Register Now"
-#  ticketContentList: ["Two Day Conference", "Four Parallel Tracks", "Meet Fellow Developers"]
-#  validFrom: "2023-03-15"
-#  validThrough: "2023-06-06"
-#  soldOut: false
-#  soldOutText: "Waiting List"
+ -
+  name: "Full 2-Day Ticket: Early Bird"
+  price: "750"
+  priceCurrency: "ILS"
+  ribbon: "Discount"
+  featured: true
+  ticketsNumber: "100"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local/with/g2j3shd-yk"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Two Day Conference", "Two Parallel Tracks", "On Sale Until October 1st!"]
+  validFrom: "2024-09-01"
+  validThrough: "2024-10-01"
+  soldOut: false
+  soldOutText: "Sold Out"
+ -
+  name: "Full 2-Day Ticket"
+  price: "850"
+  priceCurrency: "ILS"
+  featured: true
+  ticketsNumber: "300"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local/with/0gqfvzqpyju"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Two Day Conference", "Two Parallel Tracks", "Meet Fellow Developers"]
+  validFrom: "2024-10-01"
+  validThrough: "2024-11-27"
+  soldOut: false
+  soldOutText: "Waiting List"
 # -
 #  name: "Workshop"
 #  price: "1350"
