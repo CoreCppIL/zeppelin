@@ -1,369 +1,206 @@
 -
-  id: 10
-  name: "Bjarne"
-  surname: "Stroustrup"
-  bio: >
-    <p>Bjarne Stroustrup is the designer and original implementer of C++ as well as the author of "The C++
-    Programming Language (4 th Edition)" and "A Tour of C++ (3 rd edition), Programming: Principles and Practice
-    using C++ (2 nd Edition)", and many popular and academic publications. He is a professor of Computer
-    Science at Columbia University in New York City. Dr. Stroustrup is a member of the US National Academy
-    of Engineering, and an IEEE, ACM, and CHM fellow. He received the 2018 Charles Stark Draper Prize, the
-    IEEE Computer Society's 2018 Computer Pioneer Award, and the 2017 IET Faraday Medal. He did much
-    of his most important work in Bell Labs. His research interests include distributed systems, design,
-    programming techniques, software development tools, and programming languages. To make C++ a
-    stable and up-to-date base for real-world software development, he has been a leading figure with the
-    ISO C++ standards effort for more than 30 years. He holds a master’s in Mathematics from Aarhus
-    University, where he is an honorary professor in the Computer Science Department, and a PhD in
-    Computer Science from Cambridge University, where he is an honorary fellow of Churchill College.</p>
-    <p><a href=https://www.stroustrup.com/">www.stroustrup.com</a></p>
-  thumbnailUrl: DrBjarneStroustrup.png
-  rockstar: true
-  social:
-#    - {name: "twitter", link: "https://twitter.com/stroustrup"}
-  ribbon:
-    - {title: "Keynote"}
--
-  id: 15
-  name: "Daisy"
-  surname: "Hollman"
-  bio: >
-    <p>Dr. Daisy S. Hollman began working with the C++ standards committee in 2016, where she has made contributions to a wide range of library and language features, including proposals related to executors, atomics, generic programming, futures, and multidimensional arrays. Since receiving her Ph.D. in Quantum Chemistry in 2013, her research has focussed primarily on parallel and concurrent programming models, though a broader focus on general accessibility of complex abstractions has become her focus in more recent years. She currently works on C++ language and library design at Google, where she continues to focus on providing broad accessibility of programming models and abstractions, with a particular focus on design for diversity and inclusivity.</p>
-  thumbnailUrl: DaisyHollman.jpg
-  rockstar: true
-  ribbon:
-    - {title: "Keynote"}
--
   id: 11
   name: "Amir"
   surname: "Kirsh"
   bio: >
-    <p>Amir Kirsh is a C++ lecturer at the Academic College of Tel-Aviv-Yaffo, a visiting lecturer at Stony Brook University and dev advocate at Incredibuild. Previously the Chief Programmer at Comverse, after being CTO and VP R&D at a startup acquired by Comverse. He is also a co-organizer of the annual Core C++ conference and a member of the ISO C++ Israeli National Body.</p>
+    <p>Amir Kirsh is a C++ lecturer at the Academic College of Tel-Aviv-Yaffo and Tel-Aviv University, previously the Chief Programmer at Comverse, after being CTO and VP R&D at a startup acquired by Comverse. He is also a co-organizer of the annual Core C++ conference and a member of the ISO C++ Israeli National Body.</p>
   thumbnailUrl: AmirKirsh.jpg
 -
   id: 12
-  name: "Rainer"
-  surname: "Grimm"
+  name: "Robert"
+  surname: "Leahy"
   bio: >
-    <p>I've worked as a software architect, team lead, and instructor since 1999. In 2002, I created
-    company-intern meetings for further education and have given training courses since 2002. My first
-    tutorials were about proprietary management software, but I began teaching Python and C++ soon after.
-    In my spare time, I like to write articles about C++, Python, and Haskell, and to speak at conferences.
-    I publish weekly on my English blog <a href="https://www.modernescpp.com/">Modernes Cpp</a> and the
-    <a href="https://www.grimm-jaud.de/index.php/blog">German blog</a>, hosted by Heise Developer.
-    Since 2016, I'm an independent instructor giving seminars about modern C++ and Python. In the last ten years,
-    I published several books in various languages about modern C++. Due to my profession, I always search
-    for the best way to teach modern C++.</p>
-  thumbnailUrl: RainerGrimm.jpg
+    <p>Robert is a graduate of the University of Victoria where he specialized in graphics, gaming, and digital geometry processing. After spending 4.5 years in full stack web development he pivoted to financial infrastructure in early 2016 and now works on next generation market data storage and retrieval mechanisms. In 2019 he became involved in the ISO C++ committee with a particular focus on library evolution.</p>
+  thumbnailUrl: NoPhoto.jpg
 -
   id: 13
-  name: "Vittorio"
-  surname: "Romeo"
-  bio: >
-    <p>Vittorio Romeo (B.Sc. Computer Science, 6+ YoE at Bloomberg) works on mission-critical C++
-    infrastructure and provides Modern C++ training to hundreds of fellow employees.</p>
-    <p>He began programming around the age of 8 and became a C++ enthusiast shortly after discovering the
-    language. Vittorio created several open-source C++ libraries and games, published many video courses and
-    tutorials, actively participates in the ISO C++ standardization process, and maintains the popular SFML library.</p>
-    <p>He co-authored the acclaimed "Embracing Modern C++ Safely" book (published in January 2022)
-    with J. Lakos, R. Khlebnikov, and A. Meredith.</p>
-    <p>Vittorio is an active member of the C++ community with an ardent desire to share his knowledge
-    and learn from others: he presented and offered workshops over 20 times at international C++ conferences
-    (including CppCon, C++Now, ++it, ACCU, C++ On Sea, C++ Russia, and Meeting C++), covering topics of various nature.</p>
-    <p>He also maintains a website with advanced C++ articles and a YouTube channel featuring well-received
-    modern C++11/14 tutorials. Lastly, he's active on StackOverflow, taking great care in answering
-    interesting C++ question (90k reputation).</p>
-    <p>When he's not writing code, Vittorio enjoys weightlifting, playing volleyball, scuba diving, canyoning, gaming,
-    and enjoying sci-fi content.</p>
-  thumbnailUrl: VittorioRomeo.jpg
--
-  id: 14
-  name: "Michael"
-  surname: "Kerrisk"
-  bio: >
-    <p>Michael Kerrisk is a trainer, author, and programmer who has a passion for investigating and explaining
-    software systems. He is the author of "The Linux Programming Interface", a widely acclaimed book on Linux (and UNIX)
-    system programming. He has been actively involved in the Linux development community since 2000, operating mainly
-    in the area of testing, design review, and documentation of kernel-user-space interfaces and was for many years the
-    maintainer of the Linux "man-pages" project, which provides the primary documentation for Linux system calls and C
-    library functions. Michael is a New Zealander, living in Munich, Germany.</p>
-  thumbnailUrl: MichaelKerrisk.jpg
--
-  id: 16
   name: "Inbal"
   surname: "Levi"
   bio: >
-    <p>Inbal Levi is a Lead Software Engineer at MPGC Services Ltd (Millennium) with a passion for high performance, readability, and software design. She is an active member of the ISO C++ Standards Committee as a co-chair of Library Evolution, chair of SG9 (Ranges group), and the chair of the ISO C++ Israeli NB. Inbal is also a director at ISO C++ foundation and puts effort into evolving both the local and international C++ community, as an organizer of the CoreC++ conference and user group, and as the program chair of C++Now.</p>
+    <p>​Inbal Levi is a Lead Software Engineer with an interest in code readability, compilers, language and software design. She is an active member of the ISO C++ Standards Committee as Library Evolution Work Group Chair, and as the ISO C++ Israeli NB Chair.</p>
+    <p>Inbal is also a director at ISO C++ Foundation and the Boost Foundation and puts effort into evolving both the local and international C++ communities, as an organizer of the CoreC++ conference and meetup group, and as the program chair of C++Now.</p>
   thumbnailUrl: InbalLevi.jpg
 -
-  id: 20
+  id: 14
   name: "Bryce"
   surname: "Adelstein Lelbach"
   bio: >
-    <p>Bryce Adelstein Lelbach has spent over a decade developing programming languages and software libraries.
-    He is a Principal Architect at NVIDIA, where he leads programming language standardization efforts and drives the
-    technical roadmap for NVIDIA's HPC and Quantum compilers and libraries. Bryce is passionate about C++ and is one of
-    the leaders of the C++ community. He is the chair of INCITS/PL22, the US standards committee for programming languages
-    and the Standard C++ Library Evolution group. He also serves as editor for the INCITS Inclusive Terminology Guidelines.
-    Bryce served as the program chair for the C++Now and CppCon conferences for many years. On the C++ Committee, he has
-    personally worked on concurrency primitives, parallel algorithms, executors, and multidimensional arrays. He is one
-    of the founding developers of the HPX parallel runtime system.</p>
-  thumbnailUrl: BryceAdelsteinLelbach.jpg
--
-  id: 21
-  name: "David"
-  surname: "Sankel"
-  bio: >
-    <p>David Sankel is a Principal Scientist at Adobe and an active member of the C++ Standardization Committee.
-    His experience spans microservice architectures, CAD/CAM, computer graphics, visual programming languages,
-    web applications, computer vision, and cryptography. He is a frequent speaker at C++ conferences and specializes
-    in large-scale software engineering and advanced C++ topics. David’s interests include dependently typed languages,
-    semantic domains, EDSLs, and functional reactive programming. He is the project editor of the C++ Reflection TS, Executive
-    Director of the Boost Foundation, and an author of several C++ proposals including pattern matching and language variants.</p>
-  thumbnailUrl: DavidSankel.jpg
--
-  id: 22
-  name: "Hana"
-  surname: "Dusíková"
-  bio: >
-    <p>Hana is SG7 chair which is a study group for Static Reflection in the ISO C++ committee. She created Compile Time
-    Regular Expression (CTRE) library and Compile Time Hash (cthash).</p>
+    <p>Bryce Adelstein Lelbach has spent over a decade developing programming languages, compilers, and software libraries. He is a Principal Architect at NVIDIA, where he leads HPC programming language efforts and drives the technical roadmap for NVIDIA's HPC compilers and libraries. Bryce is passionate about C++ and is one of the leaders of the C++ community. He has served as chair of INCITS/PL22, the US standards committee for programming languages and the Standard C++ Library Evolution group. Bryce served as the program chair for the C++Now and CppCon conferences for many years. On the C++ Committee, he has personally worked on concurrency primitives, parallel algorithms, executors, and multidimensional arrays. He is one of the founding developers of the HPX parallel runtime system. Outside of work, Bryce is passionate about airplanes and watches.</p>
   thumbnailUrl: NoPhoto.jpg
 -
-  id: 23
-  name: "Victor"
-  surname: "Ciura"
+  id: 15
+  name: "Mateusz"
+  surname: "Pusz"
   bio: >
-    <p>Victor Ciura is a Principal Engineer on the Visual C++ team, helping to improve the tools he’s been using for years. Before joining Microsoft, he programmed C++ professionally for 20 years, designing and implementing several core components & libraries of Advanced Installer, improving the virtualization and repackaging technologies for MSI/MSIX.</p>
-    <p>One of his hobbies is tidying-up and modernizing aging codebases and has been known to build open-source tools that help this process: Clang Power Tools.</p>
-    <p>He’s a regular guest at Computer Science Department of his Alma Mater, University of Craiova, where he gives student lectures & workshops on using modern C++, STL, algorithms and optimization techniques.</p>
-    <p>More details: @ciura_victor & <a href="https://ciura.ro">ciura.ro</a> & <a href="https://linkedin.com/in/victor-ciura">linkedin.com/in/victor-ciura</a></p>
-  thumbnailUrl: VictorCiura.jpg
--
-  id: 24
-  name: "Chris"
-  surname: "Ryan"
-  bio: >
-    <p>Chris Ryan was classically trained in software and hardware engineering. He is well experienced in Modern C++ on extremely large projects and Classic ‘C’. He is currently only interested in Modern C++ projects and taking a break from firmware & embedded software.</p>
-    <p>Chris recently joined the ISO C++ Standards Committee and works with the Evolution Working Group(EWG) and a couple of the Study Groups(SG).</p>
-    <p>He works in complex problem spaces but believes in simplification and reducing complexity. Chris has no interest in C#/.,Net, Java, js or web-ish tech.</p>
-  thumbnailUrl: ChrisRyan.jpg
--
-  id: 25
-  name: "Anastasiia"
-  surname: "Kazakova"
-  bio: >
-    <p>C++ Tools Marketing Lead, JetBrains</p>
-    <p>As a C and C++ software developer, Anastasia Kazakova created real-time *nix-based systems and pushed them to production for 8 years. She worked as an intern in Microsoft Research, Networking department, and launched the first 4G network in Russia being a part of the Yota operator team. She has a passion for networking algorithms and embedded programming and believes in good tooling. With all her love for C++, she is now the Product Marketing Manager on the JetBrains C++ tools and .NET marketing teams.</p>
-  thumbnailUrl: AnastasiiaKazakowa.jpg
--
-  id: 26
-  name: "Ivica"
-  surname: "Bogosavljevic"
-  bio: >
-    <p>Senior Software Engineer with 12 years of experience active in the domain of Linux and bare-metal embedded systems. His professional focus is application performance improvement - techniques used to make your C/C++ program run faster by using better algorithms, better exploiting the underlying hardware, and better usage of the standard library, programming language, and the operating system. Writer for a performance-related tech blog: <a href="https://johnnysswlab.com">johnnysswlab.com</a></p>
-  thumbnailUrl: IvicaBogosavljevic.jpg
--
-  id: 27
-  name: "Mike"
-  surname: "Shah"
-  bio: >
-    <p>I am currently an Associate Teaching Professor at Northeastern University in the Khoury College of Computer Sciences. My primary teaching interests are in computer systems, computer graphics, and software engineering. My research interests are related to performance engineering (dynamic analysis), software visualization, and computer graphics.</p>
-    <p>Along with teaching and research work, I have juggled occasional consulting work as a 3D Senior Graphics Engineer in C++.</p>
-  thumbnailUrl: MikeShah.jfif
--
-  id: 28
-  name: "Kevin"
-  surname: "Carpenter"
-  bio: >
-    <p>I have in technology for over 30 years, 17 of those developing applications for in C++. The last fourteen years have been working in finance. First on the modeling and simulation side and now more recently in the transaction processing. Taking over a legacy application has been an adventure in not only managing the code but finding ways to bring it into the current century while still maintaining business ROI for all the changes that are made.</p>
-  thumbnailUrl: KevinCarpenter.jpeg
--
-  id: 29
-  name: "Coral"
-  surname: "Kashri"
-  bio: >
-    <p>C++ boundaries investigator. Cppsenioreas blog writer.</p>
-  thumbnailUrl: CoralKashri.jpg
--
-  id: 30
-  name: "Marshall"
-  surname: "Clow"
-  bio: >
-    <p>Marshall has been writing code for more than 40 years. He has been writing open source code for 20+ years. He contributes to Boost (since 2002), was the tech lead for libc++ for many years, and was the chair of the Library Working Group of the C++ standards committee.</p>
+    <p>A software architect, principal engineer, and security champion with over 20 years of experience designing, writing, and maintaining C++ code for fun and living. A trainer with over 10 years of C++ teaching experience, consultant, conference speaker, and evangelist. His main areas of interest and expertise are Modern C++, code performance, low latency, safety, and maintainability.</p>
+    <p>Mateusz worked at Intel for 13 years, and now he is a Principal Software Engineer and the head of the C++ Competency Center at EPAM Systems. He is also a founder of Train IT, which provides dedicated C++ trainings and consulting services to corporations worldwide.</p>
+    <p>Mateusz is a contributor and an active voting member of the ISO C++ Committee (WG21), where, together with the best C++ experts in the world, he shapes the future of the C++ language.</p>
   thumbnailUrl: NoPhoto.jpg
 -
-  id: 31
-  name: "Nevin"
-  surname: "Liber"
+  id: 16
+  name: "Eran"
+  surname: "Gilad"
   bio: >
-    <p>Nevin “🙂” Liber is a Computer Scientist in the ALCF (Argonne Leadership Computing Facility) division of Argonne National Laboratory, where he works on Kokkos and Aurora. He also represents Argonne on the SYCL and C++ Committees, the latter as Admin Chair, Vice Chair of LEWGI/SG18 and Vice Chair of the US Delegation.</p>
-    <p>Back when he started out working at Bell Labs over three decades ago, a friend of his called and asked “What do you know about C++? You folks invented it!” That was enough to get a relatively shy junior engineer to go find the local expert so he could go play with it, and the rest is history! He has worked in C++ across various industries and platforms (big data, low-latency, operating systems, embedded, telephony and now exascale computing, just to name a few). He has also been a C++ Committee member since 2010 and hosted both the C++ and C standards meetings in Chicago.</p>
-  thumbnailUrl: NevinLiber.jpg
+    <p>Eran Gilad is a software engineer at Regatta Data, where he works on one of the most fascinating areas of software development: database internals. Before diving deep into database engineering, Eran was a principal research engineer at Yahoo Research and a member of a systems research group. He holds a PhD in Computer Science from the Technion, where his work centered on various aspects of parallel programming and execution.</p>
+    <p>Beyond his professional work, Eran is passionate about developer communities. He co-organizes the Core C++ conference, the Haifa::C++ meetup group, and the Medabrim C++ WhatsApp group. His involvement in these communities stems from his first job experience, where he was the sole C++ developer at his company for several years.</p>
+  thumbnailUrl: EranGilad.jpg
 -
-  id: 32
-  name: "Dvir"
-  surname: "Yitzchaki"
+  id: 17
+  name: "Ryan"
+  surname: "Baker"
   bio: >
-    <p>A Senior Software Engineer at Roku Inc. Member of the Israeli National Body for WG21.</p>
+    <p>I am a Computer Engineering undergraduate at Purdue University. I have experience ranging from web development to low-level performant applications. I have a passion for elegant low level algorithms. I am currently working on a BigNums library (supporting an arbitrarily large integer and floating point), as well as writing a competitive chess engine. I have done work using statistical methods to evaluate the quality of random number generators. I co-developed <a href="https://thesaurusle.com/">thesaurusle.com</a> with a couple of college buddies and hosted it on a Raspberry Pi. My hobbies include being technically correct but not helpful, woodworking, and weightlifting.</p>
   thumbnailUrl: NoPhoto.jpg
 -
-  id: 39
+  id: 18
   name: "Alex"
   surname: "Dathskovsky"
   bio: >
-    <p>Alex has over 16 years of software development experience, working on systems, low-level generic tools, and high-level applications. Alex has worked as an integration/software developer at Elbit, senior software developer at Rafael, technical leader at Axxana, software manager at Abbott Israel, and now a group manager a technical manager at <a href="http://speedata.io/">Speedata.io</a>, an exciting startup that will change big data and analytics as we know them. In his current job, Alex is developing a new CPU/APU system working with C++20, massive metaprogramming, and the development of LLVM to create the next Big Thing for Big Data. Alex is a C++ expert with a strong experience in template meta-programming. Alex also teaches a course about the new features of modern C++, trying to motivate companies to move to the latest standards.</p>
-  thumbnailUrl: AlexDathskovsky.jfif
+    <p>Alex Dathskovsky has over 17 years of software development experience, working on systems, low-level generic tools and high-level applications. Alex has worked as an integration/software developer at Elbit, senior software developer at Rafael, technical leader at Axxana, Software manager at Abbott Israel and now a group manager a technical manager at <a href="http://speedata.io/">Speedata.io</a> an Exciting startup the will change Big Data and analytics as we know it .On His current Job Alex is developing a new CPU/APU system working with C++20, Massive metaprogramming and development of LLVM to create the next Big thing for Big Data. Alex is a C++ expert with a strong experience in template meta-programming. Alex also teaches a course about the new features of modern C++, trying to motivate companies to move to the latest standards</p>
+  thumbnailUrl: AlexDathskovsky.jpg
 -
-  id: 33
+  id: 19
+  name: "Uriel"
+  surname: "Guy"
+  bio: >
+    <p>Uriel Guy is a Team Lead in Bloomberg’s Engineering department. He’s been working in software engineering for more than 20 years, holding roles with governments, startups and large companies. He is also very excited about his home projects, which involve driving large numbers of LEDs in 3D spaces.</p>
+    <p>Websites: <a href="https://urielguy.com">urielguy.com</a> <a href="https://github.com/UrielGuy">github.com/UrielGuy</a> <a href="https://instagram.com/led.zeppelin.art.car">instagram.com/led.zeppelin.art.car</a> <a href=""></a></p>
+  thumbnailUrl: UrielGuy.jpg
+-
+  id: 20
   name: "Roi"
   surname: "Barkan"
   bio: >
     <p>Professional software developer and architect since 2000, Roi's main focus throughout his career was on high performance and distributed systems, implementing complex and innovative algorithms. Roi has been the VP technologies of Istra Research since 2014, where he helps creating low latency financial systems. Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel, and his executive MBA from Tel Aviv University.</p>
   thumbnailUrl: RoiBarkan.jpg
 -
-  id: 34
-  name: "Yehezkel"
-  surname: "Bernat"
+  id: 21
+  name: "Jean-Louis"
+  surname: "Leroy"
   bio: >
-    <p>Yehezkel is a senior software engineer at Microsoft, where he works on the Excel team. He has previous experience at Intel as a software developer. He also enjoys teaching object-oriented programming (OOP) as a teaching assistant at Hadassah College. His favorite programming language is C++, and he loves to share his knowledge and passion for it with others.</p>
-  thumbnailUrl: YehezkelBernat.jpg
--
-  id: 35
-  name: "Mike"
-  surname: "Spertus"
-  bio: >
-    <p>Mike Spertus is a Senior Principal Engineer at Amazon where he builds cloud development tools and an Adjunct Professor of Computer Science at the University of Chicago where he teaches Big Data and C++. He helped write one of the first commercial MS-DOS C compilers for the original IBM PC AT. Mike has submitted over 50 proposals as a long-time member of the C++ standards committee, a number of which are now parts of the C++ standard.</p>
-    <p>He is excited about this talk as it brings together all of the above experiences.</p>
-  thumbnailUrl: MichaelSpertus.jpg
--
-  id: 36
-  name: "Dor"
-  surname: "Rozen"
-  bio: >
-    <p>Dor has two years of experience as a software engineer at Cadence. He is a Jasper engine application group member, which develops software applications using formal verification engines. He developed some complex scheduling algorithms utilizing reinforcement learning to improve performance. He is passionate about innovation, problem-solving, and learning. Dor received his Bachelor of Science in Computer Science from the Technion in Israel with honors.</p>
-  thumbnailUrl: DorRozen.jpg
--
-  id: 361
-  name: "Igor"
-  surname: "Pora-Leonovich"
-  bio: >
-    <p>Is a Lead Software engineer at Cadence for 7 years. Develops different apps that are part Jasper EDA suits. Use C++ for 8 years professionally.</p>
-  thumbnailUrl: IgorPoraLeonovich.png
--
-  id: 37
-  name: "Alon"
-  surname: "Wolf"
-  bio: >
-    <p>Alon is a Senior Software Engineer at Medtronic specializing in 3D and computer graphics with a passion for high performance. He has developed many custom simulation and rendering engines for different platforms using modern C++. He also writes a C++ technical blog and participates in game jams.</p>
-  thumbnailUrl: AlonWolf.jpg
--
-  id: 38
-  name: "Tomer"
-  surname: "Vromen"
-  bio: >
-    <p>C++ programmer for ~10 years. Currently working at Dell.</p>
-  thumbnailUrl: TomerVromen.jfif
--
-  id: 40
-  name: "Shachar"
-  surname: "Shemesh"
-  bio: >
-    <p>Shachar began programming when he was 9, and still finds passion in it, 40 years later. At the time, dinosaurs ruled the earth and computers only had a grand total of 8 bits. Shachar's career took him to almost every niche that the software world has to offer. Typically, if there was a niche his career, for some reason, failed to take him, he'd go there in an open source project. These days Shachar is running two YouTube channels, one in English and one in Hebrew, plus an open source project for implementing the computers of his childhood on an FPGA. Rumor has it he also has a day job.</p>
+    <p>Jean-Louis Leroy is a Senior Software Engineer at Bloomberg in New York City. He has a long-standing interest in extensible languages, from Forth (a long time ago) through Lisp, Perl, D, Python and C++. In addition to his personal open source project YOMM2, he is also part of the engineering team that created and published BlazingMQ, an open source distributed message queueing system.</p>
   thumbnailUrl: NoPhoto.jpg
+#-
+#  id: 22
+#  name: "Yossi"
+#  surname: "Moalem"
+#  bio: >
+#    <p>Yossi is a SrPrincipal Software Dev Engineer at Fortinet. He has over 15 years of experience as a professional programmer, mainly in C/C++. Yossi considers the standard as light reading and spends all his spare time learning new technologies and methodologies (much to the delight of his wife!!). He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
+#  thumbnailUrl: YossiMoalem.jpg
 -
-  id: 41
-  name: "Yossi"
-  surname: "Moalem"
-  bio: >
-    <p>Yossi is a SrPrincipal Software Dev Engineer at Fortinet. He has over 15 years of experience as a professional programmer, mainly in C/C++. Yossi considers the standard as light reading and spends all his spare time learning new technologies and methodologies (much to the delight of his wife!!). He likes teaching and sharing his knowledge, but what really does it for him is refactoring legacy code into beautifully crafted code. On the positive side, he loves Led Zeppelin.</p>
-  thumbnailUrl: YossiMoalem.jpg
--
-  id: 42
-  name: "Eran"
-  surname: "Talmor"
-  bio: >
-    <p>In the past 20 years, I have been building formal-methods based CAD-tools for microprocessor and SOC design and verification. Currently I lead an R&D team in Cadence Design Systems, and previously I have worked for Intel in their CAD development group. I code C++ regularly, but also had non negligible experience with functional languages such as OCaml.</p>
-  thumbnailUrl: EranTalmor.jpg
--
-  id: 43
+  id: 23
   name: "Gili"
   surname: "Kamma"
   bio: >
-    <p>I am the R&D manager at Blitz Electric Motors in Israel, leading the software department (embedded, data and full stack). I have a B.S.c in electrical engineering from Tel-Aviv university, Israel. With almost 20 years of experience developing embedded systems, I have worked across plenty of technical environments, BSP and low-level drivers in C, C++, Python, C#, Java, DB, and Cloud. I am an expert in developing embedded systems, gained a lot of knowledge from changing projects and products every year or two for the past 20 years. I have extensive experience in creating applications from scratch, improving performance of existing ones, and maintaining products by solving bugs and ensuring quality. I have a broad experience in industries such as Automotive, Cyber, IOT, Networking, and Aerospace.</p>
-  thumbnailUrl: GiliKamma.jpg
+    <p>Gili Kamma has a B.S.c in electrical engineering from Tel-Aviv University, Israel. With 20 years of experience developing systems, she has worked across plenty of technical environments, BSP and low-level drivers in C, C++, Golang, Python, C#, Java, DB, and Cloud. She has extensive experience in creating applications from scratch, improving performance of existing ones, and maintaining products by solving bugs and ensuring quality. These days, she is a team leader in Priority-software.</p>
+  thumbnailUrl: GiliKamma.jpeg
 -
-  id: 44
-  name: "Rotem"
-  surname: "Ferdman"
-  bio: >
-    <p>An Embedded C++ programmer and teacher.</p>
-    <p>C++ has always been my hobby.</p>
-    <p>I would like to talk about basics, and mainly about templates, concepts, metaprogramming and/or static computations.</p>
-  thumbnailUrl: RotemFerdman.jpg
--
-  id: 45
+  id: 24
   name: "Noam"
   surname: "Weiss"
   bio: >
-    <p>I've been working with C++ for two decades now. I'm excited by brilliant code that does "black magic".</p>
-  thumbnailUrl: NoamWeiss.png
+    <p>Working with C++ for over two decades. Still excited about a brilliant code.</p>
+  thumbnailUrl: NoamWeiss.jpg
 -
-  id: 46
-  name: "Daniel"
-  surname: "Babitsky"
-  bio: >
-    <p>Daniel Babitsky, software developer and cyber security expert with a degree in Computer Engineering and a Master's in Business Management specializing in Big Data.</p>
-    <p>Over 16 years of software development experience with C++, Rust TypeScript etc'...</p>
-    <p>Building low latency algo-trading related applications for the past few years as part of the Trading and Infrastructure dev teams.</p>
-    <p>Daniel is currently part of the Infra teams at Final R&D group where he spends much of his time building low latency algo-trading related applications, and low latency code for the use of the various dev teams.</p>
-  thumbnailUrl: DanielBabitsky.jpg
--
-  id: 47
-  name: "Sebastian"
-  surname: "Theophil"
-  bio: >
-    <p>Sebastian has been working at think-cell Software since its founding in 2002. In the last few years, among many other things, he has ported think-cell to run on macOS. He is also the maintainer of the typescripten project which lets programmers call JavaScript libraries from C++ code compiled to WebAssembly in a convenient and type-safe way. He enjoys leaving his desk from time to time to talk at international C++ conferences.</p>
-  thumbnailUrl: SebastianTheophil.jpeg
--
-  id: 48
-  name: "Gal"
-  surname: "Oren"
-  bio: >
-    <p>Dr. Gal Oren is a scientist in the Computer Science department at Technion - Israel Institute of Technology and a senior researcher in the Scientific Computing Center at Nuclear Research Center - Negev. Oren completed his distributed computing CS Ph.D. at Ben-Gurion University in 2020, advised by Prof. Leonid Barenboim and Prof. Michael Elkin. His research interests include all aspects of scientific computing, specifically High-Performance, Super, Distributed, Parallel & Cluster Computing, and AI.</p>
-  thumbnailUrl: GalOren.jpg
--
-  id: 49
+  id: 25
   name: "Elazar"
   surname: "Leibovich"
   bio: >
-    <p>GPU @nextsilicon, storage @vastdata, virtualization @Ravello (RIP), big data @Akamai, 🆓<a href="http://github.com/elazarl/goproxy">github.com/elazarl/goproxy</a> ❤️perf ❤️µarch</p>
+    <p>System programming at Akamai, Oracle, Vastdata, Nextsilicon, Intel</p>
   thumbnailUrl: ElazarLeibovich.jpg
 -
-  id: 50
-  name: "Peter"
-  surname: "Muldoon"
+  id: 26
+  name: "Oren Benita"
+  surname: "Ben Simhon"
   bio: >
-    <p>Pete Muldoon has been using C++ since 1991. Pete has worked in Ireland, England and the USA and is currently employed by Bloomberg as a senior Engineering Lead. A consultant for over 20 years prior to joining Bloomberg, Peter has worked on a broad range of projects and code bases in a large number of companies both tech and finance. Such broad exposure has, over time, shown what works and what doesn't for large scale engineering projects. He's a proponent of applied engineering principles, elegant solutions and expressive code.</p>
-  thumbnailUrl: PeteMuldoon.jpg
+    <p>I am a cum laude BSc graduate of the Computer engineering faculty at the Technion. For the last 18 years I have been practicing C++ as well as other programming languages leading me to the field of compilation. I taught theory of compilation at the computer science faculty as a TA and graduated M.B.A at the Technion with excellence. Currently I am leading about 20 engineers developing compilers for heterogenous systems at Mobileye. We are C++ libraries and compilers based on LLVM infrastructure.</p>
+  thumbnailUrl: OrenBenSimhon.jpg
 -
-  id: 51
+  id: 27
+  name: "Assaf"
+  surname: "Tzur-El"
+  bio: >
+    <p>15 years in development: Programming, team leading, architecting, project-managing. Then, 15 years as freelance, doing the same, plus teaching dev skills in courses and lectures. Next 15 years are right behind the corner, I'm very curious to learn what happens next.</p>
+  thumbnailUrl: AssafTzurEl.jpg
+-
+  id: 28
+  name: "Nathanel"
+  surname: "Green"
+  bio: >
+    <p>My name is Nathanel and I am the CEO and Co-founder of Alphapulse, a medical device startup company. Previously, I worked as a software engineer and team leader in various companies, and I was the Co-founder and former CTO of Darebiz AI (Acquired). With over ten years of experience in a wide range of programming languages and technologies, I have also taught theoretical and practical software topics at different companies in the industry.</p>
+    <p>I hold degrees in computer science and electrical engineering from Tel Aviv University. I live in Ramat Gan, am married, and have two wonderful girls.</p>
+  thumbnailUrl: NathanelGreen.jpeg
+-
+  id: 29
   name: "Alex"
-  surname: "Cohn"
+  surname: "Kushnir"
   bio: >
-    <p>Alex fell in love with C++ 32 years ago and has enjoyed this union ever since. He is currently working for Incredibuild on reducing barriers for C++ development for users of Xcode.</p>
-  thumbnailUrl: AlexCohn.jpg
+    <p>Software engineer for JnJ MedTech, C++ enthusiast, big fan of methodologies and tools</p>
+  thumbnailUrl: AlexanderKushnir.jpg
 -
-  id: 60
-  name: "Guy"
-  surname: "Tamir"
+  id: 30
+  name: "Ofek"
+  surname: "Shilon"
   bio: >
-    <p>Guy is a technology evangelist at Intel Software and Advanced Technology group. His main areas of interest and expertise are Artificial Intelligence, Computer vision, Video processing, and Heterogeneous, multi-accelerator parallel computing. Guy is an active YouTuber, with the OpenVINO and <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNxsCltpcXU_Haz9xQSCN_SB">oneAPI video channel</a>. Guy holds a M.Sc. (EE, Technion) and MBA.</p>
-  thumbnailUrl: GuyTamir.jpg
+    <p>Compiler-Explorer maintainer</p>
+  thumbnailUrl: OfekShilon.jpg
 -
-  id: 61
-  name: "Tomer"
-  surname: "Gal"
+  id: 31
+  name: "Dafna"
+  surname: "Mordechai"
   bio: >
-    <p>​Tomer Gal is the Founder and Chief Technology Officer (CTO) at OpTeamizer, a preferred partner of NVIDIA, distinguishing itself in areas such as Embedded Edge, Metropolis, Service Delivery, and Solution Advising. In addition to leading his firm, he is a valued member of the NVIDIA VC Alliance, investing in artificial intelligence (AI) companies. With extensive industry knowledge, Tomer holds the position of NVIDIA's DLI lecturer for CUDA development and Deep Learning. He also serves as an evaluator for the Israel Innovation Authority, specializing in AI. Beyond this, he holds a position as a faculty member in the Computer Science department at Braude, where he instructs in the field of Artificial Intelligence.</p>
-    <p>Under Tomer's visionary leadership, OpTeamizer is creating tailored solutions for over 100 companies spanning diverse sectors. These include homeland security, healthcare, inspection industries, smart cities, and many more. His commitment to innovation continues to drive the company's success.</p>
-  thumbnailUrl: TomerGal.jpg
+    <p>Dafna is a deep learning compiler team leader at Habana Labs, developing compilers and optimizing performance for Habana Labs' Gaudi line over the past 5 years. She has broad experience in designing, implementing, and testing software systems on architectures ranging from microcontrollers to high-performance computing. Passionate about technology, she shares her expertise through mentoring, talks, workshops, tech-blogging, and volunteering to promote diversity in tech.</p>
+    <p>Omer Paparo Bivas is a deep learning compiler software engineer with experience in developing compilers and optimizing performance on various hardware architectures, ranging from HPC x86 systems to custom chips like Habana Labs' Gaudi line. In his spare time, Omer enjoys improv acting and has performed in class-concluding shows before live audiences.</p>
+  thumbnailUrl: DafnaMordechai.jpg
+-
+  id: 32
+  name: "Yechiel"
+  surname: "M. Kimchi"
+  bio: >
+    <p>Yechiel M. Kimchi PhD in math (Set Theory, Logic) HUJI Teaching C and C++ at CS-Technion(20yrs), HaifaU(3yrs), Others(5yrs) SWEng. at Intel(IL), IBM(IL), Google(MV), Yahoo(SJ) (total 10yrs)</p>
+    <p>Presentations: "In Search of Bug-free Software" August Penguin 2017 IL (Hamkor) "Teaching C++ as first PL" Core C++ 2019 IL</p>
+    <p>"Coding with Reason" A Ch. in "97 Things Every Programmer Should Know", K. Henney(ed.)</p>
+  thumbnailUrl: YechielKimchi.png
+-
+  id: 33
+  name: "Aviva"
+  surname: "Dayan"
+  bio: >
+    <p>Following over a decade of software development in C++ and C#, I took a prolonged career break from which I am presently returning. In the process, I have taken upon myself to get updated with modern developments in modern C++.</p>
+  thumbnailUrl: AvivaDayan.jpg
+-
+  id: 34
+  name: "Svyatoslav"
+  surname: "Feldsherov"
+  bio: >
+    <p>Tech Lead at Google Cloud virtual network telemetry, ex-Yandex Search. Now I instrument data plane of virtual network for improving debug ability of network for customers and internal users.</p>
+    <p>I am huge fun of insane bugs, large production and just good software design.</p>
+  thumbnailUrl: SvyatoslavFeldsherov.jpg
+-
+  id: 35
+  name: "Udi"
+  surname: "Lavi"
+  bio: >
+    <p>I have a BSc in Computer Science from the Technion - Israel Institute of Technology. In the past I was an instructor in the Open-University, and worked in a startup (which didn't make it). Nowadays I am a senior software engineer in the simulators industry, with interest in finding, learning and using different tools (static code analyzers / profilers / others) that assist with solving "issues" (bugs / performance / maintainability / portability) in the code. I am part of a group that develops the infrastructure for different kinds of simulators in C++ under Windows, while keeping it portable to several other operating systems.</p>
+  thumbnailUrl: UdiLavi.JPG
+-
+  id: 36
+  name: "Ruslan"
+  surname: "Burakov"
+  bio: >
+    <p>Software Developer at <a href="https://www.avride.ai/">avride.ai</a></p>
+  thumbnailUrl: RuslanBurakov.jpeg
+-
+  id: 37
+  name: "Yaniv"
+  surname: "Mordekhay"
+  bio: >
+    <p>Yaniv Mordekhay is a seasoned software engineer and cybersecurity researcher. He has over two decades of experience under his belt, coding in most programming languages known to mankind. His tinkering took him from punch cards, through embedded devices and all the way to modern cloud-computing platforms. Currently a software architect at Fireblocks, he devotes most of his efforts to building highly ergonomic software that is a delight both to write and to use. You may occasionally spot him in his natural habitat on GitHub and StackOverflow, trying to contribute to way too many projects. When not glued to his computer screens, Yaniv spends time with his family exploring abandoned castles and brewing his trademark spiced coffee.</p>
+  thumbnailUrl: YanivMordekhay.png
+-
+  id: 38
+  name: "Omer"
+  surname: "Paparo Bivas"
+  bio: >
+    <p></p>
+  thumbnailUrl: OmerPaparoBivas.jpg
