@@ -80,10 +80,509 @@
 #  place: "Economics::Lobby"
   service: true
 #  speakers: [30, 31]
-#-
-#  id: 12
-#  title: "Concurrency in Modern C++"
-#  description: >
-#    <p>This class gives you a detailed insight into the multithreading facilities of C++. Starting with the foundation
-#    in C++11, continuing with the parallel STL in C++17, and closing with the concurrency features in C++20.</p>
-#  speakers: [12]
+-
+  id: 12
+  title: "Evolving C++ Networking with Senders & Receivers"
+  description: >
+    <p><code>std::execution</code> (“senders & receivers”) has been voted into the C++26 working draft, providing a standard framework for concurrency and parallelism in C++. However, as the community has seen many times before, simply standardizing something doesn’t imply it will be adopted, much less adopted quickly or painlessly. Now remains the problem of adopting <code>std::execution</code> into existing workflows, problems, and codebases.</p>
+    <p>Making this situation more challenging is the fact that <code>std::execution</code> as currently integrated into the C++26 working draft is a minimum viable product. Facilities that one might intuitively expect, such as networking or other I/O support, robust execution contexts, or richer primitives, are completely absent. In these early days, developers are required to implement new primitives themselves, understanding and applying the principles of <code>std::execution</code> to achieve higher-level goals.</p>
+    <p>This talk will consider an existing, production, networking server written using pre-C++26 established practice. It will introduce the key concepts and primitives of <code>std::execution</code>, and demonstrate how to extend them iteratively to ultimately replace the existing server.</p>
+  speakers: [12]
+-
+  id: 14
+  title: "Think Parallel"
+  description: >
+    <p>By default, we think sequentially. Parallelism and asynchrony are often seen as challenging and complex. Tools to be used sparingly and cautiously, and only by experts.</p>
+    <p>But we must shatter these assumptions, for today, we live in a parallel world. Almost every hardware platform is parallel, from the smallest embedded devices to the largest supercomputers.</p>
+    <p>We must change our mindset. Anyone who writes code must think in parallel. Parallelism must become our default.</p>
+    <p>In this example-driven talk, we will journey into the world of parallelism. We'll look at different algorithms and data structures in depth, comparing and contrasting different implementation strategies and exploring how they will perform both sequentially and in parallel.</p>
+    <p>During this voyage, we'll uncover and discuss some foundational principles of parallelism, such as latency hiding, localizing communication, and efficiency vs performance tradeoffs. By the time we're done, you'll be thinking in parallel.</p>
+  speakers: [14]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
+-
+  id: 99
+  title: "TTT"
+  description: >
+    <p>AAA</p>
+    <p>BBB</p>
+    <p>CCC</p>
+  speakers: [99]
