@@ -165,20 +165,20 @@ partnersC4sponsorsButton: "Become a sponsor"
 ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
- -
-  name: "Full 2-Day Ticket: Early Bird"
-  price: "750"
-  priceCurrency: "ILS"
-  ribbon: "Discount"
-  featured: true
-  ticketsNumber: "100"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local/with/g2j3shd-yk"
-  buyButtonText: "Register Now"
-  ticketContentList: ["Two Day Conference", "Two Parallel Tracks", "On Sale Until October 1st!"]
-  validFrom: "2024-09-01"
-  validThrough: "2024-10-01"
-  soldOut: false
-  soldOutText: "Sold Out"
+# -
+#  name: "Full 2-Day Ticket: Early Bird"
+#  price: "750"
+#  priceCurrency: "ILS"
+#  ribbon: "Discount"
+#  featured: true
+#  ticketsNumber: "100"
+#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local/with/g2j3shd-yk"
+#  buyButtonText: "Register Now"
+#  ticketContentList: ["Two Day Conference", "Two Parallel Tracks", "On Sale Until October 1st!"]
+#  validFrom: "2024-09-01"
+#  validThrough: "2024-10-01"
+#  soldOut: false
+#  soldOutText: "Sold Out"
  -
   name: "Full 2-Day Ticket"
   price: "850"
