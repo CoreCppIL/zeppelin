@@ -11,7 +11,7 @@
   surname: "Leahy"
   bio: >
     <p>Robert is a graduate of the University of Victoria where he specialized in graphics, gaming, and digital geometry processing. After spending 4.5 years in full stack web development he pivoted to financial infrastructure in early 2016 and now works on next generation market data storage and retrieval mechanisms. In 2019 he became involved in the ISO C++ committee with a particular focus on library evolution.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: RobertLeahy.jpg
 -
   id: 13
   name: "Inbal"
@@ -79,7 +79,7 @@
   surname: "Leroy"
   bio: >
     <p>Jean-Louis Leroy is a Senior Software Engineer at Bloomberg in New York City. He has a long-standing interest in extensible languages, from Forth (a long time ago) through Lisp, Perl, D, Python and C++. In addition to his personal open source project YOMM2, he is also part of the engineering team that created and published BlazingMQ, an open source distributed message queueing system.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: JeanLouisLeroy.jpg
 #-
 #  id: 22
 #  name: "Yossi"
