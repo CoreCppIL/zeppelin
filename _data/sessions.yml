@@ -81,6 +81,12 @@
   service: true
 #  speakers: [30, 31]
 -
+  id: 11
+  title: "C++ Fundamentals: Unit Testing"
+  description: >
+    <p>Proper developer testing is crucial in software development but is sometimes overlooked, especially in C++. In this session, we will focus on unit testing in C++ using Google Test examples. We'll start with the basics of creating automated unit tests and then move on to more complex scenarios involving mocks. We’ll discuss the Test-Driven Development (TDD) approach and other best practices for unit testing. This session is part of the Fundamentals track and is relevant for both beginners and more advanced developers who want to enhance their testing abilities.</p>
+  speakers: [11]
+-
   id: 12
   title: "Evolving C++ Networking with Senders & Receivers"
   description: >
@@ -88,6 +94,16 @@
     <p>Making this situation more challenging is the fact that <code>std::execution</code> as currently integrated into the C++26 working draft is a minimum viable product. Facilities that one might intuitively expect, such as networking or other I/O support, robust execution contexts, or richer primitives, are completely absent. In these early days, developers are required to implement new primitives themselves, understanding and applying the principles of <code>std::execution</code> to achieve higher-level goals.</p>
     <p>This talk will consider an existing, production, networking server written using pre-C++26 established practice. It will introduce the key concepts and primitives of <code>std::execution</code>, and demonstrate how to extend them iteratively to ultimately replace the existing server.</p>
   speakers: [12]
+-
+  id: 13
+  title: "Welcome to the meta::[[verse]]!"
+  description: >
+    <p>With a proposal slated to introduce reflection to C++26 (including the “std::meta” namespace) getting strong support in WG21, we can already start imagining a whole new world of possibilities. In this session, we will dive into reflection and its transformative potential within our codebases.</p>
+    <p>We will start with an introduction of utilities from the reflection proposal. Then, we delve deeper into practical applications and demonstrate solutions to problems that commonly use reflection and the power it holds.</p>
+    <p>We will also talk about the latest updates and changes in the proposal, applied while going through the review process in WG21.</p>
+    <p>For the last part, we will explore the possibilities within “Reflection Libraries". This includes both “traditional” libraries which provide functionality, and more “novel” approaches which reshape users’ code. We will look at examples of what such libraries can cover, and demonstrate potential directions the future holds.</p>
+    <p>Join us as we traverse the meta::[[verse]]!</p>
+  speakers: [13]
 -
   id: 14
   title: "Think Parallel"
@@ -99,485 +115,172 @@
     <p>During this voyage, we'll uncover and discuss some foundational principles of parallelism, such as latency hiding, localizing communication, and efficiency vs performance tradeoffs. By the time we're done, you'll be thinking in parallel.</p>
   speakers: [14]
 -
-  id: 99
-  title: "TTT"
+  id: 15
+  title: "Improving our safety with a quantities and units library"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Safety has been a huge buzzword in the C++ Community in recent years. There are many concerns about the safety of our C++ language and the projects that have been developed using it. Many improvements are being discussed, starting from handling of the low-level fundamental types, through updating the language rules (e.g., initialization), up to providing safer high-level abstractions in the library.</p>
+    <p>This lecture presents how the usage of a Modern C++ quantities and units library can improve the safety of the code we write every day. During the talk, Mateusz will describe all issues and possible solutions discussed in <a href="https://wg21.link/p2981">P2981: Improving our safety with a physical quantities and units library</a>. Based on the examples developed with the mp-units project, the attendees will not only learn the obvious benefits of using such a library, but also some less known safety features will be presented.</p>
+    <p>During the talk, we will see typical issues of code bases that do not use a proper library. We will also learn about various mishaps in engineering that happened through the ages and were caused by human errors in handling quantities and their units. We will also see how they can be easily and safely addressed using the mp-units library.</p>
+    <p>In the end, Mateusz will describe which issues can't be solved by the quantities and units library itself for now. He will review a list of potential extensions to the C++ language and its library that would allow even more safety in our projects.</p>
+  speakers: [15]
 -
-  id: 99
-  title: "TTT"
+  id: 16
+  title: "C++ parallel programming models"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Modern C++ offers a wealth of parallel programming features. Those features belong to four different programming models: low-level, a-sync, cooperative multitasking, and data parallel. The low-level model (or rather, non-model) contains the basic building blocks – threads, atomics, mutex etc. The a-sync model contains async, future and related classes. The cooperative multitasking model relies on coroutines. Lastly, the data parallel model contains the parallel algorithms. The four models aren’t just different abstraction levels – each is appropriate for a different program structure. This talk will review the four models, describe the central features used by each model, and discuss the expected use case for each one. Since many of the parallelism features are not new to the language at this point, the talk will not focus on the details of the features themselves. Instead, the talk will put them in the context of a programming model, and make the choice of parallel programming features easier for C++ developers.</p>
+  speakers: [16]
 -
-  id: 99
-  title: "TTT"
+  id: 17
+  title: "Messing with Floating Point"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Used in engineering, machine learning, graphics, and more, floating point arithmetic is a cornerstone of modern numerical computing. Despite its widespread application, many developers lack a sufficient understanding of the floating point type and its intricacies. This presentation aims to clarify these concepts.</p>
+    <p>We will walk through the bitwise representation of floating point values, the IEEE 754 Standard, the nuances of arithmetic operations, and some common sources of floating point error. We'll also look at some practical solutions to common pitfalls in C++. A basic familiarity of binary representation (of integers) will be helpful, but no prior experience with floating point arithmetic is necessary.</p>
+    <p>Floating point is not necessarily the dry, enigmatic topic that it's often made out to be. To convince you of this, we will also walk through some brilliant floating point algorithms such as float to decimal string and fast inverse square root.</p>
+  speakers: [17]
 -
-  id: 99
-  title: "TTT"
+  id: 18
+  title: "Unlocking the Value of C++20 Features"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>With C++23 already making waves and C++26 on the horizon, the allure of cutting-edge features tantalizes C++ enthusiasts. However, the practical reality is that many companies are yet to embrace C++23 and are eyeing the transition to C++20 in the interim. In this proposal, I aim to guide fellow developers through this crucial transition period by shedding light on the indispensable features of C++20 beyond the widely discussed "big 4". Through practical examples and insightful discussions, attendees will gain a comprehensive understanding of the pivotal elements within C++20 and their correct application.</p>
+    <p>From concepts like coroutines to modules, constexpr improvements, and more, this talk will not only demystify these features but also elucidate their tangible value in real-world scenarios. By the session's conclusion, participants will be equipped with the knowledge and confidence to harness the full potential of C++20, facilitating a smooth transition and amplifying the efficacy of their codebase.</p>
+  speakers: [18]
 -
-  id: 99
-  title: "TTT"
+  id: 19
+  title: "A modern C++ approach to JSON Sax Parsing"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>The most common practice of parsing JSON (or YAML, XML, or any other markup language) is by loading its DOM into memory and exploring the available data. However, using DOM introduces multiple linear overheads for CPU time and memory, as well as code complexity for querying the DOM.</p>
+    <p>This talk explores a different approach: event-driven processing of JSON content with fast, minimal memory overhead. This methodology will also keep  your parsing code squeaky clean! In it, we will review normalizing the callback API into a more manageable format while also managing the state of the parsing operation, as well as creating an external API that allows users to only manage with what they care about.</p>
+    <p>We will also provide an overview of different options for parsing JSON (such as DOM and SAX), the different levels of abstraction used for reaching this solution, the pros and cons of using SAX-driven parsing, and the opportunities for extending this approach to other technologies and data structures.</p>
+    <p>On top of it all, there will be some cool videos from Burning Man!</p>
+  speakers: [19]
 -
-  id: 99
-  title: "TTT"
+  id: 20
+  title: "Implementing Ranges and Views"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Since <code>ranges</code> were introduced to C++20, a new paradigm was presented to us C++ developers. This paradigm, <a href="https://cppcast.com/sequence_oriented_programming/">sequence oriented programming</a> allows easy expression of useful algorithms, helps us decompose problems into smaller-clearer sub-problems and has the potential of increasing the readability and maintainability of solutions we develop to difficult problems.</p>
+    <p>Though rich and diverse, the set of tools in our ranges toolbox is at its infancy, and the robust design of the library makes it possible for us to extend it with algorithms and views on our own. Doing so can increase our productivity, enrich our vocabulary and also be fun and challenging.</p>
+    <p>In this talk I'll discuss the structure of the ranges library in terms of its main <code>concepts</code> and how it was designed to be extensible (especially as on C++23).</p>
+    <p>We will focus on the implementation range <code>views</code>, and go over several examples of how new views which aren't part of the standard should be designed and implemented, in a way that fits with the rest of the ranges library.</p>
+    <p>Join me in the development of range adapters as we learn about range categories, concepts, adapters, customization-point-objects and range-adapter-closures.</p>
+  speakers: [20]
 -
-  id: 99
-  title: "TTT"
+  id: 21
+  title: "Open Is Good: Fast, Orthogonal Open (Multi) Methods with YOMM2"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Have you ever felt your life would be simpler if you could just add virtual functions to a class hierarchy whenever you needed to (e.g., to persist an object or render it in JSON), but refrained because you did not own the classes, and doing so would violate the principle of separation of concerns? Have you toiled on a Visitor class again? Did you struggle to get double dispatch right because you needed to implement binary operations for polymorphic classes?</p>
+    <p>Open methods solve all these problems, while requiring you to write much less code -- and they deliver superior performance.</p>
+    <p>Open methods are virtual functions that are defined outside of a class. Given a method declaration and a set of specializations, the most specific version is selected, depending on the dynamic type of one or more arguments. Open methods make it possible to add polymorphic behavior to existing class hierarchies, without modifying them. open methods offer a superior alternative to the Visitor pattern, and a solution to the problem of cross-cutting concerns. Since more than one argument can participate in the selection of the specialization, open methods also solve the binary (or multiple) dispatch problem.</p>
+    <p>YOMM2 is an implementation of open methods in library. It was inspired by the paper Open Multi-Methods for C++, by Peter Pirkelbauer, and Yuriy Solodkyy, and Bjarne Stroustrup. YOMM2 delivers excellent performance, and requires no external tooling. It was first released in 2017 and presented at CppCon 2018. Since then, the library has evolved significantly. Support was added for friend and member methods, templatized methods, automatic deduction of inheritance graphs, wide pointers for faster dispatch, support for custom RTTI, static offsets for faster-than-virtual method dispatch, etc.</p>
+    <p>YOMM2 is available on GitHub and on Compiler Explorer.</p>
+  speakers: [21]
 -
-  id: 99
-  title: "TTT"
+  id: 22
+  title: "Optimizations in the HFT world"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Yes, we know we are all C++ programmers, and we all care a lot about our performance, but trust us when we say that the world of High Frequency Trading (HFT) takes this to a whole new level. In our world, reliable and predictable low latecy is a necessity, and we could never "excess" low latency. It's a competitive market where everyone are fighting to get extra nanos, and we're focused on any inch we could gain. Above that, our most critical path, is rarely and unpredictably executed, which means standard performance optimizations, that is normally aimed to maximize throughput, are not applicable in our case. For example, we cannot trust the kernel to "fairly" share resources, and we cannot evacuate "cold" code from the cache. In this talk, we will explore some of the unique challenges this world brings to us, we will discuss some of the benchmark challenges to optimization we introduce to our application. From the physical layer, to bypassing the kernel, to some of our day-to-day application development optimization decisions.</p>
+  speakers: [22, 39]
 -
-  id: 99
-  title: "TTT"
+  id: 23
+  title: "Building Effective Embedded Systems: Architectural Best Practices"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Embedded development is a complex process that brings together software, electronics, physics, mechanics, and algorithms. Designing a system with embedded components requires careful consideration of multiple factors. However, there is a lack of knowledge regarding correct practices in building embedded systems. In my talk, I will offer valuable insights to enhance the effectiveness of embedded development, focusing on improving robustness, speed, and maintainability. By addressing the challenges in this field, attendees will gain a deeper understanding of how to design and build embedded systems correctly. Through practical advice and best practices, I aim to empower developers to overcome obstacles and achieve successful outcomes in their projects.</p>
+  speakers: [23]
 -
-  id: 99
-  title: "TTT"
+  id: 24
+  title: "Back to Basics: Design Patterns"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>In this talk we will talk about what are design patterns. Why they matter. And will go over the most common design patterns used in C++.</p>
+  speakers: [24]
 -
-  id: 99
-  title: "TTT"
+  id: 25
+  title: "Debug C++ Programs You did not write"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Many times one find himself debugging code he didn't write. Often, without access to debug information. It could be external library. Third party integration, or just old release no one is able to build anymore. We'll survey some tricks to debug without the source code</p>
+  speakers: [25]
 -
-  id: 99
-  title: "TTT"
+  id: 26
+  title: "The battle over Heterogeneous Computing"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>As our world advances to AI and dense computing, more and more GPUs and DSPs are developed to accelerate the compute.</p>
+    <p>But how can I send C++ kernels to be executed on a GPU?</p>
+    <p>Unfortunately, C++ does not yet propose a solution to heterogenous systems but it is evolving and on the way many solutions come to the rescue.</p>
+    <p>In the lecture, I will speak on existing solutions like OpenCL, SYCL, CUDA, new C++26 libraries and other programming languages.</p>
+    <p>I will present the compilers technology that was developed in Mobileye based on LLVM infrastructure and the challenges we faced.</p>
+  speakers: [26]
 -
-  id: 99
-  title: "TTT"
+  id: 27
+  title: "C++ Security Fundamentals: From Standards to Practice"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>This lecture offers a bird's-eye view of the crucial security considerations in C++ development, tailored for software professionals seeking to enhance their systems' robustness. We begin by exploring common vulnerabilities specific to C++, shedding light on the risks associated with undefined and compiler-specific behaviors. The discussion then moves to established guidelines and standards, focusing on MISRA C++ and the SEI CERT C++ Coding Standard, which form the backbone of secure C++ development practices. We'll also cover the role of static analysis tools in identifying potential security flaws early in the development process.</p>
+    <p>This lecture aims to provide attendees with valuable pointers (pun intended) to practices, standards, and tools that will help them develop better, more secure C++ code. It serves as a solid foundation for further exploration of C++ security topics.</p>
+  speakers: [27]
 -
-  id: 99
-  title: "TTT"
+  id: 28
+  title: "C++ Fundamentals: Object-Oriented Programming with C++"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>C++ is not just an Object-Oriented Programming Language, it supports many paradigms. But in this session we would focus on the object oriented aspects of C++, from encapsulation to inheritance and polymorphism. The session aims to cover the basic syntax together with best practices, tips, pitfalls to avoid and more. We would discuss design considerations, the advantages and disadvantages of different approaches and other alternatives that the language provides. Some relevant design patterns may also pop-by. This session is aimed for both novice and intermediate level C++ developers, closing gaps and putting the spotlight on important aspects. More experienced developers are of course welcomed to join and enrich the discussion with their knowledge and experience.</p>
+  speakers: [28]
 -
-  id: 99
-  title: "TTT"
+  id: 29
+  title: "Mastering CTest: Streamlining Your C++ Testing Workflow"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>In the realm of modern C++ development, ensuring code quality and reliability is paramount. CTest, part of the CMake suite, offers a robust framework for automating and managing tests. This talk will guide you through the essentials of CTest, from basic setup to advanced features. We'll explore how to integrate CTest into your existing projects, write effective tests, and leverage CTest's powerful capabilities to optimize your testing pipeline. Whether you're a seasoned developer or new to CTest, this session will equip you with the knowledge and tools to enhance your testing strategy and boost your project's success.</p>
+  speakers: [29]
 -
-  id: 99
-  title: "TTT"
+  id: 30
+  title: "Become a Compiler-Explorer Power User!"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>I'm a CE maintainer, and in this talk I'll show many CE features that are both powerful and rarely known. In particular, we'll go beyond the typical conferences/tutorials usage of CE to inspect just small C++ snippets, and you'll learn how to inspect real -life code in its real-life habitat (i.e., headers and libraries).</p>
+  speakers: [30]
 -
-  id: 99
-  title: "TTT"
+  id: 31
+  title: "Speeding up Intel Gaudi deep-learning accelerators using an MLIR-based compiler"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Middle-end optimizations play a critical role in generating high-performance code for deep learning accelerators. In this talk, we will present an MLIR-based fusing compiler that generates optimized LLVM IR from high-level graph IR, which is then compiled by an LLVM backend for execution on tensor processing cores in Intel Gaudi deep learning (DL) accelerator. This compiler has been in use for the past three generations of Gaudi products and provides around 54% average performance improvements at a model-level. The talk will cover the lowering pipeline, how we leverage upstream MLIR dialects and some key optimizations and learnings for compiling deep learning workloads to Gaudi.</p>
+    <p>Authors: Dafna Mordechai, Omer Paparo Bivas, Jayaram Bobba, Sergei Grechanik, Tzachi Cohen, Dibyendu Das</p>
+  speakers: [31, 38]
 -
-  id: 99
-  title: "TTT"
+  id: 32
+  title: "How to become a better C++ programmer"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Professional C++ code appears in various levels. Marshall Cline, the original owner of C++ FAQs, wrote in the first ed. of the book: Q: How long does it take to become a good OOP in C++? A: Between six months and three years, depending on your definition of good. My experience was a bit different: I did get some big complements on my code after three years of partially using C++, but my big "Ah Ha!" (Eureka?) came at the fifth year, and then on the tenth year. When we are experienced in programming, we follow most of the formal rules and practices for quality software. However, I believe that our inner state may differ, depending on our personality; namely, the better code is not made by only following formal rules. Indeed, I think that SW development is an art. Therefore, I'll try to express my point of view, on programming, as open as possible, allowing different interpretations by different people.</p>
+  speakers: [32]
 -
-  id: 99
-  title: "TTT"
+  id: 33
+  title: "Exiting the time machine: from C++ 98 to the present."
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Imagine that a C++ programmer fell into a deep sleep in 2009 and woke up a decade and a half later. What would be different? How would s/he need to adjust?</p>
+    <p>This talk will run take us from C++ 98 to C++23, presenting a brief survey of the changes to the language over the past decade and a half.</p>
+  speakers: [33]
 -
-  id: 99
-  title: "TTT"
+  id: 34
+  title: "The Pains and Joys of C++ In-Process Graph Execution"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Task graphs often appear in different software systems, but the requirements for them can vary a lot depending on the domain.</p>
+    <p>In this talk, we’ll look at real-world examples where task graphs are useful and discuss the challenges coming from different use cases.</p>
+    <p>We’ll also explore some implementation tricks and see what existing libraries offer. If there’s time, we’ll dream about unicorns—the perfect task graph execution engine.</p>
+  speakers: [34]
 -
-  id: 99
-  title: "TTT"
+  id: 35
+  title: "Leveraging Pure Interfaces for C++ Applications"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Software development usually involves several code libraries maintained by different groups. This usually means frequent version releases for the purpose of integrations. The API tends to evolve and change between versions, causing a lot of integration effort. In this lecture we'll review what pure interfaces are, how to properly use them and how they can reduce development, maintenance and integration efforts. We'll discuss how to maintain the interfaces, what are the restrictions, and how different types of changes affect (or not) the code using the API. The presentation is based on real life experience of moving an SDK API to use pure interfaces, and it will cover the costs and benefits of this migration.</p>
+  speakers: [35]
 -
-  id: 99
-  title: "TTT"
+  id: 36
+  title: "3d logs to analyze self-driving cars"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Self-driving cars produce massive amounts of data. Both in real rides and simulation.</p>
+    <p>We present a novel approach treating visualization data as 3d logs, enhancing three key areas: cold storage size, read latency, write flexibility.</p>
+    <p>This talk will show how, by utilizing C++ speed, devtools can boost productivity tenfold, saving engineering time and resources.</p>
+  speakers: [36]
 -
-  id: 99
-  title: "TTT"
+  id: 37
+  title: "Not Invented Here: Reinventing the Wheel to Facilitate Dev Culture Change"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
--
-  id: 99
-  title: "TTT"
-  description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>"Not invented here" is a reoccurring problem in software development, but not always. Through code and the story of creation of yet another JSON serialization library for C++, we will show how well-crafted solutions for mundane tasks could facilitate positive culture change and growth in a development team, during one of the most stressful phases of a start-up — transition to a fully grown R&D team.</p>
+    <p>The talk will both dive into the technical aspects of such a library, and show how such solutions affects the team in the long term.</p>
+  speakers: [37]
 -
   id: 99
   title: "TTT"
