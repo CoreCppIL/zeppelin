@@ -225,7 +225,7 @@
   title: "Mastering CTest: Streamlining Your C++ Testing Workflow"
   description: >
     <p>In the realm of modern C++ development, ensuring code quality and reliability is paramount. CTest, part of the CMake suite, offers a robust framework for automating and managing tests. This talk will guide you through the essentials of CTest, from basic setup to advanced features. We'll explore how to integrate CTest into your existing projects, write effective tests, and leverage CTest's powerful capabilities to optimize your testing pipeline. Whether you're a seasoned developer or new to CTest, this session will equip you with the knowledge and tools to enhance your testing strategy and boost your project's success.</p>
-  speakers: [29]
+  speakers: [29, 40]
 -
   id: 30
   title: "Become a Compiler-Explorer Power User!"

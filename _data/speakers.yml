@@ -212,3 +212,11 @@
   bio: >
     <p>Assaf has been programming in C++ for the past 18 years, including the last 6 years at qSpark, where he focuses on low-latency development, performance, and optimization.</p>
   thumbnailUrl: AssafWolfhart.jpg
+-
+  id: 40
+  name: "Akram"
+  surname: "Zoabi"
+  bio: >
+    <p>Software Senior Manager with Jonhson & Johnson MedTech.</p>
+    <p>Experienced in Software development strategy and design, leading groups of software engineers in various of software and real-time software projects in the healthcare industry.</p>
+  thumbnailUrl: AkramZoabi.jpeg
