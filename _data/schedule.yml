@@ -1,8 +1,8 @@
 - 
-  date: "2023-06-05"
-  dateReadable: "June 05"
+  date: "2024-11-26"
+  dateReadable: "November 26"
   tracks: 
-    - {title: "Full Day Workshops @MTA", color: "#90be4e"}
+    - {title: "Full Day Workshops", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
@@ -12,32 +12,31 @@
     - {
     	startTime: "09:00",
     	endTime: "17:00",
-    	sessionIds: [11,12,14]
+    	sessionIds: [108]
     }
-    - {
-    	startTime: "12:30",
-    	endTime: "13:30",
-    	sessionIds: [102]
-    }
-    - {
-    	startTime: "15:30",
-    	endTime: "15:45",
-    	sessionIds: [107]
-    }
-    - {
-    	startTime: "17:00",
-    	endTime: "20:00",
-    	sessionIds: [80]
-    }
+#    - {
+#    	startTime: "12:30",
+#    	endTime: "13:30",
+#    	sessionIds: [102]
+#    }
+#    - {
+#    	startTime: "15:30",
+#    	endTime: "15:45",
+#    	sessionIds: [107]
+#    }
+#    - {
+#    	startTime: "17:00",
+#    	endTime: "20:00",
+#    	sessionIds: [80]
+#    }
 
 - 
-  date: "2023-06-06"
-  dateReadable: "June 06"
+  date: "2024-11-27"
+  dateReadable: "November 27"
   tracks: 
-    - {title: "Hall 3", color: "#90be4e"}
-    - {title: "Hall 1", color: "#90be4e"}
-    - {title: "Hall 4", color: "#90be4e"}
-    - {title: "Hall 5", color: "#90be4e"}
+    - {title: "Track 1", color: "#90be4e"}
+    - {title: "Track 2", color: "#90be4e"}
+    - {title: "Track 3", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
@@ -46,137 +45,125 @@
     }
     - {
     	startTime: "09:00",
-    	endTime: "09:20",
+    	endTime: "09:30",
     	sessionIds: [099]
     }
     - {
-    	startTime: "09:20",
-    	endTime: "10:50",
-    	sessionIds: [10]
+    	startTime: "09:45",
+    	endTime: "10:45",
+    	sessionIds: [13,1000,28]
     }
     - {
-    	startTime: "10:50",
-    	endTime: "11:10",
+    	startTime: "10:45",
+    	endTime: "11:15",
     	sessionIds: [107]
     }
     - {
-    	startTime: "11:10",
-    	endTime: "12:10",
-    	sessionIds: [16,1000,26,28]
+    	startTime: "11:15",
+    	endTime: "12:15",
+    	sessionIds: [14,1000,27]
     }
     - {
-    	startTime: "12:20",
-    	endTime: "13:20",
-    	sessionIds: [22,32,27,48]
-    }
-    - {
-    	startTime: "13:20",
-    	endTime: "14:40",
-    	sessionIds: [102]
-    }
-    - {
-    	startTime: "14:40",
-    	endTime: "15:10",
-    	sessionIds: [45,49,42,51]
-    }
-    - {
-    	startTime: "15:20",
-    	endTime: "15:50",
-    	sessionIds: [38,41,37,34]
-    }
-    - {
-    	startTime: "16:10",
-    	endTime: "17:10",
-    	sessionIds: [21,1014,29,24]
-    }
-    - {
-    	startTime: "17:10",
-    	endTime: "17:30",
-    	sessionIds: [107]
-    }
-    - {
-    	startTime: "17:30",
-    	endTime: "19:00",
-    	sessionIds: [007]
-    }
-    
-- 
-  date: "2023-06-07"
-  dateReadable: "June 07"
-  tracks: 
-    - {title: "Hall 3", color: "#90be4e"}
-    - {title: "Hall 1", color: "#90be4e"}
-    - {title: "Hall 4", color: "#90be4e"}
-    - {title: "Hall 5", color: "#90be4e"}
-  timeslots: 
-    - {
-    	startTime: "08:00",
-    	endTime: "09:30",
-    	sessionIds: [106]
-    }
-    - {
-    	startTime: "09:30",
-    	endTime: "10:30",
-    	sessionIds: [23,1000,47,31]
-    }
-    - {
-    	startTime: "10:40",
-    	endTime: "11:40",
-    	sessionIds: [1011,1000,33,39]
-    }
-    - {
-    	startTime: "11:40",
-    	endTime: "12:00",
-    	sessionIds: [107]
-    }
-    - {
-    	startTime: "12:00",
+    	startTime: "12:30",
     	endTime: "13:00",
-    	sessionIds: [1013,30,25,36]
-    }
+    	sessionIds: [25,1000,33]
+    }    
     - {
     	startTime: "13:00",
-    	endTime: "14:10",
+    	endTime: "14:00",
     	sessionIds: [102]
-    }
-    - {
-    	startTime: "14:10",
-    	endTime: "14:40",
-    	sessionIds: [46,43,40,44]
-    }
-    - {
-    	startTime: "14:50",
-    	endTime: "15:50",
-    	sessionIds: [20,1012,35,50]
-    }
-    - {
-    	startTime: "15:50",
-    	endTime: "16:10",
-    	sessionIds: [107]
-    }
-    - {
-    	startTime: "16:10",
-    	endTime: "16:20",
-    	sessionIds: [105]
-    }
-    - {
-    	startTime: "16:20",
-    	endTime: "17:30",
-    	sessionIds: [15]
-    }
-- 
-  date: "2023-08-05"
-  dateReadable: "June 08"
-  tracks: 
-    - {title: "Half Day Workshops", color: "#90be4e"}
-  timeslots: 
-    - {
-    	startTime: "10:00",
-    	endTime: "13:00",
-    	sessionIds: [60]
     }
     - {
     	startTime: "14:00",
+    	endTime: "14:30",
+    	sessionIds: [32,37,36]
+    }
+    - {
+    	startTime: "14:40",
+    	endTime: "15:40",
+    	sessionIds: [12,26,24]
+    }
+    - {
+    	startTime: "15:40",
+    	endTime: "16:00",
+    	sessionIds: [107]
+    }
+    - {
+    	startTime: "16:00",
+    	endTime: "17:00",
+    	sessionIds: [1212,22,29]
+    }
+#    - {
+#    	startTime: "17:10",
+#    	endTime: "17:30",
+#    	sessionIds: [107]
+#    }
+#    - {
+#    	startTime: "17:30",
+#    	endTime: "19:00",
+#    	sessionIds: [007]
+#    }
+    
+- 
+  date: "2024-11-28"
+  dateReadable: "November 28"
+  tracks: 
+    - {title: "Track 1", color: "#90be4e"}
+    - {title: "Track 2", color: "#90be4e"}
+    - {title: "Track 3", color: "#90be4e"}
+  timeslots: 
+    - {
+    	startTime: "08:30",
+    	endTime: "09:00",
+    	sessionIds: [106]
+    }
+    - {
+    	startTime: "09:00",
+    	endTime: "10:00",
+    	sessionIds: [16,1000,11]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:30",
+    	sessionIds: [107]
+    }
+    - {
+    	startTime: "10:30",
+    	endTime: "11:30",
+    	sessionIds: [15,1000,23]
+    }
+    - {
+    	startTime: "11:45",
+    	endTime: "12:15",
+    	sessionIds: [30,1000,34]
+    }
+    - {
+    	startTime: "12:15",
+    	endTime: "13:15",
+    	sessionIds: [102]
+    }
+    - {
+    	startTime: "13:15",
+    	endTime: "13:45",
+    	sessionIds: [31,89,35]
+    }
+    - {
+    	startTime: "14:00",
+    	endTime: "15:00",
+    	sessionIds: [18,17,19]
+    }
+    - {
+    	startTime: "15:00",
+    	endTime: "15:30",
+    	sessionIds: [107]
+    }
+    - {
+    	startTime: "15:30",
     	endTime: "16:30",
-    	sessionIds: [61]
+    	sessionIds: [20,21,1000]
+    }
+    - {
+    	startTime: "16:40",
+    	endTime: "17:00",
+    	sessionIds: [105]
     }

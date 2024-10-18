@@ -42,7 +42,7 @@
   service: true
 -
   id: 099
-  title: "Welcome to Core C++ 2023!"
+  title: "Welcome to Core C++ 2024!"
   #place: "Weston::Auditorium"
   subtype: keynote
   service: true
@@ -81,14 +81,27 @@
   service: true
 #  speakers: [30, 31]
 -
+  id: 108
+  title: "Full-day workshops :: in construction"
+  description: "To be announced soon"
+-
   id: 11
   title: "C++ Fundamentals: Unit Testing"
   description: >
     <p>Proper developer testing is crucial in software development but is sometimes overlooked, especially in C++. In this session, we will focus on unit testing in C++ using Google Test examples. We'll start with the basics of creating automated unit tests and then move on to more complex scenarios involving mocks. We’ll discuss the Test-Driven Development (TDD) approach and other best practices for unit testing. This session is part of the Fundamentals track and is relevant for both beginners and more advanced developers who want to enhance their testing abilities.</p>
   speakers: [11]
+  language: he
 -
   id: 12
-  title: "Evolving C++ Networking with Senders & Receivers"
+  title: "Evolving C++ Networking with Senders & Receivers [part 1]"
+  description: >
+    <p><code>std::execution</code> (“senders & receivers”) has been voted into the C++26 working draft, providing a standard framework for concurrency and parallelism in C++. However, as the community has seen many times before, simply standardizing something doesn’t imply it will be adopted, much less adopted quickly or painlessly. Now remains the problem of adopting <code>std::execution</code> into existing workflows, problems, and codebases.</p>
+    <p>Making this situation more challenging is the fact that <code>std::execution</code> as currently integrated into the C++26 working draft is a minimum viable product. Facilities that one might intuitively expect, such as networking or other I/O support, robust execution contexts, or richer primitives, are completely absent. In these early days, developers are required to implement new primitives themselves, understanding and applying the principles of <code>std::execution</code> to achieve higher-level goals.</p>
+    <p>This talk will consider an existing, production, networking server written using pre-C++26 established practice. It will introduce the key concepts and primitives of <code>std::execution</code>, and demonstrate how to extend them iteratively to ultimately replace the existing server.</p>
+  speakers: [12]
+-
+  id: 1212
+  title: "Evolving C++ Networking with Senders & Receivers [part 2]"
   description: >
     <p><code>std::execution</code> (“senders & receivers”) has been voted into the C++26 working draft, providing a standard framework for concurrency and parallelism in C++. However, as the community has seen many times before, simply standardizing something doesn’t imply it will be adopted, much less adopted quickly or painlessly. Now remains the problem of adopting <code>std::execution</code> into existing workflows, problems, and codebases.</p>
     <p>Making this situation more challenging is the fact that <code>std::execution</code> as currently integrated into the C++26 working draft is a minimum viable product. Facilities that one might intuitively expect, such as networking or other I/O support, robust execution contexts, or richer primitives, are completely absent. In these early days, developers are required to implement new primitives themselves, understanding and applying the principles of <code>std::execution</code> to achieve higher-level goals.</p>
@@ -185,6 +198,7 @@
   description: >
     <p>Embedded development is a complex process that brings together software, electronics, physics, mechanics, and algorithms. Designing a system with embedded components requires careful consideration of multiple factors. However, there is a lack of knowledge regarding correct practices in building embedded systems. In my talk, I will offer valuable insights to enhance the effectiveness of embedded development, focusing on improving robustness, speed, and maintainability. By addressing the challenges in this field, attendees will gain a deeper understanding of how to design and build embedded systems correctly. Through practical advice and best practices, I aim to empower developers to overcome obstacles and achieve successful outcomes in their projects.</p>
   speakers: [23]
+  language: he
 -
   id: 24
   title: "Back to Basics: Design Patterns"
@@ -220,6 +234,7 @@
   description: >
     <p>C++ is not just an Object-Oriented Programming Language, it supports many paradigms. But in this session we would focus on the object oriented aspects of C++, from encapsulation to inheritance and polymorphism. The session aims to cover the basic syntax together with best practices, tips, pitfalls to avoid and more. We would discuss design considerations, the advantages and disadvantages of different approaches and other alternatives that the language provides. Some relevant design patterns may also pop-by. This session is aimed for both novice and intermediate level C++ developers, closing gaps and putting the spotlight on important aspects. More experienced developers are of course welcomed to join and enrich the discussion with their knowledge and experience.</p>
   speakers: [28]
+  language: he
 -
   id: 29
   title: "Optimizing Embedded Software Infrastructure: Principles and Practices for Platform Selection"
@@ -231,13 +246,15 @@
   title: "Mastering CTest: Streamlining Your C++ Testing Workflow"
   description: >
     <p>In the realm of modern C++ development, ensuring code quality and reliability is paramount. CTest, part of the CMake suite, offers a robust framework for automating and managing tests. This talk will guide you through the essentials of CTest, from basic setup to advanced features. We'll explore how to integrate CTest into your existing projects, write effective tests, and leverage CTest's powerful capabilities to optimize your testing pipeline. Whether you're a seasoned developer or new to CTest, this session will equip you with the knowledge and tools to enhance your testing strategy and boost your project's success.</p>
-  speakers: [29]
+  speakers: [29
+  ]
 -
   id: 30
   title: "Become a Compiler-Explorer Power User!"
   description: >
     <p>I'm a CE maintainer, and in this talk I'll show many CE features that are both powerful and rarely known. In particular, we'll go beyond the typical conferences/tutorials usage of CE to inspect just small C++ snippets, and you'll learn how to inspect real -life code in its real-life habitat (i.e., headers and libraries).</p>
   speakers: [30]
+  language: he
 -
   id: 31
   title: "Speeding up Intel Gaudi deep-learning accelerators using an MLIR-based compiler"
@@ -280,6 +297,7 @@
     <p>We present a novel approach treating visualization data as 3d logs, enhancing three key areas: cold storage size, read latency, write flexibility.</p>
     <p>This talk will show how, by utilizing C++ speed, devtools can boost productivity tenfold, saving engineering time and resources.</p>
   speakers: [36]
+  language: he
 -
   id: 37
   title: "Not Invented Here: Reinventing the Wheel to Facilitate Dev Culture Change"
