@@ -26,7 +26,7 @@
   surname: "Adelstein Lelbach"
   bio: >
     <p>Bryce Adelstein Lelbach has spent over a decade developing programming languages, compilers, and software libraries. He is a Principal Architect at NVIDIA, where he leads HPC programming language efforts and drives the technical roadmap for NVIDIA's HPC compilers and libraries. Bryce is passionate about C++ and is one of the leaders of the C++ community. He has served as chair of INCITS/PL22, the US standards committee for programming languages and the Standard C++ Library Evolution group. Bryce served as the program chair for the C++Now and CppCon conferences for many years. On the C++ Committee, he has personally worked on concurrency primitives, parallel algorithms, executors, and multidimensional arrays. He is one of the founding developers of the HPX parallel runtime system. Outside of work, Bryce is passionate about airplanes and watches.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: BryceAdelsteinLelbach.jpg
 -
   id: 15
   name: "Mateusz"
@@ -50,7 +50,7 @@
   surname: "Baker"
   bio: >
     <p>I am an undergraduate computer engineering student at Purdue University, where I focus on numerical computing and software development. I have a passion for elegant low-level algorithms. I am currently writing a competitive C++ chess engine, an arbitrary precision floating point library, as well as conducting statistical analysis on the quality of random number generators. Outside of software, I enjoy woodworking and weightlifting.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: RyanBaker.jpg
 -
   id: 18
   name: "Alex"
