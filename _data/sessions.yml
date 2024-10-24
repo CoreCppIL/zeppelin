@@ -306,10 +306,34 @@
     <p>The talk will both dive into the technical aspects of such a library, and show how such solutions affects the team in the long term.</p>
   speakers: [37]
 -
-  id: 99
-  title: "TTT"
+  id: 201
+  title: "Concurrency Tools in the C++ Standard Library"
   description: >
-    <p>AAA</p>
-    <p>BBB</p>
-    <p>CCC</p>
-  speakers: [99]
+    <p>Today, C++ software is increasingly asynchronous and parallel, a trend that is likely only to continue going forward. The C++ standard acknowledged threads and provided the first concurrency facilities with C++11. The set of primitives and lower-level building blocks was greatly extended in C++20 with many powerful abstractions.</p>
+    <p>During this training, we will learn the concurrency utilities in the C++ Standard Library. We will also explain how new C++20 features improve the "old" abstractions we got before. We will talk about threads, mutexes, deadlocks, work cancellation, semaphores, latches, barriers, and many more. We will also introduce a few higher-level abstractions (e.g., concurrent_queue and monitor design pattern).</p>
+    <p>This is a hands-on workshop, and we will do many practical coding exercises. Thanks to the Compiler Explorer, we will work with the latest compiler versions, so no special environment preparation is needed. Please bring your laptops and good mood with you :-)</p>
+    <p><h5>WORKSHOP STRUCTURE</h5>
+    <ul>
+       <li>Lecture 30%</li>
+       <li>Discussion 20%</li>
+       <li>Hands-on coding 30%</li>
+    </ul>
+    </p>
+    <p><h5>TRAINING OUTCOME</h5>
+    After completing this workshop, you will have a broad understanding of the various concurrency features in the C++ Standard Library. You will be able to pick a proper tool for a job easily. Thanks to the hands-on practical experience with the most important tools, you will learn on how to think and type the code that solves specific issues. This will allow you to improve your production code base immediately after the training is over.
+    </p>
+  speakers: [15]
+-
+  id: 202
+  title: "API First"
+  description: >
+    <p>The API first approach has gained in popularity in recent years with the rise of micro services and cloud computing, but its applicability reaches far beyond that to any library or infrastructure code. In this workshop we will practice thinking in API first approach in C++ code. How the API first approach encourage componentization and make the code more testable - including test-driven design. We will cover C++ idioms that support efficient working with interfaces. And we will deal with how to handle interfaces with unknown number of arguments or types, error handling, and more. In the course of that we will tackle various advanced C++ features such as concepts, templates, combining templates and virtual functions, user-defined literals, type-erasure, and more. The workshop is composed of a series of exercises based on real-world, production i</p>
+  speakers: [24]
+-
+  id: 203
+  title: "Mastering C++ Templates: A Practical Hands-On Tour"
+  description: >
+    <p>This one-day workshop offers an in-depth exploration of C++ templates, including new features introduced from C++11 to C++20. We will begin with a quick review of template functions and classes, followed by advanced topics such as non-type template parameters, specialization, variadic templates, Template Argument Deduction (CTAD), and the interaction between templates and lambdas.</p>
+    <p>We'll also dive into C++20's Concepts and Constraints, highlighting their role in making generic programming more robust and clear. Additionally, we'll explore how standard library containers and algorithms are implemented, providing practical insights on designing and writing generic and flexible C++ code. The workshop will cover design principles and C++ idioms using templates, including Static Polymorphism, CRTP, type-erasure, and techniques for using compile-time data at runtime.</p>
+    <p>With a strong emphasis on hands-on practice, participants will apply their knowledge to make their code more adaptable and efficient. This session is ideal for developers looking to deepen their understanding of templates and leverage them to enhance their C++ code base.</p>
+  speakers: [11]
