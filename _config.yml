@@ -51,13 +51,13 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
-# - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
+ - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
  - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
-# - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
+ - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
@@ -70,7 +70,7 @@ eventDate: "November 26-28, 2024"
 typeoutTextValues: '"", "Conference", "Autumn", "Israel", "Local"'
 typeoutFallback: "Conference"
 heroButtons:
-# - {link: "https://ti.to/hamakor/core-cpp-2023", text: "Register"}
+ - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
@@ -192,20 +192,20 @@ ticketsOffers:
   validThrough: "2024-11-27"
   soldOut: false
   soldOutText: "Waiting List"
-# -
-#  name: "Workshop"
-#  price: "1350"
-#  priceCurrency: "ILS"
-#  ribbon: "Limited"
-#  featured: true
-#  ticketsNumber: "100"
-#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2023"
-#  buyButtonText: "Register Now"
-#  ticketContentList: ["Full day workshop", "4 workshops to chose from!", "Top C++ trainers"]
-#  validFrom: "2021-03-20"
-#  validThrough: "2023-06-06"
-#  soldOut: false
-#  soldOutText: "Event Ended"
+ -
+  name: "Workshop"
+  price: "1350"
+  priceCurrency: "ILS"
+  ribbon: "Limited"
+  featured: true
+  ticketsNumber: "100"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Full day workshop", "3 workshops to chose from!", "Top C++ trainers"]
+  validFrom: "2024-10-24"
+  validThrough: "2024-11-26"
+  soldOut: false
+  soldOutText: "Event Ended"
 
 # Footer
 socialLinks:
