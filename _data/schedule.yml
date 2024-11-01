@@ -98,11 +98,11 @@
 #    	endTime: "17:30",
 #    	sessionIds: [107]
 #    }
-#    - {
-#    	startTime: "17:30",
-#    	endTime: "19:00",
-#    	sessionIds: [007]
-#    }
+    - {
+    	startTime: "17:30",
+    	endTime: "20:30",
+    	sessionIds: [007]
+    }
     
 - 
   date: "2024-11-28"
