@@ -59,6 +59,9 @@
                                                 {% endfor %}    
                                             {% endfor %}
                                         </ul>
+										{% if session.language != null %}
+											<br/><span class="caption">[<b>{{ session.language }}</b>]</span>
+										{% endif %}
                                     </div>
                                 </div>
                                 {% elsif slot == session.id and session.service != null %}
