@@ -336,3 +336,9 @@
     <p>We'll also dive into C++20's Concepts and Constraints, highlighting their role in making generic programming more robust and clear. Additionally, we'll explore how standard library containers and algorithms are implemented, providing practical insights on designing and writing generic and flexible C++ code. The workshop will cover design principles and C++ idioms using templates, including Static Polymorphism, CRTP, type-erasure, and techniques for using compile-time data at runtime.</p>
     <p>With a strong emphasis on hands-on practice, participants will apply their knowledge to make their code more adaptable and efficient. This session is ideal for developers looking to deepen their understanding of templates and leverage them to enhance their C++ code base.</p>
   speakers: [11]
+-
+  id: 41
+  title: "How a 42-year-old software company keeps its code fresh and maintainable"
+  description: >
+    <p>How many of you have encountered the following problems working with a mature codebase: * You don’t know what it does * You don’t know how to build it * The deployment process is based on various scripts and word of mouth * New developers take weeks to get up to speed We’ve all been there. Join this talk to discover how a 42-year-old software company keeps its code fresh and maintainable. Through this talk, we will share some helpful techniques and principles that you can immediately start to use to improve time to market, code quality, and developers’ work satisfaction within your organization.</p>
+  speakers: [41]
