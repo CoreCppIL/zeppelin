@@ -114,9 +114,9 @@ eventAddressCountry: "Israel"
 #eventStartTime: "2023-06-05T09:00"
 eventDoorTime: "08:00"
 #eventEndTime: "2023-06-07T18:00"   
-eventPlaceCoordinates: "32.070934462331635, 34.783409481588"
-mapCenterCoordinates: "32.070934462331635, 34.783409481588"
-mapMobileCenterCoordinates: "32.070934462331635, 34.783409481588"
+eventPlaceCoordinates: "32.070579892244325, 34.78369916016169"
+mapCenterCoordinates: "32.070579892244325, 34.78369916016169"
+mapMobileCenterCoordinates: "32.070579892244325, 34.78369916016169"
 
 #eventLocationName: "The Tel-Aviv Yaffo Academic College" 
 #eventLocationLink: "https://www.int.mta.ac.il/"
@@ -254,8 +254,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "32.070934462331635, 34.783409481588"
-logisticsMapMobileCenterCoordinates: "32.070934462331635, 34.783409481588"
+logisticsMapCenterCoordinates: "32.070579892244325, 34.78369916016169"
+logisticsMapMobileCenterCoordinates: "32.070579892244325, 34.78369916016169"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
