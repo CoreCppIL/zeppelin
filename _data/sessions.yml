@@ -245,15 +245,14 @@
   title: "Mastering CTest: Streamlining Your C++ Testing Workflow"
   description: >
     <p>In the realm of modern C++ development, ensuring code quality and reliability is paramount. CTest, part of the CMake suite, offers a robust framework for automating and managing tests. This talk will guide you through the essentials of CTest, from basic setup to advanced features. We'll explore how to integrate CTest into your existing projects, write effective tests, and leverage CTest's powerful capabilities to optimize your testing pipeline. Whether you're a seasoned developer or new to CTest, this session will equip you with the knowledge and tools to enhance your testing strategy and boost your project's success.</p>
-  speakers: [29
-  ]
+  speakers: [29]
 -
   id: 30
-  title: "Become a Compiler-Explorer Power User!"
+  title: "Get More Out of Compiler-Explorer ('godbolt')"
   description: >
-    <p>I'm a CE maintainer, and in this talk I'll show many CE features that are both powerful and rarely known. In particular, we'll go beyond the typical conferences/tutorials usage of CE to inspect just small C++ snippets, and you'll learn how to inspect real -life code in its real-life habitat (i.e., headers and libraries).</p>
+    <p>I'm a CE maintainer, and in this talk I'll show many less-known and powerful CE features. In particular, we'll go beyond the typical conferences/tutorials usage of CE to inspect just small C++ snippets, and you'll learn how to inspect real-life code in its real-life habitat (i.e., headers and libraries).</p>
+    <p>The talk is intended for people already familiar with CE, but would contain a brief introduction.</p>
   speakers: [30]
-  language: he
 -
   id: 31
   title: "Speeding up Intel Gaudi deep-learning accelerators using an MLIR-based compiler"
