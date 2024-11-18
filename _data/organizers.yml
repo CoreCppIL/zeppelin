@@ -7,4 +7,4 @@
   group: "Partners"
   elements:
     - {name: "Hamakor", description: "The Israeli Society for Free Software and Open-Source Code", link: "https://www.hamakor.org.il/", imageUrl: "Hamakor_logo.png"}
-    - {name: "The Academic College of Tel Aviv-Yaffo", description: "A pioneering non-for-profit and fully accredited academic public institution", link: "https://www.int.mta.ac.il/", imageUrl: "MTA_logo_no_25.svg"}
+    # - {name: "The Academic College of Tel Aviv-Yaffo", description: "A pioneering non-for-profit and fully accredited academic public institution", link: "https://www.int.mta.ac.il/", imageUrl: "MTA_logo_no_25.svg"}
