@@ -55,13 +55,13 @@ bottomNavigationLinks:
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
+#- {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
  - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -74,7 +74,7 @@ heroButtons:
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
- - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
+# - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
 aboutTitle: "About Core C++ 2024"

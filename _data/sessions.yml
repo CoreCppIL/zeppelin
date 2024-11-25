@@ -341,3 +341,34 @@
   description: >
     <p>How many of you have encountered the following problems working with a mature codebase: * You don’t know what it does * You don’t know how to build it * The deployment process is based on various scripts and word of mouth * New developers take weeks to get up to speed We’ve all been there. Join this talk to discover how a 42-year-old software company keeps its code fresh and maintainable. Through this talk, we will share some helpful techniques and principles that you can immediately start to use to improve time to market, code quality, and developers’ work satisfaction within your organization.</p>
   speakers: [41]
+-
+  id: 42
+  title: "The Unauthorized History of UTF"
+  description: >
+    <p></p>
+  speakers: [42]
+-
+  id: 204
+  title: "Managing dependencies with dependency injection"
+  description: >
+    <p></p>
+  speakers: [24]
+-
+  id: 205
+  title: "A constexpr virtual CRTP comparison"
+  description: >
+    <p></p>
+  speakers: [11]
+  language: he
+-
+  id: 206
+  title: "Modern Techniques for Logger Rejuvenation"
+  description: >
+    <p></p>
+  speakers: [20]
+-
+  id: 207
+  title: "C++ ♥ Python"
+  description: >
+    <p></p>
+  speakers: [18]

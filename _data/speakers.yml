@@ -227,5 +227,11 @@
   bio: >
     <p>Haim Cohen has worked in various software engineering roles at Bloomberg during the past 20 years. Today, he manages an engineering team within a core area of Bloomberg’s market data technology infrastructure that is responsible for a host of systems and APIs that govern the behavior of Bloomberg’s central market data database - the Ticker Plant. Before joining Bloomberg, he worked for Analog Devices and Intel, developing Electronic Design Automation software. He holds a bachelor’s degree in computers and software engineering from the Technion - Israel Institute of Technology, as well as a master’s degree in computer science from Columbia University. He lives in New York City with his wife, two kids, and a cat.</p>
   thumbnailUrl: HaimCohen.jpg
-
+-
+  id: 42
+  name: "Eddie"
+  surname: "Nolan"
+  bio: >
+    <p></p>
+  thumbnailUrl: NoPhoto.jpg
 

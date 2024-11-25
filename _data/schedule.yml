@@ -12,7 +12,7 @@
     - {
     	startTime: "09:00",
     	endTime: "17:00",
-    	sessionIds: [201,202,203]
+    	sessionIds: [202,203]
     }
 #    - {
 #    	startTime: "12:30",
@@ -34,9 +34,9 @@
   date: "2024-11-27"
   dateReadable: "November 27"
   tracks: 
-    - {title: "Track 1", color: "#90be4e"}
-    - {title: "Track 2", color: "#90be4e"}
-    - {title: "Track 3", color: "#90be4e"}
+    - {title: "Hall 3", color: "#90be4e"}
+    - {title: "Hall 1", color: "#90be4e"}
+    - {title: "Hall 4", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
@@ -61,12 +61,12 @@
     - {
     	startTime: "11:15",
     	endTime: "12:15",
-    	sessionIds: [14,1000,27]
+    	sessionIds: [18,1000,11]
     }
     - {
     	startTime: "12:30",
     	endTime: "13:00",
-    	sessionIds: [25,1000,33]
+    	sessionIds: [25,42,33]
     }    
     - {
     	startTime: "13:00",
@@ -108,9 +108,9 @@
   date: "2024-11-28"
   dateReadable: "November 28"
   tracks: 
-    - {title: "Track 1", color: "#90be4e"}
-    - {title: "Track 2", color: "#90be4e"}
-    - {title: "Track 3", color: "#90be4e"}
+    - {title: "Hall 3", color: "#90be4e"}
+    - {title: "Hall 1", color: "#90be4e"}
+    - {title: "Hall 4", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:30",
@@ -120,7 +120,7 @@
     - {
     	startTime: "09:00",
     	endTime: "10:00",
-    	sessionIds: [16,1000,11]
+    	sessionIds: [16,23,204]
     }
     - {
     	startTime: "10:00",
@@ -130,7 +130,7 @@
     - {
     	startTime: "10:30",
     	endTime: "11:30",
-    	sessionIds: [15,1000,23]
+    	sessionIds: [205,27,206]
     }
     - {
     	startTime: "11:45",
@@ -150,7 +150,7 @@
     - {
     	startTime: "14:00",
     	endTime: "15:00",
-    	sessionIds: [18,17,19]
+    	sessionIds: [207,17,19]
     }
     - {
     	startTime: "15:00",
