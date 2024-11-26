@@ -86,10 +86,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "250", specialCharacter: "+", info: "attendees", detail: "face to face"}
- - {count: "20", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "international and local"}
- - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
+ - {count: "550", specialCharacter: "+", info: "attendees", detail: "face to face"}
+ - {count: "40", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
+ - {count: "30", specialCharacter: "+", info: "speakers", detail: "international and local"}
+ - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
 
 # Latest News Block
 latestNewsTitle: "Latest News"
