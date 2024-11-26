@@ -253,6 +253,7 @@
     <p>I'm a CE maintainer, and in this talk I'll show many less-known and powerful CE features. In particular, we'll go beyond the typical conferences/tutorials usage of CE to inspect just small C++ snippets, and you'll learn how to inspect real-life code in its real-life habitat (i.e., headers and libraries).</p>
     <p>The talk is intended for people already familiar with CE, but would contain a brief introduction.</p>
   speakers: [30]
+  language: Hebrew
 -
   id: 31
   title: "Speeding up Intel Gaudi deep-learning accelerators using an MLIR-based compiler"
@@ -287,6 +288,7 @@
   description: >
     <p>Software development usually involves several code libraries maintained by different groups. This usually means frequent version releases for the purpose of integrations. The API tends to evolve and change between versions, causing a lot of integration effort. In this lecture we'll review what pure interfaces are, how to properly use them and how they can reduce development, maintenance and integration efforts. We'll discuss how to maintain the interfaces, what are the restrictions, and how different types of changes affect (or not) the code using the API. The presentation is based on real life experience of moving an SDK API to use pure interfaces, and it will cover the costs and benefits of this migration.</p>
   speakers: [35]
+  language: Hebrew
 -
   id: 36
   title: "3d logs to analyze self-driving cars"
