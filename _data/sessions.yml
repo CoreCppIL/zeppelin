@@ -345,7 +345,8 @@
   id: 42
   title: "The Unauthorized History of UTF"
   description: >
-    <p></p>
+    <p>For those unfamiliar with Unicode, UTF can be baffling. Why are there three different kinds of UTF? Why is one of them used on Unix-like systems, while another one is used on Windows? What does UTF-16 have to do with the fact that I can't type emojis into my program?</p>
+    <p>To answer these questions, this talk provides a humorous exploration of the history of UTF, starting from the dawn of civilization, and exploring the hubris and tragedy that led to the status quo. This history will show why the UTF APIs used in the C++ standard library were chosen, and why the standards committee is currently trying to replace them</p>
   speakers: [42]
 -
   id: 204
@@ -357,7 +358,9 @@
   id: 205
   title: "A constexpr virtual CRTP comparison"
   description: >
-    <p></p>
+    <p>In this talk we will try to solve an interesting problem of implementing virtual comparison. This will take us to a journey of exploring C++20 spaceship operator, constexpr virtual functions, CRTP and more.</p>
+    <p>C++ enthusiasts will likely enjoy the vast features proposed by the language from C++98 and up to C++23 that we will use.</p>
+    <p>The talk will cover design questions along with C++ idioms and techniques</p>
   speakers: [11]
   language: he
 -
