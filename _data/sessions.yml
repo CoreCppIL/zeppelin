@@ -89,7 +89,7 @@
   description: >
     <p>Proper developer testing is crucial in software development but is sometimes overlooked, especially in C++. In this session, we will focus on unit testing in C++ using Google Test examples. We'll start with the basics of creating automated unit tests and then move on to more complex scenarios involving mocks. We’ll discuss the Test-Driven Development (TDD) approach and other best practices for unit testing. This session is part of the Fundamentals track and is relevant for both beginners and more advanced developers who want to enhance their testing abilities.</p>
   speakers: [11]
-  language: he
+  language: Hebrew
 -
   id: 12
   title: "Evolving C++ Networking with Senders & Receivers [part 1]"
@@ -197,7 +197,7 @@
   description: >
     <p>Embedded development is a complex process that brings together software, electronics, physics, mechanics, and algorithms. Designing a system with embedded components requires careful consideration of multiple factors. However, there is a lack of knowledge regarding correct practices in building embedded systems. In my talk, I will offer valuable insights to enhance the effectiveness of embedded development, focusing on improving robustness, speed, and maintainability. By addressing the challenges in this field, attendees will gain a deeper understanding of how to design and build embedded systems correctly. Through practical advice and best practices, I aim to empower developers to overcome obstacles and achieve successful outcomes in their projects.</p>
   speakers: [23]
-  language: he
+  language: Hebrew
 -
   id: 24
   title: "Back to Basics: Design Patterns"
@@ -233,7 +233,7 @@
   description: >
     <p>C++ is not just an Object-Oriented Programming Language, it supports many paradigms. But in this session we would focus on the object oriented aspects of C++, from encapsulation to inheritance and polymorphism. The session aims to cover the basic syntax together with best practices, tips, pitfalls to avoid and more. We would discuss design considerations, the advantages and disadvantages of different approaches and other alternatives that the language provides. Some relevant design patterns may also pop-by. This session is aimed for both novice and intermediate level C++ developers, closing gaps and putting the spotlight on important aspects. More experienced developers are of course welcomed to join and enrich the discussion with their knowledge and experience.</p>
   speakers: [28]
-  language: he
+  language: Hebrew
 -
   id: 29
   title: "Optimizing Embedded Software Infrastructure: Principles and Practices for Platform Selection"
@@ -295,7 +295,7 @@
     <p>We present a novel approach treating visualization data as 3d logs, enhancing three key areas: cold storage size, read latency, write flexibility.</p>
     <p>This talk will show how, by utilizing C++ speed, devtools can boost productivity tenfold, saving engineering time and resources.</p>
   speakers: [36]
-  language: he
+  language: Hebrew
 -
   id: 37
   title: "Not Invented Here: Reinventing the Wheel to Facilitate Dev Culture Change"
@@ -362,7 +362,7 @@
     <p>C++ enthusiasts will likely enjoy the vast features proposed by the language from C++98 and up to C++23 that we will use.</p>
     <p>The talk will cover design questions along with C++ idioms and techniques</p>
   speakers: [11]
-  language: he
+  language: Hebrew
 -
   id: 206
   title: "Modern Techniques for Logger Rejuvenation"
