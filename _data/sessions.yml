@@ -241,12 +241,14 @@
   description: >
     <p>In the rapidly evolving landscape of embedded systems, selecting the right software infrastructure and platform is crucial for achieving optimal performance and maintainability. This talk will explore the principles and practices our company has developed for choosing and implementing embedded software infrastructure. We will cover the methodologies used for evaluating and selecting platforms, including criteria such as scalability, integration capabilities, and support for real-time operations. Through an embedded C++ application case study attendees will gain insights into our decision-making process and understand how to align platform choices with long-term strategic goals.</p>
   speakers: [29, 40]
+  language: Hebrew
 -
   id: 89
   title: "Mastering CTest: Streamlining Your C++ Testing Workflow"
   description: >
     <p>In the realm of modern C++ development, ensuring code quality and reliability is paramount. CTest, part of the CMake suite, offers a robust framework for automating and managing tests. This talk will guide you through the essentials of CTest, from basic setup to advanced features. We'll explore how to integrate CTest into your existing projects, write effective tests, and leverage CTest's powerful capabilities to optimize your testing pipeline. Whether you're a seasoned developer or new to CTest, this session will equip you with the knowledge and tools to enhance your testing strategy and boost your project's success.</p>
   speakers: [29]
+  language: Hebrew
 -
   id: 30
   title: "Get More Out of Compiler-Explorer ('godbolt')"
