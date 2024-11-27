@@ -355,7 +355,7 @@
   speakers: [42]
 -
   id: 204
-  title: "Managing dependencies with dependency injection"
+  title: "Managing Dependencies with Dependency Injection"
   description: >
     <p>Breaking a complex project into separate components is critical in order to be able to write good unit tests. However, it does raise the issue of how to manage the dependencies between the different components.</p>
     <p>In this talk I will share the solution that we've adopted for our project, its downsides and upsides.</p>
