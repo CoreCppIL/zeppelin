@@ -372,11 +372,15 @@
   id: 206
   title: "Modern Techniques for Logger Rejuvenation"
   description: >
-    <p></p>
+    <p>C++ has evolved a lot in the last decade. Yes, the new capabilities are cool – but it sometimes seems like a different language.</p>
+    <p>Introducing the value of new C++ into an existing decades old codebase, maintained by veterans of the previous millennium can present a lot of friction and risks ending up with an unpleasant mix of a multi-generation system, where navigating between the old and the new keeps us longing for the simplicity we used to have.</p>
+    <p>Join me in a quest that takes an old infrastructure inside an evolving codebase, and tries to modernize and improve it while maintaining its legacy look-and-feel.</p>
+    <p>This show-and-tell session will be a primer on techniques such as variadic-templates, NTTP, compile-time evaluation , concepts and metaprogramming – with the goal of bridging old and new.</p>
   speakers: [20]
 -
   id: 207
   title: "C++ ♥ Python"
   description: >
-    <p></p>
+    <p>As C++ programmers, many of us have embraced Python as our second language due to its versatility and ease of use, particularly for algorithm development (Maybe we should change the false writing of C/C++ to C++/Python because its more accurate :)).</p>
+    <p>However, one major challenge we encounter is Python's inherent slowness as an interpreted language. In this talk, we propose a paradigm shift by redefining our approach as C++/Python, emphasizing the symbiotic relationship between the two languages. By leveraging various binding tools, we can significantly accelerate Python's performance and unlock its true potential. We will explore many binding tools and understand the advantages and disadvantages of each one. We will explore CPython and understand GIL pitfalls. By the end of this talk, attendees will have a comprehensive understanding of various binding tools available for accelerating Python and their respective advantages and disadvantages. Armed with this knowledge, C++ programmers will be empowered to bridge the gap between the two languages, enhance their algorithm development process, and unlock the full potential of Python.</p>
   speakers: [18]
