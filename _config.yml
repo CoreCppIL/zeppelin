@@ -64,7 +64,7 @@ rightNavigationButtons:
 # - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "hero.webp"
 heroTitle: "Core C++ <typeout> 2024"
 eventDate: "November 26-28, 2024"
 typeoutTextValues: '"", "Conference", "Autumn", "Israel", "Local"'
@@ -84,7 +84,7 @@ aboutBlock:
 # - {title: "Hackathon", image: "hackathon.jpg", text: "Want some real team and skill building? Grab your team and join our hackathon!" }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "statistic.webp"
 statisticBlock:
  - {count: "550", specialCharacter: "+", info: "attendees", detail: "face to face"}
  - {count: "40", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
@@ -129,9 +129,9 @@ mapMobileCenterCoordinates: "32.070579892244325, 34.78369916016169"
 
 # Venue Block
 venueBlockTitle: "The Venue"
-venueBigImage: "cine1.jpg"
-venueSmallImage1: "cine4.jpg"
-venueSmallImage2: "cine3.jpg"
+venueBigImage: "cine1.webp"
+venueSmallImage1: "cine4.webp"
+venueSmallImage2: "cine3.webp"
 #venueSmallImage3: "cine3.jpg"
 venueTitle: "Tel Aviv Cinematheque"
 #venueFeatures: ["Located in the heart of Tel-Aviv and Jaffa"]
