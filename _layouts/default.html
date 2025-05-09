@@ -45,35 +45,93 @@ layout: compress
     }
     </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
+    
+    <!-- Maps API loading script with callback -->
     <script>
-        if ($(window).width() > 767) {
-            document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAQr5Br-dyp10Z_dV0Q0aOIBKSbnRjjz3k"><\/script>')
-        } 
-    </script>
-    {% elsif page.permalink == '/logistics/' %}
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
-        <script type="text/javascript">
-            var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
-        </script>
-    {% endif %} 
-    <script>
-        Waves.displayEffect();
+        // Define global callback function that will be called when Maps API is loaded
+        window.initGoogleMaps = function() {
+            // This flag indicates Maps API is fully loaded and ready
+            window.googleMapsLoaded = true;
+            
+            // Trigger an event to notify other scripts
+            if (document.createEvent) {
+                var event = document.createEvent('Event');
+                event.initEvent('google-maps-loaded', true, true);
+                window.dispatchEvent(event);
+            }
+        };
+        
+        // Pre-define variables that will be needed globally
         {% if page.permalink == '/' %}
             if ($(window).width() > 767) {
-                var googleMaps = 'index',
-                    eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
-                    centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }}),
-                    mobileCenterMap = new google.maps.LatLng({{ site.mapMobileCenterCoordinates | replace:' ','' }}),
-                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+                window.googleMaps = 'index';
             } else {
-               var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}',
-                centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}',
-                mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
-                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
+                window.staticGoogleMaps = true;
+                window.eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}';
+                window.centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}';
+                window.mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}';
+                window.icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
-            var twitterFeedUrl = '{{ site.twitterFeed }}';
+            window.twitterFeedUrl = '{{ site.twitterFeed }}';
+        {% elsif page.permalink == '/logistics/' %}
+            window.googleMaps = 'logistics';
+            window.autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
+        {% elsif page.permalink == '/hackathon/' %}
+            if ($(window).width() > 767) {
+                window.googleMaps = 'hackathon';
+            } else {
+                window.staticGoogleMaps = true;
+                window.eventPlaceCoordinates = '{{ site.hackathonPlaceCoordinates | replace:' ','' }}';
+                window.centerMapCoordinates = '{{ site.hackathonMapCenterCoordinates | replace:' ','' }}';
+                window.mobileCenterMapCoordinates = '{{ site.hackathonMapMobileCenterCoordinates | replace:' ','' }}';
+                window.icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
+            }
+        {% endif %}
+        
+        // Conditionally load appropriate Maps API based on page
+        {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
+        if ($(window).width() > 767) {
+            var script = document.createElement('script');
+            script.src = "https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAQr5Br-dyp10Z_dV0Q0aOIBKSbnRjjz3k&callback=initGoogleMaps";
+            script.async = true;
+            document.head.appendChild(script);
+        }
+        {% elsif page.permalink == '/logistics/' %}
+        var script = document.createElement('script');
+        script.src = "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry&callback=initGoogleMaps";
+        script.async = true;
+        document.head.appendChild(script);
+        {% endif %}
+    </script>
+    
+    <script>
+        Waves.displayEffect();
+        
+        // Setup map coordinates once API is loaded
+        document.addEventListener('google-maps-loaded', function() {
+            {% if page.permalink == '/' %}
+                if ($(window).width() > 767) {
+                    window.eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }});
+                    window.centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }});
+                    window.mobileCenterMap = new google.maps.LatLng({{ site.mapMobileCenterCoordinates | replace:' ','' }});
+                    window.icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+                }
+            {% elsif page.permalink == '/logistics/' %}
+                window.eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }});
+                window.centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }});
+                window.mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }});
+                window.icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+            {% elsif page.permalink == '/hackathon/' %}
+                if ($(window).width() > 767) {
+                    window.eventPlace = new google.maps.LatLng({{ site.hackathonPlaceCoordinates }});
+                    window.centerMap = new google.maps.LatLng({{ site.hackathonMapCenterCoordinates }});
+                    window.mobileCenterMap = new google.maps.LatLng({{ site.hackathonMapMobileCenterCoordinates }});
+                    window.icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+                }
+            {% endif %}
+        });
+        
+        {% if page.permalink == '/' %}
             $(document).ready(function () {
                 $(function () {
                     if ($(window).width() > 767) {
@@ -107,30 +165,9 @@ layout: compress
                     }
                 }
             });
-        {% elsif page.permalink == '/logistics/' %}
-            var googleMaps = 'logistics',
-                eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
-                centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
-                mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
-                icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-        {% elsif page.permalink == '/hackathon/' %}
-            if ($(window).width() > 767) {
-                var googleMaps = 'hackathon',
-                    eventPlace = new google.maps.LatLng({{ site.hackathonPlaceCoordinates }}),
-                    centerMap = new google.maps.LatLng({{ site.hackathonMapCenterCoordinates }}),
-                    mobileCenterMap = new google.maps.LatLng({{ site.hackathonMapMobileCenterCoordinates }}),
-                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-            } else {
-               var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.hackathonPlaceCoordinates | replace:' ','' }}',
-                centerMapCoordinates = '{{ site.hackathonMapCenterCoordinates | replace:' ','' }}',
-                mobileCenterMapCoordinates = '{{ site.hackathonMapMobileCenterCoordinates | replace:' ','' }}',
-                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
-            }
-            
-        {% endif %} 
+        {% endif %}
     </script>
-    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
         <script type="text/javascript" defer>
             $(document).ready(function () {

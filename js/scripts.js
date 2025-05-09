@@ -276,89 +276,37 @@
         s.parentNode.insertBefore(po, s);
     }
 
-    // Google maps static
-    if (typeof staticGoogleMaps !== 'undefined') {
-        $('#canvas-map').addClass('image-section').css('background-image','url(https://maps.googleapis.com/maps/api/staticmap?zoom=17&center=' + mobileCenterMapCoordinates +'&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon +'|'+ eventPlaceCoordinates +'&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
+    // Static map
+    if (typeof staticGoogleMaps !== "undefined") {
+        $('#canvas-map').addClass('image-section').css('background-image', 'url(https://maps.googleapis.com/maps/api/staticmap?zoom=17&center=' + mobileCenterMapCoordinates + '&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon + '|' + eventPlaceCoordinates + '&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
     }
 
     //Google maps
-    if (typeof googleMaps !== 'undefined') {
-        var map, autocomplete, directionsDisplay, geocoder, polyline, origin;
-        var markers = [];
-        var directionsService = new google.maps.DirectionsService();
-        var MY_MAPTYPE_ID = 'custom_style';
+    if (typeof googleMaps !== "undefined") {
+        var map,
+            directionsDisplay,
+            geocoder,
+            polyline,
+            directionsService, // Declare here, initialize inside event listener
+            markersArray = [];
+
+        var MY_MAPTYPE_ID = 'custom_style'; // Re-added this variable
+
+        // Listen for our custom event that signals Google Maps API is loaded
+        document.addEventListener('google-maps-loaded', initialize);
 
         function initialize() {
+            // Initialize these now that we know google.maps is available
+            directionsService = new google.maps.DirectionsService();
             directionsDisplay = new google.maps.DirectionsRenderer({
                 suppressMarkers: true
             });
             geocoder = new google.maps.Geocoder();
-
             polyline = new google.maps.Polyline({
                 strokeColor: '#03a9f4',
-                strokeOpacity: 1,
+                strokeOpacity: 1.0,
                 strokeWeight: 2
             });
-
-            var defaultOpts = [{
-                stylers: [{
-                    lightness: 40
-                }, {
-                    visibility: 'on'
-                }, {
-                    gamma: 0.9
-                }, {
-                    weight: 0.4
-                }]
-            }, {
-                elementType: 'labels',
-                stylers: [{
-                    visibility: 'on'
-                }]
-            }, {
-                featureType: 'water',
-                stylers: [{
-                    color: '#5dc7ff'
-                }]
-            }, {
-                featureType: 'road',
-                stylers: [{
-                    visibility: 'off'
-                }]
-            }];
-
-            var zoomedOpts = [{
-                stylers: [{
-                    lightness: 40
-                }, {
-                    visibility: 'on'
-                }, {
-                    gamma: 1.1
-                }, {
-                    weight: 0.9
-                }]
-            }, {
-                elementType: 'labels',
-                stylers: [{
-                    visibility: 'off'
-                }]
-            }, {
-                featureType: 'water',
-                stylers: [{
-                    color: '#5dc7ff'
-                }]
-            }, {
-                featureType: 'road',
-                stylers: [{
-                    visibility: 'on'
-                }]
-            }, {
-                featureType: 'road',
-                elementType: "labels",
-                stylers: [{
-                    saturation: -30
-                }]
-            }];
 
             var mapOptions = {
                 zoom: 17,
@@ -373,12 +321,13 @@
                 scaleControl: false,
                 mapTypeControl: false,
                 streetViewControl: false,
-                center: centerMap,
+                center: centerMap, // Initial center, might be updated
                 mapTypeControlOptions: {
                     mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
                 },
                 mapTypeId: MY_MAPTYPE_ID
             };
+
             if ($(window).width() < 768) {
                 mapOptions.center = mobileCenterMap;
             }
@@ -388,31 +337,90 @@
             }
 
             map = new google.maps.Map(document.getElementById('canvas-map'), mapOptions);
-            var marker = new google.maps.Marker({
-                position: eventPlace,
-                animation: google.maps.Animation.DROP,
-                icon: icon,
-                map: map
+            
+            var customMapStyle = [{
+                stylers: [{
+                    lightness: 40
+                }, {
+                    visibility: 'on'
+                }, {
+                    gamma: 0.90
+                }, {
+                    weight: 0.4
+                }]
+            }, {
+                elementType: 'labels',
+                stylers: [{
+                    visibility: 'on' // Changed from off to on for default labels if desired, or keep off
+                }]
+            }, {
+                featureType: 'water',
+                stylers: [{
+                    color: '#5dc7ff'
+                }]
+            }, {
+                featureType: 'road',
+                stylers: [{
+                    visibility: 'off' // Roads initially off for the 'custom_style' (default view)
+                }]
+            }];
+
+            var zoomedMapStyle = [{
+                stylers: [{
+                    lightness: 40
+                }, {
+                    visibility: 'on'
+                }, {
+                    gamma: 1.1
+                }, {
+                    weight: 0.9
+                }]
+            }, {
+                elementType: 'labels',
+                stylers: [{
+                    visibility: 'off' // Labels off for the 'zoomed' (directions) view
+                }]
+            }, {
+                featureType: 'water',
+                stylers: [{
+                    color: '#5dc7ff' // Consistent water color
+                }]
+            }, {
+                featureType: 'road',
+                stylers: [{
+                    visibility: 'on' // Roads on for the 'zoomed' (directions) view
+                }]
+            }, {
+                featureType: 'road',
+                elementType: 'labels',
+                stylers: [{
+                    saturation: -30
+                }]
+            }];
+
+
+            var styledMap = new google.maps.StyledMapType(customMapStyle, {
+                name: 'Custom Style' // This name is not strictly necessary if mapTypeControl is false
             });
-            markers.push(marker);
-            var defaultMapOptions = {
-                name: 'Default Style'
-            };
-            var zoomedMapOptions = {
-                name: 'Zoomed Style'
-            };
-            var defaultMapType = new google.maps.StyledMapType(defaultOpts, defaultMapOptions);
-            var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
-            map.mapTypes.set('default', defaultMapType);
-            map.mapTypes.set('zoomed', zoomedMapType);
-            if (googleMaps === 'logistics') {
-                map.setMapTypeId('default');
-                var input = (document.getElementById('location-input'));
-                autocomplete = new google.maps.places.Autocomplete(input);
+            var zoomedStyledMap = new google.maps.StyledMapType(zoomedMapStyle, {
+                name: 'Zoomed Style' // Likewise
+            });
+
+            map.mapTypes.set(MY_MAPTYPE_ID, styledMap);
+            map.mapTypes.set('zoomed_style', zoomedStyledMap); // Use a different ID for the zoomed style
+
+            // Set initial marker
+            addMarker(eventPlace); // Use addMarker to create and track the initial marker
+
+            if (googleMaps == 'logistics') {
+                map.setMapTypeId(MY_MAPTYPE_ID); // Default to custom style for logistics
+                var input = document.getElementById('location-input');
+                var autocomplete = new google.maps.places.Autocomplete(input);
                 google.maps.event.addListener(autocomplete, 'place_changed', function() {
-                    marker.setVisible(false);
+                    // marker.setVisible(false); // The initial marker is managed by addMarker/deleteMarkers
+                    deleteMarkers(); // Clear previous markers before adding new ones
                     var place = autocomplete.getPlace();
-                    if (place.geometry == 'undefined' || !place.geometry) {
+                    if (!place.geometry) {
                         return;
                     }
                     var address = '';
@@ -425,159 +433,155 @@
                         'address': address
                     }, function(results, status) {
                         if (status == google.maps.GeocoderStatus.OK) {
-                            origin = results[0].geometry.location;
-                            calcRoute(origin, 'TRANSIT');
+                            originGlobal = results[0].geometry.location;
+                            calcRoute(originGlobal, "TRANSIT");
                         } else {
-                            alert('Geocode was not successful for the following reason: ' + status);
+                            alert("Geocode was not successful for the following reason: " + status);
                         }
                     });
                 });
-
-            } else {
-                map.setMapTypeId('zoomed');
-            }
-
-            function calcRoute(origin, selectedMode) {
-                var request = {
-                    origin: origin,
-                    destination: eventPlace,
-                    travelMode: google.maps.TravelMode[selectedMode]
-                };
-                directionsService.route(request, function(response, status) {
-                    if (status == google.maps.DirectionsStatus.OK) {
-                        map.setMapTypeId('zoomed');
-                        directionsDisplay.setMap(map);
-                        directionsDisplay.setDirections(response);
-                        var leg = response.routes[0].legs[0];
-                        makeMarker(leg.start_location);
-                        makeMarker(leg.end_location);
-                        $('#distance').text(leg.distance.text);
-                        $('#estimateTime').text(leg.duration.text);
-                        $('#mode-select').val(selectedMode);
-                        $('#mode').removeClass('hidden');
-                        var attribute = $('#mode-icon use').attr('xlink:href');
-                        attribute = attribute.substring(0, attribute.indexOf('#') + 1) + 'icon-' + selectedMode.toLowerCase();
-                        $('#mode-icon use').attr('xlink:href', attribute);
-                    } else if (status != google.maps.DirectionsStatus.OK && selectedMode != 'DRIVING') {
-                        calcRoute(origin, 'DRIVING');
-                    } else {
-                        var path = polyline.getPath();
-                        path.push(origin);
-                        path.push(eventPlace);
-                        makeMarker(origin);
-                        makeMarker(eventPlace);
-                        var bounds = new google.maps.LatLngBounds();
-                        bounds.extend(origin);
-                        bounds.extend(eventPlace);
-                        map.fitBounds(bounds);
-                        polyline.setMap(map);
-                        var distance = Math.round(google.maps.geometry.spherical.computeDistanceBetween(origin, eventPlace) / 1000);
-                        $('#distance').text(distance + ' km');
-                        $('#estimateTime').text('');
-                        $('#find-flight').removeClass('hidden');
-                        $('#mode').addClass('hidden');
-                    }
-                });
-                deleteMarkers();
-                $('#find-way').addClass('location-active');
-                setDirectionInput(origin);
-                $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
-            }
-            
-            function calcRouteFromMyLocation() {
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(function(position) {
-                        origin = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-                        calcRoute(origin, 'TRANSIT');
-                    });
-                }
-            }
-
-            function makeMarker(position) {
-                var directionMarker = new google.maps.Marker({
-                    position: position,
-                    map: map,
-                    icon: icon
-                });
-                markers.push(directionMarker);
-            }
-
-            function addMarker(location) {
-                var marker = new google.maps.Marker({
-                    position: location,
-                    map: map
-                });
-                markers.push(marker);
-            }
-
-            function deleteMarkers() {
-                for (var i = 0; i < markers.length; i++) {
-                    markers[i].setMap(null);
-                }
-                markers = [];
-            }
-
-            function smoothZoom(level) {
-                var currentZoom = map.getZoom(),
-                    timeStep = 50;
-                var numOfSteps = Math.abs(level - currentZoom);
-                var step = (level > currentZoom) ? 1 : -1;
-                for (var i = 0; i < numOfSteps; i++) {
-                    setTimeout(function() {
-                        currentZoom += step;
-                        map.setZoom(currentZoom);
-                    }, (i + 1) * timeStep);
-                }
-            }
-
-            function setDirectionInput(origin) {
-                geocoder.geocode({
-                    'latLng': origin
-                }, function(results, status) {
-                    if (status == google.maps.GeocoderStatus.OK && results[1]) {
-                        var arrAddress = results[1].address_components;
-                        $.each(arrAddress, function(i, address_component) {
-                            if (address_component.types[0] == "locality") {
-                                $('#result-name').text(address_component.long_name);
-                                return false;
-                            }
-                        });
-                    }
-                });
+            } else { // For other maps (index, hackathon)
+                map.setMapTypeId('zoomed_style'); // Default to zoomed style (roads visible)
             }
 
             $('#mode-select').change(function() {
                 var selectedMode = $(this).val();
-                calcRoute(origin, selectedMode);
+                calcRoute(originGlobal, selectedMode);
             });
-
-            $("#direction-locate").click(calcRouteFromMyLocation);
-
-            $("#direction-cancel").click(function() {
+            $('#direction-locate').click(calcRouteFromMyLocation);
+            $('#direction-cancel').click(function() {
                 $('#find-way').removeClass('location-active');
-                $('#location-input').val('');
-                $("#find-flight").addClass('hidden');
+                $('#location-input').val("");
+                $('#find-flight').addClass('hidden');
                 deleteMarkers();
                 directionsDisplay.setMap(null);
                 polyline.setMap(null);
-                map.setMapTypeId('default');
+                // map.setMapTypeId(MY_MAPTYPE_ID); // Revert to the initial style for the page type
+                 if (googleMaps == 'logistics') {
+                    map.setMapTypeId(MY_MAPTYPE_ID);
+                } else {
+                    map.setMapTypeId('zoomed_style');
+                }
                 map.panTo(eventPlace);
                 if ($(window).width() < 768) {
                     map.setCenter(mobileCenterMap);
                 } else {
                     map.setCenter(centerMap);
                 }
-                makeMarker(eventPlace);
-                smoothZoom(5);
+                addMarker(eventPlace); // Re-add the main event place marker
+                smoothZoom(5); // Or appropriate zoom level
                 $('#find-way h3').removeClass('fadeOutDown').addClass('fadeInUp');
             });
 
             if (typeof autoDirectionEnabled !== 'undefined' && autoDirectionEnabled == true) {
                 calcRouteFromMyLocation();
             }
+        } // End initialize function
+
+        var originGlobal; // To store origin from geolocation or autocomplete for calcRoute
+
+        function calcRoute(origin, selectedMode) {
+            if (!origin) return; // Don't calculate if origin is not set
+            originGlobal = origin; // Store for re-calculation on mode change
+            var request = {
+                origin: origin,
+                destination: eventPlace,
+                travelMode: google.maps.TravelMode[selectedMode.toUpperCase()]
+            };
+            directionsService.route(request, function(response, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    map.setMapTypeId('zoomed_style'); // Switch to a style that shows roads
+                    directionsDisplay.setMap(map);
+                    directionsDisplay.setDirections(response);
+                    var leg = response.routes[0].legs[0];
+                    addMarker(leg.start_location); // Add marker for start
+                    addMarker(leg.end_location);   // Add marker for end (eventPlace is already marked by initial addMarker)
+                    $('#distance').text(leg.distance.text);
+                    $('#estimateTime').text(leg.duration.text);
+                    $('#mode-select').val(selectedMode);
+                    $('#mode').removeClass('hidden');
+                    var modeIcon = $('#mode-icon use').attr('xlink:href');
+                    modeIcon = modeIcon.substring(0, modeIcon.indexOf('#') + 1) + 'icon-' + selectedMode.toLowerCase();
+                    $('#mode-icon use').attr('xlink:href', modeIcon);
+                } else {
+                    if (selectedMode.toUpperCase() !== "DRIVING") { // Fallback to driving if current mode fails
+                        calcRoute(origin, "DRIVING");
+                    } else { // If driving also fails
+                        polyline.getPath().push(origin);
+                        polyline.getPath().push(eventPlace);
+                        addMarker(origin); // Mark origin
+                        // eventPlace marker is already there
+                        var bounds = new google.maps.LatLngBounds();
+                        bounds.extend(origin);
+                        bounds.extend(eventPlace);
+                        map.fitBounds(bounds);
+                        polyline.setMap(map);
+                        var distance = Math.round(google.maps.geometry.spherical.computeDistanceBetween(origin, eventPlace) / 1000);
+                        $('#distance').text(distance + " km");
+                        $('#estimateTime').text("");
+                        $('#find-flight').removeClass('hidden');
+                        $('#mode').addClass('hidden');
+                    }
+                }
+            });
+            setDirectionInput(origin);
+            $('#find-way').addClass('location-active');
+            $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
         }
 
-        google.maps.event.addDomListener(window, 'load', initialize);
-    }
+        function calcRouteFromMyLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var myLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                    calcRoute(myLocation, "TRANSIT"); // Default to transit
+                });
+            }
+        }
+
+        function addMarker(location) {
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                icon: icon // Ensure 'icon' is globally available from default.html or defined here
+            });
+            markersArray.push(marker);
+        }
+
+        function deleteMarkers() {
+            for (var i = 0; i < markersArray.length; i++) {
+                markersArray[i].setMap(null);
+            }
+            markersArray = [];
+        }
+
+        function smoothZoom(level) {
+            var currentZoom = map.getZoom();
+            var step = (level > currentZoom) ? 1 : -1;
+            var diff = Math.abs(level - currentZoom);
+            for (var i = 0; i < diff; i++) {
+                setTimeout(function() {
+                    currentZoom += step;
+                    map.setZoom(currentZoom);
+                }, 50 * (i + 1));
+            }
+        }
+
+        function setDirectionInput(origin) {
+            geocoder.geocode({
+                'latLng': origin
+            }, function(results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[1]) {
+                        $.each(results[1].address_components, function(i, component) {
+                            if (component.types[0] == "locality") {
+                                $('#result-name').text(component.long_name);
+                                return false;
+                            }
+                        });
+                    }
+                }
+            });
+        }
+    } // End of "if (typeof googleMaps !== 'undefined')"
 
 })(jQuery);
