@@ -9,7 +9,7 @@
             <div class="prize col-md-{{ colWidth }} col-xs-{{ colWidth }} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
                 <h4>{{ prize.title }}</h4>
                 <div class="prize-img-wrapper">
-                    <img class="img-responsive" src="{{ site.baseurl }}/img/hackathon/{{ prize.image }}" alt="Hackathon">
+                    <img class="img-responsive" src="{{ site.baseurl }}/img/hackathon/{{ prize.image }}" alt="Hackathon" width="640" height="400" loading="lazy">
                 </div>
                 <p>{{ prize.info }}</p>
             </div>
