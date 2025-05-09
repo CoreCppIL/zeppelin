@@ -44,7 +44,7 @@ layout: compress
         document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
     }
     </script>
-    <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/default.js" | prepend: site.baseurl }}" defer></script>
     {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
     <script>
         if ($(window).width() > 767) {
@@ -52,7 +52,7 @@ layout: compress
         } 
     </script>
     {% elsif page.permalink == '/logistics/' %}
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry" defer></script>
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
         </script>
@@ -130,9 +130,9 @@ layout: compress
             
         {% endif %} 
     </script>
-    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}" defer></script>
     {% if page.permalink == '/schedule/' %}
-        <script type="text/javascript">
+        <script type="text/javascript" defer>
             $(document).ready(function () {
                 var navHeight = $('#top-header').height();
                 var headerHeight = $('.track-header').first().height();
