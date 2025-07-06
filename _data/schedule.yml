@@ -1,19 +1,19 @@
-- 
-  date: "2024-11-26"
-  dateReadable: "November 26"
-  tracks: 
-    - {title: "Full Day Workshops", color: "#90be4e"}
-  timeslots: 
-    - {
-    	startTime: "08:00",
-    	endTime: "09:00",
-    	sessionIds: [106]
-    }
-    - {
-    	startTime: "09:00",
-    	endTime: "17:00",
-    	sessionIds: [202,203]
-    }
+#- 
+#  date: "2024-11-26"
+#  dateReadable: "November 26"
+#  tracks: 
+#    - {title: "Full Day Workshops", color: "#90be4e"}
+#  timeslots: 
+#    - {
+#    	startTime: "08:00",
+#    	endTime: "09:00",
+#    	sessionIds: [106]
+#    }
+#    - {
+#    	startTime: "09:00",
+#    	endTime: "17:00",
+#    	sessionIds: [202,203]
+#    }
 #    - {
 #    	startTime: "12:30",
 #    	endTime: "13:30",
@@ -31,8 +31,8 @@
 #    }
 
 - 
-  date: "2024-11-27"
-  dateReadable: "November 27"
+  date: "2025-10-19"
+  dateReadable: "October 19"
   tracks: 
     - {title: "Hall 3", color: "#90be4e"}
     - {title: "Hall 1", color: "#90be4e"}
@@ -104,66 +104,3 @@
     	sessionIds: [007]
     }
     
-- 
-  date: "2024-11-28"
-  dateReadable: "November 28"
-  tracks: 
-    - {title: "Hall 3", color: "#90be4e"}
-    - {title: "Hall 1", color: "#90be4e"}
-    - {title: "Hall 4", color: "#90be4e"}
-  timeslots: 
-    - {
-    	startTime: "08:30",
-    	endTime: "09:00",
-    	sessionIds: [106]
-    }
-    - {
-    	startTime: "09:00",
-    	endTime: "10:00",
-    	sessionIds: [205,16,204]
-    }
-    - {
-    	startTime: "10:00",
-    	endTime: "10:30",
-    	sessionIds: [107]
-    }
-    - {
-    	startTime: "10:30",
-    	endTime: "11:30",
-    	sessionIds: [27,26,206]
-    }
-    - {
-    	startTime: "11:45",
-    	endTime: "12:15",
-    	sessionIds: [30,1000,33]
-    }
-    - {
-    	startTime: "12:15",
-    	endTime: "13:15",
-    	sessionIds: [102]
-    }
-    - {
-    	startTime: "13:15",
-    	endTime: "13:45",
-    	sessionIds: [31,89,35]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [207,17,19]
-    }
-    - {
-    	startTime: "15:00",
-    	endTime: "15:30",
-    	sessionIds: [107]
-    }
-    - {
-    	startTime: "15:30",
-    	endTime: "16:30",
-    	sessionIds: [20,21,41]
-    }
-    - {
-    	startTime: "16:40",
-    	endTime: "17:00",
-    	sessionIds: [105]
-    }

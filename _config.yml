@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Core C++ 2024"
+title: "Core C++ 2025"
 email: "info@corecpp.org"
-description: "Core C++ 2024"
+description: "Core C++ 2025"
 baseurl: ""
 url: "https://corecpp.org"
 permalink: "/blog/:title"
@@ -22,7 +22,7 @@ siteVerification: ""
 
 # Organizer Info
 organizerName: "Core C++"
-organizerAlternateName: "The Core C++ 2024 Conference"
+organizerAlternateName: "The Core C++ 2025 Conference"
 organizerDescription: "The Core C++ User Group."
 organizerEmail: "info@corecpp.org"
 organizerLogo: "/img/seo/organizer-logo.png"
@@ -37,27 +37,24 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://cfs.corecpp.org/"
-c4sponsorsUrl: "/assets/CoreCpp2024_SponsoringOffer.pdf"
+c4sponsorsUrl: "/assets/CoreCpp2025_SponsoringOffer.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
-# - {link: "https://2019.corecpp.org", text: "Core C++ 2019"}
-# - {permalink: "/logistics/", text: "Logistics"}
-# - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
+ - {link: "https://ti.to/hamakor/core-cpp-2025", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
 #- {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
+ - {link: "https://ti.to/hamakor/core-cpp-2025", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
@@ -65,30 +62,30 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.webp"
-heroTitle: "Core C++ <typeout> 2024"
-eventDate: "November 26-28, 2024"
+heroTitle: "Core C++ <typeout> 2025"
+eventDate: "October 19, 2025"
 typeoutTextValues: '"", "Conference", "Autumn", "Israel", "Local"'
 typeoutFallback: "Conference"
 heroButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2024-local", text: "Register"}
+ - {link: "https://ti.to/hamakor/core-cpp-2025", text: "Register"}
 # - {link: "/assets/CoreCpp2024_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
 # - {link: "/assets/CoreCpp2024_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
-aboutTitle: "About Core C++ 2024"
+aboutTitle: "About Core C++ 2025"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "We are back with the second C++ conference in Israel brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
+ - {title: "Conference", image: "conference.jpg", text: "Israeli C++ conference  brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
 # - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite C++ feature!" }
 # - {title: "Hackathon", image: "hackathon.jpg", text: "Want some real team and skill building? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.webp"
 statisticBlock:
- - {count: "550", specialCharacter: "+", info: "attendees", detail: "face to face"}
- - {count: "40", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
- - {count: "30", specialCharacter: "+", info: "speakers", detail: "international and local"}
+ - {count: "300", specialCharacter: "+", info: "attendees", detail: "face to face"}
+ - {count: "20", specialCharacter: "+", info: "hours", detail: "of C++ goodness"}
+ - {count: "15", specialCharacter: "+", info: "speakers", detail: "enthusiasts and experts"}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "and other activities"}
 
 # Latest News Block
@@ -147,7 +144,7 @@ venueTitle: "Tel Aviv Cinematheque"
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "corecpp2024"
+twitterHashTag: "corecpp2025"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -165,47 +162,47 @@ partnersC4sponsorsButton: "Become a sponsor"
 ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
-# -
-#  name: "Full 2-Day Ticket: Early Bird"
-#  price: "750"
-#  priceCurrency: "ILS"
-#  ribbon: "Discount"
-#  featured: true
-#  ticketsNumber: "100"
-#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local/with/g2j3shd-yk"
-#  buyButtonText: "Register Now"
-#  ticketContentList: ["Two Day Conference", "Two Parallel Tracks", "On Sale Until October 1st!"]
-#  validFrom: "2024-09-01"
-#  validThrough: "2024-10-01"
-#  soldOut: false
-#  soldOutText: "Sold Out"
  -
-  name: "Full 2-Day Ticket"
-  price: "850"
+  name: "Full 1-Day Ticket: Early Bird"
+  price: "450"
+  priceCurrency: "ILS"
+  ribbon: "Discount"
+  featured: true
+  ticketsNumber: "100"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2025"
+  buyButtonText: "Register Now"
+  ticketContentList: ["Full Day Conference", "Three Parallel Tracks", "On Sale for a Limited Time!"]
+  validFrom: "2025-07-06"
+  validThrough: "2025-08-15"
+  soldOut: false
+  soldOutText: "Sold Out"
+ -
+  name: "Full 1-Day Ticket"
+  price: "550"
   priceCurrency: "ILS"
   featured: true
   ticketsNumber: "300"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local/with/0gqfvzqpyju"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2025"
   buyButtonText: "Register Now"
-  ticketContentList: ["Two Day Conference", "Two Parallel Tracks", "Meet Fellow Developers"]
-  validFrom: "2024-10-01"
-  validThrough: "2024-11-27"
+  ticketContentList: ["Full Day Conference", "Three Parallel Tracks", "Meet Fellow Developers"]
+  validFrom: "2025-07-06"
+  validThrough: "2025-10-19"
   soldOut: false
   soldOutText: "Waiting List"
- -
-  name: "Workshop"
-  price: "1350"
-  priceCurrency: "ILS"
-  ribbon: "Limited"
-  featured: true
-  ticketsNumber: "100"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local"
-  buyButtonText: "Register Now"
-  ticketContentList: ["Full day workshop", "3 workshops to chose from!", "Top C++ trainers"]
-  validFrom: "2024-10-24"
-  validThrough: "2024-11-26"
-  soldOut: false
-  soldOutText: "Event Ended"
+# -
+#  name: "Workshop"
+#  price: "1350"
+#  priceCurrency: "ILS"
+#  ribbon: "Limited"
+#  featured: true
+#  ticketsNumber: "100"
+#  buyButtonLink: "https://ti.to/hamakor/core-cpp-2024-local"
+#  buyButtonText: "Register Now"
+#  ticketContentList: ["Full day workshop", "3 workshops to chose from!", "Top C++ trainers"]
+#  validFrom: "2024-10-24"
+#  validThrough: "2024-11-26"
+#  soldOut: false
+#  soldOutText: "Event Ended"
 
 # Footer
 socialLinks:
