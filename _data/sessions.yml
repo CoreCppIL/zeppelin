@@ -31,10 +31,10 @@
   id: 007
   title: "Meetup & Lightning Talks"
   description: >
-    <p>Join us for an open lightning talks event at the end of the first day of the Core C++ 2024 conference!</p>
+    <p>Join us for an open lightning talks event at the end of the first day of the Core C++ 2025 conference!</p>
     <p>A lightning talk event is an open stage for short talks. It’s an event where you and others get to talk about interesting topics for 5-10 minutes. Serious or funny, thoroughly prepared or mostly improvised, expert speaker or first-timer, conference participant or not - everyone is invited.</p>
     <p><b>We welcome talks that are broadly related to C++ development and to software development in general. Entertaining fast-paced talks are particularly welcome, this is a light-spirited event!</b></p>
-    <p>The meetup is free for all, so join us and invite your colleagues! <br>Register and submit your lightning talk <a href="https://www.meetup.com/corecpp/events/304265674/">here.</a></p>
+    <p>The meetup is free for all, so join us and invite your colleagues! <br>Register and submit your lightning talk <a href="???">here.</a></p>
 -
   id: 008
   title: "Great C++ content!"
@@ -42,7 +42,7 @@
   service: true
 -
   id: 099
-  title: "Welcome to Core C++ 2024!"
+  title: "Welcome to Core C++ 2025!"
   #place: "Weston::Auditorium"
   subtype: keynote
   service: true
@@ -86,302 +86,117 @@
   description: "To be announced soon"
 -
   id: 11
-  title: "C++ Fundamentals: Unit Testing"
+  title: "Typing++ for C++ - Making the Compiler Do the Thinking"
   description: >
-    <p>Proper developer testing is crucial in software development but is sometimes overlooked, especially in C++. In this session, we will focus on unit testing in C++ using Google Test examples. We'll start with the basics of creating automated unit tests and then move on to more complex scenarios involving mocks. We’ll discuss the Test-Driven Development (TDD) approach and other best practices for unit testing. This session is part of the Fundamentals track and is relevant for both beginners and more advanced developers who want to enhance their testing abilities.</p>
+    <p>C++ lets us write powerful systems-and equally powerful bugs. Its weak typing gives us freedom, but not always safety.</p>
+    <p>In this talk I'll argue that typing not a computing concept, but a linguistic one. By designing expressive types-from basic ints to rich class structures-we can shift from "I think this is right" to "I know this is right," catching errors at compile time instead of runtime.</p>
+    <p>Expect practical examples, a few missteps (mine, mostly), and techniques to make your compiler a partner in correctness-not just a passive syntax checker.</p>
   speakers: [11]
-  language: Hebrew
+  #language: Hebrew
 -
   id: 12
-  title: "Evolving C++ Networking with Senders & Receivers [part 1]"
+  title: "Parallel Paths: From SIMD Lanes to Memory Highways in C++"
   description: >
-    <p><code>std::execution</code> (“senders & receivers”) has been voted into the C++26 working draft, providing a standard framework for concurrency and parallelism in C++. However, as the community has seen many times before, simply standardizing something doesn’t imply it will be adopted, much less adopted quickly or painlessly. Now remains the problem of adopting <code>std::execution</code> into existing workflows, problems, and codebases.</p>
-    <p>Making this situation more challenging is the fact that <code>std::execution</code> as currently integrated into the C++26 working draft is a minimum viable product. Facilities that one might intuitively expect, such as networking or other I/O support, robust execution contexts, or richer primitives, are completely absent. In these early days, developers are required to implement new primitives themselves, understanding and applying the principles of <code>std::execution</code> to achieve higher-level goals.</p>
-    <p>This talk will consider an existing, production, networking server written using pre-C++26 established practice. It will introduce the key concepts and primitives of <code>std::execution</code>, and demonstrate how to extend them iteratively to ultimately replace the existing server.</p>
+    <p>In this talk, we will take a journey through two complementary ways to utilize hardware parallelism in C++. We will begin with SIMD (Single Instruction, Multiple Data), where one instruction processes a whole batch of values at once. The path will run from hand-written vectorized assembly, to compiler intrinsics, to libraries, and finally to auto-parallelization, with examples of what works, what doesn’t, and how to verify the compiler’s choices. We will see why SIMD shines in structured compute-bound code, and why it sometimes falls short.</p>
+    <p>We will then broaden the scope to memory-level parallelism (MLP) - a hardware feature that overlaps multiple independent memory accesses to reduce overall latency. We will discuss how to take advantage of MLP in C++ through bulk operations and APIs, and show how this approach can bring substantial benefits even in less structured code with irregular memory access patterns.</p>
   speakers: [12]
--
-  id: 1212
-  title: "Evolving C++ Networking with Senders & Receivers [part 2]"
-  description: >
-    <p><code>std::execution</code> (“senders & receivers”) has been voted into the C++26 working draft, providing a standard framework for concurrency and parallelism in C++. However, as the community has seen many times before, simply standardizing something doesn’t imply it will be adopted, much less adopted quickly or painlessly. Now remains the problem of adopting <code>std::execution</code> into existing workflows, problems, and codebases.</p>
-    <p>Making this situation more challenging is the fact that <code>std::execution</code> as currently integrated into the C++26 working draft is a minimum viable product. Facilities that one might intuitively expect, such as networking or other I/O support, robust execution contexts, or richer primitives, are completely absent. In these early days, developers are required to implement new primitives themselves, understanding and applying the principles of <code>std::execution</code> to achieve higher-level goals.</p>
-    <p>This talk will consider an existing, production, networking server written using pre-C++26 established practice. It will introduce the key concepts and primitives of <code>std::execution</code>, and demonstrate how to extend them iteratively to ultimately replace the existing server.</p>
-  speakers: [12]
+  #language: Hebrew
 -
   id: 13
-  title: "Welcome to the meta::[[verse]]!"
+  title: "C++ Contracts – a Meaningfully Viable Product"
   description: >
-    <p>With a proposal slated to introduce reflection to C++26 (including the “std::meta” namespace) getting strong support in WG21, we can already start imagining a whole new world of possibilities. In this session, we will dive into reflection and its transformative potential within our codebases.</p>
-    <p>We will start with an introduction of utilities from the reflection proposal. Then, we delve deeper into practical applications and demonstrate solutions to problems that commonly use reflection and the power it holds.</p>
-    <p>We will also talk about the latest updates and changes in the proposal, applied while going through the review process in WG21.</p>
-    <p>For the last part, we will explore the possibilities within “Reflection Libraries". This includes both “traditional” libraries which provide functionality, and more “novel” approaches which reshape users’ code. We will look at examples of what such libraries can cover, and demonstrate potential directions the future holds.</p>
-    <p>Join us as we traverse the meta::[[verse]]!</p>
+    <p>After 2 full decades of multiple efforts aimed at introducing a contracts feature into the C++ language, contracts have finally been voted into C++26 at the February 2026 C++ Standards Committee (WG21) meeting in Hagenberg, Austria. To be more precise – confirmation into the standard was given to the Contracts MVP – Minimal Viable Product. This talk will bring you the highlights of the MVP and if time allows also some forecasted features beyond it. We will shift our focus away from the theoretical background behind contracts and more into some select minutiae and pitfalls encountered along the tortuous process of developing this MVP, while also inspecting the most important things future contracts users should be aware of. And you can also expect some am(a/u)sement along the way!</p>
   speakers: [13]
+  #language: Hebrew
 -
   id: 14
-  title: "Think Parallel"
+  title: "Code Smarter: Harnessing AI tools for C++ Development"
   description: >
-    <p>By default, we think sequentially. Parallelism and asynchrony are often seen as challenging and complex. Tools to be used sparingly and cautiously, and only by experts.</p>
-    <p>But we must shatter these assumptions, for today, we live in a parallel world. Almost every hardware platform is parallel, from the smallest embedded devices to the largest supercomputers.</p>
-    <p>We must change our mindset. Anyone who writes code must think in parallel. Parallelism must become our default.</p>
-    <p>In this example-driven talk, we will journey into the world of parallelism. We'll look at different algorithms and data structures in depth, comparing and contrasting different implementation strategies and exploring how they will perform both sequentially and in parallel.</p>
-    <p>During this voyage, we'll uncover and discuss some foundational principles of parallelism, such as latency hiding, localizing communication, and efficiency vs performance tradeoffs. By the time we're done, you'll be thinking in parallel.</p>
+    <p>AI is everywhere. But how can we use it to make an impact?</p>
+    <p>In this talk, we'll dive into how AI tools are changing the game for C++ developers. Drawing from real-world deployment experience within Microsoft, I’ll introduce you to a framework developed to rigorously analyze AI tools, and introduce practical use cases, unexpected challenges, and their applicability to C++ workflows.</p>
+    <p>During the talk we’ll explore and get familiar with the latest available tools. We’ll also address limitations, best practices, and learn how to integrate these tools into production-level development environments.</p>
+    <p>Whether you're skeptical or excited, this session will leave you with a grounded understanding of where AI tooling stands today, what it can (and can't) do for your C++ projects, and how to prepare for the next wave of innovation.</p>
   speakers: [14]
+  #language: Hebrew
 -
   id: 15
-  title: "Improving our safety with a quantities and units library"
+  title: "Who's Afraid of the Big Bad Template?"
   description: >
-    <p>Safety has been a huge buzzword in the C++ Community in recent years. There are many concerns about the safety of our C++ language and the projects that have been developed using it. Many improvements are being discussed, starting from handling of the low-level fundamental types, through updating the language rules (e.g., initialization), up to providing safer high-level abstractions in the library.</p>
-    <p>This lecture presents how the usage of a Modern C++ quantities and units library can improve the safety of the code we write every day. During the talk, Mateusz will describe all issues and possible solutions discussed in <a href="https://wg21.link/p2981">P2981: Improving our safety with a physical quantities and units library</a>. Based on the examples developed with the mp-units project, the attendees will not only learn the obvious benefits of using such a library, but also some less known safety features will be presented.</p>
-    <p>During the talk, we will see typical issues of code bases that do not use a proper library. We will also learn about various mishaps in engineering that happened through the ages and were caused by human errors in handling quantities and their units. We will also see how they can be easily and safely addressed using the mp-units library.</p>
-    <p>In the end, Mateusz will describe which issues can't be solved by the quantities and units library itself for now. He will review a list of potential extensions to the C++ language and its library that would allow even more safety in our projects.</p>
+    <p>Many C++ developers can spend years, sometimes even a decade, without ever touching templates. In some workplaces, templates are even forbidden, treated as a dangerous curse requiring rare expertise.</p>
+    <p>This fun talk takes that “terrifying” subject and shows that templates are not as scary as they seem, and can even become your friend. We’ll start with something seemingly intimidating like NTTPs (Non-Type Template Parameters) and slowly dive into more “monstrous” code examples. Step by step, every piece will be broken down and explained in detail, turning fear into understanding.</p>
+    <p>This talk has only one requirement for attendance: a smile, so bring one with you :)</p>
   speakers: [15]
+  #language: Hebrew
 -
   id: 16
-  title: "C++ parallel programming models"
+  title: "We got reflection - now what?"
   description: >
-    <p>Modern C++ offers a wealth of parallel programming features. Those features belong to four different programming models: low-level, a-sync, cooperative multitasking, and data parallel. The low-level model (or rather, non-model) contains the basic building blocks – threads, atomics, mutex etc. The a-sync model contains async, future and related classes. The cooperative multitasking model relies on coroutines. Lastly, the data parallel model contains the parallel algorithms. The four models aren’t just different abstraction levels – each is appropriate for a different program structure. This talk will review the four models, describe the central features used by each model, and discuss the expected use case for each one. Since many of the parallelism features are not new to the language at this point, the talk will not focus on the details of the features themselves. Instead, the talk will put them in the context of a programming model, and make the choice of parallel programming features easier for C++ developers.</p>
+    <p>C++26 introduces new reflection capabilities into the language. In this talk we will explore some of the things that we can already do with these new capabilities, as well as some future enhancements that might prove useful.</p>
   speakers: [16]
+  #language: Hebrew
 -
   id: 17
-  title: "Messing with Floating Point"
+  title: "C++ Pitfalls and Sharp Edges to Avoid"
   description: >
-    <p>Used in engineering, machine learning, graphics, and more, floating point arithmetic is a cornerstone of modern numerical computing. Despite its widespread application, many developers lack a sufficient understanding of the floating point type and its intricacies. This presentation aims to clarify these concepts.</p>
-    <p>We will walk through the bitwise representation of floating point values, the IEEE 754 Standard, the nuances of arithmetic operations, and some common sources of floating point error. We'll also look at some practical solutions to common pitfalls in C++. A basic familiarity of binary representation (of integers) will be helpful, but no prior experience with floating point arithmetic is necessary.</p>
-    <p>Floating point is not necessarily the dry, enigmatic topic that it's often made out to be. To convince you of this, we will also walk through some brilliant floating point algorithms such as float to decimal string and fast inverse square root.</p>
+    <p>C++ is a powerful language, but with great power comes… plenty of pitfalls. Memory management quirks (even when using smart pointers), subtle undefined behaviors, and bug-prone code can silently introduce dangerous behaviors, only to surface at the worst possible moment in production. In this talk, we’ll explore some notorious C++ real life pitfalls and sharp edges, discussing strategies to avoid them and write safer, more resilient code.</p>
   speakers: [17]
+  #language: Hebrew
 -
   id: 18
-  title: "Unlocking the Value of C++20 Features"
+  title: "Refactoring towards Structured Concurrency"
   description: >
-    <p>With C++23 already making waves and C++26 on the horizon, the allure of cutting-edge features tantalizes C++ enthusiasts. However, the practical reality is that many companies are yet to embrace C++23 and are eyeing the transition to C++20 in the interim. In this proposal, I aim to guide fellow developers through this crucial transition period by shedding light on the indispensable features of C++20 beyond the widely discussed "big 4". Through practical examples and insightful discussions, attendees will gain a comprehensive understanding of the pivotal elements within C++20 and their correct application.</p>
-    <p>From concepts like coroutines to modules, constexpr improvements, and more, this talk will not only demystify these features but also elucidate their tangible value in real-world scenarios. By the session's conclusion, participants will be equipped with the knowledge and confidence to harness the full potential of C++20, facilitating a smooth transition and amplifying the efficacy of their codebase.</p>
+    <p>The addition of "Senders and Receivers" (a.k.a <a href="https://en.cppreference.com/w/cpp/execution.html">execution</a>) to C++26 is a nudge for C++ practitioners to consider utilizing Structured Concurrency princinples when designing and implementing concurrent systems. Structured Concurrency is a well reasoned methodology, described by various C++ experts in the past, focused on composability, wide applicability, error tollerance and on correct fit with the rest of the language, most notably C++20 coroutines. The challenge that we'll face in this talk is that of taking existing concurrent and systems which were not originally designed with Structured Concurrency in mind, and making the gradual changes towards that design and towards more natural use of senders, receivers and coroutines. Join me in a tour of various techniques and tips for modernizing legacy concurrent systems, as we prepare for adopting the C++26 standard.</p>
   speakers: [18]
+  #language: Hebrew
 -
   id: 19
-  title: "A modern C++ approach to JSON Sax Parsing"
+  title: "Managing dependencies with CMake"
   description: >
-    <p>The most common practice of parsing JSON (or YAML, XML, or any other markup language) is by loading its DOM into memory and exploring the available data. However, using DOM introduces multiple linear overheads for CPU time and memory, as well as code complexity for querying the DOM.</p>
-    <p>This talk explores a different approach: event-driven processing of JSON content with fast, minimal memory overhead. This methodology will also keep  your parsing code squeaky clean! In it, we will review normalizing the callback API into a more manageable format while also managing the state of the parsing operation, as well as creating an external API that allows users to only manage with what they care about.</p>
-    <p>We will also provide an overview of different options for parsing JSON (such as DOM and SAX), the different levels of abstraction used for reaching this solution, the pros and cons of using SAX-driven parsing, and the opportunities for extending this approach to other technologies and data structures.</p>
-    <p>On top of it all, there will be some cool videos from Burning Man!</p>
+    <p>As modern C++ projects grow in complexity, effective dependency management becomes essential for maintaining code quality and ensuring seamless integration of external libraries.</p>
+    <p>We will explore various strategies for defining, locating, and linking dependencies within CMake. Attendees will gain insights into best practices for organizing dependencies.</p>
+    <p>We will highlight common pitfalls and provide solutions to streamline the dependency management process. By the end of the session, participants will be equipped with the knowledge and tools to effectively manage dependencies in their CMake-based projects, leading to improved build reliability and enhanced collaboration within development teams.</p>
   speakers: [19]
+  #language: Hebrew
 -
   id: 20
-  title: "Implementing Ranges and Views"
+  title: "Welcome to the Museum of AI Hallucinations"
   description: >
-    <p>Since <code>ranges</code> were introduced to C++20, a new paradigm was presented to us C++ developers. This paradigm, <a href="https://cppcast.com/sequence_oriented_programming/">sequence oriented programming</a> allows easy expression of useful algorithms, helps us decompose problems into smaller-clearer sub-problems and has the potential of increasing the readability and maintainability of solutions we develop to difficult problems.</p>
-    <p>Though rich and diverse, the set of tools in our ranges toolbox is at its infancy, and the robust design of the library makes it possible for us to extend it with algorithms and views on our own. Doing so can increase our productivity, enrich our vocabulary and also be fun and challenging.</p>
-    <p>In this talk I'll discuss the structure of the ranges library in terms of its main <code>concepts</code> and how it was designed to be extensible (especially as on C++23).</p>
-    <p>We will focus on the implementation range <code>views</code>, and go over several examples of how new views which aren't part of the standard should be designed and implemented, in a way that fits with the rest of the ranges library.</p>
-    <p>Join me in the development of range adapters as we learn about range categories, concepts, adapters, customization-point-objects and range-adapter-closures.</p>
+    <p>We are going to explore the surprising creative potential of AI hallucinations in generative AI models like DALL-E. While typically viewed as flaws in deep learning, these "errors" can produce unexpected artistic brilliance. By comparing human imagination with AI’s pattern-based logic, the piece questions whether AI's falsehoods might actually be a new kind of creativity. It challenges how we define truth, error and inspiration in the age of artificial intelligence.</p>
   speakers: [20]
+  #language: Hebrew
 -
   id: 21
-  title: "Open Is Good: Fast, Orthogonal Open (Multi) Methods with YOMM2"
+  title: "C++26 Contracts: Pitfalls to Watch"
   description: >
-    <p>Have you ever felt your life would be simpler if you could just add virtual functions to a class hierarchy whenever you needed to (e.g., to persist an object or render it in JSON), but refrained because you did not own the classes, and doing so would violate the principle of separation of concerns? Have you toiled on a Visitor class again? Did you struggle to get double dispatch right because you needed to implement binary operations for polymorphic classes?</p>
-    <p>Open methods solve all these problems, while requiring you to write much less code -- and they deliver superior performance.</p>
-    <p>Open methods are virtual functions that are defined outside of a class. Given a method declaration and a set of specializations, the most specific version is selected, depending on the dynamic type of one or more arguments. Open methods make it possible to add polymorphic behavior to existing class hierarchies, without modifying them. open methods offer a superior alternative to the Visitor pattern, and a solution to the problem of cross-cutting concerns. Since more than one argument can participate in the selection of the specialization, open methods also solve the binary (or multiple) dispatch problem.</p>
-    <p>YOMM2 is an implementation of open methods in library. It was inspired by the paper Open Multi-Methods for C++, by Peter Pirkelbauer, and Yuriy Solodkyy, and Bjarne Stroustrup. YOMM2 delivers excellent performance, and requires no external tooling. It was first released in 2017 and presented at CppCon 2018. Since then, the library has evolved significantly. Support was added for friend and member methods, templatized methods, automatic deduction of inheritance graphs, wide pointers for faster dispatch, support for custom RTTI, static offsets for faster-than-virtual method dispatch, etc.</p>
-    <p>YOMM2 is available on GitHub and on Compiler Explorer.</p>
+    <p>In this talk I'll describe a few already-known pitfalls in the new C++26 feature named contracts.</p>
+    <p>While the Contract facility gives a good way to find bugs, still it bears a few already known pitfalls. The talk shows theoretical alongside practical pitfalls when using contracts. All examples in the talk are taken from existing compiler implementations and exiting code which is open sourced and can be further investigated by the audience.</p>
   speakers: [21]
+  #language: Hebrew
 -
-  id: 22
-  title: "Optimizations in the HFT world"
+  id: 1000
+  title: "TITLE"
   description: >
-    <p>Yes, we know we are all C++ programmers, and we all care a lot about our performance, but trust us when we say that the world of High Frequency Trading (HFT) takes this to a whole new level. In our world, reliable and predictable low latecy is a necessity, and we could never "excess" low latency. It's a competitive market where everyone are fighting to get extra nanos, and we're focused on any inch we could gain. Above that, our most critical path, is rarely and unpredictably executed, which means standard performance optimizations, that is normally aimed to maximize throughput, are not applicable in our case. For example, we cannot trust the kernel to "fairly" share resources, and we cannot evacuate "cold" code from the cache. In this talk, we will explore some of the unique challenges this world brings to us, we will discuss some of the benchmark challenges to optimization we introduce to our application. From the physical layer, to bypassing the kernel, to some of our day-to-day application development optimization decisions.</p>
-  speakers: [22, 39]
+    <p>DESC</p>
+  speakers: [1000]
+  #language: Hebrew
 -
-  id: 23
-  title: "Building Effective Embedded Systems: Architectural Best Practices"
+  id: 1000
+  title: "TITLE"
   description: >
-    <p>Embedded development is a complex process that brings together software, electronics, physics, mechanics, and algorithms. Designing a system with embedded components requires careful consideration of multiple factors. However, there is a lack of knowledge regarding correct practices in building embedded systems. In my talk, I will offer valuable insights to enhance the effectiveness of embedded development, focusing on improving robustness, speed, and maintainability. By addressing the challenges in this field, attendees will gain a deeper understanding of how to design and build embedded systems correctly. Through practical advice and best practices, I aim to empower developers to overcome obstacles and achieve successful outcomes in their projects.</p>
-  speakers: [23]
-  language: Hebrew
+    <p>DESC</p>
+  speakers: [1000]
+  #language: Hebrew
 -
-  id: 24
-  title: "Back to Basics: Design Patterns"
+  id: 1000
+  title: "TITLE"
   description: >
-    <p>In this talk we will talk about what are design patterns. Why they matter. And will go over the most common design patterns used in C++.</p>
-  speakers: [24]
+    <p>DESC</p>
+  speakers: [1000]
+  #language: Hebrew
 -
-  id: 25
-  title: "Debug C++ Programs You did not write"
+  id: 1000
+  title: "TITLE"
   description: >
-    <p>Many times one find himself debugging code he didn't write. Often, without access to debug information. It could be external library. Third party integration, or just old release no one is able to build anymore. We'll survey some tricks to debug without the source code</p>
-  speakers: [25]
--
-  id: 26
-  title: "The battle over Heterogeneous Computing"
-  description: >
-    <p>As our world advances to AI and dense computing, more and more GPUs and DSPs are developed to accelerate the compute.</p>
-    <p>But how can I send C++ kernels to be executed on a GPU?</p>
-    <p>Unfortunately, C++ does not yet propose a solution to heterogenous systems but it is evolving and on the way many solutions come to the rescue.</p>
-    <p>In the lecture, I will speak on existing solutions like OpenCL, SYCL, CUDA, new C++26 libraries and other programming languages.</p>
-    <p>I will present the compilers technology that was developed in Mobileye based on LLVM infrastructure and the challenges we faced.</p>
-  speakers: [26]
--
-  id: 27
-  title: "C++ Security Fundamentals: From Standards to Practice"
-  description: >
-    <p>This lecture offers a bird's-eye view of the crucial security considerations in C++ development, tailored for software professionals seeking to enhance their systems' robustness. We begin by exploring common vulnerabilities specific to C++, shedding light on the risks associated with undefined and compiler-specific behaviors. The discussion then moves to established guidelines and standards, focusing on MISRA C++ and the SEI CERT C++ Coding Standard, which form the backbone of secure C++ development practices. We'll also cover the role of static analysis tools in identifying potential security flaws early in the development process.</p>
-    <p>This lecture aims to provide attendees with valuable pointers (pun intended) to practices, standards, and tools that will help them develop better, more secure C++ code. It serves as a solid foundation for further exploration of C++ security topics.</p>
-  speakers: [27]
--
-  id: 28
-  title: "C++ Fundamentals: Object-Oriented Programming with C++"
-  description: >
-    <p>C++ is not just an Object-Oriented Programming Language, it supports many paradigms. But in this session we would focus on the object oriented aspects of C++, from encapsulation to inheritance and polymorphism. The session aims to cover the basic syntax together with best practices, tips, pitfalls to avoid and more. We would discuss design considerations, the advantages and disadvantages of different approaches and other alternatives that the language provides. Some relevant design patterns may also pop-by. This session is aimed for both novice and intermediate level C++ developers, closing gaps and putting the spotlight on important aspects. More experienced developers are of course welcomed to join and enrich the discussion with their knowledge and experience.</p>
-  speakers: [28]
-  language: Hebrew
--
-  id: 29
-  title: "Optimizing Embedded Software Infrastructure: Principles and Practices for Platform Selection"
-  description: >
-    <p>In the rapidly evolving landscape of embedded systems, selecting the right software infrastructure and platform is crucial for achieving optimal performance and maintainability. This talk will explore the principles and practices our company has developed for choosing and implementing embedded software infrastructure. We will cover the methodologies used for evaluating and selecting platforms, including criteria such as scalability, integration capabilities, and support for real-time operations. Through an embedded C++ application case study attendees will gain insights into our decision-making process and understand how to align platform choices with long-term strategic goals.</p>
-  speakers: [29, 40]
-  language: Hebrew
--
-  id: 89
-  title: "Mastering CTest: Streamlining Your C++ Testing Workflow"
-  description: >
-    <p>In the realm of modern C++ development, ensuring code quality and reliability is paramount. CTest, part of the CMake suite, offers a robust framework for automating and managing tests. This talk will guide you through the essentials of CTest, from basic setup to advanced features. We'll explore how to integrate CTest into your existing projects, write effective tests, and leverage CTest's powerful capabilities to optimize your testing pipeline. Whether you're a seasoned developer or new to CTest, this session will equip you with the knowledge and tools to enhance your testing strategy and boost your project's success.</p>
-  speakers: [29]
-  language: Hebrew
--
-  id: 30
-  title: "Get More Out of Compiler-Explorer ('godbolt')"
-  description: >
-    <p>I'm a CE maintainer, and in this talk I'll show many less-known and powerful CE features. In particular, we'll go beyond the typical conferences/tutorials usage of CE to inspect just small C++ snippets, and you'll learn how to inspect real-life code in its real-life habitat (i.e., headers and libraries).</p>
-    <p>The talk is intended for people already familiar with CE, but would contain a brief introduction.</p>
-  speakers: [30]
-  language: Hebrew
--
-  id: 31
-  title: "Speeding up Intel Gaudi deep-learning accelerators using an MLIR-based compiler"
-  description: >
-    <p>Middle-end optimizations play a critical role in generating high-performance code for deep learning accelerators. In this talk, we will present an MLIR-based fusing compiler that generates optimized LLVM IR from high-level graph IR, which is then compiled by an LLVM backend for execution on tensor processing cores in Intel Gaudi deep learning (DL) accelerator. This compiler has been in use for the past three generations of Gaudi products and provides around 54% average performance improvements at a model-level. The talk will cover the lowering pipeline, how we leverage upstream MLIR dialects and some key optimizations and learnings for compiling deep learning workloads to Gaudi.</p>
-    <p>Authors: Dafna Mordechai, Omer Paparo Bivas, Jayaram Bobba, Sergei Grechanik, Tzachi Cohen, Dibyendu Das</p>
-  speakers: [31, 38]
--
-  id: 32
-  title: "How to become a better C++ programmer"
-  description: >
-    <p>Professional C++ code appears in various levels. Marshall Cline, the original owner of C++ FAQs, wrote in the first ed. of the book: Q: How long does it take to become a good OOP in C++? A: Between six months and three years, depending on your definition of good. My experience was a bit different: I did get some big complements on my code after three years of partially using C++, but my big "Ah Ha!" (Eureka?) came at the fifth year, and then on the tenth year. When we are experienced in programming, we follow most of the formal rules and practices for quality software. However, I believe that our inner state may differ, depending on our personality; namely, the better code is not made by only following formal rules. Indeed, I think that SW development is an art. Therefore, I'll try to express my point of view, on programming, as open as possible, allowing different interpretations by different people.</p>
-  speakers: [32]
--
-  id: 33
-  title: "Exiting the time machine: from C++ 98 to the present."
-  description: >
-    <p>Imagine that a C++ programmer fell into a deep sleep in 2009 and woke up a decade and a half later. What would be different? How would s/he need to adjust?</p>
-    <p>This talk will run take us from C++ 98 to C++23, presenting a brief survey of the changes to the language over the past decade and a half.</p>
-  speakers: [33]
--
-  id: 34
-  title: "The Pains and Joys of C++ In-Process Graph Execution"
-  description: >
-    <p>Task graphs often appear in different software systems, but the requirements for them can vary a lot depending on the domain.</p>
-    <p>In this talk, we’ll look at real-world examples where task graphs are useful and discuss the challenges coming from different use cases.</p>
-    <p>We’ll also explore some implementation tricks and see what existing libraries offer. If there’s time, we’ll dream about unicorns—the perfect task graph execution engine.</p>
-  speakers: [34]
--
-  id: 35
-  title: "Leveraging Pure Interfaces for C++ Applications"
-  description: >
-    <p>Software development usually involves several code libraries maintained by different groups. This usually means frequent version releases for the purpose of integrations. The API tends to evolve and change between versions, causing a lot of integration effort. In this lecture we'll review what pure interfaces are, how to properly use them and how they can reduce development, maintenance and integration efforts. We'll discuss how to maintain the interfaces, what are the restrictions, and how different types of changes affect (or not) the code using the API. The presentation is based on real life experience of moving an SDK API to use pure interfaces, and it will cover the costs and benefits of this migration.</p>
-  speakers: [35]
-  language: Hebrew
--
-  id: 36
-  title: "3d logs to analyze self-driving cars"
-  description: >
-    <p>Self-driving cars produce massive amounts of data. Both in real rides and simulation.</p>
-    <p>We present a novel approach treating visualization data as 3d logs, enhancing three key areas: cold storage size, read latency, write flexibility.</p>
-    <p>This talk will show how, by utilizing C++ speed, devtools can boost productivity tenfold, saving engineering time and resources.</p>
-  speakers: [36]
-  language: Hebrew
--
-  id: 37
-  title: "Not Invented Here: Reinventing the Wheel to Facilitate Dev Culture Change"
-  description: >
-    <p>"Not invented here" is a reoccurring problem in software development, but not always. Through code and the story of creation of yet another JSON serialization library for C++, we will show how well-crafted solutions for mundane tasks could facilitate positive culture change and growth in a development team, during one of the most stressful phases of a start-up — transition to a fully grown R&D team.</p>
-    <p>The talk will both dive into the technical aspects of such a library, and show how such solutions affects the team in the long term.</p>
-  speakers: [37]
--
-  id: 201
-  title: "Concurrency Tools in the C++ Standard Library"
-  description: >
-    <p>Today, C++ software is increasingly asynchronous and parallel, a trend that is likely only to continue going forward. The C++ standard acknowledged threads and provided the first concurrency facilities with C++11. The set of primitives and lower-level building blocks was greatly extended in C++20 with many powerful abstractions.</p>
-    <p>During this training, we will learn the concurrency utilities in the C++ Standard Library. We will also explain how new C++20 features improve the "old" abstractions we got before. We will talk about threads, mutexes, deadlocks, work cancellation, semaphores, latches, barriers, and many more. We will also introduce a few higher-level abstractions (e.g., concurrent_queue and monitor design pattern).</p>
-    <p>This is a hands-on workshop, and we will do many practical coding exercises. Thanks to the Compiler Explorer, we will work with the latest compiler versions, so no special environment preparation is needed. Please bring your laptops and good mood with you :-)</p>
-    <p><h5>WORKSHOP STRUCTURE</h5>
-    <ul>
-       <li>Lecture 30%</li>
-       <li>Discussion 20%</li>
-       <li>Hands-on coding 30%</li>
-    </ul>
-    </p>
-    <p><h5>TRAINING OUTCOME</h5>
-    After completing this workshop, you will have a broad understanding of the various concurrency features in the C++ Standard Library. You will be able to pick a proper tool for a job easily. Thanks to the hands-on practical experience with the most important tools, you will learn on how to think and type the code that solves specific issues. This will allow you to improve your production code base immediately after the training is over.
-    </p>
-  speakers: [15]
--
-  id: 202
-  title: "API First"
-  description: >
-    <p>The API first approach has gained in popularity in recent years with the rise of micro services and cloud computing, but its applicability reaches far beyond that to any library or infrastructure code. In this workshop we will practice thinking in API first approach in C++ code. How the API first approach encourage componentization and make the code more testable - including test-driven design. We will cover C++ idioms that support efficient working with interfaces. And we will deal with how to handle interfaces with unknown number of arguments or types, error handling, and more. In the course of that we will tackle various advanced C++ features such as concepts, templates, combining templates and virtual functions, user-defined literals, type-erasure, and more. The workshop is composed of a series of exercises based on real-world, production i</p>
-  speakers: [24]
--
-  id: 203
-  title: "Mastering C++ Templates: A Practical Hands-On Tour"
-  description: >
-    <p>This one-day workshop offers an in-depth exploration of C++ templates, including new features introduced from C++11 to C++20. We will begin with a quick review of template functions and classes, followed by advanced topics such as non-type template parameters, specialization, variadic templates, Template Argument Deduction (CTAD), and the interaction between templates and lambdas.</p>
-    <p>We'll also dive into C++20's Concepts and Constraints, highlighting their role in making generic programming more robust and clear. Additionally, we'll explore how standard library containers and algorithms are implemented, providing practical insights on designing and writing generic and flexible C++ code. The workshop will cover design principles and C++ idioms using templates, including Static Polymorphism, CRTP, type-erasure, and techniques for using compile-time data at runtime.</p>
-    <p>With a strong emphasis on hands-on practice, participants will apply their knowledge to make their code more adaptable and efficient. This session is ideal for developers looking to deepen their understanding of templates and leverage them to enhance their C++ code base.</p>
-  speakers: [11]
--
-  id: 41
-  title: "How a 42-year-old software company keeps its code fresh and maintainable"
-  description: >
-    <p>How many of you have encountered the following problems working with a mature codebase: * You don’t know what it does * You don’t know how to build it * The deployment process is based on various scripts and word of mouth * New developers take weeks to get up to speed We’ve all been there. Join this talk to discover how a 42-year-old software company keeps its code fresh and maintainable. Through this talk, we will share some helpful techniques and principles that you can immediately start to use to improve time to market, code quality, and developers’ work satisfaction within your organization.</p>
-  speakers: [41]
--
-  id: 42
-  title: "The Unauthorized History of UTF"
-  description: >
-    <p>For those unfamiliar with Unicode, UTF can be baffling. Why are there three different kinds of UTF? Why is one of them used on Unix-like systems, while another one is used on Windows? What does UTF-16 have to do with the fact that I can't type emojis into my program?</p>
-    <p>To answer these questions, this talk provides a humorous exploration of the history of UTF, starting from the dawn of civilization, and exploring the hubris and tragedy that led to the status quo. This history will show why the UTF APIs used in the C++ standard library were chosen, and why the standards committee is currently trying to replace them</p>
-  speakers: [42]
--
-  id: 204
-  title: "Managing Dependencies with Dependency Injection"
-  description: >
-    <p>Breaking a complex project into separate components is critical in order to be able to write good unit tests. However, it does raise the issue of how to manage the dependencies between the different components.</p>
-    <p>In this talk I will share the solution that we've adopted for our project, its downsides and upsides.</p>
-  speakers: [24]
--
-  id: 205
-  title: "A constexpr virtual CRTP comparison"
-  description: >
-    <p>In this talk we will try to solve an interesting problem of implementing virtual comparison. This will take us to a journey of exploring C++20 spaceship operator, constexpr virtual functions, CRTP and more.</p>
-    <p>C++ enthusiasts will likely enjoy the vast features proposed by the language from C++98 and up to C++23 that we will use.</p>
-    <p>The talk will cover design questions along with C++ idioms and techniques</p>
-  speakers: [11]
-  language: Hebrew
--
-  id: 206
-  title: "Modern Techniques for Logger Rejuvenation"
-  description: >
-    <p>C++ has evolved a lot in the last decade. Yes, the new capabilities are cool – but it sometimes seems like a different language.</p>
-    <p>Introducing the value of new C++ into an existing decades old codebase, maintained by veterans of the previous millennium can present a lot of friction and risks ending up with an unpleasant mix of a multi-generation system, where navigating between the old and the new keeps us longing for the simplicity we used to have.</p>
-    <p>Join me in a quest that takes an old infrastructure inside an evolving codebase, and tries to modernize and improve it while maintaining its legacy look-and-feel.</p>
-    <p>This show-and-tell session will be a primer on techniques such as variadic-templates, NTTP, compile-time evaluation , concepts and metaprogramming – with the goal of bridging old and new.</p>
-  speakers: [20]
--
-  id: 207
-  title: "C++ ♥ Python"
-  description: >
-    <p>As C++ programmers, many of us have embraced Python as our second language due to its versatility and ease of use, particularly for algorithm development (Maybe we should change the false writing of C/C++ to C++/Python because its more accurate :)).</p>
-    <p>However, one major challenge we encounter is Python's inherent slowness as an interpreted language. In this talk, we propose a paradigm shift by redefining our approach as C++/Python, emphasizing the symbiotic relationship between the two languages. By leveraging various binding tools, we can significantly accelerate Python's performance and unlock its true potential. We will explore many binding tools and understand the advantages and disadvantages of each one. We will explore CPython and understand GIL pitfalls. By the end of this talk, attendees will have a comprehensive understanding of various binding tools available for accelerating Python and their respective advantages and disadvantages. Armed with this knowledge, C++ programmers will be empowered to bridge the gap between the two languages, enhance their algorithm development process, and unlock the full potential of Python.</p>
-  speakers: [18]
+    <p>DESC</p>
+  speakers: [1000]
+  #language: Hebrew
