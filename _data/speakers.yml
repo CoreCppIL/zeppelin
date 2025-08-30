@@ -1,7 +1,126 @@
 -
-  id: 1
+  id: 11
+  name: "Chris"
+  surname: "Gearing"
+  bio: >
+    <p>I’m a Principle Software Engineer at Mobileye who prefers the quiet satisfaction of solving problems through well-crafted code. I gravitate toward C++, where I enjoy the challenge of designing systems that are both expressive and maintainable. I take a certain pride in writing code that improves with age—becoming more malleable, less brittle, and ideally, less surprising.</p>
+    <p>These days, I spend more time trying to help others appreciate software as a form of engineering with artistic undertones. When done thoughtfully, it’s both powerful and rewarding—though “thoughtfully” is a vague term that defies precise definition, which is probably why I keep revisiting it.</p>
+    <p>When I’m not writing or refactoring code, I’m often on a motorcycle, enjoying the kind of speed that doesn’t involve a compiler.</p>
+  thumbnailUrl: ChrisGearing.jpg
+-
+  id: 12
+  name: "Eran"
+  surname: "Gilad"
+  bio: >
+    <p>Eran Gilad is a software engineer at Regatta Data, where he works on one of the most fascinating areas of software development: database internals. Before diving deep into database engineering, Eran was a principal research engineer at Yahoo Research and a member of a systems research group. He holds a PhD in Computer Science from the Technion, where his work centered on various aspects of parallel programming and execution.</p>
+    <p>Beyond his professional work, Eran is passionate about developer communities. He co-organizes the Core C++ conference, the Haifa::C++ meetup group, and the Medabrim C++ WhatsApp group. His involvement in these communities stems from his first job experience, where he was the sole C++ developer at his company for several years.</p>
+  thumbnailUrl: EranGilad.jpg
+-
+  id: 13
+  name: "Andrei"
+  surname: "Zissu"
+  bio: >
+    <p>Andrei Zissu is a veteran cross-industry C++ developer, notably having worked on low-level reverse engineering systems employing API hooking, DLL injection and other advanced techniques. Andrei is currently Windows Software Developer Tech Lead at Morphisec, an Israeli anti-ransomware provider utilizing bleeding edge Automated Moving Target Defense technology. In early 2022 Andrei joined the WG21 standards committee, where he has since been an active member in SG21 (the WG21 Contracts Subgroup) in its efforts to produce a Contracts MVP in time for C++26, and has also closely followed reflection progress into C++26./p>
+  thumbnailUrl: AndreiZissu.bmp
+-
+  id: 14
+  name: "Inbal"
+  surname: "Levi"
+  bio: >
+    <p>Inbal Levi is a Lead Software Engineer with an interest in code readability, compilers, language and software design. She is an active member of the ISO C++ Standards Committee as Library Evolution Work Group Chair, and as the ISO C++ Israeli NB Chair.</p>
+    <p>Inbal is also a director at ISO C++ Foundation and the Boost Foundation and puts effort into evolving both the local and international C++ communities, as an organizer of the CoreC++ conference and meetup group, and as the program chair of C++Now.</p>
+  thumbnailUrl: InbalLevi.jpg
+-
+  id: 15
+  name: "Coral"
+  surname: "Kashri"
+  bio: >
+    <p>A passionate C++ developer, author of C++Senioreas blog, and an active member of the ISO C++ committee.</p>
+  thumbnailUrl: CoralKashri.jpg
+-
+  id: 16
+  name: "Noam"
+  surname: "Weiss"
+  bio: >
+    <p>Working with C++ for over two decades. Still excited about a brilliant code.</p>
+  thumbnailUrl: NoamWeiss.jpg
+-
+  id: 17
+  name: "Amir"
+  surname: "Kirsh"
+  bio: >
+    <p>Amir Kirsh is a C++ lecturer at the Academic College of Tel-Aviv-Yaffo and Tel-Aviv University, previously the Chief Programmer at Comverse, after being CTO and VP R&D at a startup acquired by Comverse. Amir is also co-organizer of the annual Core C++ conference and the Core C++ meetup group.</p>
+  thumbnailUrl: AmirKirsh.jpg
+-
+  id: 18
+  name: "Roi"
+  surname: "Barkan"
+  bio: >
+    <p>Professional software developer and architect since 2000, Roi's main focus throughout his career was on high performance and distributed systems, implementing complex and innovative algorithms. Roi is the SVP technologies of Istra Research, where he helps creating low latency financial systems. Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel, and his executive MBA from Tel Aviv University.</p>
+  thumbnailUrl: RoiBarkan.jpg
+-
+  id: 19
+  name: "Alex"
+  surname: "Kushnir"
+  bio: >
+    <p>Alex Kushnir, principal software engineer with Johnson & Johnson MedTech. Experienced in embedded software development, with focus on software infrastructures, tools and methodologies.</p>
+    <p>B.Sc. in Electronics and Computer engineering</p>
+  thumbnailUrl: AlexanderKushnir.jpg
+-
+  id: 20
+  name: "Maria"
+  surname: "Piterberg"
+  bio: >
+    <p>Team lead at Habana Labs (an Intel company), specializing in AI training Runtime for custom accelerators (<a href="https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html">https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html</a>). An expert in large-scale deep learning infrastructure, including memory management, graph execution, and synchronization. Experienced in distributed training and communication libraries such as HCCL, deep technical background in performance optimization. Bachelor of Science in Computer Science. Semi-professional artist in digital and classic art.</p>
+  thumbnailUrl: MariaPiterberg.jpeg
+-
+  id: 21
+  name: "Ran"
+  surname: "Regev"
+  bio: >
+    <p>Software and C++ Developer in the last 25+ years Active in the ISO C++ Committee</p>
+  thumbnailUrl: RanRegev.JPG
+-
+  id: 22
   name: "A"
   surname: "B"
   bio: >
     <p>BIO</p>
   thumbnailUrl: NoPhoto.jpg
+-
+  id: 23
+  name: "A"
+  surname: "B"
+  bio: >
+    <p>BIO</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 24
+  name: "A"
+  surname: "B"
+  bio: >
+    <p>BIO</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 25
+  name: "A"
+  surname: "B"
+  bio: >
+    <p>BIO</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 26
+  name: "A"
+  surname: "B"
+  bio: >
+    <p>BIO</p>
+  thumbnailUrl: NoPhoto.jpg
+-
+  id: 27
+  name: "A"
+  surname: "B"
+  bio: >
+    <p>BIO</p>
+  thumbnailUrl: NoPhoto.jpg
+ 
+  
