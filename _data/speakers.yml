@@ -82,45 +82,104 @@
   thumbnailUrl: RanRegev.JPG
 -
   id: 22
-  name: "A"
-  surname: "B"
+  name: "Joel"
+  surname: "Nider"
   bio: >
-    <p>BIO</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Joel is a programmer, researcher and enthusiast. Over the years, he has programmed systems from microcontrollers to supercomputers. Most recently, he has been developing and experimenting with advanced memory technologies such as processing-in-memory, persistent memory and disaggregated memory. Sometimes publishing papers and sometimes publishing code, he is always open to discuss new ideas with others in the field.</p>
+  thumbnailUrl: JoelNider.jpg
 -
   id: 23
-  name: "A"
-  surname: "B"
+  name: "Nathanel"
+  surname: "Green"
   bio: >
-    <p>BIO</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>My name is Nathanel and I am the CEO and Co-founder of Alphapulse, a medical device startup company. Previously, I worked as a software engineer and team leader in various companies, and I was the Co-founder and former CTO of Darebiz AI (Acquired). With over ten years of experience in a wide range of programming languages and technologies, I have also taught theoretical and practical software topics at different companies in the industry.</p>
+    <p>I hold degrees in computer science and electrical engineering from Tel Aviv University. I live in Ramat Gan, married and have two wonderful girls.</p>
+  thumbnailUrl: NathanelOzeri.jpeg
 -
   id: 24
-  name: "A"
-  surname: "B"
+  name: "Ofek"
+  surname: "Shochat"
   bio: >
-    <p>BIO</p>
+    <p>Engineer by heart, menace by night. Love building stuff and understanding how other stuff works--particularly low-level details, and systems.</p>
   thumbnailUrl: NoPhoto.jpg
 -
   id: 25
-  name: "A"
-  surname: "B"
+  name: "Mike"
+  surname: "Lindner"
   bio: >
-    <p>BIO</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>A SW Manager and Architect; I've been in love with C++ for over three decades, ever since I was 14. My true passion is building systems that are meant to last. I share my experience on my blog, "Architect in Slippers" (<a href="https://sw-arch.blog">sw-arch.blog</a>).</p>
+  thumbnailUrl: MichaelLindner.png
 -
   id: 26
-  name: "A"
-  surname: "B"
+  name: "Omer"
+  surname: "Anson"
   bio: >
-    <p>BIO</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Omer Anson is a seasoned low-level software developer. He has many years of experience developing in C++, Linux, networking, and security.</p>
+  thumbnailUrl: OmerAnson.jpg
 -
   id: 27
-  name: "A"
-  surname: "B"
+  name: "Tomer"
+  surname: "Vromen"
   bio: >
-    <p>BIO</p>
-  thumbnailUrl: NoPhoto.jpg
+    <p>Senior Software Engineer at Dell, working on software-defined scaled storage. Passionate about good software practices, correct design (both high & low level), as well as the theoretical stuff.</p>
+  thumbnailUrl: TomerVromen.jpg
+-
+  id: 240
+  name: "Shar-yashuv"
+  surname: "Giat"
+  bio: >
+    <p></p>
+  thumbnailUrl: SharYashuvGiat.jpg
+-
+  id: 28
+  name: "Yair"
+  surname: "Friedman"
+  bio: >
+    <p>Yair is a seasoned software engineer and architect with over three decades of C++ expertise, specializing in embedded systems, co-processor software design, and application interfaces. As an expert in legacy code modernization, Yair has developed proven methodologies for safely migrating systems to modern C++ standards. His approach minimizes risk while maximizing the benefits of modern language features. Beyond development, Yair is an educator delivering training programs on modern C++ features. Through his courses, he successfully motivates companies to embrace modern C++ practices, helping teams achieve improved performance and maintainability. Yair's expertise extends to software security as a defensive cyber-security specialist, implementing robust measures that complicate potential attack vectors through proactive defensive programming.</p>
+    <p>Outside his professional work, Yair maintains a scholarly interest in ancient Semitic languages.</p>
+  thumbnailUrl: YairFriedman.png
+-
+  id: 29
+  name: "Miri"
+  surname: "Ben-Nissan"
+  bio: >
+    <p>Ph.D. in computer science from Bar-Ilan University. 15+ years as software engineer, mostly in C++. I give trainings in C++ to companies.</p>
+  thumbnailUrl: MiriBenNissan.jpg
+-
+  id: 30
+  name: "Adi"
+  surname: "Ben David"
+  bio: >
+    <p>Senior software engineer and a mother of 2. Have worked in the industry for almost a decade and will defend C++ against anyone who tries to put it down. Cyber security enthusiast by day and dancer by night. In my (not so) spare time I volunteer in organizations that aim at helping more women join our industry.</p>
+  thumbnailUrl: AdiBenDavid.jpg
+-
+  id: 31
+  name: "Lotem"
+  surname: "Dalal"
+  bio: >
+    <p>I am a problem-solver, leader and mentor, with a unique journey in the hardware industry. My diverse background - spanning board design integration, intelligence, and chip verification - gives me a fresh perspective on tackling complex challenges.</p>
+  thumbnailUrl: LotemDalal.JPG
+-
+  id: 32
+  name: "Alex"
+  surname: "Dathskovsky"
+  bio: >
+    <p>Alex Dathskovsky has over 17 years of software development experience, working on systems, low-level generic tools and high-level applications. Alex has worked as an integration/software developer at Elbit, senior software developer at Rafael, technical leader at Axxana, Software manager at Abbott Israel and now a group manager a technical manager at <a href="http://speedata.io/">Speedata.io</a> an Exciting startup the will change Big Data and analytics as we know it .On His current Job Alex is developing a new CPU/APU system working with C++20, Massive metaprogramming and development of LLVM to create the next Big thing for Big Data. Alex is a C++ expert with a strong experience in template meta-programming. Alex also teaches a course about the new features of modern C++, trying to motivate companies to move to the latest standards</p>
+  thumbnailUrl: AlexDathskovsky.jpg
+-
+  id: 33
+  name: "Eshcar"
+  surname: "Hillel"
+  bio: >
+    <p>Eshcar Hillel is leading AI research at Pliops, driving storage solutions for emerging workloads such as generative AI, deep learning recommender systems, and learning systems in general.</p>
+    <p>Eshcar specializes in theory and practice of distributed systems and in parallel computing. Prior to joining Pliops, Eshcar was a research director at Yahoo Research, was a contributor and PMC of open source projects, published over 25 scientific papers in leading academic venues and holds several U.S. patents. She holds a Ph.D. in computer science from the Technion, Israel Institute of Technology.</p>
+  thumbnailUrl: EshcarHillel.JPG
+-
+  id: 34
+  name: "Vlad"
+  surname: "Dovlekaev"
+  bio: >
+    <p>Software Architect in Mobileye.</p>
+  thumbnailUrl: VladDovlekaev.jpg
  
   

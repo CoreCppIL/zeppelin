@@ -171,13 +171,124 @@
     <p>In this talk I'll describe a few already-known pitfalls in the new C++26 feature named contracts.</p>
     <p>While the Contract facility gives a good way to find bugs, still it bears a few already known pitfalls. The talk shows theoretical alongside practical pitfalls when using contracts. All examples in the talk are taken from existing compiler implementations and exiting code which is open sourced and can be further investigated by the audience.</p>
   speakers: [21]
+  language: Hebrew
+-
+  id: 22
+  title: "Disaggregated memory with the advent of low latency fabrics"
+  description: >
+    <p>Memory remains the last piece of hardware that cannot be scaled on-demand. Researchers and practitioners alike have been chasing the idea of disaggregated memory but no practical solution was possible until the recent introduction of the memory fabric protocols such as CAPI, CCIX, and CXL. A new era is beginning in which shared memory with hardware coherency is on the horizon. This is a game changer that has been anticipated for decades but only recently became possible.</p>
+    <p>The new technology impacts the whole software stack from operating systems to APIs and applications. I describe some of the exciting features that can now be implemented and outline the main issues that must be addressed before the dream can be fully realized.</p>
+  speakers: [22]
   #language: Hebrew
 -
-  id: 1000
-  title: "TITLE"
+  id: 23
+  title: "C++20 Ranges for Beginners"
   description: >
-    <p>DESC</p>
-  speakers: [1000]
+    <p>C++20’s ranges library brings a fresh, expressive way to work with sequences, letting you write declarative and efficient code. If you already know what an iterator is and have used std::vector and std::for_each, or similar, you’re ready to level up.</p>
+    <p>In this session, we’ll explore the “plain vanilla” of ranges: what's new compared to the traditional iterator-based algorithms, how views enable elegant data transformations without unnecessary copies, and how to compose operations in a clean, pipeline-like style. The talk is aimed for beginners and will focus on the simple scenarios, no deep dives into obscure corners or tricky pitfalls, just the core ideas you need, to start using ranges effectively and with confidence.</p>
+  speakers: [23]
+  language: Hebrew
+-
+  id: 24
+  title: "Order! Order!"
+  description: >
+    <p>Atomics give us a somewhat clear API for concurrency-safe shared values. But how does the hardware work? Are there any other things we should be wary of? How can we--as C++ enthusiasts--use concurrency safely?</p>
+  speakers: [24,240]
+  language: Hebrew
+-
+  id: 25
+  title: "Are there Time-Bombs in your Realtime Code?"
+  description: >
+    <p>Synchronizing tasks and actions on realtime, and especially Hard-RT systems, is crucial. On the other hand, time constraints, together with limited resources, make programmers sweat trying not to waste a single unnecessary processor cycle.</p>
+    <p>Here comes a problem: most of the RT-Embedded programmers are not just any programmers. They know more about memory, CPUs, buses, OS, I/O, especially those they are working with. And they try to harness this knowledge to their efforts.</p>
+    <p>Careful crafting of the mechanisms might indeed serve the goal and keep the system within boundaries. Sometimes, however, trying to find clever and lightweight solutions might lead to a broken system. In other cases, the code might perfectly work at the moment, but be very fragile so that future changes might break it in a way that the programmer might miss. And synchronization problems are the nastiest of them all: they pretend to be nice and sweet when you test them, and only love to explode in production.</p>
+    <p>In this talk, we will go over common real-world RT synchronization practices that might put the current or future code in danger.</p>
+  speakers: [25]
+  #language: Hebrew
+-
+  id: 26
+  title: "Coroutines 101"
+  description: >
+    <p>In this talk we will introduce coroutines. What they are, what they're not, and how to use them.</p>
+    <p>We wil go over why use coroutines: * Co-operative scheduling: You have control when to work and when to yield * No locking necessary * Each co-routing has its own natural control flow - no state machine needed</p>
+    <p>And show some example use-cases: * Real-time calculation (e.g., in games, mathematics libraries) * Co-operative multitasking, e.g., in a web server * Generators (e.g., infinite lists)</p>
+    <p>And have some real code examples.</p>
+  speakers: [26]
+  #language: Hebrew
+-
+  id: 27
+  title: "When the Structs Align ... and When They Don't"
+  description: >
+    <p>Compilers like objects in memory to be aligned, and may even add padding to make it so. But why? And what happens if your objects are not aligned? And if aligning is so good, maybe we should add more? In this talk we'll discuss the rules of alignment and the relevant tools C++ provides, what happens if you break alignment rules and how to make sure your code always stays on the safe side. ABI will be mentioned and briefly discussed, as well as other relevant C++ topics. We will even encounter a curious connection of alignment rules with musical notation. Join us for a journey that will, hopefully, end with all structs aligned.</p>
+  speakers: [27]
+  #language: Hebrew
+-
+  id: 28
+  title: "The effects of C++ evolvement on Design Patterns"
+  description: >
+    <p>The book Design Patterns: Elements of Reusable Object-Oriented Software by the "Gang of Four" is regarded as one of the important sources for object-oriented design theory. However, since it was published in the 1990s C++ language has evolved, and the code samples given in the book looks outdated from a modern C++ perspective. In this presentation, I'll go through the most useful patterns and show the effects of various features of C++ language versions. Ranging from small features that make your code more readable and maintainable, to total code rewrites that keeps the original patterns.</p>
+  speakers: [28]
+  #language: Hebrew
+-
+  id: 280
+  title: "AI Close Encounters of the Third Kind"
+  description: >
+    <p>"AI can write code for you" has become a ubiquitous claim in today's tech landscape. But how does this promise hold up in practice?</p>
+    <p>This presentation examines real-world encounters with AI chatbots in coding scenarios, exploring curious phenomena including emojis, flattery, SOOP, and other surprising, sometimes amusing, patterns in AI-generated code. Drawing from these practical encounters, I'll present key findings about the current state of AI-assisted programming and what these interactions reveal about both the capabilities and quirks of today's coding AI systems.</p>
+  speakers: [28]
+  #language: Hebrew
+-
+  id: 29
+  title: "Less Boilerplate, More Business Logic – Features in 20/23 that makes our code better"
+  description: >
+    <p>For years, writing C++ code has often required hundreds of lines of boilerplate—templates, definitions, and technical syntax—just to express the core business logic. However, recent innovations in C++20 and C++23 are transforming the landscape. Features like the Ranges library, designated initializers, extended constexpr, deducing this, and std::expected finally allow developers to focus on what their code does, not on the mechanics of getting it to compile. This talk will explore how these modern C++ features significantly reduce boilerplate, enabling more efficient and concise code. We will demonstrate how to refactor legacy code, showcasing how the transition to a more expressive and modern language improves readability, reduces bugs, and ultimately saves valuable development time.</p>
+  speakers: [29]
+  #language: Hebrew
+-
+  id: 30
+  title: "Abstraction Addiction: When Good C++ Design Goes Bad"
+  description: >
+    <p>As software developers we love elegant code. We use templates, polymorphism and type erasure; We slice and dice our classes to maintain SRP (Single Responsibility Principle) and we generalize for every conceivable future scenario. We are responsible engineers after all and we most definitely know what’s coming, so naturally we lay the groundwork, sometimes for things that won’t happen until the heat death of the universe.</p>
+    <p>I’m guessing you’ve all been there: you dive into a codebase and suddenly it’s less “reading code” and more “archeological expedition”. You’re carefully brushing away layers of inheritance and indirection to figure out what a function actually does, who implemented it, and on particularly fun days trying to guess which one of the three different implementations is actually called at runtime.</p>
+    <p>In this talk I’ll play devil’s advocate to ask “Do we really need all of this?”. We’ll examine examples inspired by real-world C++ code where well-intentioned design using language features such as inheritance hierarchies, deep template metaprogramming and generalized abstractions ended up adding more friction than flexibility.</p>
+    <p>Attendees will leave with a handy checklist to help spot over-engineered designs and strategy suggestions for balancing flexibility with maintainability in modern C++.</p>
+    <p>Whether you’ve inherited a complex legacy codebase or built one yourself, this session will give you tools (and cautionary tales) to keep your future codebase clean, clear and kind to whoever comes next – including you.</p>
+  speakers: [30]
+  language: Hebrew
+-
+  id: 31
+  title: "(Intel)ligent Verification: Applying AI to Tame Microprocessor Complexity"
+  description: >
+    <p>In modern microprocessor R&D cycle, verification teams face a relentless challenge: exploding design complexity, shrinking schedules, and ever-tighter compute budgets.</p>
+    <p>This talk reveals how Intel’s verification organization integrates AI-driven tooling into the heart of the verification cycle - boosting efficiency and quality.</p>
+    <p>This presentation showcases how classic AI tools developed at Intel enhance four key areas of the verification cycle: 1. optimizing gating tests for specific branches 2. improving weekly regression coverage within strict compute budgets 3. targeting failure clusters through intelligent stimuli generation 4. reproducing rare failures by tracking historically-hit but currently-missed behaviors</p>
+  speakers: [31]
+  language: Hebrew
+-
+  id: 32
+  title: "C++23 Tools you will actually use"
+  description: >
+    <p>Last year, we explored why C++20 is not just a “future standard,” but a powerful and practical tool you should already be using. If you haven’t adopted it yet, now’s the time.</p>
+    <p>But the C++ journey doesn’t stop there—C++23 is here, it’s maturing, and it’s packed with new features that deserve your attention. In this session, we’ll explore the most practical, accessible, and impactful additions in C++23—features that you can actually start using, not just in toy projects but in real-world codebases.</p>
+    <p>We’ll compare C++23 to its predecessors, highlight key language and library improvements, and see how these tools can simplify your development, improve readability, and bring more joy to modern C++.</p>
+    <p>Whether you're already deep in C++20 or still catching up, this talk will help you chart your course into C++23 with confidence and clarity.</p>
+  speakers: [32]
+  #language: Hebrew
+-
+  id: 33
+  title: "From GPU Bottlenecks to Smooth Chat: Cost-Efficient Architectures for LLM Inference"
+  description: >
+    <p>What does it take to serve a chatbot with billions of parameters in real time - without burning a hole in your data-center budget? Large Language Models (LLMs) are powering the next wave of AI applications but serving them efficiently at scale brings unique performance and cost challenges. This talk offers a systems-level look at the main bottlenecks in LLM inference, from GPU memory limits to inter-node communication, and the architectural innovations addressing them.</p>
+    <p>We’ll cover three key techniques: KV-cache offloading to relieve GPU pressure, prefill-decode disaggregation to boost throughput, and speculative decoding to speed generation in inference engines like vLLM and SGLang. We’ll also explore the tradeoffs between user experience and system efficiency, such as latency versus hardware utilization.</p>
+    <p>While often implemented in Python and CUDA, these performance principles: memory hierarchy awareness, data movement optimization, and throughput–latency balancing, are directly relevant to C++ developers building high-performance systems.</p>
+  speakers: [33]
+  #language: Hebrew
+-
+  id: 34
+  title: "Adventures with Bazel"
+  description: >
+    <p>Key Takeaways from the Transition to the Bazel Build System at Mobileye.</p>
+  speakers: [34]
   #language: Hebrew
 -
   id: 1000
