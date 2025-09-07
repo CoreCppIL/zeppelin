@@ -56,7 +56,7 @@
   service: true
 -
   id: 102
-  title: "Lunch"
+  title: "Lunch + appertizing talks"
 #  place: "Economics::Lobby"
   service: true
 -
@@ -132,6 +132,13 @@
   title: "We got reflection - now what?"
   description: >
     <p>C++26 introduces new reflection capabilities into the language. In this talk we will explore some of the things that we can already do with these new capabilities, as well as some future enhancements that might prove useful.</p>
+  speakers: [16]
+  #language: Hebrew
+-
+  id: 160
+  title: "Hiring in the age of LLMs"
+  description: >
+    <p>The rise of large language models in recent years is having a big impact on our everyday lives as developers - and that includes the hiring process. In this talk we will explore what are the qualities that are (or should) be looked for in a candidate today, and we can test and demonstrate them.</p>
   speakers: [16]
   #language: Hebrew
 -
@@ -312,24 +319,4 @@
     <p>This beginner-friendly presentation introduces virtual table vulnerabilities in C++ through a practical CTF challenge walkthrough. We explore how virtual function calls work in memory, demonstrate a real CTF problem involving vtable corruption, and show basic protection methods. The talk covers step-by-step exploitation of a vulnerable program, explains how attackers redirect virtual function calls, and demonstrates modern defensive techniques. Attendees will learn fundamental security concepts through a hands-on CTF example without requiring prior exploitation experience.</p>
   speakers: [37]
   #language: Hebrew
--
-  id: 1000
-  title: "TITLE"
-  description: >
-    <p>DESC</p>
-  speakers: [1000]
-  #language: Hebrew
--
-  id: 1000
-  title: "TITLE"
-  description: >
-    <p>DESC</p>
-  speakers: [1000]
-  #language: Hebrew
--
-  id: 1000
-  title: "TITLE"
-  description: >
-    <p>DESC</p>
-  speakers: [1000]
-  #language: Hebrew
+

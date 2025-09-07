@@ -35,8 +35,9 @@
   dateReadable: "October 19"
   tracks: 
     - {title: "Hall 3", color: "#90be4e"}
-    - {title: "Hall 1", color: "#90be4e"}
     - {title: "Hall 4", color: "#90be4e"}
+    - {title: "Hall 2", color: "#90be4e"}
+    - {title: "Hall 5", color: "#90be4e"}
   timeslots: 
     - {
     	startTime: "08:00",
@@ -51,7 +52,7 @@
     - {
     	startTime: "09:45",
     	endTime: "10:45",
-    	sessionIds: [13,1000,28]
+    	sessionIds: [14,16,17,25]
     }
     - {
     	startTime: "10:45",
@@ -60,47 +61,62 @@
     }
     - {
     	startTime: "11:15",
-    	endTime: "12:15",
-    	sessionIds: [18,1000,11]
+    	endTime: "11:45",
+    	sessionIds: [33,29,37,24]
     }
+    - {
+    	startTime: "11:45",
+    	endTime: "12:15",
+    	sessionIds: [33,29,27,35]
+    } 
     - {
     	startTime: "12:30",
     	endTime: "13:00",
-    	sessionIds: [25,42,34]
-    }    
+    	sessionIds: [15,23,22,26]
+    }   
     - {
     	startTime: "13:00",
-    	endTime: "14:00",
+    	endTime: "14:15",
     	sessionIds: [102]
+    }  
+    - {
+    	startTime: "13:10",
+    	endTime: "13:40",
+    	sessionIds: [280,160,1000,20]
     }
     - {
-    	startTime: "14:00",
-    	endTime: "14:30",
-    	sessionIds: [32,37,36]
+    	startTime: "14:15",
+    	endTime: "14:45",
+    	sessionIds: [30,36,31,1000]
     }
     - {
-    	startTime: "14:40",
-    	endTime: "15:40",
-    	sessionIds: [12,23,24]
+    	startTime: "15:00",
+    	endTime: "15:30",
+    	sessionIds: [32,18,13,1000]
     }
     - {
-    	startTime: "15:40",
+    	startTime: "15:30",
     	endTime: "16:00",
-    	sessionIds: [107]
+    	sessionIds: [32,18,1000,1000]
     }
     - {
     	startTime: "16:00",
-    	endTime: "17:00",
-    	sessionIds: [1212,22,29]
+    	endTime: "16:20",
+    	sessionIds: [107]
+    }
+    - {
+    	startTime: "16:20",
+    	endTime: "16:50",
+    	sessionIds: [12,21,1000,19]
+    }
+    - {
+    	startTime: "16:55",
+    	endTime: "17:25",
+    	sessionIds: [11,28,1000,34]
     }
 #    - {
-#    	startTime: "17:10",
-#    	endTime: "17:30",
-#    	sessionIds: [107]
+#    	startTime: "17:30",
+#    	endTime: "20:30",
+#    	sessionIds: [007]
 #    }
-    - {
-    	startTime: "17:30",
-    	endTime: "20:30",
-    	sessionIds: [007]
-    }
     
