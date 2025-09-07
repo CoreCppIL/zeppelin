@@ -291,6 +291,28 @@
   speakers: [34]
   #language: Hebrew
 -
+  id: 35
+  title: "Lock me up, Scotty!"
+  description: >
+    <p>Mutual exclusion (mutex) locks are among the most common building blocks in multi-threaded programming. While building concurrent systems, we don't often consider how they actually work - but sometimes there are big gains to be had by looking under the covers.</p>
+    <p>At Fireblocks, we recently had the opportunity to unlock major performance improvements by designing our own locking primitive optimized for the unique constraints of the Intel(R) SGX environment. This talk will cover why and how we did this, and will give you an idea of when such a project could make sense for you.</p>
+  speakers: [35, 351]
+  #language: Hebrew
+-
+  id: 36
+  title: "C++ in Early Boot"
+  description: >
+    <p>We all know C++ can be used everywhere? It can go as low level as assembly and as high level as pythonic pseudocode. But how does it bode with early boot code of embedded systems?</p>
+  speakers: [36]
+  #language: Hebrew
+-
+  id: 37
+  title: "Virtual Table Security: Basic Exploitation and Protection with CTF Example"
+  description: >
+    <p>This beginner-friendly presentation introduces virtual table vulnerabilities in C++ through a practical CTF challenge walkthrough. We explore how virtual function calls work in memory, demonstrate a real CTF problem involving vtable corruption, and show basic protection methods. The talk covers step-by-step exploitation of a vulnerable program, explains how attackers redirect virtual function calls, and demonstrates modern defensive techniques. Attendees will learn fundamental security concepts through a hands-on CTF example without requiring prior exploitation experience.</p>
+  speakers: [37]
+  #language: Hebrew
+-
   id: 1000
   title: "TITLE"
   description: >

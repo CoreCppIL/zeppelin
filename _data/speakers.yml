@@ -181,5 +181,33 @@
   bio: >
     <p>Software Architect in Mobileye.</p>
   thumbnailUrl: VladDovlekaev.jpg
+-
+  id: 35
+  name: "Igor"
+  surname: "Khanin"
+  bio: >
+    <p>Senior Core Engineer and Tech Lead at Fireblocks, and is a strong believer that performance improvements can lead to a qualitative advantage.</p>
+  thumbnailUrl: IgorKhanin.jpg
+-
+  id: 351
+  name: "Ben"
+  surname: "Liderman"
+  bio: >
+    <p>System Architect at Fireblocks, and previously led its confidential computing infrastructure team.</p>
+  thumbnailUrl: BenLiderman.jpeg
+-
+  id: 36
+  name: "Elazar"
+  surname: "Leibovich"
+  bio: >
+    <p>System programming at Akamai, Oracle, Vastdata, Nextsilicon, Intel, Crusoe</p>
+  thumbnailUrl: ElazarLeibovich.png
+-
+  id: 37
+  name: "Sivan"
+  surname: "Zohar-Kotzer"
+  bio: >
+    <p>Cloud Researcher at Varonis. Earlier: Software Developer at Cyfair-labs (Android research infrastructure), Test Engineer at CheckPoint Software Technologies Active in CTF competitions. Cyber Instructor at Magshimim-The National Cyber Program, Cyber Security and network expert at IDF Technological Unit 81, Infrastructure Engineer at IDF Technological Unit 81. Bachelor of Computer Science, Tel Aviv University (Schulich scholarship)</p>
+  thumbnailUrl: SivanZoharKotzer.png
  
   
