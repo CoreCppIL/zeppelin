@@ -71,6 +71,102 @@ image: schedule.jpg
         padding: 8px 6px;
       }
 
+      /* Mobile responsive layout */
+      @media (max-width: 767px) {
+        .schedule2-table, .schedule2-table thead, .schedule2-table tbody, .schedule2-table th, .schedule2-table td, .schedule2-table tr {
+          display: block;
+        }
+
+        .schedule2-table thead tr {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+        }
+
+        .schedule2-table tr {
+          border: 1px solid #ccc;
+          margin-bottom: 10px;
+          padding: 10px;
+          background: #fff;
+        }
+
+        .schedule2-table td {
+          border: none !important;
+          position: relative;
+          padding: 8px 8px 8px 25% !important;
+          text-align: left;
+          white-space: normal;
+          font-size: 14px;
+        }
+
+        .schedule2-table td:before {
+          content: attr(data-label);
+          position: absolute;
+          left: 6px;
+          width: 20%;
+          padding-right: 10px;
+          white-space: nowrap;
+          font-weight: bold;
+          color: #333;
+        }
+
+        .schedule2-table td:first-child {
+          font-size: 28px;
+          font-weight: 100;
+          padding: 8px 6px !important;
+          text-align: center;
+          background: #f8f8f8;
+          margin-bottom: 10px;
+        }
+
+        .schedule2-table td:first-child:before {
+          content: "";
+        }
+
+        /* Hide empty session cells on mobile */
+        .schedule2-table td.empty-session {
+          display: none;
+        }
+
+        /* Hide empty timeslots on mobile */
+        .schedule2-table tr.empty-timeslot {
+          display: none;
+        }
+
+        /* Special handling for service sessions on mobile */
+        .schedule2-table td.service-slot.service-session {
+          padding: 8px 6px !important;
+          text-align: center;
+        }
+
+        .schedule2-table td.service-slot.service-session:before {
+          content: "";
+        }
+
+        /* Lunch sessions keep track labels but have green background */
+        .schedule2-table td.service-slot.lunch-session {
+          text-align: left;
+        }
+
+        /* Mobile time display */
+        .schedule2-table td:first-child .start-time,
+        .schedule2-table td:first-child .end-time {
+          display: none;
+        }
+
+        .schedule2-table td:first-child .mobile-time-range {
+          display: block !important;
+          font-size: 16px;
+          font-weight: 500;
+          color: #333;
+        }
+
+        .service-slot .slot-content {
+          margin: 0;
+          padding: 8px 6px;
+        }
+      }
+
       /* Speaker styling - matching original schedule exactly */
       .slot-speakers { list-style: none; padding: 0; margin: 0; }
       .slot-speakers li { position: relative; margin-bottom: 8px; min-height: 40px; }
@@ -139,7 +235,50 @@ image: schedule.jpg
                 {% assign skip_cols_str = skip_next_str %}
                 {% assign skip_next_str = '' %}
 
-                <tr>
+                {% comment %} Check if this timeslot has any NEW content (not just continuing sessions) {% endcomment %}
+                {% assign has_new_content = false %}
+                {% if is_service_row %}
+                  {% assign has_new_content = true %}
+                {% else %}
+                  {% comment %} Check if any session in this timeslot is different from the previous timeslot {% endcomment %}
+                  {% assign prev_index = row_index | minus: 1 %}
+                  {% if prev_index >= 0 %}
+                    {% assign prev_timeslot = day.timeslots[prev_index] %}
+                    {% for track in day.tracks %}
+                      {% assign col_idx = forloop.index0 %}
+                      {% assign current_id = 404 %}
+                      {% assign prev_id = 404 %}
+
+                      {% if timeslot.sessionIds.size > col_idx %}
+                        {% assign current_id = timeslot.sessionIds[col_idx] %}
+                      {% endif %}
+
+                      {% if prev_timeslot.sessionIds.size > col_idx %}
+                        {% assign prev_id = prev_timeslot.sessionIds[col_idx] %}
+                      {% endif %}
+
+                      {% comment %} If current session is different from previous, or if it's a valid new session {% endcomment %}
+                      {% if current_id != prev_id and current_id != 404 and current_id != 1000 and current_id != '-' %}
+                        {% assign has_new_content = true %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+                  {% else %}
+                    {% comment %} First timeslot always has new content if it has any sessions {% endcomment %}
+                    {% for track in day.tracks %}
+                      {% assign col_idx = forloop.index0 %}
+                      {% if timeslot.sessionIds.size > col_idx %}
+                        {% assign check_id = timeslot.sessionIds[col_idx] %}
+                        {% if check_id != 404 and check_id != 1000 and check_id != '-' %}
+                          {% assign has_new_content = true %}
+                          {% break %}
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+
+                <tr{% if is_service_row %} class="service-row"{% endif %}{% unless has_new_content %} class="empty-timeslot"{% endunless %}>
                   <td>
                     {% assign st = timeslot.startTime | split: ':' %}
                     <time class="start-time">
@@ -160,6 +299,11 @@ image: schedule.jpg
                         {{ et[0] }}<span class="time-span">{{ et[1] }}</span>
                       </time>
                     {% endif %}
+
+                    {% comment %} Mobile time range display {% endcomment %}
+                    <div class="mobile-time-range" style="display: none;">
+                      {{ st[0] }}:{{ st[1] }}{% if showEndTime %} - {{ et[0] }}:{{ et[1] }}{% endif %}
+                    </div>
                   </td>
 
                   {% assign is_service_row = false %}
@@ -177,6 +321,7 @@ image: schedule.jpg
                   {% for track in day.tracks %}
                     {% assign col_index = forloop.index0 %}
                     {% assign token = '|' | append: col_index | append: '|' %}
+                    {% assign track_title = track.title %}
 
                     {% comment %} Skip this column if it's covered by a rowspan from previous row {% endcomment %}
                     {% if skip_cols_str contains token %}
@@ -189,7 +334,7 @@ image: schedule.jpg
                     {% if is_service_row %}
                       {% if col_index == 0 %}
                         {% assign title = service_session.title %}
-                        <td colspan="{{ trackCount }}" class="service-slot">
+                        <td colspan="{{ trackCount }}" class="service-slot service-session" data-label="">
                           <div class="slot-content">
                             <h5 class="slot-title" itemprop="name">{{ title }}</h5>
                           </div>
@@ -253,7 +398,7 @@ image: schedule.jpg
                       {% assign lastSessionIndex = sessionCount | minus: 1 %}
                       {% if sessionCount < trackCount and col_index == lastSessionIndex %}
                         {% assign colspan = trackCount | minus: col_index %}
-                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %} colspan="{{ colspan }}"{% if is_lunch_session %} class="service-slot"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}>
+                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %} colspan="{{ colspan }}"{% if is_lunch_session %} class="service-slot lunch-session"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}{% if title == '' %} class="empty-session"{% endif %} data-label="{{ track_title }}">
                           {% if title != '' %}
                             <div class="slot-content">
                               <h5 class="slot-title" itemprop="name">{{ title }}</h5>
@@ -280,7 +425,7 @@ image: schedule.jpg
                           {% endif %}
                         </td>
                       {% else %}
-                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %}{% if is_lunch_session %} class="service-slot"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}>
+                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %}{% if is_lunch_session %} class="service-slot lunch-session"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}{% if title == '' %} class="empty-session"{% endif %} data-label="{{ track_title }}">
                           {% if title != '' %}
                             <div class="slot-content">
                               <h5 class="slot-title" itemprop="name">{{ title }}</h5>
