@@ -188,3 +188,39 @@ $small-label-width: 80px;
 .service-description {
     margin-top: 15px;
 }
+
+
+/* Schedule2 table formatting (inherit look and feel) */
+.schedule2-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: $schedule-border;
+}
+.schedule2-table thead th {
+  background: #fafafa;
+  font-size: 18px;
+  font-weight: $regular;
+  color: #333;
+}
+.schedule2-table th,
+.schedule2-table td {
+  border: $schedule-border !important; /* ensure visible borders over bootstrap defaults */
+  vertical-align: top;
+  padding: 12px 10px;
+  font-size: 16px;
+}
+
+/* Time column style consistent with original label look */
+.schedule2-table thead th:first-child,
+.schedule2-table tbody td:first-child {
+  width: $label-width;
+  white-space: nowrap;
+  font-weight: $regular;
+}
+
+/* Service rows subtle styling */
+.schedule2-service {
+  background: #fbfbfb;
+  color: #555;
+}

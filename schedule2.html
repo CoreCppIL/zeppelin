@@ -1,0 +1,316 @@
+---
+layout: default
+title: Event Schedule
+permalink: /schedule2/
+image: schedule.jpg
+---
+
+{% include top-section.html %}
+
+<section id="schedule2" class="schedule">
+  <div class="content-wrapper">
+
+    <p><i>Note: The program is subject to changes.</i></p>
+
+    <!-- Inline styles to ensure borders show without recompiling SCSS -->
+    <style>
+      .schedule2-table { border-collapse: collapse; table-layout: fixed; width: 100%; }
+      .schedule2-table th, .schedule2-table td { border: 1px solid #e7e7e7 !important; vertical-align: top; padding: 8px 6px; font-size: 16px; }
+      .schedule2-table thead th { background: #fafafa; font-size: 18px; font-weight: 400; color: #333; }
+      .schedule2-table thead th:first-child, .schedule2-table tbody td:first-child {
+        width: 100px;
+        white-space: nowrap;
+        font-size: 40px;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        padding: 8px 6px;
+        position: relative;
+        vertical-align: top;
+      }
+      @media (max-width: 767px) {
+        .schedule2-table thead th:first-child, .schedule2-table tbody td:first-child {
+          font-size: 28px;
+        }
+      }
+      .time-span {
+        font-size: 0.6em;
+        font-weight: 300;
+      }
+      .start-time {
+        display: block;
+        line-height: 1;
+      }
+      .end-time {
+        display: block;
+        position: absolute;
+        bottom: 8px;
+        left: 6px;
+        font-size: 0.7em;
+        opacity: 0.7;
+        line-height: 1;
+      }
+
+      /* Slot content styling to match original schedule */
+      .slot-content {
+        position: relative;
+        width: 100%;
+        text-align: left;
+      }
+
+      /* Service sessions should be centered with light green background */
+      .service-slot {
+        background-color: #f0f8e8 !important;
+      }
+      .service-slot .slot-content {
+        text-align: center;
+        background-color: #f0f8e8;
+        width: 100%;
+        height: 100%;
+        margin: -8px -6px;
+        padding: 8px 6px;
+      }
+
+      /* Speaker styling - matching original schedule exactly */
+      .slot-speakers { list-style: none; padding: 0; margin: 0; }
+      .slot-speakers li { position: relative; margin-bottom: 8px; min-height: 40px; }
+      .speaker-img {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+        position: absolute;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .2);
+        background-size: cover;
+        background-position: center;
+      }
+      .speaker-name {
+        line-height: 28px;
+        margin-left: 48px;
+        margin-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+      .speaker-position {
+        color: #555;
+        display: block;
+        line-height: 1;
+        font-size: 12px;
+        margin-top: -2px;
+      }
+      .session-title {
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0;
+        padding-right: 20px;
+        font-family: 'Roboto', sans-serif;
+      }
+      @media (max-width: 767px) {
+        .session-title {
+          font-size: 18px;
+        }
+      }
+    </style>
+
+    {% for day in site.data.schedule %}
+      <div class="row">
+        <div class="schedule-table col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+        <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped schedule2-table">
+            <thead>
+              <tr>
+                <th style="width: 120px;">Time</th>
+                {% for track in day.tracks %}
+                  <th>{{ track.title }}</th>
+                {% endfor %}
+              </tr>
+            </thead>
+            <tbody>
+              {% assign skip_next_str = '' %}
+              {% for timeslot in day.timeslots %}
+                {% assign row_index = forloop.index0 %}
+                {% assign next_index = row_index | plus: 1 %}
+                {% if next_index < day.timeslots.size %}
+                  {% assign next_timeslot = day.timeslots[next_index] %}
+                {% else %}
+                  {% assign next_timeslot = nil %}
+                {% endif %}
+
+                {% assign skip_cols_str = skip_next_str %}
+                {% assign skip_next_str = '' %}
+
+                <tr>
+                  <td>
+                    {% assign st = timeslot.startTime | split: ':' %}
+                    <time class="start-time">
+                      {{ st[0] }}<span class="time-span">{{ st[1] }}</span>
+                    </time>
+
+                    {% comment %} Only show end time if it's different from next slot's start time {% endcomment %}
+                    {% assign showEndTime = true %}
+                    {% if next_timeslot %}
+                      {% if timeslot.endTime == next_timeslot.startTime %}
+                        {% assign showEndTime = false %}
+                      {% endif %}
+                    {% endif %}
+
+                    {% if showEndTime %}
+                      {% assign et = timeslot.endTime | split: ':' %}
+                      <time class="end-time">
+                        {{ et[0] }}<span class="time-span">{{ et[1] }}</span>
+                      </time>
+                    {% endif %}
+                  </td>
+
+                  {% assign is_service_row = false %}
+                  {% if timeslot.sessionIds.size == 1 %}
+                    {% assign only_id = timeslot.sessionIds[0] %}
+                    {% for s in site.data.sessions %}
+                      {% if s.id == only_id and (s.service != null or s.lunch != null) %}
+                        {% assign is_service_row = true %}
+                        {% assign service_session = s %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+
+                  {% for track in day.tracks %}
+                    {% assign col_index = forloop.index0 %}
+                    {% assign token = '|' | append: col_index | append: '|' %}
+
+                    {% comment %} Skip this column if it's covered by a rowspan from previous row {% endcomment %}
+                    {% if skip_cols_str contains token %}
+                      {% continue %}
+                    {% endif %}
+
+                    {% assign trackCount = day.tracks | size %}
+                    {% assign sessionCount = timeslot.sessionIds.size %}
+
+                    {% if is_service_row %}
+                      {% if col_index == 0 %}
+                        {% assign title = service_session.title %}
+                        <td colspan="{{ trackCount }}" class="service-slot">
+                          <div class="slot-content">
+                            <h5 class="slot-title" itemprop="name">{{ title }}</h5>
+                          </div>
+                        </td>
+                      {% endif %}
+                    {% else %}
+                      {% comment %} Skip columns beyond the last provided session when we need to merge {% endcomment %}
+                      {% if sessionCount < trackCount and col_index >= sessionCount %}
+                        {% continue %}
+                      {% endif %}
+
+                      {% if timeslot.sessionIds.size > col_index %}
+                        {% assign raw_id = timeslot.sessionIds[col_index] %}
+                      {% else %}
+                        {% assign raw_id = 404 %}
+                      {% endif %}
+
+                      {% if raw_id == '-' and row_index > 0 %}
+                        {% assign prev_row = row_index | minus: 1 %}
+                        {% assign prev_ids = day.timeslots[prev_row].sessionIds %}
+                        {% if prev_ids.size == 1 %}
+                          {% assign cell_id = prev_ids[0] %}
+                        {% else %}
+                          {% assign cell_id = prev_ids[col_index] %}
+                        {% endif %}
+                      {% else %}
+                        {% assign cell_id = raw_id %}
+                      {% endif %}
+
+                      {% assign title = '' %}
+                      {% assign session = nil %}
+                      {% assign is_lunch_session = false %}
+                      {% if cell_id != 404 and cell_id != 1000 and cell_id != '-' %}
+                        {% for sess in site.data.sessions %}
+                          {% assign id1 = cell_id | append: '' %}
+                          {% assign id2 = sess.id | append: '' %}
+                          {% if id1 == id2 %}
+                            {% assign title = sess.title %}
+                            {% assign session = sess %}
+                            {% if sess.lunch != null %}
+                              {% assign is_lunch_session = true %}
+                            {% endif %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+
+                      {% comment %} Check for vertical merge: same session ID in next row, same column {% endcomment %}
+                      {% assign rowspan = 1 %}
+                      {% if next_timeslot and col_index < next_timeslot.sessionIds.size %}
+                        {% assign next_id = next_timeslot.sessionIds[col_index] %}
+                        {% assign nid1 = next_id | append: '' %}
+                        {% assign cid1 = cell_id | append: '' %}
+                        {% if nid1 == cid1 and cid1 != '-' and cid1 != '404' and cid1 != '1000' %}
+                          {% assign rowspan = 2 %}
+                          {% assign skip_next_str = skip_next_str | append: token %}
+                        {% endif %}
+                      {% endif %}
+
+                      {% comment %} Apply colspan if this is the last provided session and there are fewer sessions than tracks {% endcomment %}
+                      {% assign lastSessionIndex = sessionCount | minus: 1 %}
+                      {% if sessionCount < trackCount and col_index == lastSessionIndex %}
+                        {% assign colspan = trackCount | minus: col_index %}
+                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %} colspan="{{ colspan }}"{% if is_lunch_session %} class="service-slot"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}>
+                          {% if title != '' %}
+                            <div class="slot-content">
+                              <h5 class="slot-title" itemprop="name">{{ title }}</h5>
+                              {% if session.speakers %}
+                                <ul class="slot-speakers">
+                                  {% for speaker in site.data.speakers %}
+                                    {% for session_speaker in session.speakers %}
+                                      {% if session_speaker == speaker.id %}
+                                        <li itemprop="performer">
+                                          <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                          <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                            <span class="speaker-position">{{ speaker.company }}</span>
+                                          </p>
+                                        </li>
+                                      {% endif %}
+                                    {% endfor %}
+                                  {% endfor %}
+                                </ul>
+                              {% endif %}
+                            </div>
+                          {% endif %}
+                        </td>
+                      {% else %}
+                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %}{% if is_lunch_session %} class="service-slot"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}>
+                          {% if title != '' %}
+                            <div class="slot-content">
+                              <h5 class="slot-title" itemprop="name">{{ title }}</h5>
+                              {% if session.speakers %}
+                                <ul class="slot-speakers">
+                                  {% for speaker in site.data.speakers %}
+                                    {% for session_speaker in session.speakers %}
+                                      {% if session_speaker == speaker.id %}
+                                        <li itemprop="performer">
+                                          <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                          <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                            <span class="speaker-position">{{ speaker.company }}</span>
+                                          </p>
+                                        </li>
+                                      {% endif %}
+                                    {% endfor %}
+                                  {% endfor %}
+                                </ul>
+                              {% endif %}
+                            </div>
+                          {% endif %}
+                        </td>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+

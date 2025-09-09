@@ -140,6 +140,7 @@
   description: >
     <p>The rise of large language models in recent years is having a big impact on our everyday lives as developers - and that includes the hiring process. In this talk we will explore what are the qualities that are (or should) be looked for in a candidate today, and we can test and demonstrate them.</p>
   speakers: [16]
+  lunch: true
   #language: Hebrew
 -
   id: 17
@@ -170,6 +171,7 @@
   description: >
     <p>We are going to explore the surprising creative potential of AI hallucinations in generative AI models like DALL-E. While typically viewed as flaws in deep learning, these "errors" can produce unexpected artistic brilliance. By comparing human imagination with AI’s pattern-based logic, the piece questions whether AI's falsehoods might actually be a new kind of creativity. It challenges how we define truth, error and inspiration in the age of artificial intelligence.</p>
   speakers: [20]
+  lunch: true
   #language: Hebrew
 -
   id: 21
@@ -243,6 +245,7 @@
     <p>"AI can write code for you" has become a ubiquitous claim in today's tech landscape. But how does this promise hold up in practice?</p>
     <p>This presentation examines real-world encounters with AI chatbots in coding scenarios, exploring curious phenomena including emojis, flattery, SOOP, and other surprising, sometimes amusing, patterns in AI-generated code. Drawing from these practical encounters, I'll present key findings about the current state of AI-assisted programming and what these interactions reveal about both the capabilities and quirks of today's coding AI systems.</p>
   speakers: [28]
+  lunch: true
   #language: Hebrew
 -
   id: 29
