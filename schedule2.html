@@ -273,6 +273,9 @@ image: schedule.jpg
                                   {% endfor %}
                                 </ul>
                               {% endif %}
+                              {% if session.language %}
+                                <br><span class="caption">[<b>{{ session.language }}</b>]</span>
+                              {% endif %}
                             </div>
                           {% endif %}
                         </td>
@@ -296,6 +299,9 @@ image: schedule.jpg
                                     {% endfor %}
                                   {% endfor %}
                                 </ul>
+                              {% endif %}
+                              {% if session.language %}
+                                <br><span class="caption">[<b>{{ session.language }}</b>]</span>
                               {% endif %}
                             </div>
                           {% endif %}
