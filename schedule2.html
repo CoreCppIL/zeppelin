@@ -215,7 +215,7 @@ image: schedule.jpg
           <table class="table table-bordered table-striped schedule2-table">
             <thead>
               <tr>
-                <th style="width: 120px;">Time</th>
+                <th style="width: 120px;">{{ day.shortName }}</th>
                 {% for track in day.tracks %}
                   <th>{{ track.title }}</th>
                 {% endfor %}

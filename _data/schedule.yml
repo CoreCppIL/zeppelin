@@ -33,6 +33,7 @@
 - 
   date: "2025-10-19"
   dateReadable: "October 19"
+  shortName: ""
   tracks: 
     - {title: "Hall 3", color: "#90be4e"}
     - {title: "Hall 4", color: "#90be4e"}
