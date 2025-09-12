@@ -209,5 +209,13 @@
   bio: >
     <p>Cloud Researcher at Varonis. Earlier: Software Developer at Cyfair-labs (Android research infrastructure), Test Engineer at CheckPoint Software Technologies Active in CTF competitions. Cyber Instructor at Magshimim-The National Cyber Program, Cyber Security and network expert at IDF Technological Unit 81, Infrastructure Engineer at IDF Technological Unit 81. Bachelor of Computer Science, Tel Aviv University (Schulich scholarship)</p>
   thumbnailUrl: SivanZoharKotzer.png
+-
+  id: 38
+  name: "Alex"
+  surname: "Cohn"
+  bio: >
+    <p>A software craftsman, enjoying C++ since 1991 and up to day.</p>
+    <p>Today, Alex is a Senior C++ Developer at Priority Software, mostly busy with performance optimization of legacy code when moved to cloud environment.</p>
+  thumbnailUrl: AlexCohn.jpg
  
   
