@@ -33,7 +33,6 @@
 - 
   date: "2025-10-19"
   dateReadable: "October 19"
-  shortName: ""
   tracks: 
     - {title: "Hall 3", color: "#90be4e"}
     - {title: "Hall 4", color: "#90be4e"}
@@ -62,19 +61,14 @@
     }
     - {
     	startTime: "11:15",
-    	endTime: "11:45",
-    	sessionIds: [33,29,37,24]
-    }
-    - {
-    	startTime: "11:45",
     	endTime: "12:15",
-    	sessionIds: [33,29,27,35]
-    } 
+    	sessionIds: [33,29,13,34]
+    }
     - {
     	startTime: "12:30",
     	endTime: "13:00",
-    	sessionIds: [15,23,22,26]
-    }   
+    	sessionIds: [15,23,21,19]
+    } 
     - {
     	startTime: "13:00",
     	endTime: "14:15",
@@ -88,32 +82,32 @@
     - {
     	startTime: "14:15",
     	endTime: "14:45",
-    	sessionIds: [30,36,31,1000]
+    	sessionIds: [30,36,22,38]
     }
     - {
     	startTime: "15:00",
     	endTime: "15:30",
-    	sessionIds: [32,18,13,1000]
+    	sessionIds: [32,18,31,24]
     }
     - {
-    	startTime: "15:30",
-    	endTime: "16:00",
-    	sessionIds: [32,18,1000,1000]
+    	startTime: "15:35",
+    	endTime: "16:05",
+    	sessionIds: [32,18,1000,35]
     }
     - {
-    	startTime: "16:00",
+    	startTime: "16:05",
     	endTime: "16:20",
     	sessionIds: [107]
     }
     - {
     	startTime: "16:20",
     	endTime: "16:50",
-    	sessionIds: [12,21,1000,19]
+    	sessionIds: [28,12,1000,26]
     }
     - {
     	startTime: "16:55",
     	endTime: "17:25",
-    	sessionIds: [11,28,1000,34]
+    	sessionIds: [11,27,1000,37]
     }
 #    - {
 #    	startTime: "17:30",

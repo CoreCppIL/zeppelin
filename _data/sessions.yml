@@ -299,7 +299,7 @@
   description: >
     <p>Key Takeaways from the Transition to the Bazel Build System at Mobileye.</p>
   speakers: [34]
-  #language: Hebrew
+  language: Hebrew
 -
   id: 35
   title: "Lock me up, Scotty!"
