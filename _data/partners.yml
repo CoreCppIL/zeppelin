@@ -41,6 +41,7 @@
     #    - {name: "Kistler", description: "Kistler is the global leader in dynamic measurement technology for measuring pressure, force, torque and acceleration", link: "https://www.kistler.com/en/", imageUrl: "kistler.png"}
     #    - {name: "INFINIDAT", description: "", link: "https://www.infinidat.com/", imageUrl: "Infinidat-Logo.png"}
     #    - {name: "Harman", description: "HARMAN designs and engineers connected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automation solutions; and connected services.", link: "https://www.harman.com", imageUrl: "harman_logo.svg"}
+    - {name: "General Motors", description: "", imageUrl: "https://search-careers.gm.com/locationisrael", imageUrl: "General_Motors_2021.svg"}
  - group: "Bronze Sponsors"
    elements:
     - { name: "Regatta", description: " Regatta delivers what the industry for decades has defined as impossible -- a large-scale distributed database that combines high-performance strong-ACID transactions with OLAP-like analytics on real-time data. Regatta's database is built from scratch, leveraging in-house developed cutting-edge computer science approaches and innovative algorithms. Regatta is a well-funded venture founded by industry veterans.", link: "https://regatta.dev/", imageUrl: "Logo_Regatta.svg" }
