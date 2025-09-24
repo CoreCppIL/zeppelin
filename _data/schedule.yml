@@ -109,9 +109,9 @@
     	endTime: "17:25",
     	sessionIds: [11,27,1000,37]
     }
-#    - {
-#    	startTime: "17:30",
-#    	endTime: "20:30",
-#    	sessionIds: [007]
-#    }
+    - {
+    	startTime: "17:30",
+    	endTime: "20:30",
+    	sessionIds: [007]
+    }
     

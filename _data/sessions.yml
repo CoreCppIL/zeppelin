@@ -29,12 +29,14 @@
   service: true
 -
   id: 007
-  title: "Meetup & Lightning Talks"
+  title: "Lightning Meetup"
   description: >
-    <p>Join us for an open lightning talks event at the end of the first day of the Core C++ 2025 conference!</p>
-    <p>A lightning talk event is an open stage for short talks. It’s an event where you and others get to talk about interesting topics for 5-10 minutes. Serious or funny, thoroughly prepared or mostly improvised, expert speaker or first-timer, conference participant or not - everyone is invited.</p>
-    <p><b>We welcome talks that are broadly related to C++ development and to software development in general. Entertaining fast-paced talks are particularly welcome, this is a light-spirited event!</b></p>
-    <p>The meetup is free for all, so join us and invite your colleagues! <br>Register and submit your lightning talk <a href="???">here.</a></p>
+    <p>Join us for an open lightning talks event at the Core C++ 2025 conference!</p>
+    <p>At this event, we invite <b>YOU</b> to share your favorite C++ insights, ideas, or interesting notes in a quick, 5-minute talk! This is your opportunity to get on stage and present your ideas to the world!</p>
+    <p>In addition to the traditional lightning talks session, this year we will have a <b>Relay-Style talk</b>, which will be given by multiple speakers. At the open meetup at the end of the conference day, we’ve decided to organize a special talk: mysterious, challenging, and particularly entertaining.</p>
+    <p>As you know, every talk has a beginning, a middle, and an end. This time, we’ll give you the opening and closing lines, and with those known in advance—all that’s left is to fit the plot to the frame 🙈🖼</p>
+    <p>For more details and registration form see the <a href="https://www.meetup.com/corecpp/events/311188074/">meetup page</a></p>
+  lunch: true
 -
   id: 008
   title: "Great C++ content!"

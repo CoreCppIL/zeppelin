@@ -334,7 +334,7 @@ image: schedule.jpg
                     {% if is_service_row %}
                       {% if col_index == 0 %}
                         {% assign title = service_session.title %}
-                        <td colspan="{{ trackCount }}" class="service-slot service-session" data-label="">
+                        <td colspan="{{ trackCount }}" class="service-slot service-session" data-label=""{% if service_session.lunch != null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ service_session.id }}"{% endif %}>
                           <div class="slot-content">
                             <h5 class="slot-title" itemprop="name">{{ title }}</h5>
                           </div>
@@ -398,7 +398,7 @@ image: schedule.jpg
                       {% assign lastSessionIndex = sessionCount | minus: 1 %}
                       {% if sessionCount < trackCount and col_index == lastSessionIndex %}
                         {% assign colspan = trackCount | minus: col_index %}
-                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %} colspan="{{ colspan }}"{% if is_lunch_session %} class="service-slot lunch-session"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}{% if title == '' %} class="empty-session"{% endif %} data-label="{{ track_title }}">
+                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %} colspan="{{ colspan }}"{% if is_lunch_session %} class="service-slot lunch-session"{% endif %}{% if session and session.service == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}{% if title == '' %} class="empty-session"{% endif %} data-label="{{ track_title }}">
                           {% if title != '' %}
                             <div class="slot-content">
                               <h5 class="slot-title" itemprop="name">{{ title }}</h5>
@@ -425,7 +425,7 @@ image: schedule.jpg
                           {% endif %}
                         </td>
                       {% else %}
-                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %}{% if is_lunch_session %} class="service-slot lunch-session"{% endif %}{% if session and session.service == null and session.lunch == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}{% if title == '' %} class="empty-session"{% endif %} data-label="{{ track_title }}">
+                        <td{% if rowspan > 1 %} rowspan="{{ rowspan }}"{% endif %}{% if is_lunch_session %} class="service-slot lunch-session"{% endif %}{% if session and session.service == null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}{% if title == '' %} class="empty-session"{% endif %} data-label="{{ track_title }}">
                           {% if title != '' %}
                             <div class="slot-content">
                               <h5 class="slot-title" itemprop="name">{{ title }}</h5>
