@@ -235,11 +235,11 @@
   #language: Hebrew
 -
   id: 28
-  title: "The effects of C++ evolvement on Design Patterns"
+  title: "The Effects of C++ Evolution on Design Patterns"
   description: >
     <p>The book Design Patterns: Elements of Reusable Object-Oriented Software by the "Gang of Four" is regarded as one of the important sources for object-oriented design theory. However, since it was published in the 1990s C++ language has evolved, and the code samples given in the book looks outdated from a modern C++ perspective. In this presentation, I'll go through the most useful patterns and show the effects of various features of C++ language versions. Ranging from small features that make your code more readable and maintainable, to total code rewrites that keeps the original patterns.</p>
   speakers: [28]
-  #language: Hebrew
+  language: Hebrew
 -
   id: 280
   title: "AI Close Encounters of the Third Kind"
