@@ -16,6 +16,8 @@
     }
     img {
         width: 100%;
+        height: auto;
+        object-fit: contain;
         transition: $base-transition;
         filter: grayscale(1);
         &:hover {
