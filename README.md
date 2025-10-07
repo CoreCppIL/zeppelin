@@ -52,8 +52,8 @@ I you need to change the Linux distro, or seleceted distribution does not appear
    sudo gem install bundler
    sudo apt install ruby-dev
    sudo apt install gcc
-   sudo gem install g++
-   sudo apt  install make
+   sudo apt install g++
+   sudo apt install make
    ruby setup.rb config --without-ext
    sudo gem install racc
    sudo gem install eventmachine
