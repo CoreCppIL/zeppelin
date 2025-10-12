@@ -174,7 +174,7 @@
     <p>We are going to explore the surprising creative potential of AI hallucinations in generative AI models like DALL-E. While typically viewed as flaws in deep learning, these "errors" can produce unexpected artistic brilliance. By comparing human imagination with AI’s pattern-based logic, the piece questions whether AI's falsehoods might actually be a new kind of creativity. It challenges how we define truth, error and inspiration in the age of artificial intelligence.</p>
   speakers: [20]
   lunch: true
-  #language: Hebrew
+  language: Hebrew
 -
   id: 21
   title: "C++26 Contracts: Pitfalls to Watch"
