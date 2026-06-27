@@ -103,8 +103,32 @@ variants (dark/gray/light). To change it, regenerate the digit glyph(s) — the
 2026 change used `opentype.js` + the Fira Code Bold TTF to render the new digit,
 calibrated to the existing glyphs, then replaced the path data in all three
 variants and updated the `aria-label`s. See the "Update corner logo" commit for
-the exact approach. Other logo files in `img/seo/` and `img/sprites/` are unused
-artifacts (see CLAUDE.md).
+the exact approach. `img/seo/logo.svg` is the same artwork (with a layer per
+past year) and is fixed the same way; other logo files in `img/seo/` and
+`img/sprites/` are unused artifacts (see CLAUDE.md).
+
+### Social-share preview images (`img/seo/sharing-*.png`)
+
+The link-preview thumbnail (WhatsApp / Facebook / Twitter / LinkedIn) is **not**
+the page text — it is the baked PNG referenced by `og:image` / `twitter:image`
+(`socialImageSrcFacebook` / `socialImageSrcTwitter` in `_config.yml`). These are
+renders of `img/seo/logo.svg` centered on a white canvas
+(`sharing-facebook.png` is 1200×630; `sharing-twitter.png` 280×147). Regenerate
+them after fixing `logo.svg`.
+
+**Two gotchas:**
+1. **Cache busting.** Social platforms cache the preview per URL and keep serving
+   the old image. Save the regenerated images under a **new filename** (e.g.
+   `sharing-facebook-<YEAR>.png`) and update `socialImageSrc*` in config, so the
+   `og:image` URL changes. Even then, the *page* preview is cached by each
+   platform — re-scrape via the
+   [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) to
+   refresh; WhatsApp picks up Facebook's refreshed cache.
+2. **Rendering.** There's no ImageMagick/Inkscape here; the images were produced
+   with `qlmanage` (macOS Quick Look). `qlmanage` pads SVGs to a square, so wrap
+   the logo in a **square** SVG (white background, logo centered), render with
+   `qlmanage -t -s 1200`, then center-crop to the target aspect with
+   `sips -c <h> <w>`. See the "social sharing image" commit for the script.
 
 ## 10. Verify
 
