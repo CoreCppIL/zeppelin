@@ -47,6 +47,10 @@ and the `aboutBlock`. Updating the site for a new year is mostly editing
 `_config.yml` plus the `_data` files. Note `permalink` and feature flags like
 `showSessions` here drive page behavior.
 
+**Rolling the site to a new edition** (dates, hiding last year's
+speakers/schedule, archiving PDFs/photos, SEO metadata, logo year) follows a
+specific checklist — see **[NEW_YEAR_ROLLOVER.md](NEW_YEAR_ROLLOVER.md)**.
+
 ### Pages, layouts, includes
 - Top-level `*.html` files (`index.html`, `speakers.html`, `schedule2.html`, `team.html`, …) are thin pages: YAML front matter (`layout`, `permalink`, `title`) plus a series of `{% include %}` calls.
 - `_includes/*.html` are the actual content sections (`hero.html`, `partners.html`, `schedule.html`, `speakers-list.html`, modals, etc.). This is where most rendering logic and markup lives.
@@ -58,6 +62,10 @@ and the `aboutBlock`. Updating the site for a new year is mostly editing
 - `css/main.scss` is the entry point: it has empty YAML front matter so **Jekyll's built-in `jekyll-sass-converter` compiles it to `css/main.css`** (output style `compressed`, set in `_config.yml`). Edit the `_sass` partials; never edit `css/main.css` — it is generated and **not** committed (it's git-ignored output that Jekyll, and GitHub Pages, build on demand).
 - This project formerly used **Compass** (a long-dead Ruby Sass framework) driven by a custom `_plugins/` generator. That pipeline was removed; if you see references to Compass, `_plugins/generator_scss.rb`, or a committed `css/main.css` in old commits, that's the legacy setup. The one Compass feature that was actually used, `headings()`, was replaced with the literal `h1, h2, h3, h4, h5, h6` selector list in `_sass/partials/_global.scss`.
 - Note: the prefix-adding Autoprefixer step is gone with Compass. Most vendor prefixes are already hand-written in the Bootstrap 3 mixins (`_sass/vendor/bootstrap/mixins/`), which is fine for current browsers.
+
+### SEO structured data
+- `_includes/schema-event.html` emits a JSON-LD `<script type="application/ld+json">` block (schema.org `Event`) on every page, via the layouts. It is invisible on the page — inspect it with *View Source* or `curl -s <url> | grep ld+json`. It must remain **valid JSON** (no `//` comments).
+- ⚠️ **When new content is published, the matching JSON-LD blocks must be re-added**: during the 2026 teaser rollover the `performer` (speakers), `offers` (tickets), and `subEvent` blocks were stripped out, leaving only the core Event. As speakers/sessions/tickets come online, restore those blocks (templated versions are in this file's git history). See [NEW_YEAR_ROLLOVER.md](NEW_YEAR_ROLLOVER.md) step 8.
 
 ### Other
 - `automation/` holds Windows-oriented image-optimization and JS-minification scripts (optipng, jpegtran, yuicompressor, etc.) — run manually, not part of the Jekyll build.

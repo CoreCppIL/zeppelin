@@ -6,7 +6,7 @@ safe: true
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'CLAUDE.md', 'LICENSE.txt', 'CNAME', 'Gemfile', 'Gemfile.lock']
+exclude: ['/automation/', 'README.md', 'CLAUDE.md', 'NEW_YEAR_ROLLOVER.md', 'LICENSE.txt', 'CNAME', 'Gemfile', 'Gemfile.lock']
 
 # Sass (compiled by jekyll-sass-converter; replaces the old Compass pipeline)
 sass:
