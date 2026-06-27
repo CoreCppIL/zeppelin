@@ -30,71 +30,75 @@ Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 Or watch project presentation from [GDG[x] Townhall meeting](http://www.youtube.com/watch?v=xYmhheoLjcI). Slides available [here](https://docs.google.com/presentation/d/19aM7yNl_orDaCNND5LpCY3fShb6PyMltnzYfKvV8R_8/edit?usp=sharing)
 
 
-## Local development (Windows Host)
-### Install WSL2
-[Instructions](https://docs.microsoft.com/en-us/windows/wsl/install)
+## Local development
 
-Open PowerShell/cmd as Adinistrator.
-```
-   wsl --install
-```
+The site is a [Jekyll](http://jekyllrb.com/) project built with the
+`github-pages` gem, so a local build matches what GitHub Pages produces. It
+needs **Ruby ≥ 2.7** (the `github-pages` gem won't run on older Rubies — note
+that the system Ruby shipped with macOS is too old). The repo pins a known-good
+version in `.ruby-version`, so the steps below use [rbenv](https://github.com/rbenv/rbenv)
+to install exactly that.
 
-Reboot if needed. Check the installed distribution with
-```
-   wsl -l -v
-```
-
-I you need to change the Linux distro, or seleceted distribution does not appear as WSL version 2, read the above instructions on updating youw WSL environment.
-
-### From Ubintu console:
-```bash
-   sudo apt install ruby
-   sudo gem install bundler
-   sudo apt install ruby-dev
-   sudo apt install gcc
-   sudo apt install g++
-   sudo apt install make
-   ruby setup.rb config --without-ext
-   sudo gem install racc
-   sudo gem install eventmachine
-
-   git clone https://github.com/CoreCppIL/zeppelin.git
-   cd zeppelin
-   bundle install
-   
-   jekyll serve -w
-```
-
-The site will be running on port 4000. It's being reloaded on the server on each change you do to one of project files. And you can always stop the server and restart it with ```jekyll serve -w```.
-
-## Local development (Orig)
-
-Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
-To install all development dependencies install [Bundler](http://bundler.io/).
-```bash
-    gem install bundler
-```
-and run next command from root folder:
+### macOS
 
 ```bash
-  bundle install
-```  
+# 1. Ruby toolchain (Homebrew assumed installed)
+brew install rbenv ruby-build
+echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc && exec zsh   # one-time shell setup
+rbenv install        # installs the version from .ruby-version
 
-To start Jekyll run:
-```bash
-    jekyll serve -w
+# 2. Project gems
+gem install bundler
+bundle install
+
+# 3. Build + serve with live reload
+bundle exec jekyll serve -w
 ```
-Site will be available at http://127.0.0.1:4000/zeppelin/ or http://localhost:4000/zeppelin/ (on Windows)
 
-**NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing ```_config.yml``` you have to restart server.
+The site runs at http://localhost:4000 and rebuilds on every file change. Stop
+it with `Ctrl-C` (or `pkill -f jekyll` if you started it detached).
 
-### Sass(Compass) support
-**Note:** You need to install [Node.js](http://nodejs.org/download/)
+> **Note:** changes to HTML and `_data` files are regenerated automatically, but
+> after editing `_config.yml` you must restart the server.
 
-To watch changes of `.sass` files and compile it to the `.css` on a fly change property `safe: true` to `safe: false` in `_config.yml`.
-**Note: It works only on local machine, because GitHub runs Jekyll in `--save` [mode](https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides)**
+### Windows (via WSL2)
 
-Learn more about Sass development from [documentation](https://github.com/gdg-x/zeppelin/wiki/Sass-development).
+Install WSL2 ([instructions](https://docs.microsoft.com/en-us/windows/wsl/install))
+from an Administrator PowerShell:
+
+```powershell
+wsl --install
+```
+
+Reboot if prompted, then check the distro is WSL **version 2** with `wsl -l -v`.
+From the Ubuntu console, install the build tools, then follow the same rbenv flow
+as macOS (using `~/.bashrc` instead of `~/.zshrc`):
+
+```bash
+sudo apt update
+sudo apt install -y git curl build-essential libssl-dev libreadline-dev zlib1g-dev
+
+# rbenv + ruby-build
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc && exec bash
+
+rbenv install          # installs the version from .ruby-version
+gem install bundler
+bundle install
+bundle exec jekyll serve -w
+```
+
+### Styling / Sass
+
+SCSS sources live in `_sass/` with `css/main.scss` as the entry point. It is
+compiled to `css/main.css` automatically by Jekyll's built-in
+`jekyll-sass-converter` — both locally (`jekyll serve`/`build`) and on GitHub
+Pages. **Do not edit or commit `css/main.css`; it is generated output**
+(git-ignored). Edit the partials under `_sass/` instead.
+
+> This project previously compiled Sass with **Compass** via a custom plugin in
+> `_plugins/`, which required committing the built CSS by hand. That pipeline has
+> been removed in favor of Jekyll's native Sass support.
 
 
 ### Resource optimizations (optional)

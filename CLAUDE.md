@@ -13,12 +13,16 @@ conference edition.
 ## Commands
 
 ```bash
-bundle install        # install Ruby gem dependencies (one-time)
-bundle exec jekyll serve -w   # build + serve at http://localhost:4000, rebuild on change
+bundle install                 # install Ruby gem dependencies (one-time)
+bundle exec jekyll serve -w    # build + serve at http://localhost:4000, rebuild on change
+bundle exec jekyll build       # one-off build into _site/
 npx cspell "**/*.{html,md,markdown,yml}"   # spell-check (config in cspell.config.yaml)
 ```
 
-There is no test suite. Verification is visual via the local server.
+Ruby version is pinned in `.ruby-version` (3.3.11); use rbenv (or any manager
+that reads `.ruby-version`). The system macOS Ruby is too old for the
+`github-pages` gem. There is no test suite — verification is visual via the
+local server.
 
 ## Architecture
 
@@ -49,10 +53,11 @@ and the `aboutBlock`. Updating the site for a new year is mostly editing
 - `_layouts/default.html` wraps every page (head, nav, footer, modals). It chains to `_layouts/compress.html`, which strips whitespace from the final HTML.
 - **Homepage sections are toggled by commenting includes in/out** in `index.html` using `{% comment %} … {% endcomment %}`. This is the normal mechanism for showing/hiding blocks per edition — expect many commented-out includes.
 
-### Styling (SCSS via Compass — important)
-- Source styles are in `_sass/` (`main.scss` + `partials/_*.scss`), compiled to the committed `css/main.css`.
-- Compilation is done by the custom plugin `_plugins/generator_scss.rb`, which shells out to **Compass** (configured in `_sass/config.rb`) on every Jekyll build. `output_style` is `:compressed` and a monkey-patch strips all comments.
-- Because this uses a custom plugin and Compass, GitHub Pages' safe mode will **not** compile SCSS. The compiled `css/main.css` is committed to the repo; CSS changes only take effect after a local build regenerates and you commit `css/main.css`. Edit the `_sass` partials, not `css/main.css` directly.
+### Styling (SCSS via Jekyll's built-in converter)
+- Source styles are in `_sass/` (`main.scss` + `partials/_*.scss` + vendored Bootstrap 3 / Animate / Waves under `_sass/vendor/`).
+- `css/main.scss` is the entry point: it has empty YAML front matter so **Jekyll's built-in `jekyll-sass-converter` compiles it to `css/main.css`** (output style `compressed`, set in `_config.yml`). Edit the `_sass` partials; never edit `css/main.css` — it is generated and **not** committed (it's git-ignored output that Jekyll, and GitHub Pages, build on demand).
+- This project formerly used **Compass** (a long-dead Ruby Sass framework) driven by a custom `_plugins/` generator. That pipeline was removed; if you see references to Compass, `_plugins/generator_scss.rb`, or a committed `css/main.css` in old commits, that's the legacy setup. The one Compass feature that was actually used, `headings()`, was replaced with the literal `h1, h2, h3, h4, h5, h6` selector list in `_sass/partials/_global.scss`.
+- Note: the prefix-adding Autoprefixer step is gone with Compass. Most vendor prefixes are already hand-written in the Bootstrap 3 mixins (`_sass/vendor/bootstrap/mixins/`), which is fine for current browsers.
 
 ### Other
 - `automation/` holds Windows-oriented image-optimization and JS-minification scripts (optipng, jpegtran, yuicompressor, etc.) — run manually, not part of the Jekyll build.

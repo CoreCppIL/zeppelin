@@ -1,12 +1,16 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
-safe: false
+safe: true
 
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'CLAUDE.md', 'LICENSE.txt', 'CNAME', 'Gemfile', 'Gemfile.lock']
+
+# Sass (compiled by jekyll-sass-converter; replaces the old Compass pipeline)
+sass:
+  style: compressed
 
 
 # Site Settings
