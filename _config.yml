@@ -14,9 +14,9 @@ sass:
 
 
 # Site Settings
-title: "Core C++ 2025"
+title: "Core C++ 2026"
 email: "info@corecpp.org"
-description: "Core C++ 2025"
+description: "Core C++ 2026"
 baseurl: ""
 url: "https://corecpp.org"
 permalink: "/blog/:title"
@@ -26,7 +26,7 @@ siteVerification: ""
 
 # Organizer Info
 organizerName: "Core C++"
-organizerAlternateName: "The Core C++ 2025 Conference"
+organizerAlternateName: "The Core C++ 2026 Conference"
 organizerDescription: "The Core C++ User Group."
 organizerEmail: "info@corecpp.org"
 organizerLogo: "/img/seo/organizer-logo.png"
@@ -41,44 +41,38 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://cfs.corecpp.org/"
-c4sponsorsUrl: "/assets/CoreCpp2025_SponsoringOffer.pdf"
+c4sponsorsUrl: "/assets/CoreCpp2026_SponsoringOffer.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
 bottomNavigationLinks:
- - {link: "https://ti.to/hamakor/core-cpp-2025", text: "Register"}
-# - {link: "/assets/CoreCpp2025_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2025_SponsoringOffer.pdf", text: "Sponsor Us"}
 rightNavigationButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2025", text: "Register"}
-# - {link: "/assets/CoreCpp2025_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
- - {link: "/assets/CoreCpp2025_SponsoringOffer.pdf", text: "Sponsor Us"}
 
 # Hero Block
 heroImage: "hero.webp"
-heroTitle: "Core C++ <typeout> 2025"
-eventDate: "October 19, 2025"
+heroTitle: "Core C++ <typeout> 2026"
+eventDate: "October 20-21, 2026"
 typeoutTextValues: '"", "Conference", "Autumn", "Israel", "Local"'
 typeoutFallback: "Conference"
 heroButtons:
- - {link: "https://ti.to/hamakor/core-cpp-2025", text: "Register"}
-# - {link: "/assets/CoreCpp2025_CallForSpeakers.pdf", text: "Call For Speakers"}
+ - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
 # - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
- - {link: "/assets/CoreCpp2025_SponsoringOffer.pdf", text: "Sponsor Us"}
  
 # About Block
-aboutTitle: "About Core C++ 2025"
+aboutTitle: "About Core C++ 2026"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "Israeli C++ conference  brought to you by The Core C++ User Group! Awesome speakers and lots of fun!" }
 # - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite C++ feature!" }
@@ -112,9 +106,9 @@ eventStreetAddress: "HaArba'a St. 5"
 eventAddressLocality: "Tel Aviv"
 #eventPostalCode: "6818211"
 eventAddressCountry: "Israel"
-#eventStartTime: "2023-06-05T09:00"
+eventStartTime: "2026-10-20"
 eventDoorTime: "08:00"
-#eventEndTime: "2023-06-07T18:00"   
+eventEndTime: "2026-10-21"   
 eventPlaceCoordinates: "32.070579892244325, 34.78369916016169"
 mapCenterCoordinates: "32.070579892244325, 34.78369916016169"
 mapMobileCenterCoordinates: "32.070579892244325, 34.78369916016169"
@@ -148,7 +142,7 @@ venueTitle: "Tel Aviv Cinematheque"
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "corecpp2025"
+twitterHashTag: "corecpp2026"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block

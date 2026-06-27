@@ -33,7 +33,7 @@ what the site shows:
 - `sessions.yml` — talks/workshops, each with `id` and a `speakers: [ids]` list referencing speaker ids
 - `schedule.yml` — per-day tracks and timeslots, where each timeslot references `sessionIds: [...]`
 - `partners.yml` — sponsors/partners (grouped by tier)
-- `team.yml`, `organizers.yml`, `judges.yml` — people
+- `team.yml`, `organizers.yml` — people
 
 The three-way link **schedule → sessions → speakers** is by numeric id. When
 adding a talk you typically add a speaker, a session referencing the speaker id,
