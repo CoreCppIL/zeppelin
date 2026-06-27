@@ -30,10 +30,15 @@ The same button list appears in three places: `heroButtons`,
 `bottomNavigationLinks` (mobile menu), `rightNavigationButtons` (desktop). Keep
 them in sync. Enable/disable per phase by (un)commenting lines:
 
-- **Teaser phase:** show **Call For Speakers** (link to
-  `/assets/CoreCpp<YEAR>_CallForSpeakers.pdf`); usually hide Register / Sponsor Us
+- **Teaser / Call-for-Speakers phase:** show **Call For Speakers** (link to
+  `/assets/CoreCpp<YEAR>_CallForSpeakers.pdf`) and **Submit Your Talk** (link to
+  the submission system, `c4pUrl` — `https://cfs.corecpp.org/`); usually hide
+  Register / Sponsor Us
 - **Registration open:** add **Register** (`https://ti.to/hamakor/core-cpp-<YEAR>`)
 - **Sponsorship:** add **Sponsor Us** (link to the sponsoring PDF)
+
+Note: `c4pUrl` / `https://cfs.corecpp.org/` has no year in it, so the **Submit
+Your Talk** link does not need updating between editions — just enable/disable it.
 
 ## 3. PDFs — `assets/`
 
