@@ -310,10 +310,13 @@ image: schedule.jpg
                   {% if timeslot.sessionIds.size == 1 %}
                     {% assign only_id = timeslot.sessionIds[0] %}
                     {% for s in site.data.sessions %}
-                      {% if s.id == only_id and (s.service != null or s.lunch != null) %}
-                        {% assign is_service_row = true %}
-                        {% assign service_session = s %}
-                        {% break %}
+                      {% comment %} Liquid has no parenthesized grouping, so nest the OR inside the id check {% endcomment %}
+                      {% if s.id == only_id %}
+                        {% if s.service != null or s.lunch != null %}
+                          {% assign is_service_row = true %}
+                          {% assign service_session = s %}
+                          {% break %}
+                        {% endif %}
                       {% endif %}
                     {% endfor %}
                   {% endif %}
