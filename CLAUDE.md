@@ -66,6 +66,7 @@ specific checklist — see **[NEW_YEAR_ROLLOVER.md](NEW_YEAR_ROLLOVER.md)**.
 ### SEO structured data
 - `_includes/schema-event.html` emits a JSON-LD `<script type="application/ld+json">` block (schema.org `Event`) on every page, via the layouts. It is invisible on the page — inspect it with *View Source* or `curl -s <url> | grep ld+json`. It must remain **valid JSON** (no `//` comments).
 - ⚠️ **When new content is published, the matching JSON-LD blocks must be re-added**: during the 2026 teaser rollover the `performer` (speakers), `offers` (tickets), and `subEvent` blocks were stripped out, leaving only the core Event. As speakers/sessions/tickets come online, restore those blocks (templated versions are in this file's git history). See [NEW_YEAR_ROLLOVER.md](NEW_YEAR_ROLLOVER.md) step 8.
+- **Link-preview thumbnails** (WhatsApp/Facebook/Twitter) come from the `og:image`/`twitter:image` tags in `head.html`, which point at baked PNGs in `img/seo/` (`socialImageSrc*` in config) — rendered from `img/seo/logo.svg`, **not** the page text. They have the year drawn in, so they must be regenerated each edition, under a new filename to defeat platform caching. See [NEW_YEAR_ROLLOVER.md](NEW_YEAR_ROLLOVER.md) step 9.
 
 ### Other
 - `automation/` holds Windows-oriented image-optimization and JS-minification scripts (optipng, jpegtran, yuicompressor, etc.) — run manually, not part of the Jekyll build.
