@@ -48,23 +48,26 @@ layout: compress
     
     <!-- Maps API loading script with callback -->
     <script>
-        // Define global callback function that will be called when Maps API is loaded
+        /* NOTE: use only block comments in these inline scripts. The compress.html
+           layout strips newlines, so a // line comment would swallow the rest of
+           the (now single-line) script and break the map. */
+        /* Define global callback function that will be called when Maps API is loaded */
         window.initGoogleMaps = function() {
-            // This flag indicates Maps API is fully loaded and ready
+            /* This flag indicates Maps API is fully loaded and ready */
             window.googleMapsLoaded = true;
-            
-            // Trigger an event to notify other scripts. Dispatch on `document`
-            // (not `window`): the coordinate-setup and map-init listeners both
-            // listen on `document`, and an event fired on `window` never reaches
-            // them, so the map would never initialize.
+
+            /* Trigger an event to notify other scripts. Dispatch on `document`
+               (not `window`): the coordinate-setup and map-init listeners both
+               listen on `document`, and an event fired on `window` never reaches
+               them, so the map would never initialize. */
             if (document.createEvent) {
                 var event = document.createEvent('Event');
                 event.initEvent('google-maps-loaded', true, true);
                 document.dispatchEvent(event);
             }
         };
-        
-        // Pre-define variables that will be needed globally
+
+        /* Pre-define variables that will be needed globally */
         {% if page.permalink == '/' %}
             if ($(window).width() > 767) {
                 window.googleMaps = 'index';
@@ -91,7 +94,7 @@ layout: compress
             }
         {% endif %}
         
-        // Conditionally load appropriate Maps API based on page
+        /* Conditionally load appropriate Maps API based on page */
         {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
         if ($(window).width() > 767) {
             var script = document.createElement('script');
@@ -109,8 +112,8 @@ layout: compress
     
     <script>
         Waves.displayEffect();
-        
-        // Setup map coordinates once API is loaded
+
+        /* Setup map coordinates once API is loaded */
         document.addEventListener('google-maps-loaded', function() {
             {% if page.permalink == '/' %}
                 if ($(window).width() > 767) {
