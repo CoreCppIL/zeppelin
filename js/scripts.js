@@ -1,10 +1,16 @@
 (function($) {
     $(document).ready(function() {
+        // Hide the preloader as soon as the DOM is ready. Previously this was
+        // wrapped in $(window).load(), which only fires after EVERY sub-resource
+        // (images, fonts, the Google Maps API, CDN-hosted jQuery/Bootstrap, etc.)
+        // has finished downloading — so the spinner could rotate for 10s+ while
+        // waiting on a single slow/hanging external request.
+        $('#st-container').removeClass('disable-scrolling');
+        $('#loading-animation').fadeOut();
+        $('#preloader').delay(350).fadeOut(800);
+
+        // equalheight measures rendered image heights, so keep it on window.load.
         $(window).load(function() {
-            $('#st-container').removeClass('disable-scrolling');
-            $('#loading-animation').fadeOut();
-            $('#preloader').delay(350).fadeOut(800);
-            initGooglePlus();
             equalheight('.same-height');
         });
 
@@ -265,16 +271,6 @@
             }
         }
     });
-
-    //Google plus
-    function initGooglePlus() {
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-        po.src = 'https://apis.google.com/js/platform.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-    }
 
     // Static map
     if (typeof staticGoogleMaps !== "undefined") {
