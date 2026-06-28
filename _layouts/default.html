@@ -53,11 +53,14 @@ layout: compress
             // This flag indicates Maps API is fully loaded and ready
             window.googleMapsLoaded = true;
             
-            // Trigger an event to notify other scripts
+            // Trigger an event to notify other scripts. Dispatch on `document`
+            // (not `window`): the coordinate-setup and map-init listeners both
+            // listen on `document`, and an event fired on `window` never reaches
+            // them, so the map would never initialize.
             if (document.createEvent) {
                 var event = document.createEvent('Event');
                 event.initEvent('google-maps-loaded', true, true);
-                window.dispatchEvent(event);
+                document.dispatchEvent(event);
             }
         };
         
