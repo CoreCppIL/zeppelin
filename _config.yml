@@ -54,10 +54,14 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+ - {link: "https://ti.to/hamakor/core-cpp-2026", text: "Register"}
+ - {link: "/assets/CoreCpp2026_SponsoringOffer.pdf", text: "Sponsor Us"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
 rightNavigationButtons:
  - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+ - {link: "https://ti.to/hamakor/core-cpp-2026", text: "Register"}
+ - {link: "/assets/CoreCpp2026_SponsoringOffer.pdf", text: "Sponsor Us"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
 
 # Hero Block
@@ -69,6 +73,8 @@ typeoutFallback: "Conference"
 heroButtons:
  - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
  - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+ - {link: "https://ti.to/hamakor/core-cpp-2026", text: "Register"}
+ - {link: "/assets/CoreCpp2026_SponsoringOffer.pdf", text: "Sponsor Us"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
  
 # About Block
@@ -161,30 +167,30 @@ ticketsTitle: "Price Table"
 ticketsInfo: "0% VAT."
 ticketsOffers:
  -
-  name: "Full 1-Day Ticket: Early Bird"
-  price: "450"
+  name: "Full 2-Day Ticket: Early Bird"
+  price: "750"
   priceCurrency: "ILS"
   ribbon: "Discount"
   featured: true
   ticketsNumber: "100"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2025"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2026"
   buyButtonText: "Register Now"
-  ticketContentList: ["Full Day Conference", "Three Parallel Tracks", "On Sale for a Limited Time!"]
-  validFrom: "2025-07-06"
-  validThrough: "2025-08-15"
+  ticketContentList: ["Two Conference Days", "Three Parallel Tracks", "On Sale for a Limited Time!"]
+  validFrom: "2026-07-06"
+  validThrough: "2026-09-01"
   soldOut: false
   soldOutText: "Sold Out"
  -
-  name: "Full 1-Day Ticket"
-  price: "550"
+  name: "Full 2-Day Ticket"
+  price: "850"
   priceCurrency: "ILS"
   featured: true
   ticketsNumber: "300"
-  buyButtonLink: "https://ti.to/hamakor/core-cpp-2025"
+  buyButtonLink: "https://ti.to/hamakor/core-cpp-2026"
   buyButtonText: "Register Now"
-  ticketContentList: ["Full Day Conference", "Three Parallel Tracks", "Meet Fellow Developers"]
-  validFrom: "2025-07-06"
-  validThrough: "2025-10-19"
+  ticketContentList: ["Two Conference Days", "Three Parallel Tracks", "Meet Fellow Developers"]
+  validFrom: "2026-07-06"
+  validThrough: "2026-10-20"
   soldOut: false
   soldOutText: "Waiting List"
 # -
