@@ -49,17 +49,17 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/schedule/", text: "Schedule"}
-# - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
 bottomNavigationLinks:
- - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
  - {link: "https://ti.to/hamakor/core-cpp-2026", text: "Register"}
  - {link: "/assets/CoreCpp2026_SponsoringOffer.pdf", text: "Sponsor Us"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
 rightNavigationButtons:
- - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
  - {link: "https://ti.to/hamakor/core-cpp-2026", text: "Register"}
  - {link: "/assets/CoreCpp2026_SponsoringOffer.pdf", text: "Sponsor Us"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorials"}
@@ -71,8 +71,8 @@ eventDate: "October 20-21, 2026"
 typeoutTextValues: '"", "Conference", "Autumn", "Israel", "Local"'
 typeoutFallback: "Conference"
 heroButtons:
- - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
- - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
+# - {link: "/assets/CoreCpp2026_CallForSpeakers.pdf", text: "Call For Speakers"}
+# - {link: "https://cfs.corecpp.org/", text: "Submit Your Talk"}
  - {link: "https://ti.to/hamakor/core-cpp-2026", text: "Register"}
  - {link: "/assets/CoreCpp2026_SponsoringOffer.pdf", text: "Sponsor Us"}
 # - {link: "/assets/CoreCpp2023_CallForTutorials.pdf", text: "Call For Tutorialsbeo"}
