@@ -18,3 +18,7 @@ css/main.css
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+
+### Claude Code ###
+# machine-local permission grants; the skills/ dir is shared
+.claude/settings.local.json
