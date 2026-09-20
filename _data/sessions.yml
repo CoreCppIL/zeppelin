@@ -332,3 +332,10 @@
     <p>Overall the talk has separate intertwined sections, each one focusing on logically separate set of topics, giving priority to techniques and specifics relevant to single thread performance. There is little specifics of any particular higher level language as all contemporary ones support an equivalent set of functionality, instead the content is structured to look into the output of a compiler and why particular output may impact the resulting performance, and what could be done for changing it. Given the conference on C++, most of the content and examples are specific to C++, although the content is equally applicable to C, Rust, Zig, Go, and the main message is on the technologies and mechanics, and not on just the language.</p>
     <p>It might be that the layers of abstraction need to be quite leaky.</p>
   speakers: [29]
+-
+  id: 230
+  title: "Shadow Stack: Modern Mitigations Against a Classic Exploit"
+  description: >
+    <p>Stack overflow is probably the first exploit you learned about when you were introduced to low-level cyber security. It's simple to understand, elegant, and gives you full control over the instruction pointer.</p>
+    <p>Over the years, many hardening techniques have been invented — from simple stack canaries to modern hardware-based control-flow mitigations. We'll survey recent stack overflow mitigations, and, of course, how C++ makes everything more complicated.</p>
+  speakers: [30]

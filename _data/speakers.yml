@@ -214,3 +214,17 @@
   bio: >
     <p>Network engineer with substantial clue in software and hardware engineering. Dealing with low latency and high throughput network systems. Able to maintain discussion on topics of BGP, Verilog, and C++, had seen X.25, Cisco CGS, and X.25 on Cisco CGS in real life.</p>
   thumbnailUrl: IgnasBagdonas.jpg
+-
+  id: 30
+  name: "Sivan"
+  surname: "Zohar-Kotzer"
+  bio: >
+    <p>2025: Cloud Researcher at Varonis</p>
+    <p>2023-2025: Software Developer at Cyfair-labs (Android research infrastructure)</p>
+    <p>2023: Bachelor of Computer Science, Tel Aviv University (Schulich scholarship)</p>
+    <p>2018-2022: Cyber Instructor at Magshimim-The National Cyber Program</p>
+    <p>2017-2018: Cyber Security and network expert at IDF Technological Unit 81</p>
+    <p>2015-2017: Infrastructure Engineer at IDF Technological Unit 81</p>
+    <p>2014: Test Engineer at CheckPoint Software Technologies</p>
+    <p>Active in CTF competitions</p>
+  thumbnailUrl: SivanZoharKotzer.png
