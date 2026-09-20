@@ -48,7 +48,7 @@ c4sponsorsUrl: "/assets/CoreCpp2026_SponsoringOffer.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
-# - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
 bottomNavigationLinks:
