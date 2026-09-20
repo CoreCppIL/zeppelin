@@ -18,7 +18,8 @@ Conference content lives in `_data/*.yml`, not in HTML. A talk on the site is th
 linked records: **schedule → sessions → speakers**, joined by numeric `id`. This skill
 covers the speakers and sessions halves. `schedule.yml` (which slot each talk sits in)
 is a separate, later job — the slot grid is usually still being argued over when the
-speaker data is ready, so don't block one on the other.
+speaker data is ready, so don't block one on the other. When it is ready, the
+**build-schedule** skill covers it; it depends on the session ids created here.
 
 ## Why this is not a simple copy-paste
 
