@@ -334,8 +334,16 @@
   speakers: [29]
 -
   id: 230
-  title: "Shadow Stack: Modern Mitigations Against a Classic Exploit"
+  title: "Smashing the Stack: Modern Mitigations Against a Classic Exploit"
   description: >
     <p>Stack overflow is probably the first exploit you learned about when you were introduced to low-level cyber security. It's simple to understand, elegant, and gives you full control over the instruction pointer.</p>
     <p>Over the years, many hardening techniques have been invented — from simple stack canaries to modern hardware-based control-flow mitigations. We'll survey recent stack overflow mitigations, and, of course, how C++ makes everything more complicated.</p>
   speakers: [30]
+-
+  id: 231
+  title: "Community activity - TBA"
+  service: true
+-
+  id: 232
+  title: "Lightning talks meetup, more details soon"
+  service: true
