@@ -153,14 +153,14 @@
   description: >
     <p>Continuation-passing style is a single change: nothing is returned, and the callee calls the rest of your computation with whatever actually happened. Everything else follows from it, the caller decides ownership, allocation, and thread affinity, and errors land where they occur instead of being carried home by hand. How it's built in C++, what it makes possible, and where it falls apart.</p>
   speakers: [8]
--
-  id: 209
-  title: "Low latency performance and how to reason with your CPU"
-  description: >
-    <p>Optimization is often considered a second pass in software development, where initially it is tempting to write your business logic out and later think about optimizing it. It has its pros and cons, but the aim of this talk is to provide you with the knowledge that will let you write optimized and fast C++ code as you go, rather than in a second pass. At worst, your optimization passes would become shorter. At best, you would be able to write out fast code in the first go, improving your ability to write efficient systems.</p>
-    <p>The talk will cover various fundamental principles and concepts useful to form a mental model of how long any given computation or operation may take, and what factors you can think of to make trade-offs while writing code. We will cover this through code examples, microbenchmarks, and looking at assembly code in godbolt. We will also discuss some principles to guide your thought process as you design your systems in an efficiency-first manner, with code examples.</p>
-    <p>After this talk, attendees would be able to intuitively guess what is a reasonable amount of time for a certain operation from a theoretical perspective. Is 10ms a reasonable time for my web server to respond with a HELLO message? Is 100us enough to compute a machine learning model’s output?</p>
-  speakers: [9]
+#-
+#  id: 209
+#  title: "Low latency performance and how to reason with your CPU"
+#  description: >
+#    <p>Optimization is often considered a second pass in software development, where initially it is tempting to write your business logic out and later think about optimizing it. It has its pros and cons, but the aim of this talk is to provide you with the knowledge that will let you write optimized and fast C++ code as you go, rather than in a second pass. At worst, your optimization passes would become shorter. At best, you would be able to write out fast code in the first go, improving your ability to write efficient systems.</p>
+#    <p>The talk will cover various fundamental principles and concepts useful to form a mental model of how long any given computation or operation may take, and what factors you can think of to make trade-offs while writing code. We will cover this through code examples, microbenchmarks, and looking at assembly code in godbolt. We will also discuss some principles to guide your thought process as you design your systems in an efficiency-first manner, with code examples.</p>
+#    <p>After this talk, attendees would be able to intuitively guess what is a reasonable amount of time for a certain operation from a theoretical perspective. Is 10ms a reasonable time for my web server to respond with a HELLO message? Is 100us enough to compute a machine learning model’s output?</p>
+#  speakers: [9]
 -
   id: 210
   title: "Trying to stay sane modularizing a large C++ project"
@@ -334,8 +334,16 @@
   speakers: [29]
 -
   id: 230
-  title: "Shadow Stack: Modern Mitigations Against a Classic Exploit"
+  title: "Smashing the Stack: Modern Mitigations Against a Classic Exploit"
   description: >
     <p>Stack overflow is probably the first exploit you learned about when you were introduced to low-level cyber security. It's simple to understand, elegant, and gives you full control over the instruction pointer.</p>
     <p>Over the years, many hardening techniques have been invented — from simple stack canaries to modern hardware-based control-flow mitigations. We'll survey recent stack overflow mitigations, and, of course, how C++ makes everything more complicated.</p>
   speakers: [30]
+-
+  id: 231
+  title: "Community activity - TBA"
+  service: true
+-
+  id: 232
+  title: "Lightning talks meetup, more details soon"
+  service: true

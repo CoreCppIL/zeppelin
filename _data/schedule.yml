@@ -72,12 +72,17 @@
     - {
     	startTime: "14:30",
     	endTime: "15:30",
-    	sessionIds: [228,207,216]
+    	sessionIds: [207,214,216]
     }
     - {
     	startTime: "16:00",
     	endTime: "17:00",
-    	sessionIds: [203,218,214]
+    	sessionIds: [203,218,1000]
+    }
+    - {
+    	startTime: "17:00",
+    	endTime: "19:00",
+    	sessionIds: [231]
     }
 
 - 
@@ -89,6 +94,11 @@
     - {title: "Track 2", color: "#90be4e"}
     - {title: "Track 3", color: "#90be4e"}
   timeslots: 
+    - {
+    	startTime: "09:00",
+    	endTime: "10:00",
+    	sessionIds: [106]
+    }
     - {
     	startTime: "10:00",
     	endTime: "11:00",
@@ -117,10 +127,15 @@
     - {
     	startTime: "14:30",
     	endTime: "15:30",
-    	sessionIds: [209,206,212]
+    	sessionIds: [228,212,215]
     }
     - {
     	startTime: "16:00",
     	endTime: "17:00",
-    	sessionIds: [225,215,1000]
+    	sessionIds: [225,206,1000]
+    }
+    - {
+    	startTime: "17:00",
+    	endTime: "19:00",
+    	sessionIds: [232]
     }

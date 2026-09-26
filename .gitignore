@@ -22,3 +22,7 @@ ehthumbs.db
 ### Claude Code ###
 # machine-local permission grants; the skills/ dir is shared
 .claude/settings.local.json
+
+# Local schedule and speakers preview
+schedule_preview.html
+speakers_preview.html

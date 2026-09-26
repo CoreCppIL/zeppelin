@@ -41,7 +41,7 @@
   surname: "Strauss"
   bio: >
     <p>I am a long time C++/C developer, working on the low latency trading platforms. I published multiple projects on github. For example: <a href="https://github.com/erez-strauss/lockfree_mpmc_queue">https://github.com/erez-strauss/lockfree_mpmc_queue</a> I'm interested in C++26 and its features. Working many years in linux environment. Working recently on AI in C++ projects.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: ErezStrauss.jpg
 -
   id: 7
   name: "Adi"
@@ -56,13 +56,13 @@
   bio: >
     <p>A C++ developer with over a decade of experience, specializing primarily in Windows user and kernel development. Passionate about low-level optimization and pushing C++ compilers to generate the leanest possible machine code.</p>
   thumbnailUrl: NoamAryeNassi.jpg
--
-  id: 9
-  name: "Saksham"
-  surname: "Sharma"
-  bio: >
-    <p>Saksham Sharma works as Director of Quantitative Research Technology at Tower Research Capital LLC, a high frequency trading firm based out of New York. He develops low latency and high throughput trading systems and strategies used for the firm's global quantitative trading. In addition, he also helps design and improve big data research infrastructure used for trading research using a combination of C++ and Python. Thanks to an urge to optimize his daily workflow, he also owns the build systems, tooling, and package managers for C++ within his team.In the past, he has worked in the fields of program analysis research, functional programming, and systems security. He is a reformed geek (exemplified by a switch to Cursor after almost a decade with Emacs), and now enjoys driving, guitar, badminton, and snowboarding.</p>
-  thumbnailUrl: SakshamSharma.jpeg
+#-
+#  id: 9
+#  name: "Saksham"
+#  surname: "Sharma"
+#  bio: >
+#    <p>Saksham Sharma works as Director of Quantitative Research Technology at Tower Research Capital LLC, a high frequency trading firm based out of New York. He develops low latency and high throughput trading systems and strategies used for the firm's global quantitative trading. In addition, he also helps design and improve big data research infrastructure used for trading research using a combination of C++ and Python. Thanks to an urge to optimize his daily workflow, he also owns the build systems, tooling, and package managers for C++ within his team.In the past, he has worked in the fields of program analysis research, functional programming, and systems security. He is a reformed geek (exemplified by a switch to Cursor after almost a decade with Emacs), and now enjoys driving, guitar, badminton, and snowboarding.</p>
+#  thumbnailUrl: SakshamSharma.jpeg
 -
   id: 10
   name: "Avi"
@@ -184,7 +184,7 @@
   surname: "Lakos"
   bio: >
     <p>John Lakos, author of Large-Scale C++ Software Design (Pearson, 1997), serves at Bloomberg LP in New York City as a senior architect and mentor for C++ Software Development worldwide. He is also an active voting member of the C++ Standards Committee’s Evolution Working Group. Previously, Dr. Lakos directed the design and development of infrastructure libraries for proprietary analytical financial applications at Bear Stearns. For 12 years prior, Dr. Lakos developed large frameworks and advanced ICCAD applications at Mentor Graphics, for which he holds multiple software patents. His academic credentials include a Ph.D. in Computer Science ('97) and an Sc.D. in Electrical Engineering ('89) from Columbia University. Dr. Lakos received his undergraduate degrees from MIT in Mathematics ('82) and Computer Science ('81). He is the author of the multi-volume book Large-Scale C++, the first volume of which, Volume I: Process and Architecture (Pearson, 2020), is currently available, and subsequent volumes are forthcoming. He is the coauthor of Embracing Modern C++ Safely (Pearson, 2021) along with Vittorio Romeo, Rostislav Khlebnikov, and Alisdair Meredith.</p>
-  thumbnailUrl: NoPhoto.jpg
+  thumbnailUrl: JohnLakos.jpg
 -
   id: 26
   name: "Michael"
