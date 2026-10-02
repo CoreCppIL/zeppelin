@@ -204,13 +204,17 @@
   speakers: [14]
 -
   id: 215
-  title: "Obfuscation by Modernization: How Modern C++ Features Evade Binary Analysis"
+  title: "Pushing the Limits: Stress-Testing C++ Against Modern Defenses"
   description: >
-    <p>Modern C++ features like constexpr, RAII, custom memory resources, and coroutines enable developers to write expressive, high-performance code. However, the compiler-generated code for these abstractions often produces complex binary structures that obscure program intent, disrupt control-flow graphs, and evade traditional security analysis tools.</p>
-    <p>This talk explores the concept of "obfuscation by modernization" how modern C++ language constructs manifest at the assembly and binary level to create stealthy execution patterns without using traditional packers or obfuscation tools. We will examine how constexpr metaprogramming strips data artifacts, how coroutine state machines dismantle linear control flow, and present a practical case study demonstrating how a custom modern C++ architecture evades modern heuristic and endpoint detection (such as Microsoft Defender). Attendees will gain a deep, under-the-hood understanding of what modern C++ compilers actually produce when language features are pushed to their limits, and how reverse-engineering tools (including AI decompilers) interpret these abstractions.</p>
-    <p>Target Audience & Prerequisites</p>
-    <p>Audience: C++ developers, systems software engineers, and security/reverse engineering analysts interested in compiler output, binary analysis, and low-level code generation.</p>
-    <p>Prerequisites: Intermediate C++ knowledge (comfort with modern C++ constructs like templates, smart pointers, and basic assembly/system API concepts). No prior malware analysis experience required.</p>
+    <p>How far can you push modern C++ before security defenses step in? In this talk, we take a series of native C++ code demos and progressively test them live in front of the audience to discover where different detection layers static analysis, dynamic emulation, behavioral monitoring, and machine learning models draw the line.</p>
+    <p>Through progressive modules, we push language features to their limits:</p>
+    <ul>
+    <li>Using C++20 <code>consteval</code> to strip compile-time data artifacts and test static entropy thresholds.</li>
+    <li>Evaluating dynamic memory transitions and API staging against pre-execution emulators.</li>
+    <li>Structuring memory using C++23 <code>std::mdspan</code> multi-dimensional matrix views to test in-memory scanners.</li>
+    <li>Pushing an advanced custom C++ architecture to its limits against real-time behavioral monitoring.</li>
+    </ul>
+    <p>Attendees will watch in real time where modern antivirus engines alert, where they stay silent, and why. You will leave with a practical, under-the-hood understanding of what security defenses actually see when evaluating compiled C++, and where the true boundaries lie between user-mode language abstractions and operating system telemetry.</p>
   speakers: [15]
 -
   id: 216
@@ -336,8 +340,15 @@
   id: 230
   title: "Smashing the Stack: Modern Mitigations Against a Classic Exploit"
   description: >
-    <p>Stack overflow is probably the first exploit you learned about when you were introduced to low-level cyber security. It's simple to understand, elegant, and gives you full control over the instruction pointer.</p>
-    <p>Over the years, many hardening techniques have been invented — from simple stack canaries to modern hardware-based control-flow mitigations. We'll survey recent stack overflow mitigations, and, of course, how C++ makes everything more complicated.</p>
+    <p>This is a <strong>talk + hands-on practice</strong> on stack overflow exploitation and how modern mitigations try to stop it.</p>
+    <p>Stack overflow is probably the first exploit you learned about when you got into low-level security — simple, easy to understand, and it gives you full control over the instruction pointer. This session is for anyone who wants to go from understanding that exploit to seeing (and breaking) what's been built to stop it.</p>
+    <p>Talk agenda:</p>
+    <ul>
+      <li>First 20 minutes - discuss stack canaries, non-executable stacks, ASLR, and newer hardware-based control-flow protections, plus how C++ makes all of it more complicated.</li>
+      <li>Remaining 40 minutes - a CTF-style practice where you exploit and defeat these mitigations yourself.</li>
+    </ul>
+    <p><em>You will get the most out of this talk if you bring a laptop and participate in the practice!</em></p>
+
   speakers: [30]
 -
   id: 231
