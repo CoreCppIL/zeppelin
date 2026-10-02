@@ -219,12 +219,7 @@
   name: "Sivan"
   surname: "Zohar-Kotzer"
   bio: >
-    <p>2025: Cloud Researcher at Varonis</p>
-    <p>2023-2025: Software Developer at Cyfair-labs (Android research infrastructure)</p>
-    <p>2023: Bachelor of Computer Science, Tel Aviv University (Schulich scholarship)</p>
-    <p>2018-2022: Cyber Instructor at Magshimim-The National Cyber Program</p>
-    <p>2017-2018: Cyber Security and network expert at IDF Technological Unit 81</p>
-    <p>2015-2017: Infrastructure Engineer at IDF Technological Unit 81</p>
-    <p>2014: Test Engineer at CheckPoint Software Technologies</p>
-    <p>Active in CTF competitions</p>
+    <p>Sivan Zohar-Kotzer is a cloud vulnerability researcher at Varonis, with over eight years of experience in cybersecurity, reverse engineering, and software development. In her free time, she's either hunting for bugs in the kernel or chasing down her 3 kids to keep them out of trouble.</p>
+
+
   thumbnailUrl: SivanZoharKotzer.png
