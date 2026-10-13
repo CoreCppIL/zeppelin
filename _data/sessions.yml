@@ -36,6 +36,7 @@
     <p>In addition to the traditional lightning talks session, this year we will have a <b>Relay-Style talk</b>, which will be given by multiple speakers. At the open meetup at the end of the conference day, we’ve decided to organize a special talk: mysterious, challenging, and particularly entertaining.</p>
     <p>As you know, every talk has a beginning, a middle, and an end. This time, we’ll give you the opening and closing lines, and with those known in advance—all that’s left is to fit the plot to the frame 🙈🖼</p>
     <p>For more details and registration form see the <a href="https://www.meetup.com/corecpp/events/311188074/">meetup page</a></p>
+    <p>👉 Submit your talk here: <a href="https://forms.gle/yFqxSJbtH3i7pYPD9">Lightning Talk Submission Form</a></p>
   lunch: true
 -
   id: 008
@@ -44,8 +45,8 @@
   service: true
 -
   id: 099
-  title: "Welcome to Core C++ 2026!"
-  #place: "Weston::Auditorium"
+  title: "Welcome to Core C++ 2026! (Hall 3)"
+  place: "Hall 3"
   subtype: keynote
   service: true
 -
@@ -270,9 +271,11 @@
   speakers: [21]
 -
   id: 222
-  title: "Forkable MicroVMs for Agent Workloads: Snapshots, Isolation, and Fast Resume"
+  title: "The Future of C++ in a Heterogeneous World: Lessons from Android OS at Scale"
   description: >
-    <p>Coding agents need fast, disposable, fully isolated compute, and open infrastructure already has most of the pieces. This talk builds an agent execution layer on open primitives: KVM, snapshot and restore, virtual networking, and storage built for fast clone and teardown. We cover image lifecycle, scheduling many short-lived agent workers, and observability across a fleet of disposable microVMs. Every piece is open and portable, no proprietary platform required.</p>
+    <p>As one of the world's largest open-source codebases, the Android Open Source Project (AOSP) serves as a benchmark for large-scale, real-time C++ engineering. But while C++ remains the foundational backbone of the platform, modern AOSP has transformed into a massive multi-language system orchestrated by over 20 distinct build tools.</p>
+    <p>This evolution offers a clear glimpse into the future of C++ in enterprise projects, where C++ must co-exist and "play in the playground" alongside Rust, Java, Kotlin, automated code generators and others.</p>
+    <p>Drawing on build telemetry across AOSP 15, 16, and 17, this session explores the practical implications of this shift for C++ developers. We will examine how multi-language dependency graphs impact day-to-day troubleshooting, bottleneck diagnosis, and project health, and look at how the world’s top engineering teams are adapting C++ pipelines to maintain velocity in the agentic coding era.</p>
   speakers: [22]
 -
   id: 223
@@ -286,7 +289,7 @@
   speakers: [23]
 -
   id: 224
-  title: "From Unit to Production: A Three-Layer Approach to Performance Measurement in C++ AWS Services"
+  title: "From Unit to Production:3 Layers of Performance Measurement"
   description: >
     <p>Performance problems are easy to spot and hard to diagnose — especially when your C++ service runs on elastic cloud infrastructure. This talk presents a three-layer measurement framework (Catch2 → k6 → Datadog) that leaves little room for guesswork, with practical lessons from real AWS workflow tuning and the surprises that only numbers can reveal.</p>
   speakers: [24]
@@ -352,9 +355,16 @@
   speakers: [30]
 -
   id: 231
-  title: "Community activity - TBA"
+  title: "Happy Hour"
+  description: >
+    <p>Wrap up the first day of Core C++ 2026 with drinks and great conversations! Continue mingling with fellow attendees and speakers at a nearby pub — first drink is on us!</p>
+    <p>Location details will be announced during the conference.</p>
   service: true
 -
   id: 232
-  title: "Lightning talks meetup, more details soon"
+  title: "Community Meetup & Lightning Talks"
+  description: >
+    <p>Join us for an informal, fast-paced community evening right after the last talk of Core C++ 2026! Whether you spent the week diving into C++ or are just dropping by for the evening, everyone is welcome - no conference ticket required.</p>
+    <p>More details and registration here: <a href="https://www.meetup.com/corecpp/events/316958546/" target="_blank">https://www.meetup.com/corecpp/events/316958546/</a></p>
+    <p>👉 Submit your talk here: <a href="https://forms.gle/yFqxSJbtH3i7pYPD9" target="_blank">Lightning Talk Submission Form</a></p>
   service: true
