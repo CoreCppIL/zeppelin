@@ -337,7 +337,7 @@ image: schedule.jpg
                     {% if is_service_row %}
                       {% if col_index == 0 %}
                         {% assign title = service_session.title %}
-                        <td colspan="{{ trackCount }}" class="service-slot service-session" data-label=""{% if service_session.lunch != null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ service_session.id }}"{% endif %}>
+                        <td colspan="{{ trackCount }}" class="service-slot service-session" data-label=""{% if service_session.lunch != null or service_session.description != null %} style="cursor: pointer;" data-toggle="modal" data-target="#sessionDetail-{{ service_session.id }}"{% endif %}>
                           <div class="slot-content">
                             <h5 class="slot-title" itemprop="name">{{ title }}</h5>
                           </div>

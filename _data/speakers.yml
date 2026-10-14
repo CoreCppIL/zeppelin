@@ -158,11 +158,11 @@
   thumbnailUrl: TalYacobi.jpg
 -
   id: 22
-  name: "Yossi"
-  surname: "Eliaz"
+  name: "Dori"
+  surname: "Exterman"
   bio: >
-    <p>Yossi Eliaz is a Principal Engineer working on build acceleration and developer infrastructure at Incredibuild. His background spans systems and applied ML: software/firmware roles at Twistlock, Broadcom, Marvell, and BAE Systems (container security, embedded systems, cryptography, DSP); computational genomics research at Baylor College of Medicine and Rice University (Hi-C analysis, large-scale scientific pipelines); genome-assembly and CRISPR-focused ML at NRGene; deep learning for autonomous driving at Mobileye; and ML/AI product leadership at Matia.io. He now focuses on the caching, compile-farm, and snapshot infrastructure that determines whether large C/C++/C# codebases -- and the agentic tools being built on top of them -- actually scale.</p>
-  thumbnailUrl: YossiEliaz.jpeg
+    <p>Dori Exterman is a software architect, technology strategist, and speaker with over 20 years of experience shaping platform engineering, high-performance computing, and developer velocity. Having served as CTO and Chief Evangelist across the software industry, Dori guided the architectural vision for high-performance build platforms relied on by global tech enterprises worldwide. A veteran presenter on the global conference circuit, Dori has delivered keynotes and technical sessions at Meeting C++, ACCU, CPP-Summit, C++ CoreHard, the Jenkins User Conference, and various software development and DevOps podcasts.</p>
+  thumbnailUrl: DoriExterman.jpg
 -
   id: 23
   name: "Ran"
